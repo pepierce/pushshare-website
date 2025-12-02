@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "title": "PushShare - Perkhidmatan Perkongsian Notifikasi Push",
+    "description": "PushShare - Kongsi notifikasi push dengan mudah antara pelbagai peranti"
+  },
+  "nav": {
+    "features": "Ciri-ciri",
+    "download": "Muat turun",
+    "contact": "Hubungi"
+  },
+  "hero": {
+    "title": "Kongsi notifikasi push dengan mudah antara pelbagai peranti",
+    "subtitle": "PushShare adalah perkhidmatan yang mudah yang membolehkan anda menghantar notifikasi yang diterima pada pelbagai peranti ke peranti lain.",
+    "downloadAndroid": "Muat turun di Google Play",
+    "downloadIOS": "Muat turun di App Store"
+  },
+  "features": {
+    "title": "Ciri-ciri Utama",
+    "multiDevice": {
+      "title": "Sokongan Pelbagai Peranti",
+      "description": "Daftar dan urus pelbagai peranti untuk berkongsi notifikasi dari mana-mana sahaja."
+    },
+    "realtime": {
+      "title": "Penghantaran Notifikasi Masa Nyata",
+      "description": "Hantar segera notifikasi yang diterima ke peranti lain supaya tidak terlepas mesej penting."
+    },
+    "secure": {
+      "title": "Pengesahan Selamat",
+      "description": "Urus akaun anda dengan selamat dan lindungi data anda melalui pengesahan Firebase."
+    },
+    "multilang": {
+      "title": "Sokongan Pelbagai Bahasa",
+      "description": "Menyokong lebih daripada 20 bahasa untuk melayani pengguna di seluruh dunia."
+    }
+  },
+  "download": {
+    "title": "Muat turun Sekarang",
+    "subtitle": "Muat turun PushShare dan mula berkongsi notifikasi antara pelbagai peranti.",
+    "android": "Muat turun untuk Android",
+    "ios": "Muat turun untuk iOS"
+  },
+  "contact": {
+    "title": "Hubungi Kami",
+    "subtitle": "Jika anda mempunyai sebarang soalan atau cadangan, sila hubungi kami.",
+    "email": "E-mel"
+  },
+  "footer": {
+    "copyright": "© {{year}} {{companyName}}. Hak cipta terpelihara.",
+    "privacy": "Dasar Privasi",
+    "terms": "Terma Perkhidmatan"
+  }
+}
+

@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "title": "PushShare - Push Bildirim Paylaşım Servisi",
+    "description": "PushShare - Birden fazla cihaz arasında push bildirimlerini kolayca paylaşın"
+  },
+  "nav": {
+    "features": "Özellikler",
+    "download": "İndir",
+    "contact": "İletişim"
+  },
+  "hero": {
+    "title": "Birden fazla cihaz arasında push bildirimlerini kolayca paylaşın",
+    "subtitle": "PushShare, birden fazla cihazda alınan bildirimleri diğer cihazlara göndermenize olanak tanıyan kullanışlı bir hizmettir.",
+    "downloadAndroid": "Google Play'den İndir",
+    "downloadIOS": "App Store'dan İndir"
+  },
+  "features": {
+    "title": "Ana Özellikler",
+    "multiDevice": {
+      "title": "Çoklu Cihaz Desteği",
+      "description": "Her yerden bildirim paylaşmak için birden fazla cihazı kaydedin ve yönetin."
+    },
+    "realtime": {
+      "title": "Gerçek Zamanlı Bildirim Teslimatı",
+      "description": "Önemli mesajları kaçırmamak için alınan bildirimleri anında diğer cihazlara gönderin."
+    },
+    "secure": {
+      "title": "Güvenli Kimlik Doğrulama",
+      "description": "Hesabınızı güvenli bir şekilde yönetin ve Firebase kimlik doğrulaması aracılığıyla verilerinizi koruyun."
+    },
+    "multilang": {
+      "title": "Çoklu Dil Desteği",
+      "description": "Dünya çapındaki kullanıcılara hizmet vermek için 20'den fazla dili destekler."
+    }
+  },
+  "download": {
+    "title": "Şimdi İndir",
+    "subtitle": "PushShare'i indirin ve birden fazla cihaz arasında bildirim paylaşmaya başlayın.",
+    "android": "Android için İndir",
+    "ios": "iOS için İndir"
+  },
+  "contact": {
+    "title": "Bize Ulaşın",
+    "subtitle": "Herhangi bir sorunuz veya öneriniz varsa, lütfen bizimle iletişime geçin.",
+    "email": "E-posta"
+  },
+  "footer": {
+    "copyright": "© {{year}} {{companyName}}. Tüm hakları saklıdır.",
+    "privacy": "Gizlilik Politikası",
+    "terms": "Hizmet Şartları"
+  }
+}
+

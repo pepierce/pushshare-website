@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "title": "PushShare - Layanan Berbagi Notifikasi Push",
+    "description": "PushShare - Bagikan notifikasi push dengan mudah antar beberapa perangkat"
+  },
+  "nav": {
+    "features": "Fitur",
+    "download": "Unduh",
+    "contact": "Kontak"
+  },
+  "hero": {
+    "title": "Bagikan notifikasi push dengan mudah antar beberapa perangkat",
+    "subtitle": "PushShare adalah layanan yang nyaman yang memungkinkan Anda mengirim notifikasi yang diterima di beberapa perangkat ke perangkat lain.",
+    "downloadAndroid": "Unduh di Google Play",
+    "downloadIOS": "Unduh di App Store"
+  },
+  "features": {
+    "title": "Fitur Utama",
+    "multiDevice": {
+      "title": "Dukungan Multi-Perangkat",
+      "description": "Daftarkan dan kelola beberapa perangkat untuk berbagi notifikasi dari mana saja."
+    },
+    "realtime": {
+      "title": "Pengiriman Notifikasi Waktu Nyata",
+      "description": "Kirim segera notifikasi yang diterima ke perangkat lain agar tidak melewatkan pesan penting."
+    },
+    "secure": {
+      "title": "Autentikasi Aman",
+      "description": "Kelola akun Anda dengan aman dan lindungi data Anda melalui autentikasi Firebase."
+    },
+    "multilang": {
+      "title": "Dukungan Multi-bahasa",
+      "description": "Mendukung lebih dari 20 bahasa untuk melayani pengguna di seluruh dunia."
+    }
+  },
+  "download": {
+    "title": "Unduh Sekarang",
+    "subtitle": "Unduh PushShare dan mulailah berbagi notifikasi antar beberapa perangkat.",
+    "android": "Unduh untuk Android",
+    "ios": "Unduh untuk iOS"
+  },
+  "contact": {
+    "title": "Hubungi Kami",
+    "subtitle": "Jika Anda memiliki pertanyaan atau saran, silakan hubungi kami.",
+    "email": "Email"
+  },
+  "footer": {
+    "copyright": "© {{year}} {{companyName}}. Hak cipta dilindungi.",
+    "privacy": "Kebijakan Privasi",
+    "terms": "Ketentuan Layanan"
+  }
+}
+

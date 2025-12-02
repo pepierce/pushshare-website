@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "title": "PushShare - Servizio di Condivisione Notifiche Push",
+    "description": "PushShare - Condividi facilmente le notifiche push tra più dispositivi"
+  },
+  "nav": {
+    "features": "Funzionalità",
+    "download": "Scarica",
+    "contact": "Contatti"
+  },
+  "hero": {
+    "title": "Condividi facilmente le notifiche push tra più dispositivi",
+    "subtitle": "PushShare è un servizio conveniente che ti consente di inviare notifiche ricevute su più dispositivi ad altri dispositivi.",
+    "downloadAndroid": "Scarica su Google Play",
+    "downloadIOS": "Scarica sull'App Store"
+  },
+  "features": {
+    "title": "Funzionalità Principali",
+    "multiDevice": {
+      "title": "Supporto Multi-Dispositivo",
+      "description": "Registra e gestisci più dispositivi per condividere notifiche da qualsiasi luogo."
+    },
+    "realtime": {
+      "title": "Consegna Notifiche in Tempo Reale",
+      "description": "Invia istantaneamente le notifiche ricevute ad altri dispositivi per non perdere messaggi importanti."
+    },
+    "secure": {
+      "title": "Autenticazione Sicura",
+      "description": "Gestisci il tuo account in modo sicuro e proteggi i tuoi dati tramite l'autenticazione Firebase."
+    },
+    "multilang": {
+      "title": "Supporto Multi-lingua",
+      "description": "Supporta più di 20 lingue per servire utenti in tutto il mondo."
+    }
+  },
+  "download": {
+    "title": "Scarica Ora",
+    "subtitle": "Scarica PushShare e inizia a condividere notifiche tra più dispositivi.",
+    "android": "Scarica per Android",
+    "ios": "Scarica per iOS"
+  },
+  "contact": {
+    "title": "Contattaci",
+    "subtitle": "Se hai domande o suggerimenti, non esitare a contattarci.",
+    "email": "E-mail"
+  },
+  "footer": {
+    "copyright": "© {{year}} {{companyName}}. Tutti i diritti riservati.",
+    "privacy": "Informativa sulla Privacy",
+    "terms": "Termini di Servizio"
+  }
+}
+

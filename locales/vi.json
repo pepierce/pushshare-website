@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "title": "PushShare - Dịch vụ Chia sẻ Thông báo Push",
+    "description": "PushShare - Dễ dàng chia sẻ thông báo push giữa nhiều thiết bị"
+  },
+  "nav": {
+    "features": "Tính năng",
+    "download": "Tải xuống",
+    "contact": "Liên hệ"
+  },
+  "hero": {
+    "title": "Dễ dàng chia sẻ thông báo push giữa nhiều thiết bị",
+    "subtitle": "PushShare là một dịch vụ tiện lợi cho phép bạn gửi thông báo nhận được trên nhiều thiết bị đến các thiết bị khác.",
+    "downloadAndroid": "Tải xuống trên Google Play",
+    "downloadIOS": "Tải xuống trên App Store"
+  },
+  "features": {
+    "title": "Tính năng Chính",
+    "multiDevice": {
+      "title": "Hỗ trợ Đa Thiết bị",
+      "description": "Đăng ký và quản lý nhiều thiết bị để chia sẻ thông báo từ bất kỳ đâu."
+    },
+    "realtime": {
+      "title": "Giao Thông báo Thời gian Thực",
+      "description": "Gửi ngay lập tức các thông báo đã nhận đến các thiết bị khác để không bỏ lỡ tin nhắn quan trọng."
+    },
+    "secure": {
+      "title": "Xác thực An toàn",
+      "description": "Quản lý tài khoản của bạn một cách an toàn và bảo vệ dữ liệu của bạn thông qua xác thực Firebase."
+    },
+    "multilang": {
+      "title": "Hỗ trợ Đa ngôn ngữ",
+      "description": "Hỗ trợ hơn 20 ngôn ngữ để phục vụ người dùng trên toàn thế giới."
+    }
+  },
+  "download": {
+    "title": "Tải xuống Ngay",
+    "subtitle": "Tải xuống PushShare và bắt đầu chia sẻ thông báo giữa nhiều thiết bị.",
+    "android": "Tải xuống cho Android",
+    "ios": "Tải xuống cho iOS"
+  },
+  "contact": {
+    "title": "Liên hệ với Chúng tôi",
+    "subtitle": "Nếu bạn có bất kỳ câu hỏi hoặc đề xuất nào, vui lòng liên hệ với chúng tôi.",
+    "email": "E-mail"
+  },
+  "footer": {
+    "copyright": "© {{year}} {{companyName}}. Bảo lưu mọi quyền.",
+    "privacy": "Chính sách Bảo mật",
+    "terms": "Điều khoản Dịch vụ"
+  }
+}
+

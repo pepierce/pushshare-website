@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "title": "PushShare - Service de Partage de Notifications Push",
+    "description": "PushShare - Partagez facilement les notifications push entre plusieurs appareils"
+  },
+  "nav": {
+    "features": "Fonctionnalités",
+    "download": "Télécharger",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Partagez facilement les notifications push entre plusieurs appareils",
+    "subtitle": "PushShare est un service pratique qui vous permet d'envoyer des notifications reçues sur plusieurs appareils à d'autres appareils.",
+    "downloadAndroid": "Télécharger sur Google Play",
+    "downloadIOS": "Télécharger sur l'App Store"
+  },
+  "features": {
+    "title": "Fonctionnalités Principales",
+    "multiDevice": {
+      "title": "Support Multi-Appareils",
+      "description": "Enregistrez et gérez plusieurs appareils pour partager des notifications depuis n'importe où."
+    },
+    "realtime": {
+      "title": "Livraison de Notifications en Temps Réel",
+      "description": "Envoyez instantanément les notifications reçues à d'autres appareils pour ne pas manquer de messages importants."
+    },
+    "secure": {
+      "title": "Authentification Sécurisée",
+      "description": "Gérez votre compte en toute sécurité et protégez vos données grâce à l'authentification Firebase."
+    },
+    "multilang": {
+      "title": "Support Multi-langues",
+      "description": "Prend en charge plus de 20 langues pour servir les utilisateurs du monde entier."
+    }
+  },
+  "download": {
+    "title": "Télécharger Maintenant",
+    "subtitle": "Téléchargez PushShare et commencez à partager des notifications entre plusieurs appareils.",
+    "android": "Télécharger pour Android",
+    "ios": "Télécharger pour iOS"
+  },
+  "contact": {
+    "title": "Nous Contacter",
+    "subtitle": "Si vous avez des questions ou des suggestions, n'hésitez pas à nous contacter.",
+    "email": "E-mail"
+  },
+  "footer": {
+    "copyright": "© {{year}} {{companyName}}. Tous droits réservés.",
+    "privacy": "Politique de Confidentialité",
+    "terms": "Conditions d'Utilisation"
+  }
+}
+

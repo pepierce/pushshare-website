@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "title": "PushShare - Push-meldingen Delen Service",
+    "description": "PushShare - Deel push-meldingen eenvoudig tussen meerdere apparaten"
+  },
+  "nav": {
+    "features": "Functies",
+    "download": "Downloaden",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Deel push-meldingen eenvoudig tussen meerdere apparaten",
+    "subtitle": "PushShare is een handige service waarmee u meldingen die op meerdere apparaten zijn ontvangen naar andere apparaten kunt verzenden.",
+    "downloadAndroid": "Downloaden op Google Play",
+    "downloadIOS": "Downloaden in de App Store"
+  },
+  "features": {
+    "title": "Belangrijkste Functies",
+    "multiDevice": {
+      "title": "Ondersteuning voor Meerdere Apparaten",
+      "description": "Registreer en beheer meerdere apparaten om meldingen overal te delen."
+    },
+    "realtime": {
+      "title": "Real-time Meldingen Levering",
+      "description": "Verstuur ontvangen meldingen onmiddellijk naar andere apparaten om belangrijke berichten niet te missen."
+    },
+    "secure": {
+      "title": "Veilige Authenticatie",
+      "description": "Beheer uw account veilig en bescherm uw gegevens via Firebase-authenticatie."
+    },
+    "multilang": {
+      "title": "Meertalige Ondersteuning",
+      "description": "Ondersteunt meer dan 20 talen om gebruikers over de hele wereld te bedienen."
+    }
+  },
+  "download": {
+    "title": "Nu Downloaden",
+    "subtitle": "Download PushShare en begin met het delen van meldingen tussen meerdere apparaten.",
+    "android": "Downloaden voor Android",
+    "ios": "Downloaden voor iOS"
+  },
+  "contact": {
+    "title": "Neem Contact met Ons Op",
+    "subtitle": "Als u vragen of suggesties heeft, neem dan contact met ons op.",
+    "email": "E-mail"
+  },
+  "footer": {
+    "copyright": "© {{year}} {{companyName}}. Alle rechten voorbehouden.",
+    "privacy": "Privacybeleid",
+    "terms": "Servicevoorwaarden"
+  }
+}
+

@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "title": "PushShare - Push-Benachrichtigungs-Sharing-Service",
+    "description": "PushShare - Teilen Sie Push-Benachrichtigungen einfach zwischen mehreren Geräten"
+  },
+  "nav": {
+    "features": "Funktionen",
+    "download": "Herunterladen",
+    "contact": "Kontakt"
+  },
+  "hero": {
+    "title": "Teilen Sie Push-Benachrichtigungen einfach zwischen mehreren Geräten",
+    "subtitle": "PushShare ist ein praktischer Service, der es Ihnen ermöglicht, auf mehreren Geräten empfangene Benachrichtigungen an andere Geräte zu senden.",
+    "downloadAndroid": "Bei Google Play herunterladen",
+    "downloadIOS": "Im App Store herunterladen"
+  },
+  "features": {
+    "title": "Hauptfunktionen",
+    "multiDevice": {
+      "title": "Multi-Geräte-Unterstützung",
+      "description": "Registrieren und verwalten Sie mehrere Geräte, um Benachrichtigungen von überall zu teilen."
+    },
+    "realtime": {
+      "title": "Echtzeit-Benachrichtigungszustellung",
+      "description": "Senden Sie empfangene Benachrichtigungen sofort an andere Geräte, um wichtige Nachrichten nicht zu verpassen."
+    },
+    "secure": {
+      "title": "Sichere Authentifizierung",
+      "description": "Verwalten Sie Ihr Konto sicher und schützen Sie Ihre Daten durch Firebase-Authentifizierung."
+    },
+    "multilang": {
+      "title": "Mehrsprachige Unterstützung",
+      "description": "Unterstützung für über 20 Sprachen, um Benutzer weltweit zu bedienen."
+    }
+  },
+  "download": {
+    "title": "Jetzt herunterladen",
+    "subtitle": "Laden Sie PushShare herunter und beginnen Sie, Benachrichtigungen zwischen mehreren Geräten zu teilen.",
+    "android": "Für Android herunterladen",
+    "ios": "Für iOS herunterladen"
+  },
+  "contact": {
+    "title": "Kontaktieren Sie uns",
+    "subtitle": "Wenn Sie Fragen oder Vorschläge haben, kontaktieren Sie uns bitte.",
+    "email": "E-Mail"
+  },
+  "footer": {
+    "copyright": "© {{year}} {{companyName}}. Alle Rechte vorbehalten.",
+    "privacy": "Datenschutzrichtlinie",
+    "terms": "Nutzungsbedingungen"
+  }
+}
+

@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "title": "PushShare - Servicio de Compartir Notificaciones Push",
+    "description": "PushShare - Comparte fácilmente notificaciones push entre múltiples dispositivos"
+  },
+  "nav": {
+    "features": "Características",
+    "download": "Descargar",
+    "contact": "Contacto"
+  },
+  "hero": {
+    "title": "Comparte fácilmente notificaciones push entre múltiples dispositivos",
+    "subtitle": "PushShare es un servicio conveniente que te permite enviar notificaciones recibidas en múltiples dispositivos a otros dispositivos.",
+    "downloadAndroid": "Descargar en Google Play",
+    "downloadIOS": "Descargar en App Store"
+  },
+  "features": {
+    "title": "Características Principales",
+    "multiDevice": {
+      "title": "Soporte Multi-Dispositivo",
+      "description": "Registra y gestiona múltiples dispositivos para compartir notificaciones desde cualquier lugar."
+    },
+    "realtime": {
+      "title": "Entrega de Notificaciones en Tiempo Real",
+      "description": "Envía instantáneamente las notificaciones recibidas a otros dispositivos para no perder mensajes importantes."
+    },
+    "secure": {
+      "title": "Autenticación Segura",
+      "description": "Gestiona tu cuenta de forma segura y protege tus datos mediante autenticación Firebase."
+    },
+    "multilang": {
+      "title": "Soporte Multi-idioma",
+      "description": "Soporta más de 20 idiomas para servir a usuarios de todo el mundo."
+    }
+  },
+  "download": {
+    "title": "Descarga Ahora",
+    "subtitle": "Descarga PushShare y comienza a compartir notificaciones entre múltiples dispositivos.",
+    "android": "Descargar para Android",
+    "ios": "Descargar para iOS"
+  },
+  "contact": {
+    "title": "Contáctanos",
+    "subtitle": "Si tienes alguna pregunta o sugerencia, no dudes en contactarnos.",
+    "email": "Correo electrónico"
+  },
+  "footer": {
+    "copyright": "© {{year}} {{companyName}}. Todos los derechos reservados.",
+    "privacy": "Política de Privacidad",
+    "terms": "Términos de Servicio"
+  }
+}
+

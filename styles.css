@@ -67,6 +67,30 @@ nav a:hover {
     color: var(--primary-color);
 }
 
+/* Language Selector */
+.language-selector {
+    padding: 0.5rem 1rem;
+    border: 1px solid var(--border-color);
+    border-radius: 6px;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: all 0.3s;
+    margin-left: 1rem;
+}
+
+.language-selector:hover {
+    border-color: var(--primary-color);
+    background-color: var(--bg-light);
+}
+
+.language-selector:focus {
+    outline: none;
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 3px rgba(187, 202, 208, 0.2);
+}
+
 /* Hero Section */
 .hero {
     background: linear-gradient(135deg, var(--primary-color) 0%, #a8b8c0 100%);
@@ -273,6 +297,12 @@ footer a:hover {
         flex-direction: column;
         gap: 0.5rem;
         text-align: center;
+    }
+
+    .language-selector {
+        margin-left: 0;
+        margin-top: 0.5rem;
+        width: 100%;
     }
 
     .hero h2 {

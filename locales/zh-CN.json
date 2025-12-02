@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "title": "PushShare - 推送通知共享服务",
+    "description": "PushShare - 轻松在多个设备间共享推送通知"
+  },
+  "nav": {
+    "features": "功能",
+    "download": "下载",
+    "contact": "联系"
+  },
+  "hero": {
+    "title": "轻松在多个设备间共享推送通知",
+    "subtitle": "PushShare是一项便捷的服务，允许您将多个设备上收到的通知发送到其他设备。",
+    "downloadAndroid": "在Google Play下载",
+    "downloadIOS": "在App Store下载"
+  },
+  "features": {
+    "title": "主要功能",
+    "multiDevice": {
+      "title": "多设备支持",
+      "description": "注册和管理多个设备，随时随地共享通知。"
+    },
+    "realtime": {
+      "title": "实时通知传递",
+      "description": "即时将收到的通知发送到其他设备，不错过重要消息。"
+    },
+    "secure": {
+      "title": "安全认证",
+      "description": "通过Firebase认证安全管理您的账户并保护您的数据。"
+    },
+    "multilang": {
+      "title": "多语言支持",
+      "description": "支持20多种语言，为全球用户提供服务。"
+    }
+  },
+  "download": {
+    "title": "立即下载",
+    "subtitle": "下载PushShare，开始在多个设备间共享通知。",
+    "android": "下载Android版",
+    "ios": "下载iOS版"
+  },
+  "contact": {
+    "title": "联系我们",
+    "subtitle": "如果您有任何问题或建议，请随时与我们联系。",
+    "email": "电子邮件"
+  },
+  "footer": {
+    "copyright": "© {{year}} {{companyName}}。保留所有权利。",
+    "privacy": "隐私政策",
+    "terms": "服务条款"
+  }
+}
+

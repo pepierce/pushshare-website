@@ -6,15 +6,44 @@
     <meta name="description" content="PushShare - 여러 기기 간 푸시 알림을 쉽게 공유하세요">
     <title>PushShare - 푸시 알림 공유 서비스</title>
     <link rel="stylesheet" href="styles.css">
+    <!-- 설정 파일 먼저 로드 -->
+    <script src="js/config.js"></script>
+    <!-- 다국어 지원 스크립트 -->
+    <script src="js/i18n.js" defer></script>
 </head>
 <body>
     <header>
         <div class="container">
             <h1>PushShare</h1>
             <nav>
-                <a href="#features">기능</a>
-                <a href="#download">다운로드</a>
-                <a href="#contact">문의</a>
+                <a href="#features" data-i18n="nav.features">기능</a>
+                <a href="#download" data-i18n="nav.download">다운로드</a>
+                <a href="#contact" data-i18n="nav.contact">문의</a>
+                <select id="language-selector" class="language-selector" aria-label="Language">
+                    <option value="ko">한국어</option>
+                    <option value="en">English</option>
+                    <option value="es">Español</option>
+                    <option value="zh-CN">简体中文</option>
+                    <option value="zh-TW">繁體中文</option>
+                    <option value="ja">日本語</option>
+                    <option value="de">Deutsch</option>
+                    <option value="fr">Français</option>
+                    <option value="pt">Português</option>
+                    <option value="ru">Русский</option>
+                    <option value="ar">العربية</option>
+                    <option value="it">Italiano</option>
+                    <option value="hi">हिन्दी</option>
+                    <option value="vi">Tiếng Việt</option>
+                    <option value="th">ไทย</option>
+                    <option value="ms">Bahasa Melayu</option>
+                    <option value="fa">فارسی</option>
+                    <option value="tr">Türkçe</option>
+                    <option value="pl">Polski</option>
+                    <option value="nl">Nederlands</option>
+                    <option value="id">Bahasa Indonesia</option>
+                    <option value="bn">বাংলা</option>
+                    <option value="ur">اردو</option>
+                </select>
             </nav>
         </div>
     </header>
@@ -22,14 +51,14 @@
     <main>
         <section class="hero">
             <div class="container">
-                <h2>여러 기기 간 푸시 알림을 쉽게 공유하세요</h2>
-                <p class="subtitle">PushShare는 여러 기기에서 받은 알림을 다른 기기로 전송할 수 있는 편리한 서비스입니다.</p>
+                <h2 data-i18n="hero.title">여러 기기 간 푸시 알림을 쉽게 공유하세요</h2>
+                <p class="subtitle" data-i18n="hero.subtitle">PushShare는 여러 기기에서 받은 알림을 다른 기기로 전송할 수 있는 편리한 서비스입니다.</p>
                 <div class="cta-buttons">
-                    <a href="https://play.google.com/store/apps/details?id=com.dosusu.pushshare" class="btn btn-primary" target="_blank" rel="noopener noreferrer">
-                        Google Play에서 다운로드
+                    <a id="android-download-link" href="" class="btn btn-primary" target="_blank" rel="noopener noreferrer">
+                        <span data-i18n="hero.downloadAndroid">Google Play에서 다운로드</span>
                     </a>
-                    <a href="https://apps.apple.com/app/pushshare/idYOUR_APP_ID" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">
-                        App Store에서 다운로드
+                    <a id="ios-download-link" href="" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">
+                        <span data-i18n="hero.downloadIOS">App Store에서 다운로드</span>
                     </a>
                 </div>
             </div>
@@ -37,27 +66,27 @@
 
         <section id="features" class="features">
             <div class="container">
-                <h2>주요 기능</h2>
+                <h2 data-i18n="features.title">주요 기능</h2>
                 <div class="feature-grid">
                     <div class="feature-card">
                         <div class="feature-icon">📱</div>
-                        <h3>다중 기기 지원</h3>
-                        <p>여러 기기를 등록하고 관리하여 어디서든 알림을 공유할 수 있습니다.</p>
+                        <h3 data-i18n="features.multiDevice.title">다중 기기 지원</h3>
+                        <p data-i18n="features.multiDevice.description">여러 기기를 등록하고 관리하여 어디서든 알림을 공유할 수 있습니다.</p>
                     </div>
                     <div class="feature-card">
                         <div class="feature-icon">🔔</div>
-                        <h3>실시간 알림 전송</h3>
-                        <p>받은 알림을 즉시 다른 기기로 전송하여 중요한 메시지를 놓치지 마세요.</p>
+                        <h3 data-i18n="features.realtime.title">실시간 알림 전송</h3>
+                        <p data-i18n="features.realtime.description">받은 알림을 즉시 다른 기기로 전송하여 중요한 메시지를 놓치지 마세요.</p>
                     </div>
                     <div class="feature-card">
                         <div class="feature-icon">🔒</div>
-                        <h3>안전한 인증</h3>
-                        <p>Firebase 인증을 통해 안전하게 계정을 관리하고 데이터를 보호합니다.</p>
+                        <h3 data-i18n="features.secure.title">안전한 인증</h3>
+                        <p data-i18n="features.secure.description">Firebase 인증을 통해 안전하게 계정을 관리하고 데이터를 보호합니다.</p>
                     </div>
                     <div class="feature-card">
                         <div class="feature-icon">🌍</div>
-                        <h3>다국어 지원</h3>
-                        <p>20개 이상의 언어를 지원하여 전 세계 사용자에게 서비스를 제공합니다.</p>
+                        <h3 data-i18n="features.multilang.title">다국어 지원</h3>
+                        <p data-i18n="features.multilang.description">20개 이상의 언어를 지원하여 전 세계 사용자에게 서비스를 제공합니다.</p>
                     </div>
                 </div>
             </div>
@@ -65,16 +94,16 @@
 
         <section id="download" class="download">
             <div class="container">
-                <h2>지금 다운로드하세요</h2>
-                <p>PushShare를 다운로드하고 여러 기기에서 알림을 공유해보세요.</p>
+                <h2 data-i18n="download.title">지금 다운로드하세요</h2>
+                <p data-i18n="download.subtitle">PushShare를 다운로드하고 여러 기기에서 알림을 공유해보세요.</p>
                 <div class="download-buttons">
-                    <a href="https://play.google.com/store/apps/details?id=com.dosusu.pushshare" class="btn btn-primary" target="_blank" rel="noopener noreferrer">
+                    <a id="android-download-link-2" href="" class="btn btn-primary" target="_blank" rel="noopener noreferrer">
                         <span class="btn-icon">📱</span>
-                        <span>Android 다운로드</span>
+                        <span data-i18n="download.android">Android 다운로드</span>
                     </a>
-                    <a href="https://apps.apple.com/app/pushshare/idYOUR_APP_ID" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">
+                    <a id="ios-download-link-2" href="" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">
                         <span class="btn-icon">🍎</span>
-                        <span>iOS 다운로드</span>
+                        <span data-i18n="download.ios">iOS 다운로드</span>
                     </a>
                 </div>
             </div>
@@ -82,22 +111,84 @@
 
         <section id="contact" class="contact">
             <div class="container">
-                <h2>문의하기</h2>
-                <p>질문이나 제안사항이 있으시면 언제든지 연락주세요.</p>
-                <p class="email">이메일: <a href="mailto:jj@dosusu.com">jj@dosusu.com</a></p>
+                <h2 data-i18n="contact.title">문의하기</h2>
+                <p data-i18n="contact.subtitle">질문이나 제안사항이 있으시면 언제든지 연락주세요.</p>
+                <p class="email">
+                    <span data-i18n="contact.email">이메일</span>: 
+                    <a id="contact-email-link" href=""></a>
+                </p>
             </div>
         </section>
     </main>
 
     <footer>
         <div class="container">
-            <p>&copy; 2025 PushShare. All rights reserved.</p>
+            <p id="footer-copyright" data-i18n="footer.copyright" data-i18n-html="true">&copy; 2025 PushShare. All rights reserved.</p>
             <p>
-                <a href="/privacy-policy.html">개인정보처리방침</a> |
-                <a href="/terms-of-service.html">이용약관</a>
+                <a href="/privacy-policy.html" data-i18n="footer.privacy">개인정보처리방침</a> |
+                <a href="/terms-of-service.html" data-i18n="footer.terms">이용약관</a>
             </p>
         </div>
     </footer>
+
+    <script>
+        // 설정값 적용 (페이지 로드 후)
+        document.addEventListener('DOMContentLoaded', () => {
+            // i18n이 로드될 때까지 대기
+            const applyConfig = () => {
+                if (typeof CONFIG === 'undefined') {
+                    setTimeout(applyConfig, 100);
+                    return;
+                }
+
+                // 스토어 URL 설정
+                const androidLinks = document.querySelectorAll('#android-download-link, #android-download-link-2');
+                const iosLinks = document.querySelectorAll('#ios-download-link, #ios-download-link-2');
+                
+                androidLinks.forEach(link => {
+                    link.href = CONFIG.storeUrls.android;
+                });
+                
+                iosLinks.forEach(link => {
+                    link.href = CONFIG.storeUrls.ios;
+                });
+
+                // 이메일 링크 설정
+                const emailLink = document.getElementById('contact-email-link');
+                if (emailLink) {
+                    emailLink.href = `mailto:${CONFIG.contact.email}`;
+                    emailLink.textContent = CONFIG.contact.email;
+                }
+
+                // Footer 저작권 정보 업데이트 (i18n이 준비되면)
+                const updateCopyright = () => {
+                    const footerCopyright = document.getElementById('footer-copyright');
+                    if (footerCopyright && window.i18n) {
+                        const text = window.i18n.t('footer.copyright', {
+                            year: CONFIG.company.year,
+                            companyName: CONFIG.company.name
+                        });
+                        footerCopyright.textContent = text;
+                    }
+                };
+
+                // i18n이 준비되면 업데이트
+                if (window.i18n) {
+                    updateCopyright();
+                } else {
+                    // i18n이 아직 로드되지 않았으면 대기
+                    const checkI18n = setInterval(() => {
+                        if (window.i18n) {
+                            updateCopyright();
+                            clearInterval(checkI18n);
+                        }
+                    }, 100);
+                }
+            };
+
+            applyConfig();
+        });
+    </script>
 </body>
 </html>
 

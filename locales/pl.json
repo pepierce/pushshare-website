@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "title": "PushShare - Serwis Udostępniania Powiadomień Push",
+    "description": "PushShare - Łatwo udostępniaj powiadomienia push między wieloma urządzeniami"
+  },
+  "nav": {
+    "features": "Funkcje",
+    "download": "Pobierz",
+    "contact": "Kontakt"
+  },
+  "hero": {
+    "title": "Łatwo udostępniaj powiadomienia push między wieloma urządzeniami",
+    "subtitle": "PushShare to wygodna usługa, która pozwala wysyłać powiadomienia otrzymane na wielu urządzeniach na inne urządzenia.",
+    "downloadAndroid": "Pobierz z Google Play",
+    "downloadIOS": "Pobierz z App Store"
+  },
+  "features": {
+    "title": "Główne Funkcje",
+    "multiDevice": {
+      "title": "Obsługa Wielu Urządzeń",
+      "description": "Rejestruj i zarządzaj wieloma urządzeniami, aby udostępniać powiadomienia z dowolnego miejsca."
+    },
+    "realtime": {
+      "title": "Dostarczanie Powiadomień w Czasie Rzeczywistym",
+      "description": "Natychmiast wysyłaj otrzymane powiadomienia na inne urządzenia, aby nie przegapić ważnych wiadomości."
+    },
+    "secure": {
+      "title": "Bezpieczna Uwierzytelnianie",
+      "description": "Bezpiecznie zarządzaj swoim kontem i chroń swoje dane poprzez uwierzytelnianie Firebase."
+    },
+    "multilang": {
+      "title": "Obsługa Wielojęzyczna",
+      "description": "Obsługuje ponad 20 języków, aby służyć użytkownikom na całym świecie."
+    }
+  },
+  "download": {
+    "title": "Pobierz Teraz",
+    "subtitle": "Pobierz PushShare i zacznij udostępniać powiadomienia między wieloma urządzeniami.",
+    "android": "Pobierz dla Androida",
+    "ios": "Pobierz dla iOS"
+  },
+  "contact": {
+    "title": "Skontaktuj się z Nami",
+    "subtitle": "Jeśli masz pytania lub sugestie, skontaktuj się z nami.",
+    "email": "E-mail"
+  },
+  "footer": {
+    "copyright": "© {{year}} {{companyName}}. Wszelkie prawa zastrzeżone.",
+    "privacy": "Polityka Prywatności",
+    "terms": "Warunki Usługi"
+  }
+}
+

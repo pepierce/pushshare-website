@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "title": "PushShare - プッシュ通知共有サービス",
+    "description": "PushShare - 複数のデバイス間でプッシュ通知を簡単に共有"
+  },
+  "nav": {
+    "features": "機能",
+    "download": "ダウンロード",
+    "contact": "お問い合わせ"
+  },
+  "hero": {
+    "title": "複数のデバイス間でプッシュ通知を簡単に共有",
+    "subtitle": "PushShareは、複数のデバイスで受信した通知を他のデバイスに送信できる便利なサービスです。",
+    "downloadAndroid": "Google Playでダウンロード",
+    "downloadIOS": "App Storeでダウンロード"
+  },
+  "features": {
+    "title": "主な機能",
+    "multiDevice": {
+      "title": "マルチデバイス対応",
+      "description": "複数のデバイスを登録・管理して、どこからでも通知を共有できます。"
+    },
+    "realtime": {
+      "title": "リアルタイム通知配信",
+      "description": "受信した通知を即座に他のデバイスに送信し、重要なメッセージを見逃しません。"
+    },
+    "secure": {
+      "title": "安全な認証",
+      "description": "Firebase認証を通じて、アカウントを安全に管理し、データを保護します。"
+    },
+    "multilang": {
+      "title": "多言語対応",
+      "description": "20以上の言語をサポートし、世界中のユーザーにサービスを提供します。"
+    }
+  },
+  "download": {
+    "title": "今すぐダウンロード",
+    "subtitle": "PushShareをダウンロードして、複数のデバイス間で通知を共有しましょう。",
+    "android": "Android版をダウンロード",
+    "ios": "iOS版をダウンロード"
+  },
+  "contact": {
+    "title": "お問い合わせ",
+    "subtitle": "ご質問やご提案がございましたら、お気軽にお問い合わせください。",
+    "email": "メール"
+  },
+  "footer": {
+    "copyright": "© {{year}} {{companyName}}。全著作権所有。",
+    "privacy": "プライバシーポリシー",
+    "terms": "利用規約"
+  }
+}
+
