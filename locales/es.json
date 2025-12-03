@@ -6,7 +6,8 @@
   "nav": {
     "features": "Características",
     "download": "Descargar",
-    "contact": "Contacto"
+    "contact": "Contacto",
+    "home": "Inicio"
   },
   "hero": {
     "title": "Comparte fácilmente notificaciones push entre múltiples dispositivos",
@@ -48,6 +49,113 @@
     "copyright": "© {{year}} {{companyName}}. Todos los derechos reservados.",
     "privacy": "Política de Privacidad",
     "terms": "Términos de Servicio"
+  },
+  "privacy": {
+    "title": "Política de Privacidad",
+    "lastUpdated": "Última actualización: 3 de diciembre de 2025",
+    "effectiveDate": "Esta Política de Privacidad entra en vigor el 3 de diciembre de 2025.",
+    "intro": "<strong>PushShare</strong> ('https://pushshare.app', en adelante <strong>'PushShare'</strong>) establece y publica esta política de tratamiento de datos personales de acuerdo con el Artículo 30 de la Ley de Protección de Datos Personales para proteger los datos personales de los sujetos de datos y manejar las quejas relacionadas de manera rápida y eficiente.",
+    "section1": {
+      "title": "Artículo 1 (Finalidad del tratamiento de datos personales)",
+      "intro": "<strong>PushShare</strong> procesa datos personales para los siguientes propósitos. Los datos personales procesados no se utilizan para otros fines que los indicados a continuación, y si cambia el propósito de uso, tomaremos las medidas necesarias, incluida la obtención de un consentimiento separado de acuerdo con el Artículo 18 de la Ley de Protección de Datos Personales.",
+      "item1": "<strong>Registro y gestión de miembros</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Propósito de identificación y autenticación para servicios de membresía</li><li>Verificación de identidad para el uso del servicio</li></ul>",
+      "item2": "<strong>Prestación de servicios</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Servicio de entrega de notificaciones push</li><li>Servicio de intercambio de notificaciones push entre dispositivos</li><li>Prestación y gestión de servicios de suscripción</li></ul>",
+      "item3": "<strong>Marketing y publicidad</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Prestación de servicios publicitarios (Google AdMob)</li></ul>",
+      "item4": "<strong>Tratamiento de consultas y quejas de clientes</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Respuesta y tratamiento de consultas de clientes</li></ul>"
+    },
+    "section2": {
+      "title": "Artículo 2 (Período de tratamiento y conservación de datos personales)",
+      "intro1": "① <strong>PushShare</strong> procesa y conserva datos personales dentro del período de conservación y uso de datos personales bajo las leyes aplicables o el período acordado al recopilar datos personales del sujeto de datos.",
+      "intro2": "② El período de tratamiento y conservación para cada tipo de datos personales es el siguiente:",
+      "item1": "<strong>Información de autenticación de miembros</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Período de conservación: Durante el período de uso del servicio</li><li>Base de conservación: Necesario para la prestación del servicio y el cumplimiento del contrato</li><li>※ Nota: PushShare no almacena las direcciones de correo electrónico de los usuarios en su propia base de datos. Las direcciones de correo electrónico se utilizan solo para la autenticación de Firebase y son gestionadas por el sistema de autenticación de Firebase.</li></ul>",
+      "item2": "<strong>Información del dispositivo</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Período de conservación: Hasta la eliminación de la aplicación o a solicitud del usuario</li><li>Base de conservación: Información de identificación del dispositivo para la entrega de notificaciones push, que se vuelve sin significado cuando se elimina la aplicación ya que ya no está conectada</li></ul>",
+      "item3": "<strong>Información de uso del servicio</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Período de conservación: Durante el período de uso del servicio o a solicitud del usuario</li><li>Base de conservación: Necesario para la prestación del servicio</li></ul>",
+      "item4": "<strong>Información de suscripción</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Período de conservación: 5 años después de la cancelación de la suscripción (conservación de registros relacionados con contratos o cancelaciones de suscripción)</li><li>Base de conservación: Obligación legal bajo las leyes aplicables</li></ul>",
+      "note": "<strong>※ Aviso sobre eliminación de cuenta y eliminación de datos</strong><br>PushShare no proporciona una función de eliminación de cuenta separada porque no almacenamos información que pueda identificar personalmente a los usuarios. La información almacenada son datos anónimos que no pueden identificar individuos específicos por sí solos, y simplemente permanecen como datos ficticios sin un propósito de prestación de servicio. Sin embargo, si los usuarios solicitan la eliminación de datos, eliminaremos los datos relevantes a solicitud por correo electrónico (jj@dosusu.com).",
+      "intro3": "③ Leyes aplicables:",
+      "law1": "Registros relacionados con visualización/publicidad: 6 meses",
+      "law2": "Registros relacionados con contratos o cancelaciones de suscripción: 5 años"
+    },
+    "section3": {
+      "title": "Artículo 3 (Elementos de datos personales procesados)",
+      "intro": "<strong>PushShare</strong> procesa la siguiente información:",
+      "item1": "<strong>Información de autenticación de miembros</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>ID único de Firebase Authentication (identificador anónimo, no puede identificar directamente a individuos)</li><li>※ Las direcciones de correo electrónico se utilizan solo para la autenticación de Firebase Authentication y no se almacenan en la base de datos de PushShare.</li></ul>",
+      "item2": "<strong>Información de uso del servicio</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Información del dispositivo: Nombre del dispositivo, modelo, fabricante, ID único del dispositivo</li><li>Token FCM: Token para la entrega de notificaciones push</li><li>Perfil de usuario: Número de usos de push gratuitos, información de suscripción, número de push enviados por día</li><li>Información de la aplicación: Nombre del paquete y nombre de la aplicación de las aplicaciones seleccionadas</li></ul>",
+      "item3": "<strong>Información del servicio de suscripción</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Tipo de suscripción, fecha de vencimiento de la suscripción, ID de cliente de RevenueCat</li></ul>",
+      "note": "※ La información anterior no puede identificar individuos específicos por sí sola. Sin embargo, solo recopilamos la información mínima necesaria para la prestación del servicio."
+    },
+    "section4": {
+      "title": "Artículo 4 (Provisión de datos personales a terceros)",
+      "intro1": "① <strong>PushShare</strong> no proporciona datos personales de los sujetos de datos a terceros en principio. Sin embargo, se hacen excepciones en los siguientes casos:",
+      "item1": "Cuando el sujeto de datos ha dado su consentimiento previo",
+      "item2": "Cuando es requerido por la ley o cuando es solicitado por agencias de investigación de acuerdo con los procedimientos y métodos prescritos por la ley para fines de investigación",
+      "intro2": "② La información se procesa a través de los siguientes proveedores de servicios para la prestación de servicios:",
+      "item3": "<strong>Google Firebase</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Firebase Authentication: Se utiliza para la autenticación de usuarios (las direcciones de correo electrónico son gestionadas por Firebase)</li><li>Firebase Firestore: Se utiliza para el almacenamiento de datos de usuarios</li><li>Firebase Cloud Messaging: Se utiliza para la entrega de notificaciones push</li></ul>",
+      "item4": "<strong>Google AdMob</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Se utiliza para la prestación de servicios publicitarios (identificadores publicitarios, etc.)</li></ul>"
+    },
+    "section5": {
+      "title": "Artículo 5 (Encargo del tratamiento de datos personales)",
+      "intro1": "① <strong>PushShare</strong> encarga las tareas de tratamiento de datos personales de la siguiente manera para la mejora del servicio:",
+      "item1": "<strong>Google Firebase</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Contenido de las tareas encargadas: Servicios de almacenamiento de datos y autenticación</li><li>Período de encargo: Durante el período de prestación del servicio</li></ul>",
+      "item2": "<strong>RevenueCat</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Contenido de las tareas encargadas: Servicios de gestión de suscripciones</li><li>Período de encargo: Durante el período de prestación del servicio de suscripción</li></ul>",
+      "intro2": "② Al celebrar contratos de encargo, <strong>PushShare</strong> especifica en documentos como contratos los asuntos relacionados con la prohibición del tratamiento de datos personales para fines distintos de las tareas encargadas, medidas de protección técnicas y administrativas, restricciones sobre la re-delegación, gestión y supervisión de los encargados, y responsabilidad por daños de acuerdo con el Artículo 26 de la Ley de Protección de Datos Personales, y supervisa si los encargados procesan los datos personales de manera segura."
+    },
+    "section6": {
+      "title": "Artículo 6 (Procedimientos y métodos de destrucción de datos personales)",
+      "intro1": "① <strong>PushShare</strong> destruye datos personales sin demora cuando se vuelven innecesarios debido a la expiración del período de conservación o al logro del propósito de tratamiento.",
+      "intro2": "② Procedimientos y métodos de destrucción:",
+      "item1": "<strong>Procedimientos de destrucción</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Seleccionar datos personales para los cuales han ocurrido razones de destrucción y destruirlos después de obtener la aprobación del oficial de protección de datos personales</li></ul>",
+      "item2": "<strong>Métodos de destrucción</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Los archivos electrónicos se eliminan permanentemente de manera irrecuperable</li><li>Los documentos en papel se trituran o incineran</li></ul>"
+    },
+    "section7": {
+      "title": "Artículo 7 (Derechos y obligaciones de los sujetos de datos y representantes legales y métodos de ejercicio)",
+      "intro1": "① Los sujetos de datos pueden solicitar acceso, corrección, eliminación o suspensión del tratamiento de sus datos personales a <strong>PushShare</strong> en cualquier momento.",
+      "intro2": "② El ejercicio de los derechos anteriores se puede realizar por correo electrónico (jj@dosusu.com), y <strong>PushShare</strong> tomará medidas sin demora.",
+      "intro3": "③ Sin embargo, como PushShare no almacena información que pueda identificar personalmente a los usuarios, los datos almacenados son datos ficticios anónimos. Si los usuarios solicitan la eliminación, verificaremos la identidad a través de la información de la cuenta de Firebase Authentication y eliminaremos todos los datos asociados con ese usuario.",
+      "intro4": "④ Al ejercer derechos a través de un representante, se debe presentar un poder notarial.",
+      "intro5": "⑤ Las solicitudes de acceso y suspensión del tratamiento pueden estar restringidas bajo el Artículo 35(4) y el Artículo 37(2) de la ley.",
+      "intro6": "⑥ Las solicitudes de corrección y eliminación pueden estar restringidas cuando se indique explícitamente como objetivos de recopilación en otras leyes.",
+      "intro7": "⑦ Se llevan a cabo procedimientos de verificación de identidad al ejercer derechos para confirmar si la persona es el sujeto de datos o un representante legítimo."
+    },
+    "section8": {
+      "title": "Artículo 8 (Medidas para asegurar la seguridad de los datos personales)",
+      "intro": "<strong>PushShare</strong> toma las siguientes medidas para asegurar la seguridad de los datos personales:",
+      "item1": "Control de acceso: Restricción del acceso a datos personales a un número mínimo de personal",
+      "item2": "Control de acceso externo mediante sistemas de prevención de intrusiones",
+      "item3": "Cifrado: Los datos personales se cifran para almacenamiento y transmisión",
+      "item4": "Inspecciones y auditorías de seguridad regulares"
+    },
+    "section9": {
+      "title": "Artículo 9 (Uso de cookies)",
+      "content": "<strong>PushShare</strong> no utiliza cookies."
+    },
+    "section10": {
+      "title": "Artículo 10 (Oficial de protección de datos personales)",
+      "intro": "▶ Oficial de protección de datos personales",
+      "item1": "Correo electrónico: <a href=\"mailto:jj@dosusu.com\">jj@dosusu.com</a>",
+      "note": "※ Las consultas y quejas relacionadas con la protección de datos personales se pueden hacer a la dirección de correo electrónico anterior."
+    },
+    "section11": {
+      "title": "Artículo 11 (Departamento para recibir y procesar solicitudes de acceso a datos personales)",
+      "intro1": "Las solicitudes de acceso a datos personales son recibidas y procesadas por el departamento a continuación.",
+      "intro2": "<strong>PushShare</strong> hará todo lo posible para procesar rápidamente las solicitudes de acceso de los sujetos de datos.",
+      "item1": "Correo electrónico: <a href=\"mailto:jj@dosusu.com\">jj@dosusu.com</a>"
+    },
+    "section12": {
+      "title": "Artículo 12 (Métodos de recurso por infracción de derechos e intereses)",
+      "intro": "Los sujetos de datos pueden solicitar resolución de disputas o asesoramiento relacionado con infracciones de datos personales a través de las siguientes instituciones:",
+      "item1": "Comité de Mediación de Disputas de Datos Personales: 1833-6972 / <a href=\"http://www.kopico.go.kr\" target=\"_blank\">www.kopico.go.kr</a>",
+      "item2": "Centro de Reporte de Infracciones de Datos Personales: 118 / <a href=\"http://privacy.kisa.or.kr\" target=\"_blank\">privacy.kisa.or.kr</a>",
+      "item3": "Fiscalía General: 1301 / <a href=\"http://www.spo.go.kr\" target=\"_blank\">www.spo.go.kr</a>",
+      "item4": "Agencia Nacional de Policía: 182 / <a href=\"http://ecrm.cyber.go.kr\" target=\"_blank\">ecrm.cyber.go.kr</a>",
+      "intro2": "Además, se pueden presentar apelaciones administrativas cuando los derechos e intereses se violan debido a la disposición o inacción de instituciones públicas.",
+      "item5": "Comisión Central de Apelaciones Administrativas: <a href=\"http://www.simpan.go.kr\" target=\"_blank\">www.simpan.go.kr</a>"
+    },
+    "section13": {
+      "title": "Artículo 13 (Cambios en la Política de Privacidad)",
+      "intro1": "Esta Política de Privacidad entra en vigor el <strong>3 de diciembre de 2025</strong>.",
+      "intro2": "Si hay adiciones, eliminaciones o modificaciones al contenido debido a cambios en las leyes, políticas o tecnologías de seguridad, le notificaremos a través del aviso en el sitio web al menos 7 días antes de la implementación de los cambios."
+    }
   }
 }
 

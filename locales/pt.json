@@ -6,7 +6,8 @@
   "nav": {
     "features": "Recursos",
     "download": "Baixar",
-    "contact": "Contato"
+    "contact": "Contato",
+    "home": "Início"
   },
   "hero": {
     "title": "Compartilhe facilmente notificações push entre vários dispositivos",

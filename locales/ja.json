@@ -6,7 +6,8 @@
   "nav": {
     "features": "機能",
     "download": "ダウンロード",
-    "contact": "お問い合わせ"
+    "contact": "お問い合わせ",
+    "home": "ホーム"
   },
   "hero": {
     "title": "複数のデバイス間でプッシュ通知を簡単に共有",
@@ -48,6 +49,113 @@
     "copyright": "© {{year}} {{companyName}}。全著作権所有。",
     "privacy": "プライバシーポリシー",
     "terms": "利用規約"
+  },
+  "privacy": {
+    "title": "プライバシーポリシー",
+    "lastUpdated": "最終更新日: 2025年12月3日",
+    "effectiveDate": "このプライバシーポリシーは2025年12月3日から適用されます。",
+    "intro": "<strong>PushShare</strong>（'https://pushshare.app'以下<strong>'PushShare'</strong>）は、個人情報保護法第30条に基づき、情報主体の個人情報を保護し、これに関連する苦情を迅速かつ円滑に処理できるよう、以下のように個人情報処理方針を策定・公開します。",
+    "section1": {
+      "title": "第1条（個人情報の処理目的）",
+      "intro": "<strong>PushShare</strong>は、以下の目的のために個人情報を処理します。処理している個人情報は、以下の目的以外の用途には使用されず、利用目的が変更される場合は、個人情報保護法第18条に基づき、別途同意を得るなど必要な措置を実施する予定です。",
+      "item1": "<strong>会員登録および管理</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>会員制サービス提供に伴う本人識別・認証の目的</li><li>サービス利用に伴う本人確認</li></ul>",
+      "item2": "<strong>サービス提供</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>プッシュ通知送信サービス提供</li><li>デバイス間プッシュ通知共有サービス提供</li><li>サブスクリプションサービス提供および管理</li></ul>",
+      "item3": "<strong>マーケティングおよび広告への活用</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>広告サービス提供（Google AdMob）</li></ul>",
+      "item4": "<strong>お客様からのお問い合わせおよび苦情処理</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>お客様からのお問い合わせへの対応および処理</li></ul>"
+    },
+    "section2": {
+      "title": "第2条（個人情報の処理および保有期間）",
+      "intro1": "① <strong>PushShare</strong>は、法令に基づく個人情報の保有・利用期間、または情報主体から個人情報を収集する際に同意を受けた期間内で個人情報を処理・保有します。",
+      "intro2": "② 各個人情報の処理および保有期間は以下の通りです。",
+      "item1": "<strong>会員認証情報</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>保有期間: サービス利用期間中</li><li>保有根拠: サービス提供および契約履行のために必要</li><li>※ 注意: PushShareはユーザーのメールアドレスを自社データベースに保存しません。Firebase Authenticationによる認証にのみ使用され、Firebaseの認証システムで管理されます。</li></ul>",
+      "item2": "<strong>デバイス情報</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>保有期間: アプリ削除時まで、またはユーザー要求時まで</li><li>保有根拠: プッシュ通知送信のためのデバイス識別情報で、アプリ削除時には接続されなくなるため意味のない情報となる</li></ul>",
+      "item3": "<strong>サービス利用情報</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>保有期間: サービス利用期間中、またはユーザー要求時まで</li><li>保有根拠: サービス提供のために必要</li></ul>",
+      "item4": "<strong>サブスクリプション情報</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>保有期間: サブスクリプション解約後5年（契約または申し込み撤回等に関する記録の保存）</li><li>保有根拠: 関連法令に基づく保存義務</li></ul>",
+      "note": "<strong>※ 退会およびデータ削除に関する案内</strong><br>PushShareは個人を識別できる情報を保存しないため、別途の会員退会機能を提供していません。保存される情報は単独では特定の個人を識別できない匿名のデータであり、サービス提供目的ではないダミーデータとして残っているだけです。ただし、ユーザーがデータ削除を要求される場合は、メール（jj@dosusu.com）で要求していただければ、該当データを削除いたします。",
+      "intro3": "③ 関連法令:",
+      "law1": "表示/広告に関する記録: 6ヶ月",
+      "law2": "契約または申し込み撤回等に関する記録: 5年"
+    },
+    "section3": {
+      "title": "第3条（処理する個人情報の項目）",
+      "intro": "<strong>PushShare</strong>は以下の情報を処理しています。",
+      "item1": "<strong>会員認証情報</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Firebase Authentication固有ID（匿名識別子、個人を直接識別できない）</li><li>※ メールアドレスはFirebase Authentication認証にのみ使用され、PushShareのデータベースには保存されません。</li></ul>",
+      "item2": "<strong>サービス利用情報</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>デバイス情報: デバイス名、モデル名、製造元、デバイス固有ID</li><li>FCMトークン: プッシュ通知送信のためのトークン</li><li>ユーザープロフィール: 無料プッシュ使用回数、サブスクリプション情報、1日のプッシュ送信件数</li><li>アプリ情報: 選択したアプリのパッケージ名、アプリ名</li></ul>",
+      "item3": "<strong>サブスクリプションサービス情報</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>サブスクリプションタイプ、サブスクリプション有効期限、RevenueCat顧客ID</li></ul>",
+      "note": "※ 上記の情報は単独では特定の個人を識別できない情報です。ただし、サービス提供のために必要な最小限の情報のみを収集します。"
+    },
+    "section4": {
+      "title": "第4条（個人情報の第三者提供）",
+      "intro1": "① <strong>PushShare</strong>は、原則として情報主体の個人情報を第三者に提供しません。ただし、以下の場合は例外とします。",
+      "item1": "情報主体が事前に同意した場合",
+      "item2": "法令の規定に基づく場合、または捜査目的で法令に定められた手順と方法に従って捜査機関の要求がある場合",
+      "intro2": "② サービス提供のために、以下のサービス提供事業者を通じて情報が処理されます:",
+      "item3": "<strong>Google Firebase</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Firebase Authentication: ユーザー認証のために使用（メールアドレスはFirebaseで管理）</li><li>Firebase Firestore: ユーザーデータ保存のために使用</li><li>Firebase Cloud Messaging: プッシュ通知送信のために使用</li></ul>",
+      "item4": "<strong>Google AdMob</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>広告サービス提供のために使用（広告識別子など）</li></ul>"
+    },
+    "section5": {
+      "title": "第5条（個人情報処理の委託）",
+      "intro1": "① <strong>PushShare</strong>は、サービス向上のために以下のように個人情報処理業務を委託しています。",
+      "item1": "<strong>Google Firebase</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>委託業務内容: データ保存および認証サービス</li><li>委託期間: サービス提供期間中</li></ul>",
+      "item2": "<strong>RevenueCat</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>委託業務内容: サブスクリプション管理サービス</li><li>委託期間: サブスクリプションサービス提供期間中</li></ul>",
+      "intro2": "② <strong>PushShare</strong>は、委託契約締結時に個人情報保護法第26条に基づき、委託業務遂行目的外の個人情報処理禁止、技術的・管理的保護措置、再委託制限、受託者に対する管理・監督、損害賠償等の責任に関する事項を契約書等の文書に明記し、受託者が個人情報を安全に処理しているかを監督しています。"
+    },
+    "section6": {
+      "title": "第6条（個人情報の破棄手順および方法）",
+      "intro1": "① <strong>PushShare</strong>は、個人情報の保有期間経過または処理目的達成などにより不要となった個人情報は、遅滞なく破棄します。",
+      "intro2": "② 破棄手順および方法:",
+      "item1": "<strong>破棄手順</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>破棄事由が発生した個人情報を選定し、個人情報保護責任者の承認を受けて破棄</li></ul>",
+      "item2": "<strong>破棄方法</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>電子ファイルは復旧不可能な方法で永続的に削除</li><li>紙文書は粉砕または焼却</li></ul>"
+    },
+    "section7": {
+      "title": "第7条（情報主体および法定代理人の権利・義務および行使方法）",
+      "intro1": "① 情報主体は、<strong>PushShare</strong>に対して、いつでも個人情報の閲覧・訂正・削除・処理停止要求などを行うことができます。",
+      "intro2": "② 上記の権利行使は、メール（jj@dosusu.com）を通じて行うことができ、<strong>PushShare</strong>は遅滞なく措置いたします。",
+      "intro3": "③ ただし、PushShareは個人を識別できる情報を保存しないため、保存されたデータは匿名のダミーデータです。ユーザーが削除を要求される場合は、Firebase Authenticationアカウント情報を通じて本人確認後、該当ユーザーに関連するすべてのデータを削除いたします。",
+      "intro4": "④ 代理人を通じた権利行使の場合、委任状を提出する必要があります。",
+      "intro5": "⑤ 閲覧および処理停止要求は、法第35条第4項、第37条第2項により制限される場合があります。",
+      "intro6": "⑥ 訂正および削除要求は、他の法令で収集対象と明記されている場合は制限されます。",
+      "intro7": "⑦ 権利行使時、本人または正当な代理人であるかの確認手続きが行われます。"
+    },
+    "section8": {
+      "title": "第8条（個人情報の安全性確保措置）",
+      "intro": "<strong>PushShare</strong>は、個人情報の安全性確保のために以下のような措置を講じています。",
+      "item1": "アクセス権限の統制: 個人情報へのアクセス権限を最小限の人員に制限",
+      "item2": "侵入防止システムによる外部アクセス統制",
+      "item3": "暗号化: 個人情報は暗号化されて保存および送信される",
+      "item4": "定期的なセキュリティ点検および監査"
+    },
+    "section9": {
+      "title": "第9条（クッキーの使用有無）",
+      "content": "<strong>PushShare</strong>はクッキー（cookie）を使用しません。"
+    },
+    "section10": {
+      "title": "第10条（個人情報保護責任者に関する事項）",
+      "intro": "▶ 個人情報保護責任者",
+      "item1": "メール: <a href=\"mailto:jj@dosusu.com\">jj@dosusu.com</a>",
+      "note": "※ 個人情報保護に関するお問い合わせおよび苦情は、上記のメールアドレスで可能です。"
+    },
+    "section11": {
+      "title": "第11条（個人情報閲覧請求の受付・処理部門）",
+      "intro1": "個人情報閲覧要求は、以下の部門で受付・処理します。",
+      "intro2": "<strong>PushShare</strong>は、情報主体の閲覧請求が迅速に処理されるよう最善を尽くします。",
+      "item1": "メール: <a href=\"mailto:jj@dosusu.com\">jj@dosusu.com</a>"
+    },
+    "section12": {
+      "title": "第12条（権益侵害に対する救済方法）",
+      "intro": "情報主体は、以下の機関を通じて個人情報侵害関連の紛争解決や相談を申請することができます。",
+      "item1": "個人情報紛争調停委員会: 1833-6972 / <a href=\"http://www.kopico.go.kr\" target=\"_blank\">www.kopico.go.kr</a>",
+      "item2": "個人情報侵害報告センター: 118 / <a href=\"http://privacy.kisa.or.kr\" target=\"_blank\">privacy.kisa.or.kr</a>",
+      "item3": "最高検察庁: 1301 / <a href=\"http://www.spo.go.kr\" target=\"_blank\">www.spo.go.kr</a>",
+      "item4": "警察庁: 182 / <a href=\"http://ecrm.cyber.go.kr\" target=\"_blank\">ecrm.cyber.go.kr</a>",
+      "intro2": "また、公共機関の処分または不作為により権益侵害を受けた場合、行政審判を請求することができます。",
+      "item5": "中央行政審判委員会: <a href=\"http://www.simpan.go.kr\" target=\"_blank\">www.simpan.go.kr</a>"
+    },
+    "section13": {
+      "title": "第13条（個人情報処理方針の変更）",
+      "intro1": "このプライバシーポリシーは<strong>2025年12月3日</strong>から適用されます。",
+      "intro2": "法令および政策またはセキュリティ技術の変更に伴い、内容の追加、削除、修正がある場合は、変更事項の実施7日前からホームページの告知を通じて通知します。"
+    }
   }
 }
 

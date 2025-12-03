@@ -6,7 +6,8 @@
   "nav": {
     "features": "功能",
     "download": "下載",
-    "contact": "聯絡"
+    "contact": "聯絡",
+    "home": "首頁"
   },
   "hero": {
     "title": "輕鬆在多個裝置間共享推播通知",
@@ -48,6 +49,113 @@
     "copyright": "© {{year}} {{companyName}}。保留所有權利。",
     "privacy": "隱私政策",
     "terms": "服務條款"
+  },
+  "privacy": {
+    "title": "隱私政策",
+    "lastUpdated": "最後更新：2025年12月3日",
+    "effectiveDate": "本隱私政策自2025年12月3日起生效。",
+    "intro": "<strong>PushShare</strong>（'https://pushshare.app'，以下簡稱<strong>'PushShare'</strong>）根據《個人資料保護法》第30條，為保護資訊主體的個人資料並迅速、順利地處理相關投訴，特制定並公開本個人資料處理方針。",
+    "section1": {
+      "title": "第1條（個人資料處理目的）",
+      "intro": "<strong>PushShare</strong>為以下目的處理個人資料。正在處理的個人資料不會用於以下目的以外的用途，如使用目的發生變更，將根據《個人資料保護法》第18條採取獲得單獨同意等必要措施。",
+      "item1": "<strong>會員註冊及管理</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>提供會員制服務所需的身分識別和認證</li><li>服務使用時的身分確認</li></ul>",
+      "item2": "<strong>服務提供</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>推播通知傳送服務</li><li>裝置間推播通知共享服務</li><li>訂閱服務提供及管理</li></ul>",
+      "item3": "<strong>行銷及廣告</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>廣告服務提供（Google AdMob）</li></ul>",
+      "item4": "<strong>客戶諮詢及投訴處理</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>客戶諮詢的回應和處理</li></ul>"
+    },
+    "section2": {
+      "title": "第2條（個人資料的處理及保存期限）",
+      "intro1": "① <strong>PushShare</strong>在法律規定的個人資料保存·使用期限或從資訊主體收集個人資料時同意的期限內處理·保存個人資料。",
+      "intro2": "② 各項個人資料的處理及保存期限如下：",
+      "item1": "<strong>會員認證資訊</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>保存期限：服務使用期間</li><li>保存依據：服務提供及契約履行所需</li><li>※ 注意：PushShare不在自己的資料庫中儲存使用者的電子郵件地址。電子郵件地址僅用於Firebase Authentication，由Firebase的認證系統管理。</li></ul>",
+      "item2": "<strong>裝置資訊</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>保存期限：應用程式刪除時或使用者請求時</li><li>保存依據：用於推播通知傳送的裝置識別資訊，應用程式刪除時不再連接，因此成為無意義的資訊</li></ul>",
+      "item3": "<strong>服務使用資訊</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>保存期限：服務使用期間或使用者請求時</li><li>保存依據：服務提供所需</li></ul>",
+      "item4": "<strong>訂閱資訊</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>保存期限：訂閱取消後5年（契約或訂閱取消等相關記錄的保存）</li><li>保存依據：相關法律規定的保存義務</li></ul>",
+      "note": "<strong>※ 關於帳戶註銷及資料刪除的通知</strong><br>由於PushShare不儲存可識別個人的資訊，因此不提供單獨的會員註銷功能。儲存的資訊是無法單獨識別特定個人的匿名資料，僅作為非服務提供目的的虛擬資料保留。但是，如果使用者請求刪除資料，可透過電子郵件（jj@dosusu.com）提出請求，我們將刪除相關資料。",
+      "intro3": "③ 相關法律：",
+      "law1": "顯示/廣告相關記錄：6個月",
+      "law2": "契約或訂閱取消等相關記錄：5年"
+    },
+    "section3": {
+      "title": "第3條（處理的個人資料項目）",
+      "intro": "<strong>PushShare</strong>處理以下資訊：",
+      "item1": "<strong>會員認證資訊</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Firebase Authentication唯一ID（匿名識別符，無法直接識別個人）</li><li>※ 電子郵件地址僅用於Firebase Authentication認證，不儲存在PushShare的資料庫中。</li></ul>",
+      "item2": "<strong>服務使用資訊</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>裝置資訊：裝置名稱、型號、製造商、裝置唯一ID</li><li>FCM令牌：用於推播通知傳送的令牌</li><li>使用者資料：免費推播使用次數、訂閱資訊、每日推播傳送次數</li><li>應用程式資訊：所選應用程式的套件名稱、應用程式名稱</li></ul>",
+      "item3": "<strong>訂閱服務資訊</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>訂閱類型、訂閱到期日、RevenueCat客戶ID</li></ul>",
+      "note": "※ 上述資訊無法單獨識別特定個人。但是，我們僅收集服務提供所需的最少資訊。"
+    },
+    "section4": {
+      "title": "第4條（向第三方提供個人資料）",
+      "intro1": "① <strong>PushShare</strong>原則上不向第三方提供資訊主體的個人資料。但在以下情況下例外：",
+      "item1": "資訊主體事先同意的情況",
+      "item2": "根據法律規定，或為調查目的根據法律規定的程序和方法應調查機構要求的情況",
+      "intro2": "② 為提供服務，透過以下服務提供商處理資訊：",
+      "item3": "<strong>Google Firebase</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Firebase Authentication：用於使用者認證（電子郵件地址由Firebase管理）</li><li>Firebase Firestore：用於使用者資料儲存</li><li>Firebase Cloud Messaging：用於推播通知傳送</li></ul>",
+      "item4": "<strong>Google AdMob</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>用於廣告服務提供（廣告識別符等）</li></ul>"
+    },
+    "section5": {
+      "title": "第5條（個人資料處理委託）",
+      "intro1": "① <strong>PushShare</strong>為改善服務，將個人資料處理業務委託如下：",
+      "item1": "<strong>Google Firebase</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>委託業務內容：資料儲存及認證服務</li><li>委託期限：服務提供期間</li></ul>",
+      "item2": "<strong>RevenueCat</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>委託業務內容：訂閱管理服務</li><li>委託期限：訂閱服務提供期間</li></ul>",
+      "intro2": "② <strong>PushShare</strong>在簽訂委託契約時，根據《個人資料保護法》第26條，在契約等文件中明確規定禁止將個人資料用於委託業務執行目的以外、技術性·管理性保護措施、再委託限制、對受託人的管理·監督、損害賠償等責任相關事項，並監督受託人是否安全處理個人資料。"
+    },
+    "section6": {
+      "title": "第6條（個人資料銷毀程序及方法）",
+      "intro1": "① <strong>PushShare</strong>對因保存期限屆滿或處理目的達成等而變得不必要的個人資料，將立即銷毀。",
+      "intro2": "② 銷毀程序及方法：",
+      "item1": "<strong>銷毀程序</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>選定發生銷毀事由的個人資料，經個人資料保護負責人批准後銷毀</li></ul>",
+      "item2": "<strong>銷毀方法</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>電子檔案以無法恢復的方式永久刪除</li><li>紙質文件粉碎或焚燒</li></ul>"
+    },
+    "section7": {
+      "title": "第7條（資訊主體及法定代理人的權利·義務及行使方法）",
+      "intro1": "① 資訊主體可隨時向<strong>PushShare</strong>要求查閱·更正·刪除·停止處理個人資料等。",
+      "intro2": "② 上述權利行使可透過電子郵件（jj@dosusu.com）進行，<strong>PushShare</strong>將立即採取措施。",
+      "intro3": "③ 但是，由於PushShare不儲存可識別個人的資訊，儲存的資料是匿名虛擬資料。如果使用者請求刪除，我們將透過Firebase Authentication帳戶資訊進行身分驗證，然後刪除與該使用者相關的所有資料。",
+      "intro4": "④ 透過代理人行使權利時，需提交委任狀。",
+      "intro5": "⑤ 查閱及停止處理要求可能根據法律第35條第4項、第37條第2項受到限制。",
+      "intro6": "⑥ 更正及刪除要求在其他法律中明確為收集對象的情況下可能受到限制。",
+      "intro7": "⑦ 行使權利時將進行確認程序，以確認是否為本人或正當代理人。"
+    },
+    "section8": {
+      "title": "第8條（個人資料安全保障措施）",
+      "intro": "<strong>PushShare</strong>為確保個人資料安全，採取以下措施：",
+      "item1": "存取權限控制：將個人資料的存取權限限制在最少人員",
+      "item2": "透過入侵防護系統進行外部存取控制",
+      "item3": "加密：個人資料加密儲存和傳輸",
+      "item4": "定期安全檢查和審計"
+    },
+    "section9": {
+      "title": "第9條（Cookie使用情況）",
+      "content": "<strong>PushShare</strong>不使用Cookie。"
+    },
+    "section10": {
+      "title": "第10條（個人資料保護負責人相關事項）",
+      "intro": "▶ 個人資料保護負責人",
+      "item1": "電子郵件：<a href=\"mailto:jj@dosusu.com\">jj@dosusu.com</a>",
+      "note": "※ 個人資料保護相關的諮詢和投訴可透過上述電子郵件進行。"
+    },
+    "section11": {
+      "title": "第11條（個人資料查閱申請受理·處理部門）",
+      "intro1": "個人資料查閱要求由以下部門受理·處理。",
+      "intro2": "<strong>PushShare</strong>將盡力迅速處理資訊主體的查閱申請。",
+      "item1": "電子郵件：<a href=\"mailto:jj@dosusu.com\">jj@dosusu.com</a>"
+    },
+    "section12": {
+      "title": "第12條（權益侵害的救濟方法）",
+      "intro": "資訊主體可透過以下機構申請個人資料侵害相關的爭議解決或諮詢：",
+      "item1": "個人資料爭議調解委員會：1833-6972 / <a href=\"http://www.kopico.go.kr\" target=\"_blank\">www.kopico.go.kr</a>",
+      "item2": "個人資料侵害舉報中心：118 / <a href=\"http://privacy.kisa.or.kr\" target=\"_blank\">privacy.kisa.or.kr</a>",
+      "item3": "最高檢察署：1301 / <a href=\"http://www.spo.go.kr\" target=\"_blank\">www.spo.go.kr</a>",
+      "item4": "警察廳：182 / <a href=\"http://ecrm.cyber.go.kr\" target=\"_blank\">ecrm.cyber.go.kr</a>",
+      "intro2": "此外，因公共機構的處分或不作為導致權益受到侵害時，可申請行政救濟。",
+      "item5": "中央行政救濟委員會：<a href=\"http://www.simpan.go.kr\" target=\"_blank\">www.simpan.go.kr</a>"
+    },
+    "section13": {
+      "title": "第13條（隱私政策變更）",
+      "intro1": "本隱私政策自<strong>2025年12月3日</strong>起生效。",
+      "intro2": "如因法律、政策或安全技術的變更導致內容增加、刪除或修改，我們將在變更實施前7天透過網站公告通知。"
+    }
   }
 }
 

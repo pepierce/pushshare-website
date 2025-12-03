@@ -18,23 +18,23 @@ const CONFIG = {
 
   // 연락처 정보 (나중에 변경 가능)
   contact: {
-    email: 'support@yourdomain.com', // 실제 이메일로 변경 필요
+    email: 'jj@dosusu.com', // 실제 이메일로 변경 필요
   },
 
   // 회사 정보 (나중에 변경 가능)
   company: {
-    name: 'dosusu', // 최종 회사명으로 변경 예정
+    name: 'Dosusu', // 최종 회사명으로 변경 예정
     year: new Date().getFullYear(), // 현재 연도 자동 설정
   },
 
   // 기본 언어 설정
   defaultLanguage: 'ko',
-  
+
   // 지원 언어 목록
   supportedLanguages: [
     'ko', 'en', 'es', 'zh-CN', 'zh-TW', 'ja', 'de', 'fr', 'pt', 'ru',
     'ar', 'it', 'hi', 'vi', 'th', 'ms', 'fa', 'tr', 'pl', 'nl',
-    'id', 'bn', 'ur'
+    'id', 'bn', 'ur',
   ],
 };
 

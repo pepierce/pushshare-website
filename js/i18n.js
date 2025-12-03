@@ -14,7 +14,7 @@ class I18n {
    */
   getSavedLanguage() {
     try {
-      return localStorage.getItem('website-language') || 
+      return localStorage.getItem('website-language') ||
              this.detectBrowserLanguage();
     } catch (e) {
       return CONFIG.defaultLanguage;
@@ -27,14 +27,14 @@ class I18n {
   detectBrowserLanguage() {
     const browserLang = navigator.language || navigator.userLanguage;
     const langCode = browserLang.split('-')[0];
-    
+
     // 지원하는 언어인지 확인
     if (CONFIG.supportedLanguages.includes(browserLang)) {
       return browserLang;
     } else if (CONFIG.supportedLanguages.includes(langCode)) {
       return langCode;
     }
-    
+
     return CONFIG.defaultLanguage;
   }
 
@@ -59,16 +59,24 @@ class I18n {
         this.translations = await response.json();
         this.applyTranslations();
       } else {
-        // 번역 파일이 없으면 기본 언어로 폴백
-        if (this.currentLanguage !== CONFIG.defaultLanguage) {
+        // 번역 파일이 없으면 영어로 폴백 (법적 요구사항 대응)
+        if (this.currentLanguage !== 'en') {
+          this.currentLanguage = 'en';
+          await this.loadTranslations();
+        } else if (this.currentLanguage !== CONFIG.defaultLanguage) {
+          // 영어도 없으면 기본 언어로 폴백
           this.currentLanguage = CONFIG.defaultLanguage;
           await this.loadTranslations();
         }
       }
     } catch (e) {
       console.error('Failed to load translations:', e);
-      // 에러 발생 시 기본 언어로 폴백
-      if (this.currentLanguage !== CONFIG.defaultLanguage) {
+      // 에러 발생 시 영어로 폴백 (법적 요구사항 대응)
+      if (this.currentLanguage !== 'en') {
+        this.currentLanguage = 'en';
+        await this.loadTranslations();
+      } else if (this.currentLanguage !== CONFIG.defaultLanguage) {
+        // 영어도 실패하면 기본 언어로 폴백
         this.currentLanguage = CONFIG.defaultLanguage;
         await this.loadTranslations();
       }
@@ -86,12 +94,12 @@ class I18n {
     const elements = document.querySelectorAll('[data-i18n]');
     elements.forEach(element => {
       const key = element.getAttribute('data-i18n');
-      
+
       // footer.copyright는 특별 처리 (파라미터 필요)
       if (key === 'footer.copyright') {
         const translation = this.t(key, {
           year: CONFIG.company.year,
-          companyName: CONFIG.company.name
+          companyName: CONFIG.company.name,
         });
         if (translation) {
           element.textContent = translation;
@@ -124,7 +132,7 @@ class I18n {
   t(key, params = {}) {
     const keys = key.split('.');
     let value = this.translations;
-    
+
     for (const k of keys) {
       if (value && typeof value === 'object') {
         value = value[k];

@@ -6,7 +6,8 @@
   "nav": {
     "features": "Funzionalità",
     "download": "Scarica",
-    "contact": "Contatti"
+    "contact": "Contatti",
+    "home": "Home"
   },
   "hero": {
     "title": "Condividi facilmente le notifiche push tra più dispositivi",
