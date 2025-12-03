@@ -159,5 +159,55 @@
       "intro1": "Esta Política de Privacidad entra en vigor el <strong>3 de diciembre de 2025</strong>.",
       "intro2": "Si hay adiciones, eliminaciones o modificaciones al contenido debido a cambios en las leyes, políticas o tecnologías de seguridad, le notificaremos a través del aviso en el sitio web al menos 7 días antes de la implementación de los cambios."
     }
+  },
+  "terms": {
+    "title": "Términos de Servicio",
+    "lastUpdated": "Última actualización: 1 de enero de 2025",
+    "section1": {
+      "title": "Artículo 1 (Propósito)",
+      "content": "Estos Términos de Servicio (en adelante, \"Términos\") rigen los derechos, obligaciones y responsabilidades entre PushShare (en adelante, \"Compañía\") y los usuarios con respecto al uso del servicio de compartir notificaciones push (en adelante, \"Servicio\") proporcionado por la Compañía."
+    },
+    "section2": {
+      "title": "Artículo 2 (Definiciones)",
+      "items": "<li>\"Servicio\" significa el servicio de compartir notificaciones push y servicios relacionados proporcionados por la Compañía.</li><li>\"Usuario\" significa miembros y no miembros que utilizan el Servicio de acuerdo con estos Términos.</li><li>\"Miembro\" significa una persona que se ha registrado como miembro y utiliza el Servicio.</li>"
+    },
+    "section3": {
+      "title": "Artículo 3 (Publicación y Modificación de los Términos)",
+      "content": "La Compañía publica el contenido de estos Términos en la pantalla inicial del Servicio para que los usuarios puedan conocerlos fácilmente. La Compañía puede modificar estos Términos en la medida en que no violen las leyes y regulaciones relevantes cuando sea necesario."
+    },
+    "section4": {
+      "title": "Artículo 4 (Provisión y Cambio del Servicio)",
+      "intro": "La Compañía proporciona los siguientes servicios:",
+      "items": "<li>Servicio de compartir notificaciones push entre múltiples dispositivos</li><li>Servicio de gestión y configuración de dispositivos</li><li>Servicio de gestión de lista de aplicaciones</li><li>Todos los demás servicios que la Compañía pueda desarrollar adicionalmente o proporcionar a través de acuerdos de asociación</li>"
+    },
+    "section5": {
+      "title": "Artículo 5 (Suspensión del Servicio)",
+      "content": "La Compañía puede suspender temporalmente la provisión del Servicio en casos donde ocurra mantenimiento, reemplazo o falla de equipos de información y comunicación como computadoras, o interrupción de comunicación."
+    },
+    "section6": {
+      "title": "Artículo 6 (Registro de Membresía)",
+      "content": "Un usuario solicita el registro de membresía completando la información de membresía según el formulario de registro prescrito por la Compañía y expresando su intención de aceptar estos Términos."
+    },
+    "section7": {
+      "title": "Artículo 7 (Cambio de Información del Miembro)",
+      "content": "Un miembro puede ver y modificar su información personal en cualquier momento a través de la pantalla de gestión de información personal."
+    },
+    "section8": {
+      "title": "Artículo 8 (Retiro y Pérdida de Calificación)",
+      "content": "Un miembro puede solicitar el retiro de la Compañía en cualquier momento, y la Compañía procesará el retiro inmediatamente."
+    },
+    "section9": {
+      "title": "Artículo 9 (Obligaciones de los Usuarios)",
+      "intro": "Los usuarios no deben realizar los siguientes actos:",
+      "items": "<li>Registro de información falsa al solicitar o hacer cambios</li><li>Malversación de información de otra persona</li><li>Alteración de información publicada por la Compañía</li><li>Transmisión o publicación de información distinta a la especificada por la Compañía (como programas informáticos)</li><li>Infracción de derechos de propiedad intelectual como derechos de autor de la Compañía y otros terceros</li><li>Actos que dañen la reputación de la Compañía y otros terceros o interfieran con el negocio</li>"
+    },
+    "section10": {
+      "title": "Artículo 10 (Exención de Responsabilidad)",
+      "content": "La Compañía estará exenta de responsabilidad por la provisión del Servicio en casos donde el Servicio no pueda ser proporcionado debido a desastres naturales o fuerza mayor equivalente."
+    },
+    "section11": {
+      "title": "Artículo 11 (Ley Aplicable y Jurisdicción)",
+      "content": "Las leyes de la República de Corea se aplicarán a la interpretación de estos Términos y las disputas entre la Compañía y los usuarios. En caso de una demanda que surja de tales disputas, el Tribunal del Distrito Central de Seúl será el tribunal competente."
+    }
   }
 }

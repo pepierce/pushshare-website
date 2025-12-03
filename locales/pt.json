@@ -159,5 +159,55 @@
       "intro1": "Esta Política de Privacidade entra em vigor em <strong>3 de dezembro de 2025</strong>.",
       "intro2": "Se houver adições, exclusões ou modificações ao conteúdo devido a mudanças em leis, políticas ou tecnologias de segurança, notificaremos você através do aviso no site pelo menos 7 dias antes da implementação das mudanças."
     }
+  },
+  "terms": {
+    "title": "Termos de Serviço",
+    "lastUpdated": "Última atualização: 1 de janeiro de 2025",
+    "section1": {
+      "title": "Artigo 1 (Propósito)",
+      "content": "Estes Termos de Serviço (doravante \"Termos\") regem os direitos, obrigações e responsabilidades entre PushShare (doravante \"Empresa\") e os usuários relativos ao uso do serviço de compartilhamento de notificações push (doravante \"Serviço\") fornecido pela Empresa."
+    },
+    "section2": {
+      "title": "Artigo 2 (Definições)",
+      "items": "<li>\"Serviço\" significa o serviço de compartilhamento de notificações push e serviços relacionados fornecidos pela Empresa.</li><li>\"Usuário\" significa membros e não membros que usam o Serviço de acordo com estes Termos.</li><li>\"Membro\" significa uma pessoa que se registrou como membro e usa o Serviço.</li>"
+    },
+    "section3": {
+      "title": "Artigo 3 (Publicação e Alteração dos Termos)",
+      "content": "A Empresa publica o conteúdo destes Termos na tela inicial do Serviço para que os usuários possam conhecê-los facilmente. A Empresa pode alterar estes Termos na medida em que não violem leis e regulamentos relevantes quando necessário."
+    },
+    "section4": {
+      "title": "Artigo 4 (Fornecimento e Alteração do Serviço)",
+      "intro": "A Empresa fornece os seguintes serviços:",
+      "items": "<li>Serviço de compartilhamento de notificações push entre múltiplos dispositivos</li><li>Serviço de gerenciamento e configuração de dispositivos</li><li>Serviço de gerenciamento de lista de aplicativos</li><li>Todos os outros serviços que a Empresa possa desenvolver adicionalmente ou fornecer através de acordos de parceria</li>"
+    },
+    "section5": {
+      "title": "Artigo 5 (Suspensão do Serviço)",
+      "content": "A Empresa pode suspender temporariamente o fornecimento do Serviço em casos onde ocorra manutenção, substituição ou falha de equipamentos de informação e comunicação como computadores, ou interrupção de comunicação."
+    },
+    "section6": {
+      "title": "Artigo 6 (Registro de Membro)",
+      "content": "Um usuário solicita o registro de membro preenchendo as informações de membro de acordo com o formulário de registro prescrito pela Empresa e expressando sua intenção de concordar com estes Termos."
+    },
+    "section7": {
+      "title": "Artigo 7 (Alteração das Informações do Membro)",
+      "content": "Um membro pode visualizar e modificar suas informações pessoais a qualquer momento através da tela de gerenciamento de informações pessoais."
+    },
+    "section8": {
+      "title": "Artigo 8 (Cancelamento e Perda de Qualificação)",
+      "content": "Um membro pode solicitar o cancelamento da Empresa a qualquer momento, e a Empresa processará o cancelamento imediatamente."
+    },
+    "section9": {
+      "title": "Artigo 9 (Obrigações dos Usuários)",
+      "intro": "Os usuários não devem realizar os seguintes atos:",
+      "items": "<li>Registro de informações falsas ao solicitar ou fazer alterações</li><li>Uso indevido de informações de outra pessoa</li><li>Alteração de informações publicadas pela Empresa</li><li>Transmissão ou publicação de informações diferentes das especificadas pela Empresa (como programas de computador)</li><li>Violação de direitos de propriedade intelectual como direitos autorais da Empresa e outros terceiros</li><li>Atos que danifiquem a reputação da Empresa e outros terceiros ou interfiram nos negócios</li>"
+    },
+    "section10": {
+      "title": "Artigo 10 (Isenção de Responsabilidade)",
+      "content": "A Empresa estará isenta de responsabilidade pelo fornecimento do Serviço em casos onde o Serviço não possa ser fornecido devido a desastres naturais ou força maior equivalente."
+    },
+    "section11": {
+      "title": "Artigo 11 (Lei Aplicável e Jurisdição)",
+      "content": "As leis da República da Coreia se aplicam à interpretação destes Termos e disputas entre a Empresa e os usuários. No caso de uma ação judicial decorrente de tais disputas, o Tribunal do Distrito Central de Seul será o tribunal competente."
+    }
   }
 }

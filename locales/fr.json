@@ -159,5 +159,55 @@
       "intro1": "Cette politique de confidentialité entre en vigueur le <strong>3 décembre 2025</strong>.",
       "intro2": "En cas d'ajouts, de suppressions ou de modifications du contenu dus à des changements dans les lois, les politiques ou les technologies de sécurité, nous vous en informerons par le biais de l'avis sur le site Web au moins 7 jours avant la mise en œuvre des changements."
     }
+  },
+  "terms": {
+    "title": "Conditions d'Utilisation",
+    "lastUpdated": "Dernière mise à jour : 1er janvier 2025",
+    "section1": {
+      "title": "Article 1 (Objectif)",
+      "content": "Ces Conditions d'Utilisation (ci-après \"Conditions\") régissent les droits, obligations et responsabilités entre PushShare (ci-après \"Société\") et les utilisateurs concernant l'utilisation du service de partage de notifications push (ci-après \"Service\") fourni par la Société."
+    },
+    "section2": {
+      "title": "Article 2 (Définitions)",
+      "items": "<li>\"Service\" désigne le service de partage de notifications push et les services connexes fournis par la Société.</li><li>\"Utilisateur\" désigne les membres et non-membres qui utilisent le Service conformément à ces Conditions.</li><li>\"Membre\" désigne une personne qui s'est inscrite en tant que membre et utilise le Service.</li>"
+    },
+    "section3": {
+      "title": "Article 3 (Publication et Modification des Conditions)",
+      "content": "La Société publie le contenu de ces Conditions sur l'écran initial du Service afin que les utilisateurs puissent les connaître facilement. La Société peut modifier ces Conditions dans la mesure où elles ne violent pas les lois et règlements pertinents lorsque cela est nécessaire."
+    },
+    "section4": {
+      "title": "Article 4 (Fourniture et Modification du Service)",
+      "intro": "La Société fournit les services suivants :",
+      "items": "<li>Service de partage de notifications push entre plusieurs appareils</li><li>Service de gestion et de configuration des appareils</li><li>Service de gestion de liste d'applications</li><li>Tous les autres services que la Société peut développer en plus ou fournir par le biais d'accords de partenariat</li>"
+    },
+    "section5": {
+      "title": "Article 5 (Suspension du Service)",
+      "content": "La Société peut suspendre temporairement la fourniture du Service en cas de maintenance, remplacement ou défaillance d'équipements d'information et de communication tels que des ordinateurs, ou d'interruption de communication."
+    },
+    "section6": {
+      "title": "Article 6 (Inscription Membre)",
+      "content": "Un utilisateur demande l'inscription en tant que membre en remplissant les informations de membre selon le formulaire d'inscription prescrit par la Société et en exprimant son intention d'accepter ces Conditions."
+    },
+    "section7": {
+      "title": "Article 7 (Modification des Informations Membre)",
+      "content": "Un membre peut consulter et modifier ses informations personnelles à tout moment via l'écran de gestion des informations personnelles."
+    },
+    "section8": {
+      "title": "Article 8 (Résiliation et Perte de Qualification)",
+      "content": "Un membre peut demander la résiliation à la Société à tout moment, et la Société traitera la résiliation immédiatement."
+    },
+    "section9": {
+      "title": "Article 9 (Obligations des Utilisateurs)",
+      "intro": "Les utilisateurs ne doivent pas effectuer les actes suivants :",
+      "items": "<li>Enregistrement de fausses informations lors de la demande ou des modifications</li><li>Détournement d'informations d'une autre personne</li><li>Modification d'informations publiées par la Société</li><li>Transmission ou publication d'informations autres que celles spécifiées par la Société (telles que des programmes informatiques)</li><li>Violation des droits de propriété intellectuelle tels que les droits d'auteur de la Société et d'autres tiers</li><li>Actes qui nuisent à la réputation de la Société et d'autres tiers ou interfèrent avec les affaires</li>"
+    },
+    "section10": {
+      "title": "Article 10 (Clause de Non-Responsabilité)",
+      "content": "La Société sera exonérée de responsabilité pour la fourniture du Service dans les cas où le Service ne peut pas être fourni en raison de catastrophes naturelles ou de force majeure équivalente."
+    },
+    "section11": {
+      "title": "Article 11 (Loi Applicable et Juridiction)",
+      "content": "Les lois de la République de Corée s'appliquent à l'interprétation de ces Conditions et aux litiges entre la Société et les utilisateurs. En cas de procès résultant de tels litiges, le Tribunal du District Central de Séoul sera le tribunal compétent."
+    }
   }
 }

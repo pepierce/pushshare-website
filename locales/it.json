@@ -159,5 +159,55 @@
       "intro1": "This Privacy Policy is effective as of <strong>December 3, 2025</strong>.",
       "intro2": "If there are additions, deletions, or modifications to the content due to changes in laws, policies, or security technology, we will notify you through the website's notice at least 7 days before the implementation of the changes."
     }
+  },
+  "terms": {
+    "title": "Termini di Servizio",
+    "lastUpdated": "Ultimo aggiornamento: 1 gennaio 2025",
+    "section1": {
+      "title": "Articolo 1 (Scopo)",
+      "content": "Questi Termini di Servizio (di seguito \"Termini\") disciplinano i diritti, gli obblighi e le responsabilità tra PushShare (di seguito \"Società\") e gli utenti riguardo all'uso del servizio di condivisione delle notifiche push (di seguito \"Servizio\") fornito dalla Società."
+    },
+    "section2": {
+      "title": "Articolo 2 (Definizioni)",
+      "items": "<li>\"Servizio\" indica il servizio di condivisione delle notifiche push e i servizi correlati forniti dalla Società.</li><li>\"Utente\" indica membri e non membri che utilizzano il Servizio in conformità con questi Termini.</li><li>\"Membro\" indica una persona che si è registrata come membro e utilizza il Servizio.</li>"
+    },
+    "section3": {
+      "title": "Articolo 3 (Pubblicazione e Modifica dei Termini)",
+      "content": "La Società pubblica il contenuto di questi Termini sullo schermo iniziale del Servizio in modo che gli utenti possano conoscerli facilmente. La Società può modificare questi Termini nella misura in cui non violino le leggi e i regolamenti pertinenti quando necessario."
+    },
+    "section4": {
+      "title": "Articolo 4 (Fornitura e Modifica del Servizio)",
+      "intro": "La Società fornisce i seguenti servizi:",
+      "items": "<li>Servizio di condivisione delle notifiche push tra più dispositivi</li><li>Servizio di gestione e configurazione dei dispositivi</li><li>Servizio di gestione dell'elenco delle app</li><li>Tutti gli altri servizi che la Società può sviluppare ulteriormente o fornire tramite accordi di partnership</li>"
+    },
+    "section5": {
+      "title": "Articolo 5 (Sospensione del Servizio)",
+      "content": "La Società può sospendere temporaneamente la fornitura del Servizio in caso di manutenzione, sostituzione o guasto di apparecchiature di informazione e comunicazione come computer, o interruzione della comunicazione."
+    },
+    "section6": {
+      "title": "Articolo 6 (Registrazione Membro)",
+      "content": "Un utente richiede la registrazione come membro compilando le informazioni del membro secondo il modulo di registrazione prescritto dalla Società ed esprimendo la propria intenzione di accettare questi Termini."
+    },
+    "section7": {
+      "title": "Articolo 7 (Modifica delle Informazioni del Membro)",
+      "content": "Un membro può visualizzare e modificare le proprie informazioni personali in qualsiasi momento tramite la schermata di gestione delle informazioni personali."
+    },
+    "section8": {
+      "title": "Articolo 8 (Recesso e Perdita della Qualifica)",
+      "content": "Un membro può richiedere il recesso dalla Società in qualsiasi momento e la Società elaborerà il recesso immediatamente."
+    },
+    "section9": {
+      "title": "Articolo 9 (Obblighi degli Utenti)",
+      "intro": "Gli utenti non devono eseguire i seguenti atti:",
+      "items": "<li>Registrazione di informazioni false durante la richiesta o le modifiche</li><li>Appropriazione indebita di informazioni di un'altra persona</li><li>Alterazione di informazioni pubblicate dalla Società</li><li>Trasmissione o pubblicazione di informazioni diverse da quelle specificate dalla Società (come programmi per computer)</li><li>Violazione dei diritti di proprietà intellettuale come i diritti d'autore della Società e di altri terzi</li><li>Atti che danneggiano la reputazione della Società e di altri terzi o interferiscono con gli affari</li>"
+    },
+    "section10": {
+      "title": "Articolo 10 (Esclusione di Responsabilità)",
+      "content": "La Società sarà esentata dalla responsabilità per la fornitura del Servizio nei casi in cui il Servizio non possa essere fornito a causa di disastri naturali o forza maggiore equivalente."
+    },
+    "section11": {
+      "title": "Articolo 11 (Legge Applicabile e Giurisdizione)",
+      "content": "Le leggi della Repubblica di Corea si applicano all'interpretazione di questi Termini e alle controversie tra la Società e gli utenti. In caso di causa derivante da tali controversie, il Tribunale del Distretto Centrale di Seoul sarà il tribunale competente."
+    }
   }
 }

@@ -159,5 +159,55 @@
       "intro1": "This Privacy Policy is effective as of <strong>December 3, 2025</strong>.",
       "intro2": "If there are additions, deletions, or modifications to the content due to changes in laws, policies, or security technology, we will notify you through the website's notice at least 7 days before the implementation of the changes."
     }
+  },
+  "terms": {
+    "title": "شرایط استفاده",
+    "lastUpdated": "آخرین به‌روزرسانی: 1 ژانویه 2025",
+    "section1": {
+      "title": "Article 1 (Purpose)",
+      "content": "These Terms of Service (hereinafter referred to as \"Terms\") govern the rights, obligations, and responsibilities between PushShare (hereinafter referred to as \"Company\") and users regarding the use of the push notification sharing service (hereinafter referred to as \"Service\") provided by the Company."
+    },
+    "section2": {
+      "title": "Article 2 (Definitions)",
+      "items": "<li>\"Service\" means the push notification sharing and related services provided by the Company.</li><li>\"User\" means members and non-members who use the Service in accordance with these Terms.</li><li>\"Member\" means a person who has registered as a member and uses the Service.</li>"
+    },
+    "section3": {
+      "title": "Article 3 (Posting and Amendment of Terms)",
+      "content": "The Company posts the contents of these Terms on the initial screen of the Service so that users can easily know them. The Company may amend these Terms to the extent that they do not violate relevant laws and regulations when necessary."
+    },
+    "section4": {
+      "title": "Article 4 (Provision and Change of Service)",
+      "intro": "The Company provides the following services:",
+      "items": "<li>Push notification sharing service between multiple devices</li><li>Device management and settings service</li><li>App list management service</li><li>All other services that the Company may additionally develop or provide through partnership agreements</li>"
+    },
+    "section5": {
+      "title": "Article 5 (Suspension of Service)",
+      "content": "The Company may temporarily suspend the provision of the Service in cases where maintenance, replacement, or failure of information and communication equipment such as computers, or interruption of communication occurs."
+    },
+    "section6": {
+      "title": "Article 6 (Membership Registration)",
+      "content": "A user applies for membership registration by filling out the membership information according to the registration form prescribed by the Company and expressing their intention to agree to these Terms."
+    },
+    "section7": {
+      "title": "Article 7 (Change of Member Information)",
+      "content": "A member may view and modify their personal information at any time through the personal information management screen."
+    },
+    "section8": {
+      "title": "Article 8 (Withdrawal and Loss of Qualification)",
+      "content": "A member may request withdrawal from the Company at any time, and the Company shall process the withdrawal immediately."
+    },
+    "section9": {
+      "title": "Article 9 (Obligations of Users)",
+      "intro": "Users must not engage in the following acts:",
+      "items": "<li>Registration of false information when applying or making changes</li><li>Misappropriation of another person's information</li><li>Alteration of information posted by the Company</li><li>Transmission or posting of information other than that specified by the Company (such as computer programs)</li><li>Infringement of intellectual property rights such as copyrights of the Company and other third parties</li><li>Acts that damage the reputation of the Company and other third parties or interfere with business</li>"
+    },
+    "section10": {
+      "title": "Article 10 (Disclaimer)",
+      "content": "The Company shall be exempt from liability for the provision of the Service in cases where the Service cannot be provided due to natural disasters or equivalent force majeure."
+    },
+    "section11": {
+      "title": "Article 11 (Governing Law and Jurisdiction)",
+      "content": "The laws of the Republic of Korea shall apply to the interpretation of these Terms and disputes between the Company and users. In the event of a lawsuit arising from such disputes, the Seoul Central District Court shall be the competent court."
+    }
   }
 }

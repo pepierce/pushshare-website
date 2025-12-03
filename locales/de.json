@@ -159,5 +159,55 @@
       "intro1": "Diese Datenschutzrichtlinie tritt am <strong>3. Dezember 2025</strong> in Kraft.",
       "intro2": "Wenn aufgrund von Änderungen in Gesetzen, Richtlinien oder Sicherheitstechnologien Inhalte hinzugefügt, gelöscht oder geändert werden, werden wir Sie mindestens 7 Tage vor der Umsetzung der Änderungen über die Ankündigung auf der Website informieren."
     }
+  },
+  "terms": {
+    "title": "Nutzungsbedingungen",
+    "lastUpdated": "Zuletzt aktualisiert: 1. Januar 2025",
+    "section1": {
+      "title": "Artikel 1 (Zweck)",
+      "content": "Diese Nutzungsbedingungen (nachfolgend \"Bedingungen\") regeln die Rechte, Pflichten und Verantwortlichkeiten zwischen PushShare (nachfolgend \"Unternehmen\") und Benutzern bezüglich der Nutzung des Push-Benachrichtigungs-Sharing-Dienstes (nachfolgend \"Dienst\"), der vom Unternehmen bereitgestellt wird."
+    },
+    "section2": {
+      "title": "Artikel 2 (Definitionen)",
+      "items": "<li>\"Dienst\" bedeutet den Push-Benachrichtigungs-Sharing-Dienst und verwandte Dienste, die vom Unternehmen bereitgestellt werden.</li><li>\"Benutzer\" bedeutet Mitglieder und Nicht-Mitglieder, die den Dienst gemäß diesen Bedingungen nutzen.</li><li>\"Mitglied\" bedeutet eine Person, die sich als Mitglied registriert hat und den Dienst nutzt.</li>"
+    },
+    "section3": {
+      "title": "Artikel 3 (Veröffentlichung und Änderung der Bedingungen)",
+      "content": "Das Unternehmen veröffentlicht den Inhalt dieser Bedingungen auf dem Startbildschirm des Dienstes, damit Benutzer sie leicht kennenlernen können. Das Unternehmen kann diese Bedingungen bei Bedarf in dem Maße ändern, dass relevante Gesetze und Vorschriften nicht verletzt werden."
+    },
+    "section4": {
+      "title": "Artikel 4 (Bereitstellung und Änderung des Dienstes)",
+      "intro": "Das Unternehmen bietet die folgenden Dienste an:",
+      "items": "<li>Push-Benachrichtigungs-Sharing-Dienst zwischen mehreren Geräten</li><li>Geräteverwaltungs- und Einstellungsdienst</li><li>App-Listenverwaltungsdienst</li><li>Alle anderen Dienste, die das Unternehmen zusätzlich entwickeln oder durch Partnerschaftsvereinbarungen bereitstellen kann</li>"
+    },
+    "section5": {
+      "title": "Artikel 5 (Unterbrechung des Dienstes)",
+      "content": "Das Unternehmen kann die Bereitstellung des Dienstes vorübergehend aussetzen, wenn Wartung, Austausch oder Ausfall von Informations- und Kommunikationsgeräten wie Computern oder Unterbrechung der Kommunikation auftreten."
+    },
+    "section6": {
+      "title": "Artikel 6 (Mitgliedsregistrierung)",
+      "content": "Ein Benutzer beantragt die Mitgliedsregistrierung, indem er die Mitgliedsinformationen gemäß dem vom Unternehmen vorgeschriebenen Registrierungsformular ausfüllt und seine Absicht erklärt, diesen Bedingungen zuzustimmen."
+    },
+    "section7": {
+      "title": "Artikel 7 (Änderung der Mitgliedsinformationen)",
+      "content": "Ein Mitglied kann seine persönlichen Informationen jederzeit über den Bildschirm zur Verwaltung persönlicher Informationen einsehen und ändern."
+    },
+    "section8": {
+      "title": "Artikel 8 (Kündigung und Verlust der Qualifikation)",
+      "content": "Ein Mitglied kann jederzeit die Kündigung vom Unternehmen beantragen, und das Unternehmen bearbeitet die Kündigung sofort."
+    },
+    "section9": {
+      "title": "Artikel 9 (Pflichten der Benutzer)",
+      "intro": "Benutzer dürfen die folgenden Handlungen nicht ausführen:",
+      "items": "<li>Registrierung falscher Informationen bei Antrag oder Änderungen</li><li>Missbrauch der Informationen einer anderen Person</li><li>Änderung der vom Unternehmen veröffentlichten Informationen</li><li>Übertragung oder Veröffentlichung von Informationen außer den vom Unternehmen festgelegten (wie Computerprogramme)</li><li>Verletzung geistiger Eigentumsrechte wie Urheberrechte des Unternehmens und anderer Dritter</li><li>Handlungen, die den Ruf des Unternehmens und anderer Dritter schädigen oder das Geschäft stören</li>"
+    },
+    "section10": {
+      "title": "Artikel 10 (Haftungsausschluss)",
+      "content": "Das Unternehmen ist von der Haftung für die Bereitstellung des Dienstes befreit, wenn der Dienst aufgrund von Naturkatastrophen oder gleichwertiger höherer Gewalt nicht bereitgestellt werden kann."
+    },
+    "section11": {
+      "title": "Artikel 11 (Geltendes Recht und Gerichtsstand)",
+      "content": "Die Gesetze der Republik Korea gelten für die Auslegung dieser Bedingungen und Streitigkeiten zwischen dem Unternehmen und den Benutzern. Im Falle einer Klage, die aus solchen Streitigkeiten entsteht, ist das Seoul Central District Court das zuständige Gericht."
+    }
   }
 }
