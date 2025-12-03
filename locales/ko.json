@@ -75,7 +75,8 @@
       "item1": "<strong>회원 인증 정보</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Firebase Authentication 고유 ID (익명 식별자, 개인을 직접 식별할 수 없음)</li><li>※ 이메일 주소는 Firebase Authentication 인증에만 사용되며, PushShare의 데이터베이스에는 저장되지 않습니다.</li></ul>",
       "item2": "<strong>서비스 이용 정보</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>디바이스 정보: 기기 이름, 모델명, 제조사, 기기 고유 ID</li><li>FCM 토큰: 푸시 알림 전송을 위한 토큰</li><li>사용자 프로필: 무료 푸시 사용 횟수, 구독 정보, 일일 푸시 발송 건수</li><li>앱 정보: 선택한 앱의 패키지명, 앱 이름</li></ul>",
       "item3": "<strong>구독 서비스 정보</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>구독 유형, 구독 만료일, RevenueCat 고객 ID</li></ul>",
-      "note": "※ 위 정보들은 단독으로는 특정 개인을 식별할 수 없는 정보입니다. 다만, 서비스 제공을 위해 필요한 최소한의 정보만을 수집합니다."
+      "note": "※ 위 정보들은 단독으로는 특정 개인을 식별할 수 없는 정보입니다. 다만, 서비스 제공을 위해 필요한 최소한의 정보만을 수집합니다.",
+      "items": "<li><strong>회원 인증 정보</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Firebase Authentication 고유 ID (익명 식별자, 개인을 직접 식별할 수 없음)</li><li>※ 이메일 주소는 Firebase Authentication 인증에만 사용되며, PushShare의 데이터베이스에는 저장되지 않습니다.</li></ul></li><li><strong>서비스 이용 정보</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>디바이스 정보: 기기 이름, 모델명, 제조사, 기기 고유 ID</li><li>FCM 토큰: 푸시 알림 전송을 위한 토큰</li><li>사용자 프로필: 무료 푸시 사용 횟수, 구독 정보, 일일 푸시 발송 건수</li><li>앱 정보: 선택한 앱의 패키지명, 앱 이름</li></ul></li><li><strong>구독 서비스 정보</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>구독 유형, 구독 만료일, RevenueCat 고객 ID</li></ul></li>"
     },
     "section4": {
       "title": "제4조(개인정보의 제3자 제공)",
@@ -84,21 +85,25 @@
       "item2": "법령의 규정에 의거하거나, 수사 목적으로 법령에 정해진 절차와 방법에 따라 수사기관의 요구가 있는 경우",
       "intro2": "② 서비스 제공을 위해 다음의 서비스 제공업체를 통해 정보가 처리됩니다:",
       "item3": "<strong>Google Firebase</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Firebase Authentication: 사용자 인증을 위해 사용 (이메일 주소는 Firebase에서 관리)</li><li>Firebase Firestore: 사용자 데이터 저장을 위해 사용</li><li>Firebase Cloud Messaging: 푸시 알림 전송을 위해 사용</li></ul>",
-      "item4": "<strong>Google AdMob</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>광고 서비스 제공을 위해 사용 (광고 식별자 등)</li></ul>"
+      "item4": "<strong>Google AdMob</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>광고 서비스 제공을 위해 사용 (광고 식별자 등)</li></ul>",
+      "items1": "<li>정보주체가 사전에 동의한 경우</li><li>법령의 규정에 의거하거나, 수사 목적으로 법령에 정해진 절차와 방법에 따라 수사기관의 요구가 있는 경우</li>",
+      "items2": "<li><strong>Google Firebase</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Firebase Authentication: 사용자 인증을 위해 사용 (이메일 주소는 Firebase에서 관리)</li><li>Firebase Firestore: 사용자 데이터 저장을 위해 사용</li><li>Firebase Cloud Messaging: 푸시 알림 전송을 위해 사용</li></ul></li><li><strong>Google AdMob</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>광고 서비스 제공을 위해 사용 (광고 식별자 등)</li></ul></li>"
     },
     "section5": {
       "title": "제5조(개인정보처리 위탁)",
       "intro1": "① <strong>PushShare</strong>는 서비스 향상을 위해 다음과 같이 개인정보 처리업무를 위탁하고 있습니다.",
       "item1": "<strong>Google Firebase</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>위탁업무 내용: 데이터 저장 및 인증 서비스</li><li>위탁기간: 서비스 제공 기간 동안</li></ul>",
       "item2": "<strong>RevenueCat</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>위탁업무 내용: 구독 관리 서비스</li><li>위탁기간: 구독 서비스 제공 기간 동안</li></ul>",
-      "intro2": "② <strong>PushShare</strong>는 위탁계약 체결 시 「개인정보 보호법」 제26조에 따라 위탁업무 수행목적 외 개인정보 처리금지, 기술적·관리적 보호조치, 재위탁 제한, 수탁자에 대한 관리·감독, 손해배상 등 책임에 관한 사항을 계약서 등 문서에 명시하고, 수탁자가 개인정보를 안전하게 처리하는지를 감독하고 있습니다."
+      "intro2": "② <strong>PushShare</strong>는 위탁계약 체결 시 「개인정보 보호법」 제26조에 따라 위탁업무 수행목적 외 개인정보 처리금지, 기술적·관리적 보호조치, 재위탁 제한, 수탁자에 대한 관리·감독, 손해배상 등 책임에 관한 사항을 계약서 등 문서에 명시하고, 수탁자가 개인정보를 안전하게 처리하는지를 감독하고 있습니다.",
+      "items": "<li><strong>Google Firebase</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>위탁업무 내용: 데이터 저장 및 인증 서비스</li><li>위탁기간: 서비스 제공 기간 동안</li></ul></li><li><strong>RevenueCat</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>위탁업무 내용: 구독 관리 서비스</li><li>위탁기간: 구독 서비스 제공 기간 동안</li></ul></li>"
     },
     "section6": {
       "title": "제6조(개인정보의 파기 절차 및 방법)",
       "intro1": "① <strong>PushShare</strong>는 개인정보 보유기간 경과 또는 처리 목적 달성 등 불필요하게 된 개인정보는 지체 없이 파기합니다.",
       "intro2": "② 파기 절차 및 방법:",
       "item1": "<strong>파기 절차</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>파기 사유가 발생한 개인정보를 선정하고, 개인정보 보호책임자의 승인을 받아 파기</li></ul>",
-      "item2": "<strong>파기 방법</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>전자 파일은 복구 불가능한 방법으로 영구 삭제</li><li>종이 문서는 분쇄 또는 소각</li></ul>"
+      "item2": "<strong>파기 방법</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>전자 파일은 복구 불가능한 방법으로 영구 삭제</li><li>종이 문서는 분쇄 또는 소각</li></ul>",
+      "items": "<li><strong>파기 절차</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>파기 사유가 발생한 개인정보를 선정하고, 개인정보 보호책임자의 승인을 받아 파기</li></ul></li><li><strong>파기 방법</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>전자 파일은 복구 불가능한 방법으로 영구 삭제</li><li>종이 문서는 분쇄 또는 소각</li></ul></li>"
     },
     "section7": {
       "title": "제7조(정보주체와 법정대리인의 권리·의무 및 행사방법)",
@@ -116,7 +121,8 @@
       "item1": "접근 권한 통제: 개인정보에 대한 접근 권한을 최소한의 인원으로 제한",
       "item2": "침입차단 시스템에 의한 외부 접근 통제",
       "item3": "암호화: 개인정보는 암호화되어 저장 및 전송됨",
-      "item4": "정기적인 보안 점검 및 감사"
+      "item4": "정기적인 보안 점검 및 감사",
+      "items": "<li>접근 권한 통제: 개인정보에 대한 접근 권한을 최소한의 인원으로 제한</li><li>침입차단 시스템에 의한 외부 접근 통제</li><li>암호화: 개인정보는 암호화되어 저장 및 전송됨</li><li>정기적인 보안 점검 및 감사</li>"
     },
     "section9": {
       "title": "제9조(쿠키의 사용 여부)",
@@ -126,13 +132,15 @@
       "title": "제10조(개인정보 보호책임자에 관한 사항)",
       "intro": "▶ 개인정보 보호책임자",
       "item1": "이메일: <a href=\"mailto:jj@dosusu.com\">jj@dosusu.com</a>",
-      "note": "※ 개인정보 보호 관련 문의 및 민원은 위 이메일로 가능합니다."
+      "note": "※ 개인정보 보호 관련 문의 및 민원은 위 이메일로 가능합니다.",
+      "items": "<li>이메일: <a href=\"mailto:jj@dosusu.com\">jj@dosusu.com</a></li>"
     },
     "section11": {
       "title": "제11조(개인정보 열람 청구 접수·처리 부서)",
       "intro1": "개인정보 열람 요구는 아래 부서에서 접수·처리합니다.",
       "intro2": "<strong>PushShare</strong>는 정보주체의 열람청구가 신속히 처리되도록 최선을 다하겠습니다.",
-      "item1": "이메일: <a href=\"mailto:jj@dosusu.com\">jj@dosusu.com</a>"
+      "item1": "이메일: <a href=\"mailto:jj@dosusu.com\">jj@dosusu.com</a>",
+      "items": "<li>이메일: <a href=\"mailto:jj@dosusu.com\">jj@dosusu.com</a></li>"
     },
     "section12": {
       "title": "제12조(권익침해에 대한 구제방법)",
@@ -142,7 +150,9 @@
       "item3": "대검찰청: 1301 / <a href=\"http://www.spo.go.kr\" target=\"_blank\">www.spo.go.kr</a>",
       "item4": "경찰청: 182 / <a href=\"http://ecrm.cyber.go.kr\" target=\"_blank\">ecrm.cyber.go.kr</a>",
       "intro2": "또한 공공기관의 처분 또는 부작위로 인해 권익 침해를 받은 경우 행정심판을 청구할 수 있습니다.",
-      "item5": "중앙행정심판위원회: <a href=\"http://www.simpan.go.kr\" target=\"_blank\">www.simpan.go.kr</a>"
+      "item5": "중앙행정심판위원회: <a href=\"http://www.simpan.go.kr\" target=\"_blank\">www.simpan.go.kr</a>",
+      "items": "<li>개인정보분쟁조정위원회: 1833-6972 / <a href=\"http://www.kopico.go.kr\" target=\"_blank\">www.kopico.go.kr</a></li><li>개인정보침해신고센터: 118 / <a href=\"http://privacy.kisa.or.kr\" target=\"_blank\">privacy.kisa.or.kr</a></li><li>대검찰청: 1301 / <a href=\"http://www.spo.go.kr\" target=\"_blank\">www.spo.go.kr</a></li><li>경찰청: 182 / <a href=\"http://ecrm.cyber.go.kr\" target=\"_blank\">ecrm.cyber.go.kr</a></li>",
+      "item5_html": "<li>중앙행정심판위원회: <a href=\"http://www.simpan.go.kr\" target=\"_blank\">www.simpan.go.kr</a></li>"
     },
     "section13": {
       "title": "제13조(개인정보 처리방침 변경)",

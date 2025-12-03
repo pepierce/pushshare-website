@@ -75,7 +75,8 @@
       "item1": "<strong>会員認証情報</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Firebase Authentication固有ID（匿名識別子、個人を直接識別できない）</li><li>※ メールアドレスはFirebase Authentication認証にのみ使用され、PushShareのデータベースには保存されません。</li></ul>",
       "item2": "<strong>サービス利用情報</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>デバイス情報: デバイス名、モデル名、製造元、デバイス固有ID</li><li>FCMトークン: プッシュ通知送信のためのトークン</li><li>ユーザープロフィール: 無料プッシュ使用回数、サブスクリプション情報、1日のプッシュ送信件数</li><li>アプリ情報: 選択したアプリのパッケージ名、アプリ名</li></ul>",
       "item3": "<strong>サブスクリプションサービス情報</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>サブスクリプションタイプ、サブスクリプション有効期限、RevenueCat顧客ID</li></ul>",
-      "note": "※ 上記の情報は単独では特定の個人を識別できない情報です。ただし、サービス提供のために必要な最小限の情報のみを収集します。"
+      "note": "※ 上記の情報は単独では特定の個人を識別できない情報です。ただし、サービス提供のために必要な最小限の情報のみを収集します。",
+      "items": "<li><strong>会員認証情報</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Firebase Authentication固有ID（匿名識別子、個人を直接識別できない）</li><li>※ メールアドレスはFirebase Authentication認証にのみ使用され、PushShareのデータベースには保存されません。</li></ul></li><li><strong>サービス利用情報</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>デバイス情報: デバイス名、モデル名、製造元、デバイス固有ID</li><li>FCMトークン: プッシュ通知送信のためのトークン</li><li>ユーザープロフィール: 無料プッシュ使用回数、サブスクリプション情報、1日のプッシュ送信件数</li><li>アプリ情報: 選択したアプリのパッケージ名、アプリ名</li></ul></li><li><strong>サブスクリプションサービス情報</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>サブスクリプションタイプ、サブスクリプション有効期限、RevenueCat顧客ID</li></ul></li>"
     },
     "section4": {
       "title": "第4条（個人情報の第三者提供）",
@@ -84,21 +85,25 @@
       "item2": "法令の規定に基づく場合、または捜査目的で法令に定められた手順と方法に従って捜査機関の要求がある場合",
       "intro2": "② サービス提供のために、以下のサービス提供事業者を通じて情報が処理されます:",
       "item3": "<strong>Google Firebase</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Firebase Authentication: ユーザー認証のために使用（メールアドレスはFirebaseで管理）</li><li>Firebase Firestore: ユーザーデータ保存のために使用</li><li>Firebase Cloud Messaging: プッシュ通知送信のために使用</li></ul>",
-      "item4": "<strong>Google AdMob</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>広告サービス提供のために使用（広告識別子など）</li></ul>"
+      "item4": "<strong>Google AdMob</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>広告サービス提供のために使用（広告識別子など）</li></ul>",
+      "items1": "<li>情報主体が事前に同意した場合</li><li>法令の規定に基づく場合、または捜査目的で法令に定められた手順と方法に従って捜査機関の要求がある場合</li>",
+      "items2": "<li><strong>Google Firebase</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Firebase Authentication: ユーザー認証のために使用（メールアドレスはFirebaseで管理）</li><li>Firebase Firestore: ユーザーデータ保存のために使用</li><li>Firebase Cloud Messaging: プッシュ通知送信のために使用</li></ul></li><li><strong>Google AdMob</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>広告サービス提供のために使用（広告識別子など）</li></ul></li>"
     },
     "section5": {
       "title": "第5条（個人情報処理の委託）",
       "intro1": "① <strong>PushShare</strong>は、サービス向上のために以下のように個人情報処理業務を委託しています。",
       "item1": "<strong>Google Firebase</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>委託業務内容: データ保存および認証サービス</li><li>委託期間: サービス提供期間中</li></ul>",
       "item2": "<strong>RevenueCat</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>委託業務内容: サブスクリプション管理サービス</li><li>委託期間: サブスクリプションサービス提供期間中</li></ul>",
-      "intro2": "② <strong>PushShare</strong>は、委託契約締結時に個人情報保護法第26条に基づき、委託業務遂行目的外の個人情報処理禁止、技術的・管理的保護措置、再委託制限、受託者に対する管理・監督、損害賠償等の責任に関する事項を契約書等の文書に明記し、受託者が個人情報を安全に処理しているかを監督しています。"
+      "intro2": "② <strong>PushShare</strong>は、委託契約締結時に個人情報保護法第26条に基づき、委託業務遂行目的外の個人情報処理禁止、技術的・管理的保護措置、再委託制限、受託者に対する管理・監督、損害賠償等の責任に関する事項を契約書等の文書に明記し、受託者が個人情報を安全に処理しているかを監督しています。",
+      "items": "<li><strong>Google Firebase</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>委託業務内容: データ保存および認証サービス</li><li>委託期間: サービス提供期間中</li></ul></li><li><strong>RevenueCat</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>委託業務内容: サブスクリプション管理サービス</li><li>委託期間: サブスクリプションサービス提供期間中</li></ul></li>"
     },
     "section6": {
       "title": "第6条（個人情報の破棄手順および方法）",
       "intro1": "① <strong>PushShare</strong>は、個人情報の保有期間経過または処理目的達成などにより不要となった個人情報は、遅滞なく破棄します。",
       "intro2": "② 破棄手順および方法:",
       "item1": "<strong>破棄手順</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>破棄事由が発生した個人情報を選定し、個人情報保護責任者の承認を受けて破棄</li></ul>",
-      "item2": "<strong>破棄方法</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>電子ファイルは復旧不可能な方法で永続的に削除</li><li>紙文書は粉砕または焼却</li></ul>"
+      "item2": "<strong>破棄方法</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>電子ファイルは復旧不可能な方法で永続的に削除</li><li>紙文書は粉砕または焼却</li></ul>",
+      "items": "<li><strong>破棄手順</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>破棄事由が発生した個人情報を選定し、個人情報保護責任者の承認を受けて破棄</li></ul></li><li><strong>破棄方法</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>電子ファイルは復旧不可能な方法で永続的に削除</li><li>紙文書は粉砕または焼却</li></ul></li>"
     },
     "section7": {
       "title": "第7条（情報主体および法定代理人の権利・義務および行使方法）",
@@ -116,7 +121,8 @@
       "item1": "アクセス権限の統制: 個人情報へのアクセス権限を最小限の人員に制限",
       "item2": "侵入防止システムによる外部アクセス統制",
       "item3": "暗号化: 個人情報は暗号化されて保存および送信される",
-      "item4": "定期的なセキュリティ点検および監査"
+      "item4": "定期的なセキュリティ点検および監査",
+      "items": "<li>アクセス権限の統制: 個人情報へのアクセス権限を最小限の人員に制限</li><li>侵入防止システムによる外部アクセス統制</li><li>暗号化: 個人情報は暗号化されて保存および送信される</li><li>定期的なセキュリティ点検および監査</li>"
     },
     "section9": {
       "title": "第9条（クッキーの使用有無）",
@@ -126,13 +132,15 @@
       "title": "第10条（個人情報保護責任者に関する事項）",
       "intro": "▶ 個人情報保護責任者",
       "item1": "メール: <a href=\"mailto:jj@dosusu.com\">jj@dosusu.com</a>",
-      "note": "※ 個人情報保護に関するお問い合わせおよび苦情は、上記のメールアドレスで可能です。"
+      "note": "※ 個人情報保護に関するお問い合わせおよび苦情は、上記のメールアドレスで可能です。",
+      "items": "<li>メール: <a href=\"mailto:jj@dosusu.com\">jj@dosusu.com</a></li>"
     },
     "section11": {
       "title": "第11条（個人情報閲覧請求の受付・処理部門）",
       "intro1": "個人情報閲覧要求は、以下の部門で受付・処理します。",
       "intro2": "<strong>PushShare</strong>は、情報主体の閲覧請求が迅速に処理されるよう最善を尽くします。",
-      "item1": "メール: <a href=\"mailto:jj@dosusu.com\">jj@dosusu.com</a>"
+      "item1": "メール: <a href=\"mailto:jj@dosusu.com\">jj@dosusu.com</a>",
+      "items": "<li>メール: <a href=\"mailto:jj@dosusu.com\">jj@dosusu.com</a></li>"
     },
     "section12": {
       "title": "第12条（権益侵害に対する救済方法）",
@@ -142,7 +150,9 @@
       "item3": "最高検察庁: 1301 / <a href=\"http://www.spo.go.kr\" target=\"_blank\">www.spo.go.kr</a>",
       "item4": "警察庁: 182 / <a href=\"http://ecrm.cyber.go.kr\" target=\"_blank\">ecrm.cyber.go.kr</a>",
       "intro2": "また、公共機関の処分または不作為により権益侵害を受けた場合、行政審判を請求することができます。",
-      "item5": "中央行政審判委員会: <a href=\"http://www.simpan.go.kr\" target=\"_blank\">www.simpan.go.kr</a>"
+      "item5": "中央行政審判委員会: <a href=\"http://www.simpan.go.kr\" target=\"_blank\">www.simpan.go.kr</a>",
+      "items": "<li>個人情報紛争調停委員会: 1833-6972 / <a href=\"http://www.kopico.go.kr\" target=\"_blank\">www.kopico.go.kr</a></li><li>個人情報侵害報告センター: 118 / <a href=\"http://privacy.kisa.or.kr\" target=\"_blank\">privacy.kisa.or.kr</a></li><li>最高検察庁: 1301 / <a href=\"http://www.spo.go.kr\" target=\"_blank\">www.spo.go.kr</a></li><li>警察庁: 182 / <a href=\"http://ecrm.cyber.go.kr\" target=\"_blank\">ecrm.cyber.go.kr</a></li>",
+      "item5_html": "<li>中央行政審判委員会: <a href=\"http://www.simpan.go.kr\" target=\"_blank\">www.simpan.go.kr</a></li>"
     },
     "section13": {
       "title": "第13条（個人情報処理方針の変更）",
@@ -151,4 +161,3 @@
     }
   }
 }
-

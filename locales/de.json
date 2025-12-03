@@ -75,7 +75,8 @@
       "item1": "<strong>Mitgliederauthentifizierungsinformationen</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Firebase Authentication eindeutige ID (anonymer Bezeichner, kann Personen nicht direkt identifizieren)</li><li>※ E-Mail-Adressen werden nur für die Firebase Authentication-Authentifizierung verwendet und nicht in der Datenbank von PushShare gespeichert.</li></ul>",
       "item2": "<strong>Dienstnutzungsinformationen</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Geräteinformationen: Gerätename, Modellname, Hersteller, eindeutige Geräte-ID</li><li>FCM-Token: Token für die Push-Benachrichtigungszustellung</li><li>Benutzerprofil: Anzahl der kostenlosen Push-Nutzungen, Abonnementinformationen, Anzahl der täglich gesendeten Push-Benachrichtigungen</li><li>App-Informationen: Paketname und App-Name der ausgewählten Apps</li></ul>",
       "item3": "<strong>Abonnementdienstinformationen</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Abonnementtyp, Abonnementablaufdatum, RevenueCat-Kunden-ID</li></ul>",
-      "note": "※ Die oben genannten Informationen können keine bestimmten Personen identifizieren. Wir sammeln jedoch nur die minimalen Informationen, die für die Dienstleistungserbringung erforderlich sind."
+      "note": "※ Die oben genannten Informationen können keine bestimmten Personen identifizieren. Wir sammeln jedoch nur die minimalen Informationen, die für die Dienstleistungserbringung erforderlich sind.",
+      "items": "<li><strong>Mitgliederauthentifizierungsinformationen</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Firebase Authentication eindeutige ID (anonymer Bezeichner, kann Personen nicht direkt identifizieren)</li><li>※ E-Mail-Adressen werden nur für die Firebase Authentication-Authentifizierung verwendet und nicht in der Datenbank von PushShare gespeichert.</li></ul></li><li><strong>Dienstnutzungsinformationen</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Geräteinformationen: Gerätename, Modellname, Hersteller, eindeutige Geräte-ID</li><li>FCM-Token: Token für die Push-Benachrichtigungszustellung</li><li>Benutzerprofil: Anzahl der kostenlosen Push-Nutzungen, Abonnementinformationen, Anzahl der täglich gesendeten Push-Benachrichtigungen</li><li>App-Informationen: Paketname und App-Name der ausgewählten Apps</li></ul></li><li><strong>Abonnementdienstinformationen</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Abonnementtyp, Abonnementablaufdatum, RevenueCat-Kunden-ID</li></ul></li>"
     },
     "section4": {
       "title": "Artikel 4 (Weitergabe personenbezogener Daten an Dritte)",
@@ -84,21 +85,25 @@
       "item2": "Wenn dies gesetzlich vorgeschrieben ist oder wenn Ermittlungsbehörden dies gemäß den gesetzlich festgelegten Verfahren und Methoden zu Ermittlungszwecken anfordern",
       "intro2": "② Informationen werden über die folgenden Dienstanbieter für die Dienstleistungserbringung verarbeitet:",
       "item3": "<strong>Google Firebase</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Firebase Authentication: Wird für die Benutzerauthentifizierung verwendet (E-Mail-Adressen werden von Firebase verwaltet)</li><li>Firebase Firestore: Wird für die Speicherung von Benutzerdaten verwendet</li><li>Firebase Cloud Messaging: Wird für die Push-Benachrichtigungszustellung verwendet</li></ul>",
-      "item4": "<strong>Google AdMob</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Wird für die Bereitstellung von Werbediensten verwendet (Werbebezogene Bezeichner usw.)</li></ul>"
+      "item4": "<strong>Google AdMob</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Wird für die Bereitstellung von Werbediensten verwendet (Werbebezogene Bezeichner usw.)</li></ul>",
+      "items1": "<li>Wenn die betroffene Person vorher zugestimmt hat</li><li>Wenn dies gesetzlich vorgeschrieben ist oder wenn Ermittlungsbehörden dies gemäß den gesetzlich festgelegten Verfahren und Methoden zu Ermittlungszwecken anfordern</li>",
+      "items2": "<li><strong>Google Firebase</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Firebase Authentication: Wird für die Benutzerauthentifizierung verwendet (E-Mail-Adressen werden von Firebase verwaltet)</li><li>Firebase Firestore: Wird für die Speicherung von Benutzerdaten verwendet</li><li>Firebase Cloud Messaging: Wird für die Push-Benachrichtigungszustellung verwendet</li></ul></li><li><strong>Google AdMob</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Wird für die Bereitstellung von Werbediensten verwendet (Werbebezogene Bezeichner usw.)</li></ul></li>"
     },
     "section5": {
       "title": "Artikel 5 (Auftragsverarbeitung personenbezogener Daten)",
       "intro1": "① <strong>PushShare</strong> überträgt Aufgaben zur Verarbeitung personenbezogener Daten wie folgt zur Verbesserung des Dienstes:",
       "item1": "<strong>Google Firebase</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Auftragsaufgaben: Datenspeicherungs- und Authentifizierungsdienste</li><li>Auftragsdauer: Während der Dienstleistungserbringung</li></ul>",
       "item2": "<strong>RevenueCat</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Auftragsaufgaben: Abonnementverwaltungsdienste</li><li>Auftragsdauer: Während der Abonnementdienstleistungserbringung</li></ul>",
-      "intro2": "② Bei Abschluss von Auftragsverarbeitungsverträgen legt <strong>PushShare</strong> gemäß Artikel 26 des Datenschutzgesetzes in Dokumenten wie Verträgen Angelegenheiten fest, die sich auf das Verbot der Verarbeitung personenbezogener Daten für andere Zwecke als die Auftragsaufgaben, technische und administrative Schutzmaßnahmen, Beschränkungen der Weitergabe, Verwaltung und Überwachung der Auftragsnehmer und Haftung für Schäden beziehen, und überwacht, ob die Auftragsnehmer personenbezogene Daten sicher verarbeiten."
+      "intro2": "② Bei Abschluss von Auftragsverarbeitungsverträgen legt <strong>PushShare</strong> gemäß Artikel 26 des Datenschutzgesetzes in Dokumenten wie Verträgen Angelegenheiten fest, die sich auf das Verbot der Verarbeitung personenbezogener Daten für andere Zwecke als die Auftragsaufgaben, technische und administrative Schutzmaßnahmen, Beschränkungen der Weitergabe, Verwaltung und Überwachung der Auftragsnehmer und Haftung für Schäden beziehen, und überwacht, ob die Auftragsnehmer personenbezogene Daten sicher verarbeiten.",
+      "items": "<li><strong>Google Firebase</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Auftragsaufgaben: Datenspeicherungs- und Authentifizierungsdienste</li><li>Auftragsdauer: Während der Dienstleistungserbringung</li></ul></li><li><strong>RevenueCat</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Auftragsaufgaben: Abonnementverwaltungsdienste</li><li>Auftragsdauer: Während der Abonnementdienstleistungserbringung</li></ul></li>"
     },
     "section6": {
       "title": "Artikel 6 (Verfahren und Methoden zur Löschung personenbezogener Daten)",
       "intro1": "① <strong>PushShare</strong> löscht personenbezogene Daten unverzüglich, wenn sie aufgrund des Ablaufs der Aufbewahrungsfrist oder der Erreichung des Verarbeitungszwecks unnötig geworden sind.",
       "intro2": "② Verfahren und Methoden zur Löschung:",
       "item1": "<strong>Löschverfahren</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Auswahl der personenbezogenen Daten, für die Löschungsgründe aufgetreten sind, und Löschung nach Genehmigung durch den Datenschutzbeauftragten</li></ul>",
-      "item2": "<strong>Löschmethoden</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Elektronische Dateien werden dauerhaft auf nicht wiederherstellbare Weise gelöscht</li><li>Papierdokumente werden geschreddert oder verbrannt</li></ul>"
+      "item2": "<strong>Löschmethoden</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Elektronische Dateien werden dauerhaft auf nicht wiederherstellbare Weise gelöscht</li><li>Papierdokumente werden geschreddert oder verbrannt</li></ul>",
+      "items": "<li><strong>Löschverfahren</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Auswahl der personenbezogenen Daten, für die Löschungsgründe aufgetreten sind, und Löschung nach Genehmigung durch den Datenschutzbeauftragten</li></ul></li><li><strong>Löschmethoden</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Elektronische Dateien werden dauerhaft auf nicht wiederherstellbare Weise gelöscht</li><li>Papierdokumente werden geschreddert oder verbrannt</li></ul></li>"
     },
     "section7": {
       "title": "Artikel 7 (Rechte und Pflichten der betroffenen Personen und gesetzlichen Vertreter und Ausübungsmethoden)",
@@ -116,7 +121,8 @@
       "item1": "Zugriffskontrolle: Beschränkung des Zugriffs auf personenbezogene Daten auf ein Minimum an Personal",
       "item2": "Externe Zugriffskontrolle durch Eindringschutzsysteme",
       "item3": "Verschlüsselung: Personenbezogene Daten werden für Speicherung und Übertragung verschlüsselt",
-      "item4": "Regelmäßige Sicherheitsprüfungen und Audits"
+      "item4": "Regelmäßige Sicherheitsprüfungen und Audits",
+      "items": "<li>Zugriffskontrolle: Beschränkung des Zugriffs auf personenbezogene Daten auf ein Minimum an Personal</li><li>Externe Zugriffskontrolle durch Eindringschutzsysteme</li><li>Verschlüsselung: Personenbezogene Daten werden für Speicherung und Übertragung verschlüsselt</li><li>Regelmäßige Sicherheitsprüfungen und Audits</li>"
     },
     "section9": {
       "title": "Artikel 9 (Verwendung von Cookies)",
@@ -126,13 +132,15 @@
       "title": "Artikel 10 (Datenschutzbeauftragter)",
       "intro": "▶ Datenschutzbeauftragter",
       "item1": "E-Mail: <a href=\"mailto:jj@dosusu.com\">jj@dosusu.com</a>",
-      "note": "※ Anfragen und Beschwerden zum Datenschutz können an die oben genannte E-Mail-Adresse gerichtet werden."
+      "note": "※ Anfragen und Beschwerden zum Datenschutz können an die oben genannte E-Mail-Adresse gerichtet werden.",
+      "items": "<li>E-Mail: <a href=\"mailto:jj@dosusu.com\">jj@dosusu.com</a></li>"
     },
     "section11": {
       "title": "Artikel 11 (Abteilung für den Empfang und die Bearbeitung von Zugangsanfragen zu personenbezogenen Daten)",
       "intro1": "Zugangsanfragen zu personenbezogenen Daten werden von der unten genannten Abteilung entgegengenommen und bearbeitet.",
       "intro2": "<strong>PushShare</strong> wird sein Bestes tun, um Zugangsanfragen der betroffenen Personen schnell zu bearbeiten.",
-      "item1": "E-Mail: <a href=\"mailto:jj@dosusu.com\">jj@dosusu.com</a>"
+      "item1": "E-Mail: <a href=\"mailto:jj@dosusu.com\">jj@dosusu.com</a>",
+      "items": "<li>E-Mail: <a href=\"mailto:jj@dosusu.com\">jj@dosusu.com</a></li>"
     },
     "section12": {
       "title": "Artikel 12 (Abhilfemaßnahmen bei Verletzung von Rechten und Interessen)",
@@ -142,7 +150,9 @@
       "item3": "Generalstaatsanwaltschaft: 1301 / <a href=\"http://www.spo.go.kr\" target=\"_blank\">www.spo.go.kr</a>",
       "item4": "Nationale Polizeibehörde: 182 / <a href=\"http://ecrm.cyber.go.kr\" target=\"_blank\">ecrm.cyber.go.kr</a>",
       "intro2": "Darüber hinaus können Verwaltungsbeschwerden eingereicht werden, wenn Rechte und Interessen aufgrund von Maßnahmen oder Untätigkeit öffentlicher Einrichtungen verletzt werden.",
-      "item5": "Zentraler Verwaltungsbeschwerdeausschuss: <a href=\"http://www.simpan.go.kr\" target=\"_blank\">www.simpan.go.kr</a>"
+      "item5": "Zentraler Verwaltungsbeschwerdeausschuss: <a href=\"http://www.simpan.go.kr\" target=\"_blank\">www.simpan.go.kr</a>",
+      "items": "<li>Schlichtungsausschuss für Streitigkeiten zu personenbezogenen Daten: 1833-6972 / <a href=\"http://www.kopico.go.kr\" target=\"_blank\">www.kopico.go.kr</a></li><li>Meldestelle für Verletzungen personenbezogener Daten: 118 / <a href=\"http://privacy.kisa.or.kr\" target=\"_blank\">privacy.kisa.or.kr</a></li><li>Generalstaatsanwaltschaft: 1301 / <a href=\"http://www.spo.go.kr\" target=\"_blank\">www.spo.go.kr</a></li><li>Nationale Polizeibehörde: 182 / <a href=\"http://ecrm.cyber.go.kr\" target=\"_blank\">ecrm.cyber.go.kr</a></li>",
+      "item5_html": "<li>Zentraler Verwaltungsbeschwerdeausschuss: <a href=\"http://www.simpan.go.kr\" target=\"_blank\">www.simpan.go.kr</a></li>"
     },
     "section13": {
       "title": "Artikel 13 (Änderungen der Datenschutzrichtlinie)",
@@ -151,4 +161,3 @@
     }
   }
 }
-

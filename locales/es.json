@@ -75,7 +75,8 @@
       "item1": "<strong>Información de autenticación de miembros</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>ID único de Firebase Authentication (identificador anónimo, no puede identificar directamente a individuos)</li><li>※ Las direcciones de correo electrónico se utilizan solo para la autenticación de Firebase Authentication y no se almacenan en la base de datos de PushShare.</li></ul>",
       "item2": "<strong>Información de uso del servicio</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Información del dispositivo: Nombre del dispositivo, modelo, fabricante, ID único del dispositivo</li><li>Token FCM: Token para la entrega de notificaciones push</li><li>Perfil de usuario: Número de usos de push gratuitos, información de suscripción, número de push enviados por día</li><li>Información de la aplicación: Nombre del paquete y nombre de la aplicación de las aplicaciones seleccionadas</li></ul>",
       "item3": "<strong>Información del servicio de suscripción</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Tipo de suscripción, fecha de vencimiento de la suscripción, ID de cliente de RevenueCat</li></ul>",
-      "note": "※ La información anterior no puede identificar individuos específicos por sí sola. Sin embargo, solo recopilamos la información mínima necesaria para la prestación del servicio."
+      "note": "※ La información anterior no puede identificar individuos específicos por sí sola. Sin embargo, solo recopilamos la información mínima necesaria para la prestación del servicio.",
+      "items": "<li><strong>Información de autenticación de miembros</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>ID único de Firebase Authentication (identificador anónimo, no puede identificar directamente a individuos)</li><li>※ Las direcciones de correo electrónico se utilizan solo para la autenticación de Firebase Authentication y no se almacenan en la base de datos de PushShare.</li></ul></li><li><strong>Información de uso del servicio</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Información del dispositivo: Nombre del dispositivo, modelo, fabricante, ID único del dispositivo</li><li>Token FCM: Token para la entrega de notificaciones push</li><li>Perfil de usuario: Número de usos de push gratuitos, información de suscripción, número de push enviados por día</li><li>Información de la aplicación: Nombre del paquete y nombre de la aplicación de las aplicaciones seleccionadas</li></ul></li><li><strong>Información del servicio de suscripción</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Tipo de suscripción, fecha de vencimiento de la suscripción, ID de cliente de RevenueCat</li></ul></li>"
     },
     "section4": {
       "title": "Artículo 4 (Provisión de datos personales a terceros)",
@@ -84,21 +85,25 @@
       "item2": "Cuando es requerido por la ley o cuando es solicitado por agencias de investigación de acuerdo con los procedimientos y métodos prescritos por la ley para fines de investigación",
       "intro2": "② La información se procesa a través de los siguientes proveedores de servicios para la prestación de servicios:",
       "item3": "<strong>Google Firebase</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Firebase Authentication: Se utiliza para la autenticación de usuarios (las direcciones de correo electrónico son gestionadas por Firebase)</li><li>Firebase Firestore: Se utiliza para el almacenamiento de datos de usuarios</li><li>Firebase Cloud Messaging: Se utiliza para la entrega de notificaciones push</li></ul>",
-      "item4": "<strong>Google AdMob</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Se utiliza para la prestación de servicios publicitarios (identificadores publicitarios, etc.)</li></ul>"
+      "item4": "<strong>Google AdMob</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Se utiliza para la prestación de servicios publicitarios (identificadores publicitarios, etc.)</li></ul>",
+      "items1": "<li>Cuando el sujeto de datos ha dado su consentimiento previo</li><li>Cuando es requerido por la ley o cuando es solicitado por agencias de investigación de acuerdo con los procedimientos y métodos prescritos por la ley para fines de investigación</li>",
+      "items2": "<li><strong>Google Firebase</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Firebase Authentication: Se utiliza para la autenticación de usuarios (las direcciones de correo electrónico son gestionadas por Firebase)</li><li>Firebase Firestore: Se utiliza para el almacenamiento de datos de usuarios</li><li>Firebase Cloud Messaging: Se utiliza para la entrega de notificaciones push</li></ul></li><li><strong>Google AdMob</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Se utiliza para la prestación de servicios publicitarios (identificadores publicitarios, etc.)</li></ul></li>"
     },
     "section5": {
       "title": "Artículo 5 (Encargo del tratamiento de datos personales)",
       "intro1": "① <strong>PushShare</strong> encarga las tareas de tratamiento de datos personales de la siguiente manera para la mejora del servicio:",
       "item1": "<strong>Google Firebase</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Contenido de las tareas encargadas: Servicios de almacenamiento de datos y autenticación</li><li>Período de encargo: Durante el período de prestación del servicio</li></ul>",
       "item2": "<strong>RevenueCat</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Contenido de las tareas encargadas: Servicios de gestión de suscripciones</li><li>Período de encargo: Durante el período de prestación del servicio de suscripción</li></ul>",
-      "intro2": "② Al celebrar contratos de encargo, <strong>PushShare</strong> especifica en documentos como contratos los asuntos relacionados con la prohibición del tratamiento de datos personales para fines distintos de las tareas encargadas, medidas de protección técnicas y administrativas, restricciones sobre la re-delegación, gestión y supervisión de los encargados, y responsabilidad por daños de acuerdo con el Artículo 26 de la Ley de Protección de Datos Personales, y supervisa si los encargados procesan los datos personales de manera segura."
+      "intro2": "② Al celebrar contratos de encargo, <strong>PushShare</strong> especifica en documentos como contratos los asuntos relacionados con la prohibición del tratamiento de datos personales para fines distintos de las tareas encargadas, medidas de protección técnicas y administrativas, restricciones sobre la re-delegación, gestión y supervisión de los encargados, y responsabilidad por daños de acuerdo con el Artículo 26 de la Ley de Protección de Datos Personales, y supervisa si los encargados procesan los datos personales de manera segura.",
+      "items": "<li><strong>Google Firebase</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Contenido de las tareas encargadas: Servicios de almacenamiento de datos y autenticación</li><li>Período de encargo: Durante el período de prestación del servicio</li></ul></li><li><strong>RevenueCat</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Contenido de las tareas encargadas: Servicios de gestión de suscripciones</li><li>Período de encargo: Durante el período de prestación del servicio de suscripción</li></ul></li>"
     },
     "section6": {
       "title": "Artículo 6 (Procedimientos y métodos de destrucción de datos personales)",
       "intro1": "① <strong>PushShare</strong> destruye datos personales sin demora cuando se vuelven innecesarios debido a la expiración del período de conservación o al logro del propósito de tratamiento.",
       "intro2": "② Procedimientos y métodos de destrucción:",
       "item1": "<strong>Procedimientos de destrucción</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Seleccionar datos personales para los cuales han ocurrido razones de destrucción y destruirlos después de obtener la aprobación del oficial de protección de datos personales</li></ul>",
-      "item2": "<strong>Métodos de destrucción</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Los archivos electrónicos se eliminan permanentemente de manera irrecuperable</li><li>Los documentos en papel se trituran o incineran</li></ul>"
+      "item2": "<strong>Métodos de destrucción</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Los archivos electrónicos se eliminan permanentemente de manera irrecuperable</li><li>Los documentos en papel se trituran o incineran</li></ul>",
+      "items": "<li><strong>Procedimientos de destrucción</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Seleccionar datos personales para los cuales han ocurrido razones de destrucción y destruirlos después de obtener la aprobación del oficial de protección de datos personales</li></ul></li><li><strong>Métodos de destrucción</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Los archivos electrónicos se eliminan permanentemente de manera irrecuperable</li><li>Los documentos en papel se trituran o incineran</li></ul></li>"
     },
     "section7": {
       "title": "Artículo 7 (Derechos y obligaciones de los sujetos de datos y representantes legales y métodos de ejercicio)",
@@ -116,7 +121,8 @@
       "item1": "Control de acceso: Restricción del acceso a datos personales a un número mínimo de personal",
       "item2": "Control de acceso externo mediante sistemas de prevención de intrusiones",
       "item3": "Cifrado: Los datos personales se cifran para almacenamiento y transmisión",
-      "item4": "Inspecciones y auditorías de seguridad regulares"
+      "item4": "Inspecciones y auditorías de seguridad regulares",
+      "items": "<li>Control de acceso: Restricción del acceso a datos personales a un número mínimo de personal</li><li>Control de acceso externo mediante sistemas de prevención de intrusiones</li><li>Cifrado: Los datos personales se cifran para almacenamiento y transmisión</li><li>Inspecciones y auditorías de seguridad regulares</li>"
     },
     "section9": {
       "title": "Artículo 9 (Uso de cookies)",
@@ -126,13 +132,15 @@
       "title": "Artículo 10 (Oficial de protección de datos personales)",
       "intro": "▶ Oficial de protección de datos personales",
       "item1": "Correo electrónico: <a href=\"mailto:jj@dosusu.com\">jj@dosusu.com</a>",
-      "note": "※ Las consultas y quejas relacionadas con la protección de datos personales se pueden hacer a la dirección de correo electrónico anterior."
+      "note": "※ Las consultas y quejas relacionadas con la protección de datos personales se pueden hacer a la dirección de correo electrónico anterior.",
+      "items": "<li>Correo electrónico: <a href=\"mailto:jj@dosusu.com\">jj@dosusu.com</a></li>"
     },
     "section11": {
       "title": "Artículo 11 (Departamento para recibir y procesar solicitudes de acceso a datos personales)",
       "intro1": "Las solicitudes de acceso a datos personales son recibidas y procesadas por el departamento a continuación.",
       "intro2": "<strong>PushShare</strong> hará todo lo posible para procesar rápidamente las solicitudes de acceso de los sujetos de datos.",
-      "item1": "Correo electrónico: <a href=\"mailto:jj@dosusu.com\">jj@dosusu.com</a>"
+      "item1": "Correo electrónico: <a href=\"mailto:jj@dosusu.com\">jj@dosusu.com</a>",
+      "items": "<li>Correo electrónico: <a href=\"mailto:jj@dosusu.com\">jj@dosusu.com</a></li>"
     },
     "section12": {
       "title": "Artículo 12 (Métodos de recurso por infracción de derechos e intereses)",
@@ -142,7 +150,9 @@
       "item3": "Fiscalía General: 1301 / <a href=\"http://www.spo.go.kr\" target=\"_blank\">www.spo.go.kr</a>",
       "item4": "Agencia Nacional de Policía: 182 / <a href=\"http://ecrm.cyber.go.kr\" target=\"_blank\">ecrm.cyber.go.kr</a>",
       "intro2": "Además, se pueden presentar apelaciones administrativas cuando los derechos e intereses se violan debido a la disposición o inacción de instituciones públicas.",
-      "item5": "Comisión Central de Apelaciones Administrativas: <a href=\"http://www.simpan.go.kr\" target=\"_blank\">www.simpan.go.kr</a>"
+      "item5": "Comisión Central de Apelaciones Administrativas: <a href=\"http://www.simpan.go.kr\" target=\"_blank\">www.simpan.go.kr</a>",
+      "items": "<li>Comité de Mediación de Disputas de Datos Personales: 1833-6972 / <a href=\"http://www.kopico.go.kr\" target=\"_blank\">www.kopico.go.kr</a></li><li>Centro de Reporte de Infracciones de Datos Personales: 118 / <a href=\"http://privacy.kisa.or.kr\" target=\"_blank\">privacy.kisa.or.kr</a></li><li>Fiscalía General: 1301 / <a href=\"http://www.spo.go.kr\" target=\"_blank\">www.spo.go.kr</a></li><li>Agencia Nacional de Policía: 182 / <a href=\"http://ecrm.cyber.go.kr\" target=\"_blank\">ecrm.cyber.go.kr</a></li>",
+      "item5_html": "<li>Comisión Central de Apelaciones Administrativas: <a href=\"http://www.simpan.go.kr\" target=\"_blank\">www.simpan.go.kr</a></li>"
     },
     "section13": {
       "title": "Artículo 13 (Cambios en la Política de Privacidad)",
@@ -151,4 +161,3 @@
     }
   }
 }
-

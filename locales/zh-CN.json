@@ -75,7 +75,8 @@
       "item1": "<strong>会员认证信息</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Firebase Authentication唯一ID（匿名标识符，无法直接识别个人）</li><li>※ 电子邮件地址仅用于Firebase Authentication认证，不存储在PushShare的数据库中。</li></ul>",
       "item2": "<strong>服务使用信息</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>设备信息：设备名称、型号、制造商、设备唯一ID</li><li>FCM令牌：用于推送通知发送的令牌</li><li>用户资料：免费推送使用次数、订阅信息、每日推送发送次数</li><li>应用信息：所选应用的包名、应用名称</li></ul>",
       "item3": "<strong>订阅服务信息</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>订阅类型、订阅到期日、RevenueCat客户ID</li></ul>",
-      "note": "※ 上述信息无法单独识别特定个人。但是，我们仅收集服务提供所需的最少信息。"
+      "note": "※ 上述信息无法单独识别特定个人。但是，我们仅收集服务提供所需的最少信息。",
+      "items": "<li><strong>会员认证信息</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Firebase Authentication唯一ID（匿名标识符，无法直接识别个人）</li><li>※ 电子邮件地址仅用于Firebase Authentication认证，不存储在PushShare的数据库中。</li></ul></li><li><strong>服务使用信息</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>设备信息：设备名称、型号、制造商、设备唯一ID</li><li>FCM令牌：用于推送通知发送的令牌</li><li>用户资料：免费推送使用次数、订阅信息、每日推送发送次数</li><li>应用信息：所选应用的包名、应用名称</li></ul></li><li><strong>订阅服务信息</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>订阅类型、订阅到期日、RevenueCat客户ID</li></ul></li>"
     },
     "section4": {
       "title": "第4条（向第三方提供个人信息）",
@@ -84,21 +85,25 @@
       "item2": "根据法律规定，或为调查目的根据法律规定的程序和方法应调查机构要求的情况",
       "intro2": "② 为提供服务，通过以下服务提供商处理信息：",
       "item3": "<strong>Google Firebase</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Firebase Authentication：用于用户认证（电子邮件地址由Firebase管理）</li><li>Firebase Firestore：用于用户数据存储</li><li>Firebase Cloud Messaging：用于推送通知发送</li></ul>",
-      "item4": "<strong>Google AdMob</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>用于广告服务提供（广告标识符等）</li></ul>"
+      "item4": "<strong>Google AdMob</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>用于广告服务提供（广告标识符等）</li></ul>",
+      "items1": "<li>信息主体事先同意的情况</li><li>根据法律规定，或为调查目的根据法律规定的程序和方法应调查机构要求的情况</li>",
+      "items2": "<li><strong>Google Firebase</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Firebase Authentication：用于用户认证（电子邮件地址由Firebase管理）</li><li>Firebase Firestore：用于用户数据存储</li><li>Firebase Cloud Messaging：用于推送通知发送</li></ul></li><li><strong>Google AdMob</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>用于广告服务提供（广告标识符等）</li></ul></li>"
     },
     "section5": {
       "title": "第5条（个人信息处理委托）",
       "intro1": "① <strong>PushShare</strong>为改善服务，将个人信息处理业务委托如下：",
       "item1": "<strong>Google Firebase</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>委托业务内容：数据存储及认证服务</li><li>委托期限：服务提供期间</li></ul>",
       "item2": "<strong>RevenueCat</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>委托业务内容：订阅管理服务</li><li>委托期限：订阅服务提供期间</li></ul>",
-      "intro2": "② <strong>PushShare</strong>在签订委托合同时，根据《个人信息保护法》第26条，在合同等文件中明确规定禁止将个人信息用于委托业务执行目的以外、技术性·管理性保护措施、再委托限制、对受托人的管理·监督、损害赔偿等责任相关事项，并监督受托人是否安全处理个人信息。"
+      "intro2": "② <strong>PushShare</strong>在签订委托合同时，根据《个人信息保护法》第26条，在合同等文件中明确规定禁止将个人信息用于委托业务执行目的以外、技术性·管理性保护措施、再委托限制、对受托人的管理·监督、损害赔偿等责任相关事项，并监督受托人是否安全处理个人信息。",
+      "items": "<li><strong>Google Firebase</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>委托业务内容：数据存储及认证服务</li><li>委托期限：服务提供期间</li></ul></li><li><strong>RevenueCat</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>委托业务内容：订阅管理服务</li><li>委托期限：订阅服务提供期间</li></ul></li>"
     },
     "section6": {
       "title": "第6条（个人信息销毁程序及方法）",
       "intro1": "① <strong>PushShare</strong>对因保存期限届满或处理目的达成等而变得不必要的个人信息，将立即销毁。",
       "intro2": "② 销毁程序及方法：",
       "item1": "<strong>销毁程序</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>选定发生销毁事由的个人信息，经个人信息保护负责人批准后销毁</li></ul>",
-      "item2": "<strong>销毁方法</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>电子文件以无法恢复的方式永久删除</li><li>纸质文件粉碎或焚烧</li></ul>"
+      "item2": "<strong>销毁方法</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>电子文件以无法恢复的方式永久删除</li><li>纸质文件粉碎或焚烧</li></ul>",
+      "items": "<li><strong>销毁程序</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>选定发生销毁事由的个人信息，经个人信息保护负责人批准后销毁</li></ul></li><li><strong>销毁方法</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>电子文件以无法恢复的方式永久删除</li><li>纸质文件粉碎或焚烧</li></ul></li>"
     },
     "section7": {
       "title": "第7条（信息主体及法定代理人的权利·义务及行使方法）",
@@ -116,7 +121,8 @@
       "item1": "访问权限控制：将个人信息的访问权限限制在最少人员",
       "item2": "通过入侵防护系统进行外部访问控制",
       "item3": "加密：个人信息加密存储和传输",
-      "item4": "定期安全检查和审计"
+      "item4": "定期安全检查和审计",
+      "items": "<li>访问权限控制：将个人信息的访问权限限制在最少人员</li><li>通过入侵防护系统进行外部访问控制</li><li>加密：个人信息加密存储和传输</li><li>定期安全检查和审计</li>"
     },
     "section9": {
       "title": "第9条（Cookie使用情况）",
@@ -126,13 +132,15 @@
       "title": "第10条（个人信息保护负责人相关事项）",
       "intro": "▶ 个人信息保护负责人",
       "item1": "电子邮件：<a href=\"mailto:jj@dosusu.com\">jj@dosusu.com</a>",
-      "note": "※ 个人信息保护相关的咨询和投诉可通过上述电子邮件进行。"
+      "note": "※ 个人信息保护相关的咨询和投诉可通过上述电子邮件进行。",
+      "items": "<li>电子邮件：<a href=\"mailto:jj@dosusu.com\">jj@dosusu.com</a></li>"
     },
     "section11": {
       "title": "第11条（个人信息查阅申请受理·处理部门）",
       "intro1": "个人信息查阅要求由以下部门受理·处理。",
       "intro2": "<strong>PushShare</strong>将尽力迅速处理信息主体的查阅申请。",
-      "item1": "电子邮件：<a href=\"mailto:jj@dosusu.com\">jj@dosusu.com</a>"
+      "item1": "电子邮件：<a href=\"mailto:jj@dosusu.com\">jj@dosusu.com</a>",
+      "items": "<li>电子邮件：<a href=\"mailto:jj@dosusu.com\">jj@dosusu.com</a></li>"
     },
     "section12": {
       "title": "第12条（权益侵害的救济方法）",
@@ -142,7 +150,9 @@
       "item3": "最高检察院：1301 / <a href=\"http://www.spo.go.kr\" target=\"_blank\">www.spo.go.kr</a>",
       "item4": "警察厅：182 / <a href=\"http://ecrm.cyber.go.kr\" target=\"_blank\">ecrm.cyber.go.kr</a>",
       "intro2": "此外，因公共机构的处分或不作为导致权益受到侵害时，可申请行政复议。",
-      "item5": "中央行政复议委员会：<a href=\"http://www.simpan.go.kr\" target=\"_blank\">www.simpan.go.kr</a>"
+      "item5": "中央行政复议委员会：<a href=\"http://www.simpan.go.kr\" target=\"_blank\">www.simpan.go.kr</a>",
+      "items": "<li>个人信息争议调解委员会：1833-6972 / <a href=\"http://www.kopico.go.kr\" target=\"_blank\">www.kopico.go.kr</a></li><li>个人信息侵害举报中心：118 / <a href=\"http://privacy.kisa.or.kr\" target=\"_blank\">privacy.kisa.or.kr</a></li><li>最高检察院：1301 / <a href=\"http://www.spo.go.kr\" target=\"_blank\">www.spo.go.kr</a></li><li>警察厅：182 / <a href=\"http://ecrm.cyber.go.kr\" target=\"_blank\">ecrm.cyber.go.kr</a></li>",
+      "item5_html": "<li>中央行政复议委员会：<a href=\"http://www.simpan.go.kr\" target=\"_blank\">www.simpan.go.kr</a></li>"
     },
     "section13": {
       "title": "第13条（隐私政策变更）",
@@ -151,4 +161,3 @@
     }
   }
 }
-

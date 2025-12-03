@@ -75,7 +75,8 @@
       "item1": "<strong>會員認證資訊</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Firebase Authentication唯一ID（匿名識別符，無法直接識別個人）</li><li>※ 電子郵件地址僅用於Firebase Authentication認證，不儲存在PushShare的資料庫中。</li></ul>",
       "item2": "<strong>服務使用資訊</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>裝置資訊：裝置名稱、型號、製造商、裝置唯一ID</li><li>FCM令牌：用於推播通知傳送的令牌</li><li>使用者資料：免費推播使用次數、訂閱資訊、每日推播傳送次數</li><li>應用程式資訊：所選應用程式的套件名稱、應用程式名稱</li></ul>",
       "item3": "<strong>訂閱服務資訊</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>訂閱類型、訂閱到期日、RevenueCat客戶ID</li></ul>",
-      "note": "※ 上述資訊無法單獨識別特定個人。但是，我們僅收集服務提供所需的最少資訊。"
+      "note": "※ 上述資訊無法單獨識別特定個人。但是，我們僅收集服務提供所需的最少資訊。",
+      "items": "<li><strong>會員認證資訊</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Firebase Authentication唯一ID（匿名識別符，無法直接識別個人）</li><li>※ 電子郵件地址僅用於Firebase Authentication認證，不儲存在PushShare的資料庫中。</li></ul></li><li><strong>服務使用資訊</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>裝置資訊：裝置名稱、型號、製造商、裝置唯一ID</li><li>FCM令牌：用於推播通知傳送的令牌</li><li>使用者資料：免費推播使用次數、訂閱資訊、每日推播傳送次數</li><li>應用程式資訊：所選應用程式的套件名稱、應用程式名稱</li></ul></li><li><strong>訂閱服務資訊</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>訂閱類型、訂閱到期日、RevenueCat客戶ID</li></ul></li>"
     },
     "section4": {
       "title": "第4條（向第三方提供個人資料）",
@@ -84,21 +85,25 @@
       "item2": "根據法律規定，或為調查目的根據法律規定的程序和方法應調查機構要求的情況",
       "intro2": "② 為提供服務，透過以下服務提供商處理資訊：",
       "item3": "<strong>Google Firebase</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Firebase Authentication：用於使用者認證（電子郵件地址由Firebase管理）</li><li>Firebase Firestore：用於使用者資料儲存</li><li>Firebase Cloud Messaging：用於推播通知傳送</li></ul>",
-      "item4": "<strong>Google AdMob</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>用於廣告服務提供（廣告識別符等）</li></ul>"
+      "item4": "<strong>Google AdMob</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>用於廣告服務提供（廣告識別符等）</li></ul>",
+      "items1": "<li>資訊主體事先同意的情況</li><li>根據法律規定，或為調查目的根據法律規定的程序和方法應調查機構要求的情況</li>",
+      "items2": "<li><strong>Google Firebase</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Firebase Authentication：用於使用者認證（電子郵件地址由Firebase管理）</li><li>Firebase Firestore：用於使用者資料儲存</li><li>Firebase Cloud Messaging：用於推播通知傳送</li></ul></li><li><strong>Google AdMob</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>用於廣告服務提供（廣告識別符等）</li></ul></li>"
     },
     "section5": {
       "title": "第5條（個人資料處理委託）",
       "intro1": "① <strong>PushShare</strong>為改善服務，將個人資料處理業務委託如下：",
       "item1": "<strong>Google Firebase</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>委託業務內容：資料儲存及認證服務</li><li>委託期限：服務提供期間</li></ul>",
       "item2": "<strong>RevenueCat</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>委託業務內容：訂閱管理服務</li><li>委託期限：訂閱服務提供期間</li></ul>",
-      "intro2": "② <strong>PushShare</strong>在簽訂委託契約時，根據《個人資料保護法》第26條，在契約等文件中明確規定禁止將個人資料用於委託業務執行目的以外、技術性·管理性保護措施、再委託限制、對受託人的管理·監督、損害賠償等責任相關事項，並監督受託人是否安全處理個人資料。"
+      "intro2": "② <strong>PushShare</strong>在簽訂委託契約時，根據《個人資料保護法》第26條，在契約等文件中明確規定禁止將個人資料用於委託業務執行目的以外、技術性·管理性保護措施、再委託限制、對受託人的管理·監督、損害賠償等責任相關事項，並監督受託人是否安全處理個人資料。",
+      "items": "<li><strong>Google Firebase</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>委託業務內容：資料儲存及認證服務</li><li>委託期限：服務提供期間</li></ul></li><li><strong>RevenueCat</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>委託業務內容：訂閱管理服務</li><li>委託期限：訂閱服務提供期間</li></ul></li>"
     },
     "section6": {
       "title": "第6條（個人資料銷毀程序及方法）",
       "intro1": "① <strong>PushShare</strong>對因保存期限屆滿或處理目的達成等而變得不必要的個人資料，將立即銷毀。",
       "intro2": "② 銷毀程序及方法：",
       "item1": "<strong>銷毀程序</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>選定發生銷毀事由的個人資料，經個人資料保護負責人批准後銷毀</li></ul>",
-      "item2": "<strong>銷毀方法</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>電子檔案以無法恢復的方式永久刪除</li><li>紙質文件粉碎或焚燒</li></ul>"
+      "item2": "<strong>銷毀方法</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>電子檔案以無法恢復的方式永久刪除</li><li>紙質文件粉碎或焚燒</li></ul>",
+      "items": "<li><strong>銷毀程序</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>選定發生銷毀事由的個人資料，經個人資料保護負責人批准後銷毀</li></ul></li><li><strong>銷毀方法</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>電子檔案以無法恢復的方式永久刪除</li><li>紙質文件粉碎或焚燒</li></ul></li>"
     },
     "section7": {
       "title": "第7條（資訊主體及法定代理人的權利·義務及行使方法）",
@@ -116,7 +121,8 @@
       "item1": "存取權限控制：將個人資料的存取權限限制在最少人員",
       "item2": "透過入侵防護系統進行外部存取控制",
       "item3": "加密：個人資料加密儲存和傳輸",
-      "item4": "定期安全檢查和審計"
+      "item4": "定期安全檢查和審計",
+      "items": "<li>存取權限控制：將個人資料的存取權限限制在最少人員</li><li>透過入侵防護系統進行外部存取控制</li><li>加密：個人資料加密儲存和傳輸</li><li>定期安全檢查和審計</li>"
     },
     "section9": {
       "title": "第9條（Cookie使用情況）",
@@ -126,13 +132,15 @@
       "title": "第10條（個人資料保護負責人相關事項）",
       "intro": "▶ 個人資料保護負責人",
       "item1": "電子郵件：<a href=\"mailto:jj@dosusu.com\">jj@dosusu.com</a>",
-      "note": "※ 個人資料保護相關的諮詢和投訴可透過上述電子郵件進行。"
+      "note": "※ 個人資料保護相關的諮詢和投訴可透過上述電子郵件進行。",
+      "items": "<li>電子郵件：<a href=\"mailto:jj@dosusu.com\">jj@dosusu.com</a></li>"
     },
     "section11": {
       "title": "第11條（個人資料查閱申請受理·處理部門）",
       "intro1": "個人資料查閱要求由以下部門受理·處理。",
       "intro2": "<strong>PushShare</strong>將盡力迅速處理資訊主體的查閱申請。",
-      "item1": "電子郵件：<a href=\"mailto:jj@dosusu.com\">jj@dosusu.com</a>"
+      "item1": "電子郵件：<a href=\"mailto:jj@dosusu.com\">jj@dosusu.com</a>",
+      "items": "<li>電子郵件：<a href=\"mailto:jj@dosusu.com\">jj@dosusu.com</a></li>"
     },
     "section12": {
       "title": "第12條（權益侵害的救濟方法）",
@@ -142,7 +150,9 @@
       "item3": "最高檢察署：1301 / <a href=\"http://www.spo.go.kr\" target=\"_blank\">www.spo.go.kr</a>",
       "item4": "警察廳：182 / <a href=\"http://ecrm.cyber.go.kr\" target=\"_blank\">ecrm.cyber.go.kr</a>",
       "intro2": "此外，因公共機構的處分或不作為導致權益受到侵害時，可申請行政救濟。",
-      "item5": "中央行政救濟委員會：<a href=\"http://www.simpan.go.kr\" target=\"_blank\">www.simpan.go.kr</a>"
+      "item5": "中央行政救濟委員會：<a href=\"http://www.simpan.go.kr\" target=\"_blank\">www.simpan.go.kr</a>",
+      "items": "<li>個人資料爭議調解委員會：1833-6972 / <a href=\"http://www.kopico.go.kr\" target=\"_blank\">www.kopico.go.kr</a></li><li>個人資料侵害舉報中心：118 / <a href=\"http://privacy.kisa.or.kr\" target=\"_blank\">privacy.kisa.or.kr</a></li><li>最高檢察署：1301 / <a href=\"http://www.spo.go.kr\" target=\"_blank\">www.spo.go.kr</a></li><li>警察廳：182 / <a href=\"http://ecrm.cyber.go.kr\" target=\"_blank\">ecrm.cyber.go.kr</a></li>",
+      "item5_html": "<li>中央行政救濟委員會：<a href=\"http://www.simpan.go.kr\" target=\"_blank\">www.simpan.go.kr</a></li>"
     },
     "section13": {
       "title": "第13條（隱私政策變更）",
@@ -151,4 +161,3 @@
     }
   }
 }
-

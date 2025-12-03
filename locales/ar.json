@@ -75,7 +75,8 @@
       "item1": "<strong>Member Authentication Information</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Firebase Authentication unique ID (anonymous identifier, cannot directly identify individuals)</li><li>※ Email addresses are used only for Firebase Authentication and are not stored in PushShare's database.</li></ul>",
       "item2": "<strong>Service Usage Information</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Device information: Device name, model name, manufacturer, device unique ID</li><li>FCM token: Token for push notification delivery</li><li>User profile: Free push usage count, subscription information, daily push delivery count</li><li>App information: Package name and app name of selected apps</li></ul>",
       "item3": "<strong>Subscription Service Information</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Subscription type, subscription expiration date, RevenueCat customer ID</li></ul>",
-      "note": "※ The above information cannot identify specific individuals on its own. However, we collect only the minimum information necessary for service provision."
+      "note": "※ The above information cannot identify specific individuals on its own. However, we collect only the minimum information necessary for service provision.",
+      "items": "<li><strong>Member Authentication Information</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Firebase Authentication unique ID (anonymous identifier, cannot directly identify individuals)</li><li>※ Email addresses are used only for Firebase Authentication and are not stored in PushShare's database.</li></ul></li><li><strong>Service Usage Information</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Device information: Device name, model name, manufacturer, device unique ID</li><li>FCM token: Token for push notification delivery</li><li>User profile: Free push usage count, subscription information, daily push delivery count</li><li>App information: Package name and app name of selected apps</li></ul></li><li><strong>Subscription Service Information</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Subscription type, subscription expiration date, RevenueCat customer ID</li></ul></li>"
     },
     "section4": {
       "title": "Article 4 (Provision of Personal Information to Third Parties)",
@@ -84,21 +85,25 @@
       "item2": "When required by law or when requested by investigative agencies in accordance with procedures and methods prescribed by law for investigative purposes",
       "intro2": "② Information is processed through the following service providers for service provision:",
       "item3": "<strong>Google Firebase</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Firebase Authentication: Used for user authentication (email addresses are managed by Firebase)</li><li>Firebase Firestore: Used for user data storage</li><li>Firebase Cloud Messaging: Used for push notification delivery</li></ul>",
-      "item4": "<strong>Google AdMob</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Used for advertising service provision (advertising identifiers, etc.)</li></ul>"
+      "item4": "<strong>Google AdMob</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Used for advertising service provision (advertising identifiers, etc.)</li></ul>",
+      "items1": "<li>When the data subject has given prior consent</li><li>When required by law or when requested by investigative agencies in accordance with procedures and methods prescribed by law for investigative purposes</li>",
+      "items2": "<li><strong>Google Firebase</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Firebase Authentication: Used for user authentication (email addresses are managed by Firebase)</li><li>Firebase Firestore: Used for user data storage</li><li>Firebase Cloud Messaging: Used for push notification delivery</li></ul></li><li><strong>Google AdMob</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Used for advertising service provision (advertising identifiers, etc.)</li></ul></li>"
     },
     "section5": {
       "title": "Article 5 (Entrustment of Personal Information Processing)",
       "intro1": "① <strong>PushShare</strong> entrusts personal information processing tasks as follows for service improvement:",
       "item1": "<strong>Google Firebase</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Entrusted Tasks: Data storage and authentication services</li><li>Entrustment Period: During the service provision period</li></ul>",
       "item2": "<strong>RevenueCat</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Entrusted Tasks: Subscription management services</li><li>Entrustment Period: During the subscription service provision period</li></ul>",
-      "intro2": "② When entering into entrustment contracts, <strong>PushShare</strong> specifies in documents such as contracts matters related to prohibition of personal information processing for purposes other than the entrusted tasks, technical and administrative protection measures, restrictions on re-entrustment, management and supervision of trustees, and liability for damages in accordance with Article 26 of the Personal Information Protection Act, and supervises whether trustees safely process personal information."
+      "intro2": "② When entering into entrustment contracts, <strong>PushShare</strong> specifies in documents such as contracts matters related to prohibition of personal information processing for purposes other than the entrusted tasks, technical and administrative protection measures, restrictions on re-entrustment, management and supervision of trustees, and liability for damages in accordance with Article 26 of the Personal Information Protection Act, and supervises whether trustees safely process personal information.",
+      "items": "<li><strong>Google Firebase</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Entrusted Tasks: Data storage and authentication services</li><li>Entrustment Period: During the service provision period</li></ul></li><li><strong>RevenueCat</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Entrusted Tasks: Subscription management services</li><li>Entrustment Period: During the subscription service provision period</li></ul></li>"
     },
     "section6": {
       "title": "Article 6 (Procedures and Methods for Destruction of Personal Information)",
       "intro1": "① <strong>PushShare</strong> destroys personal information without delay when it becomes unnecessary due to the expiration of the retention period or achievement of the processing purpose.",
       "intro2": "② Procedures and methods for destruction:",
       "item1": "<strong>Destruction Procedures</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Select personal information for which destruction reasons have occurred and destroy it after obtaining approval from the personal information protection officer</li></ul>",
-      "item2": "<strong>Destruction Methods</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Electronic files are permanently deleted in an irrecoverable manner</li><li>Paper documents are shredded or incinerated</li></ul>"
+      "item2": "<strong>Destruction Methods</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Electronic files are permanently deleted in an irrecoverable manner</li><li>Paper documents are shredded or incinerated</li></ul>",
+      "items": "<li><strong>Destruction Procedures</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Select personal information for which destruction reasons have occurred and destroy it after obtaining approval from the personal information protection officer</li></ul></li><li><strong>Destruction Methods</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Electronic files are permanently deleted in an irrecoverable manner</li><li>Paper documents are shredded or incinerated</li></ul></li>"
     },
     "section7": {
       "title": "Article 7 (Rights and Obligations of Data Subjects and Legal Representatives and Methods of Exercise)",
@@ -116,7 +121,8 @@
       "item1": "Access Control: Restricting access to personal information to a minimum number of personnel",
       "item2": "External access control through intrusion prevention systems",
       "item3": "Encryption: Personal information is encrypted for storage and transmission",
-      "item4": "Regular security inspections and audits"
+      "item4": "Regular security inspections and audits",
+      "items": "<li>Access Control: Restricting access to personal information to a minimum number of personnel</li><li>External access control through intrusion prevention systems</li><li>Encryption: Personal information is encrypted for storage and transmission</li><li>Regular security inspections and audits</li>"
     },
     "section9": {
       "title": "Article 9 (Use of Cookies)",
@@ -126,13 +132,15 @@
       "title": "Article 10 (Personal Information Protection Officer)",
       "intro": "▶ Personal Information Protection Officer",
       "item1": "Email: <a href=\"mailto:jj@dosusu.com\">jj@dosusu.com</a>",
-      "note": "※ Inquiries and complaints related to personal information protection can be made to the above email address."
+      "note": "※ Inquiries and complaints related to personal information protection can be made to the above email address.",
+      "items": "<li>Email: <a href=\"mailto:jj@dosusu.com\">jj@dosusu.com</a></li>"
     },
     "section11": {
       "title": "Article 11 (Department for Receiving and Processing Personal Information Access Requests)",
       "intro1": "Personal information access requests are received and processed by the department below.",
       "intro2": "<strong>PushShare</strong> will do its best to promptly process data subjects' access requests.",
-      "item1": "Email: <a href=\"mailto:jj@dosusu.com\">jj@dosusu.com</a>"
+      "item1": "Email: <a href=\"mailto:jj@dosusu.com\">jj@dosusu.com</a>",
+      "items": "<li>Email: <a href=\"mailto:jj@dosusu.com\">jj@dosusu.com</a></li>"
     },
     "section12": {
       "title": "Article 12 (Remedies for Infringement of Rights and Interests)",
@@ -142,7 +150,9 @@
       "item3": "Supreme Prosecutors' Office: 1301 / <a href=\"http://www.spo.go.kr\" target=\"_blank\">www.spo.go.kr</a>",
       "item4": "National Police Agency: 182 / <a href=\"http://ecrm.cyber.go.kr\" target=\"_blank\">ecrm.cyber.go.kr</a>",
       "intro2": "In addition, administrative appeals can be filed when rights and interests are infringed due to the disposition or inaction of public institutions.",
-      "item5": "Central Administrative Appeals Commission: <a href=\"http://www.simpan.go.kr\" target=\"_blank\">www.simpan.go.kr</a>"
+      "item5": "Central Administrative Appeals Commission: <a href=\"http://www.simpan.go.kr\" target=\"_blank\">www.simpan.go.kr</a>",
+      "items": "<li>Personal Information Dispute Mediation Committee: 1833-6972 / <a href=\"http://www.kopico.go.kr\" target=\"_blank\">www.kopico.go.kr</a></li><li>Personal Information Infringement Report Center: 118 / <a href=\"http://privacy.kisa.or.kr\" target=\"_blank\">privacy.kisa.or.kr</a></li><li>Supreme Prosecutors' Office: 1301 / <a href=\"http://www.spo.go.kr\" target=\"_blank\">www.spo.go.kr</a></li><li>National Police Agency: 182 / <a href=\"http://ecrm.cyber.go.kr\" target=\"_blank\">ecrm.cyber.go.kr</a></li>",
+      "item5_html": "<li>Central Administrative Appeals Commission: <a href=\"http://www.simpan.go.kr\" target=\"_blank\">www.simpan.go.kr</a></li>"
     },
     "section13": {
       "title": "Article 13 (Changes to Privacy Policy)",
