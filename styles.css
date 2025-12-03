@@ -49,6 +49,17 @@ header h1 {
     font-size: 1.5rem;
     color: var(--primary-color);
     font-weight: 700;
+    margin: 0;
+}
+
+header h1 .logo-link {
+    color: var(--primary-color);
+    text-decoration: none;
+    transition: opacity 0.3s;
+}
+
+header h1 .logo-link:hover {
+    opacity: 0.8;
 }
 
 nav {
