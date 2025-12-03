@@ -58,10 +58,7 @@
     "section1": {
       "title": "第1条（個人情報の処理目的）",
       "intro": "<strong>PushShare</strong>は、以下の目的のために個人情報を処理します。処理している個人情報は、以下の目的以外の用途には使用されず、利用目的が変更される場合は、個人情報保護法第18条に基づき、別途同意を得るなど必要な措置を実施する予定です。",
-      "item1": "<strong>会員登録および管理</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>会員制サービス提供に伴う本人識別・認証の目的</li><li>サービス利用に伴う本人確認</li></ul>",
-      "item2": "<strong>サービス提供</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>プッシュ通知送信サービス提供</li><li>デバイス間プッシュ通知共有サービス提供</li><li>サブスクリプションサービス提供および管理</li></ul>",
-      "item3": "<strong>マーケティングおよび広告への活用</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>広告サービス提供（Google AdMob）</li></ul>",
-      "item4": "<strong>お客様からのお問い合わせおよび苦情処理</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>お客様からのお問い合わせへの対応および処理</li></ul>"
+      "items": "<li><strong>会員登録および管理</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>会員制サービス提供に伴う本人識別・認証の目的</li><li>サービス利用に伴う本人確認</li></ul></li><li><strong>サービス提供</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>プッシュ通知送信サービス提供</li><li>デバイス間プッシュ通知共有サービス提供</li><li>サブスクリプションサービス提供および管理</li></ul></li><li><strong>マーケティングおよび広告への活用</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>広告サービス提供（Google AdMob）</li></ul></li><li><strong>お客様からのお問い合わせおよび苦情処理</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>お客様からのお問い合わせへの対応および処理</li></ul></li>"
     },
     "section2": {
       "title": "第2条（個人情報の処理および保有期間）",

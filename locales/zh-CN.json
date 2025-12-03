@@ -58,10 +58,7 @@
     "section1": {
       "title": "第1条（个人信息处理目的）",
       "intro": "<strong>PushShare</strong>为以下目的处理个人信息。正在处理的个人信息不会用于以下目的以外的用途，如使用目的发生变更，将根据《个人信息保护法》第18条采取获得单独同意等必要措施。",
-      "item1": "<strong>会员注册及管理</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>提供会员制服务所需的身份识别和认证</li><li>服务使用时的身份确认</li></ul>",
-      "item2": "<strong>服务提供</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>推送通知发送服务</li><li>设备间推送通知共享服务</li><li>订阅服务提供及管理</li></ul>",
-      "item3": "<strong>营销及广告</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>广告服务提供（Google AdMob）</li></ul>",
-      "item4": "<strong>客户咨询及投诉处理</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>客户咨询的响应和处理</li></ul>"
+      "items": "<li><strong>会员注册及管理</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>提供会员制服务所需的身份识别和认证</li><li>服务使用时的身份确认</li></ul></li><li><strong>服务提供</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>推送通知发送服务</li><li>设备间推送通知共享服务</li><li>订阅服务提供及管理</li></ul></li><li><strong>营销及广告</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>广告服务提供（Google AdMob）</li></ul></li><li><strong>客户咨询及投诉处理</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>客户咨询的响应和处理</li></ul></li>"
     },
     "section2": {
       "title": "第2条（个人信息的处理及保存期限）",

@@ -58,10 +58,7 @@
     "section1": {
       "title": "第1條（個人資料處理目的）",
       "intro": "<strong>PushShare</strong>為以下目的處理個人資料。正在處理的個人資料不會用於以下目的以外的用途，如使用目的發生變更，將根據《個人資料保護法》第18條採取獲得單獨同意等必要措施。",
-      "item1": "<strong>會員註冊及管理</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>提供會員制服務所需的身分識別和認證</li><li>服務使用時的身分確認</li></ul>",
-      "item2": "<strong>服務提供</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>推播通知傳送服務</li><li>裝置間推播通知共享服務</li><li>訂閱服務提供及管理</li></ul>",
-      "item3": "<strong>行銷及廣告</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>廣告服務提供（Google AdMob）</li></ul>",
-      "item4": "<strong>客戶諮詢及投訴處理</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>客戶諮詢的回應和處理</li></ul>"
+      "items": "<li><strong>會員註冊及管理</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>提供會員制服務所需的身分識別和認證</li><li>服務使用時的身分確認</li></ul></li><li><strong>服務提供</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>推播通知傳送服務</li><li>裝置間推播通知共享服務</li><li>訂閱服務提供及管理</li></ul></li><li><strong>行銷及廣告</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>廣告服務提供（Google AdMob）</li></ul></li><li><strong>客戶諮詢及投訴處理</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>客戶諮詢的回應和處理</li></ul></li>"
     },
     "section2": {
       "title": "第2條（個人資料的處理及保存期限）",

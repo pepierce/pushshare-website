@@ -58,10 +58,7 @@
     "section1": {
       "title": "Article 1 (Purpose of Processing Personal Information)",
       "intro": "<strong>PushShare</strong> processes personal information for the following purposes. The personal information being processed is not used for purposes other than those stated below, and if the purpose of use changes, we will take necessary measures such as obtaining separate consent in accordance with Article 18 of the Personal Information Protection Act.",
-      "item1": "<strong>Member Registration and Management</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Purpose of identity verification and authentication for membership services</li><li>Identity verification for service use</li></ul>",
-      "item2": "<strong>Service Provision</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Push notification delivery service</li><li>Cross-device push notification sharing service</li><li>Subscription service provision and management</li></ul>",
-      "item3": "<strong>Marketing and Advertising</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Advertising service provision (Google AdMob)</li></ul>",
-      "item4": "<strong>Customer Inquiries and Complaint Handling</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Response to and handling of customer inquiries</li></ul>"
+      "items": "<li><strong>Member Registration and Management</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Purpose of identity verification and authentication for membership services</li><li>Identity verification for service use</li></ul></li><li><strong>Service Provision</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Push notification delivery service</li><li>Cross-device push notification sharing service</li><li>Subscription service provision and management</li></ul></li><li><strong>Marketing and Advertising</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Advertising service provision (Google AdMob)</li></ul></li><li><strong>Customer Inquiries and Complaint Handling</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Response to and handling of customer inquiries</li></ul></li>"
     },
     "section2": {
       "title": "Article 2 (Processing and Retention Period of Personal Information)",
