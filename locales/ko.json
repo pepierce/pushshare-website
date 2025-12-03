@@ -58,10 +58,7 @@
     "section1": {
       "title": "제1조(개인정보의 처리 목적)",
       "intro": "<strong>PushShare</strong>는 다음의 목적을 위하여 개인정보를 처리합니다. 처리하고 있는 개인정보는 다음의 목적 이외의 용도로는 이용되지 않으며, 이용 목적이 변경되는 경우에는 「개인정보 보호법」 제18조에 따라 별도의 동의를 받는 등 필요한 조치를 이행할 예정입니다.",
-      "item1": "<strong>회원가입 및 관리</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>회원제 서비스 제공에 따른 본인 식별·인증 목적</li><li>서비스 이용에 따른 본인 확인</li></ul>",
-      "item2": "<strong>서비스 제공</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>푸시 알림 전송 서비스 제공</li><li>기기 간 푸시 알림 공유 서비스 제공</li><li>구독 서비스 제공 및 관리</li></ul>",
-      "item3": "<strong>마케팅 및 광고에 활용</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>광고 서비스 제공 (Google AdMob)</li></ul>",
-      "item4": "<strong>고객 문의 및 불만 처리</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>고객 문의사항 응대 및 처리</li></ul>"
+      "items": "<li><strong>회원가입 및 관리</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>회원제 서비스 제공에 따른 본인 식별·인증 목적</li><li>서비스 이용에 따른 본인 확인</li></ul></li><li><strong>서비스 제공</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>푸시 알림 전송 서비스 제공</li><li>기기 간 푸시 알림 공유 서비스 제공</li><li>구독 서비스 제공 및 관리</li></ul></li><li><strong>마케팅 및 광고에 활용</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>광고 서비스 제공 (Google AdMob)</li></ul></li><li><strong>고객 문의 및 불만 처리</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>고객 문의사항 응대 및 처리</li></ul></li>"
     },
     "section2": {
       "title": "제2조(개인정보의 처리 및 보유 기간)",
