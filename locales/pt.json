@@ -49,6 +49,106 @@
     "copyright": "© {{year}} {{companyName}}. Todos os direitos reservados.",
     "privacy": "Política de Privacidade",
     "terms": "Termos de Serviço"
+  },
+  "privacy": {
+    "title": "Política de Privacidade",
+    "lastUpdated": "Última atualização: 3 de dezembro de 2025",
+    "effectiveDate": "Esta Política de Privacidade entra em vigor em 3 de dezembro de 2025.",
+    "intro": "<strong>PushShare</strong> ('https://pushshare.app', doravante referido como <strong>'PushShare'</strong>) estabelece e divulga esta Política de Privacidade de acordo com o Artigo 30 da Lei de Proteção de Dados Pessoais para proteger as informações pessoais dos titulares dos dados e lidar com reclamações relacionadas de forma rápida e eficiente.",
+    "section1": {
+      "title": "Artigo 1 (Finalidade do Tratamento de Informações Pessoais)",
+      "intro": "<strong>PushShare</strong> processa informações pessoais para os seguintes propósitos. As informações pessoais processadas não são usadas para outros fins além dos indicados abaixo, e se o propósito de uso mudar, tomaremos as medidas necessárias, incluindo obter consentimento separado de acordo com o Artigo 18 da Lei de Proteção de Dados Pessoais.",
+      "items": "<li><strong>Registro e Gerenciamento de Membros</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Finalidade de verificação de identidade e autenticação para serviços de assinatura</li><li>Verificação de identidade para uso do serviço</li></ul></li><li><strong>Prestação de Serviços</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Serviço de entrega de notificações push</li><li>Serviço de compartilhamento de notificações push entre dispositivos</li><li>Prestação e gerenciamento de serviços de assinatura</li></ul></li><li><strong>Marketing e Publicidade</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Prestação de serviços publicitários (Google AdMob)</li></ul></li><li><strong>Tratamento de Consultas e Reclamações de Clientes</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Resposta e tratamento de consultas de clientes</li></ul></li>"
+    },
+    "section2": {
+      "title": "Artigo 2 (Período de Tratamento e Retenção de Informações Pessoais)",
+      "intro1": "① <strong>PushShare</strong> processa e retém informações pessoais dentro do período de retenção e uso de informações pessoais sob as leis aplicáveis ou o período acordado ao coletar informações pessoais do titular dos dados.",
+      "intro2": "② O período de tratamento e retenção para cada tipo de informação pessoal é o seguinte:",
+      "items": "<li><strong>Informações de Autenticação de Membros</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Período de Retenção: Durante o período de uso do serviço</li><li>Base para Retenção: Necessário para prestação de serviços e execução de contratos</li><li>※ Nota: PushShare não armazena endereços de e-mail dos usuários em seu próprio banco de dados. Os endereços de e-mail são usados apenas para Firebase Authentication e são gerenciados pelo sistema de autenticação do Firebase.</li></ul></li><li><strong>Informações do Dispositivo</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Período de Retenção: Até a exclusão do aplicativo ou mediante solicitação do usuário</li><li>Base para Retenção: Informações de identificação do dispositivo para entrega de notificações push, que se tornam sem significado quando o aplicativo é excluído, pois não está mais conectado</li></ul></li><li><strong>Informações de Uso do Serviço</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Período de Retenção: Durante o período de uso do serviço ou mediante solicitação do usuário</li><li>Base para Retenção: Necessário para prestação de serviços</li></ul></li><li><strong>Informações de Assinatura</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Período de Retenção: 5 anos após o cancelamento da assinatura (retenção de registros relacionados a contratos ou cancelamentos de assinatura)</li><li>Base para Retenção: Obrigação legal sob as leis aplicáveis</li></ul></li>",
+      "note": "<strong>※ Aviso sobre Exclusão de Conta e Exclusão de Dados</strong><br>PushShare não fornece uma função de exclusão de conta separada porque não armazenamos informações que possam identificar pessoalmente os usuários. As informações armazenadas são dados anônimos que não podem identificar indivíduos específicos por si só, e permanecem simplesmente como dados fictícios sem um propósito de prestação de serviço. No entanto, se os usuários solicitarem a exclusão de dados, excluiremos os dados relevantes mediante solicitação por e-mail (jj@dosusu.com).",
+      "intro3": "③ Leis Aplicáveis:",
+      "laws": "<li>Registros sobre exibição/publicidade: 6 meses</li><li>Registros sobre contratos ou cancelamentos de assinatura: 5 anos</li>"
+    },
+    "section3": {
+      "title": "Artigo 3 (Itens de Informações Pessoais Processadas)",
+      "intro": "<strong>PushShare</strong> processa as seguintes informações:",
+      "item1": "<strong>Informações de Autenticação de Membros</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>ID exclusivo do Firebase Authentication (identificador anônimo, não pode identificar diretamente indivíduos)</li><li>※ Os endereços de e-mail são usados apenas para Firebase Authentication e não são armazenados no banco de dados do PushShare.</li></ul>",
+      "item2": "<strong>Informações de Uso do Serviço</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Informações do dispositivo: Nome do dispositivo, nome do modelo, fabricante, ID exclusivo do dispositivo</li><li>Token FCM: Token para entrega de notificações push</li><li>Perfil do usuário: Contagem de uso de push gratuito, informações de assinatura, contagem diária de entrega de push</li><li>Informações do aplicativo: Nome do pacote e nome do aplicativo dos aplicativos selecionados</li></ul>",
+      "item3": "<strong>Informações do Serviço de Assinatura</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Tipo de assinatura, data de expiração da assinatura, ID do cliente RevenueCat</li></ul>",
+      "note": "※ As informações acima não podem identificar indivíduos específicos por si só. No entanto, coletamos apenas as informações mínimas necessárias para prestação de serviços."
+    },
+    "section4": {
+      "title": "Artigo 4 (Fornecimento de Informações Pessoais a Terceiros)",
+      "intro1": "① <strong>PushShare</strong> não fornece informações pessoais dos titulares dos dados a terceiros em princípio. No entanto, exceções são feitas nos seguintes casos:",
+      "item1": "Quando o titular dos dados deu consentimento prévio",
+      "item2": "Quando exigido por lei ou quando solicitado por agências de investigação de acordo com procedimentos e métodos prescritos por lei para fins de investigação",
+      "intro2": "② As informações são processadas através dos seguintes provedores de serviços para prestação de serviços:",
+      "item3": "<strong>Google Firebase</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Firebase Authentication: Usado para autenticação de usuários (endereços de e-mail são gerenciados pelo Firebase)</li><li>Firebase Firestore: Usado para armazenamento de dados do usuário</li><li>Firebase Cloud Messaging: Usado para entrega de notificações push</li></ul>",
+      "item4": "<strong>Google AdMob</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Usado para prestação de serviços publicitários (identificadores publicitários, etc.)</li></ul>"
+    },
+    "section5": {
+      "title": "Artigo 5 (Encargo do Tratamento de Informações Pessoais)",
+      "intro1": "① <strong>PushShare</strong> encarrega tarefas de tratamento de informações pessoais da seguinte forma para melhoria do serviço:",
+      "item1": "<strong>Google Firebase</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Tarefas Encargadas: Serviços de armazenamento de dados e autenticação</li><li>Período de Encargo: Durante o período de prestação de serviços</li></ul>",
+      "item2": "<strong>RevenueCat</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Tarefas Encargadas: Serviços de gerenciamento de assinaturas</li><li>Período de Encargo: Durante o período de prestação de serviços de assinatura</li></ul>",
+      "intro2": "② Ao celebrar contratos de encargo, <strong>PushShare</strong> especifica em documentos como contratos questões relacionadas à proibição de tratamento de informações pessoais para fins diferentes das tarefas encarregadas, medidas de proteção técnicas e administrativas, restrições sobre re-encargo, gerenciamento e supervisão dos encarregados, e responsabilidade por danos de acordo com o Artigo 26 da Lei de Proteção de Dados Pessoais, e supervisiona se os encarregados processam informações pessoais com segurança."
+    },
+    "section6": {
+      "title": "Artigo 6 (Procedimentos e Métodos para Destruição de Informações Pessoais)",
+      "intro1": "① <strong>PushShare</strong> destrói informações pessoais sem demora quando se tornam desnecessárias devido à expiração do período de retenção ou realização do propósito de tratamento.",
+      "intro2": "② Procedimentos e métodos para destruição:",
+      "item1": "<strong>Procedimentos de Destruição</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Selecionar informações pessoais para as quais ocorreram razões de destruição e destruí-las após obter aprovação do oficial de proteção de informações pessoais</li></ul>",
+      "item2": "<strong>Métodos de Destruição</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Arquivos eletrônicos são permanentemente excluídos de forma irrecuperável</li><li>Documentos em papel são triturados ou incinerados</li></ul>"
+    },
+    "section7": {
+      "title": "Artigo 7 (Direitos e Obrigações dos Titulares dos Dados e Representantes Legais e Métodos de Exercício)",
+      "intro1": "① Os titulares dos dados podem solicitar acesso, correção, exclusão ou suspensão do tratamento de suas informações pessoais de <strong>PushShare</strong> a qualquer momento.",
+      "intro2": "② O exercício dos direitos acima pode ser feito por e-mail (jj@dosusu.com), e <strong>PushShare</strong> tomará medidas sem demora.",
+      "intro3": "③ No entanto, como PushShare não armazena informações que possam identificar pessoalmente os usuários, os dados armazenados são dados fictícios anônimos. Se os usuários solicitarem exclusão, verificaremos a identidade através das informações da conta do Firebase Authentication e excluiremos todos os dados associados a esse usuário.",
+      "intro4": "④ Ao exercer direitos através de um representante, um poder notarial deve ser apresentado.",
+      "intro5": "⑤ Solicitações de acesso e suspensão do tratamento podem ser restritas sob o Artigo 35(4) e Artigo 37(2) da lei.",
+      "intro6": "⑥ Solicitações de correção e exclusão podem ser restritas quando explicitamente indicadas como alvos de coleta em outras leis.",
+      "intro7": "⑦ Procedimentos de verificação de identidade são conduzidos ao exercer direitos para confirmar se a pessoa é o titular dos dados ou um representante legítimo."
+    },
+    "section8": {
+      "title": "Artigo 8 (Medidas para Garantir a Segurança de Informações Pessoais)",
+      "intro": "<strong>PushShare</strong> toma as seguintes medidas para garantir a segurança das informações pessoais:",
+      "item1": "Controle de Acesso: Restringir o acesso a informações pessoais a um número mínimo de pessoal",
+      "item2": "Controle de acesso externo através de sistemas de prevenção de intrusão",
+      "item3": "Criptografia: Informações pessoais são criptografadas para armazenamento e transmissão",
+      "item4": "Inspeções e auditorias de segurança regulares"
+    },
+    "section9": {
+      "title": "Artigo 9 (Uso de Cookies)",
+      "content": "<strong>PushShare</strong> não usa cookies."
+    },
+    "section10": {
+      "title": "Artigo 10 (Oficial de Proteção de Informações Pessoais)",
+      "intro": "▶ Oficial de Proteção de Informações Pessoais",
+      "item1": "E-mail: <a href=\"mailto:jj@dosusu.com\">jj@dosusu.com</a>",
+      "note": "※ Consultas e reclamações relacionadas à proteção de informações pessoais podem ser feitas ao endereço de e-mail acima."
+    },
+    "section11": {
+      "title": "Artigo 11 (Departamento para Receber e Processar Solicitações de Acesso a Informações Pessoais)",
+      "intro1": "Solicitações de acesso a informações pessoais são recebidas e processadas pelo departamento abaixo.",
+      "intro2": "<strong>PushShare</strong> fará o seu melhor para processar prontamente as solicitações de acesso dos titulares dos dados.",
+      "item1": "E-mail: <a href=\"mailto:jj@dosusu.com\">jj@dosusu.com</a>"
+    },
+    "section12": {
+      "title": "Artigo 12 (Remédios para Violação de Direitos e Interesses)",
+      "intro": "Os titulares dos dados podem solicitar resolução de disputas ou aconselhamento relacionado à violação de informações pessoais através das seguintes instituições:",
+      "item1": "Comitê de Mediação de Disputas de Informações Pessoais: 1833-6972 / <a href=\"http://www.kopico.go.kr\" target=\"_blank\">www.kopico.go.kr</a>",
+      "item2": "Centro de Relatório de Violação de Informações Pessoais: 118 / <a href=\"http://privacy.kisa.or.kr\" target=\"_blank\">privacy.kisa.or.kr</a>",
+      "item3": "Escritório do Procurador-Geral: 1301 / <a href=\"http://www.spo.go.kr\" target=\"_blank\">www.spo.go.kr</a>",
+      "item4": "Agência Nacional de Polícia: 182 / <a href=\"http://ecrm.cyber.go.kr\" target=\"_blank\">ecrm.cyber.go.kr</a>",
+      "intro2": "Além disso, recursos administrativos podem ser apresentados quando direitos e interesses são violados devido à disposição ou inação de instituições públicas.",
+      "item5": "Comissão Central de Recursos Administrativos: <a href=\"http://www.simpan.go.kr\" target=\"_blank\">www.simpan.go.kr</a>"
+    },
+    "section13": {
+      "title": "Artigo 13 (Alterações na Política de Privacidade)",
+      "intro1": "Esta Política de Privacidade entra em vigor em <strong>3 de dezembro de 2025</strong>.",
+      "intro2": "Se houver adições, exclusões ou modificações ao conteúdo devido a mudanças em leis, políticas ou tecnologias de segurança, notificaremos você através do aviso no site pelo menos 7 dias antes da implementação das mudanças."
+    }
   }
 }
 
