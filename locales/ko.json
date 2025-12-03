@@ -64,14 +64,10 @@
       "title": "제2조(개인정보의 처리 및 보유 기간)",
       "intro1": "① <strong>PushShare</strong>는 법령에 따른 개인정보 보유·이용기간 또는 정보주체로부터 개인정보를 수집 시에 동의받은 기간 내에서 개인정보를 처리·보유합니다.",
       "intro2": "② 각각의 개인정보 처리 및 보유 기간은 다음과 같습니다.",
-      "item1": "<strong>회원 인증 정보</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>보유기간: 서비스 이용 기간 동안</li><li>보유근거: 서비스 제공 및 계약 이행을 위해 필요</li><li>※ 주의: PushShare는 사용자의 이메일 주소를 자체 데이터베이스에 저장하지 않습니다. Firebase Authentication을 통한 인증에만 사용되며, Firebase의 인증 시스템에서 관리됩니다.</li></ul>",
-      "item2": "<strong>디바이스 정보</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>보유기간: 앱 삭제 시까지 또는 사용자 요청 시까지</li><li>보유근거: 푸시 알림 전송을 위한 기기 식별 정보로, 앱 삭제 시 더 이상 연결되지 않으므로 의미 없는 정보가 됨</li></ul>",
-      "item3": "<strong>서비스 이용 정보</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>보유기간: 서비스 이용 기간 동안 또는 사용자 요청 시까지</li><li>보유근거: 서비스 제공을 위해 필요</li></ul>",
-      "item4": "<strong>구독 정보</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>보유기간: 구독 해지 후 5년 (계약 또는 청약철회 등에 관한 기록 보존)</li><li>보유근거: 관련 법령에 따른 보존 의무</li></ul>",
+      "items": "<li><strong>회원 인증 정보</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>보유기간: 서비스 이용 기간 동안</li><li>보유근거: 서비스 제공 및 계약 이행을 위해 필요</li><li>※ 주의: PushShare는 사용자의 이메일 주소를 자체 데이터베이스에 저장하지 않습니다. Firebase Authentication을 통한 인증에만 사용되며, Firebase의 인증 시스템에서 관리됩니다.</li></ul></li><li><strong>디바이스 정보</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>보유기간: 앱 삭제 시까지 또는 사용자 요청 시까지</li><li>보유근거: 푸시 알림 전송을 위한 기기 식별 정보로, 앱 삭제 시 더 이상 연결되지 않으므로 의미 없는 정보가 됨</li></ul></li><li><strong>서비스 이용 정보</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>보유기간: 서비스 이용 기간 동안 또는 사용자 요청 시까지</li><li>보유근거: 서비스 제공을 위해 필요</li></ul></li><li><strong>구독 정보</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>보유기간: 구독 해지 후 5년 (계약 또는 청약철회 등에 관한 기록 보존)</li><li>보유근거: 관련 법령에 따른 보존 의무</li></ul></li>",
       "note": "<strong>※ 탈퇴 및 데이터 삭제에 관한 안내</strong><br>PushShare는 개인을 식별할 수 있는 정보를 저장하지 않기 때문에, 별도의 회원 탈퇴 기능을 제공하지 않습니다. 저장되는 정보는 단독으로는 특정 개인을 식별할 수 없는 익명의 데이터이며, 서비스 제공 목적이 아닌 더미 데이터로 남아있을 뿐입니다. 다만, 사용자가 데이터 삭제를 요청하실 경우 이메일(jj@dosusu.com)로 요청하시면 해당 데이터를 삭제해드립니다.",
       "intro3": "③ 관련법령:",
-      "law1": "표시/광고에 관한 기록: 6개월",
-      "law2": "계약 또는 청약철회 등에 관한 기록: 5년"
+      "laws": "<li>표시/광고에 관한 기록: 6개월</li><li>계약 또는 청약철회 등에 관한 기록: 5년</li>"
     },
     "section3": {
       "title": "제3조(처리하는 개인정보의 항목)",

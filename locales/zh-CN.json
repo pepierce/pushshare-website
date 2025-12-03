@@ -64,14 +64,10 @@
       "title": "第2条（个人信息的处理及保存期限）",
       "intro1": "① <strong>PushShare</strong>在法律规定的个人信息保存·使用期限或从信息主体收集个人信息时同意的期限内处理·保存个人信息。",
       "intro2": "② 各项个人信息的处理及保存期限如下：",
-      "item1": "<strong>会员认证信息</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>保存期限：服务使用期间</li><li>保存依据：服务提供及合同履行所需</li><li>※ 注意：PushShare不在自己的数据库中存储用户的电子邮件地址。电子邮件地址仅用于Firebase Authentication，由Firebase的认证系统管理。</li></ul>",
-      "item2": "<strong>设备信息</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>保存期限：应用删除时或用户请求时</li><li>保存依据：用于推送通知发送的设备识别信息，应用删除时不再连接，因此成为无意义的信息</li></ul>",
-      "item3": "<strong>服务使用信息</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>保存期限：服务使用期间或用户请求时</li><li>保存依据：服务提供所需</li></ul>",
-      "item4": "<strong>订阅信息</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>保存期限：订阅取消后5年（合同或订阅取消等相关记录的保存）</li><li>保存依据：相关法律规定的保存义务</li></ul>",
+      "items": "<li><strong>会员认证信息</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>保存期限：服务使用期间</li><li>保存依据：服务提供及合同履行所需</li><li>※ 注意：PushShare不在自己的数据库中存储用户的电子邮件地址。电子邮件地址仅用于Firebase Authentication，由Firebase的认证系统管理。</li></ul></li><li><strong>设备信息</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>保存期限：应用删除时或用户请求时</li><li>保存依据：用于推送通知发送的设备识别信息，应用删除时不再连接，因此成为无意义的信息</li></ul></li><li><strong>服务使用信息</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>保存期限：服务使用期间或用户请求时</li><li>保存依据：服务提供所需</li></ul></li><li><strong>订阅信息</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>保存期限：订阅取消后5年（合同或订阅取消等相关记录的保存）</li><li>保存依据：相关法律规定的保存义务</li></ul></li>",
       "note": "<strong>※ 关于账户注销及数据删除的通知</strong><br>由于PushShare不存储可识别个人的信息，因此不提供单独的会员注销功能。存储的信息是无法单独识别特定个人的匿名数据，仅作为非服务提供目的的虚拟数据保留。但是，如果用户请求删除数据，可通过电子邮件（jj@dosusu.com）提出请求，我们将删除相关数据。",
       "intro3": "③ 相关法律：",
-      "law1": "显示/广告相关记录：6个月",
-      "law2": "合同或订阅取消等相关记录：5年"
+      "laws": "<li>显示/广告相关记录：6个月</li><li>合同或订阅取消等相关记录：5年</li>"
     },
     "section3": {
       "title": "第3条（处理的个人信息项目）",

@@ -64,14 +64,10 @@
       "title": "第2条（個人情報の処理および保有期間）",
       "intro1": "① <strong>PushShare</strong>は、法令に基づく個人情報の保有・利用期間、または情報主体から個人情報を収集する際に同意を受けた期間内で個人情報を処理・保有します。",
       "intro2": "② 各個人情報の処理および保有期間は以下の通りです。",
-      "item1": "<strong>会員認証情報</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>保有期間: サービス利用期間中</li><li>保有根拠: サービス提供および契約履行のために必要</li><li>※ 注意: PushShareはユーザーのメールアドレスを自社データベースに保存しません。Firebase Authenticationによる認証にのみ使用され、Firebaseの認証システムで管理されます。</li></ul>",
-      "item2": "<strong>デバイス情報</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>保有期間: アプリ削除時まで、またはユーザー要求時まで</li><li>保有根拠: プッシュ通知送信のためのデバイス識別情報で、アプリ削除時には接続されなくなるため意味のない情報となる</li></ul>",
-      "item3": "<strong>サービス利用情報</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>保有期間: サービス利用期間中、またはユーザー要求時まで</li><li>保有根拠: サービス提供のために必要</li></ul>",
-      "item4": "<strong>サブスクリプション情報</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>保有期間: サブスクリプション解約後5年（契約または申し込み撤回等に関する記録の保存）</li><li>保有根拠: 関連法令に基づく保存義務</li></ul>",
+      "items": "<li><strong>会員認証情報</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>保有期間: サービス利用期間中</li><li>保有根拠: サービス提供および契約履行のために必要</li><li>※ 注意: PushShareはユーザーのメールアドレスを自社データベースに保存しません。Firebase Authenticationによる認証にのみ使用され、Firebaseの認証システムで管理されます。</li></ul></li><li><strong>デバイス情報</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>保有期間: アプリ削除時まで、またはユーザー要求時まで</li><li>保有根拠: プッシュ通知送信のためのデバイス識別情報で、アプリ削除時には接続されなくなるため意味のない情報となる</li></ul></li><li><strong>サービス利用情報</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>保有期間: サービス利用期間中、またはユーザー要求時まで</li><li>保有根拠: サービス提供のために必要</li></ul></li><li><strong>サブスクリプション情報</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>保有期間: サブスクリプション解約後5年（契約または申し込み撤回等に関する記録の保存）</li><li>保有根拠: 関連法令に基づく保存義務</li></ul></li>",
       "note": "<strong>※ 退会およびデータ削除に関する案内</strong><br>PushShareは個人を識別できる情報を保存しないため、別途の会員退会機能を提供していません。保存される情報は単独では特定の個人を識別できない匿名のデータであり、サービス提供目的ではないダミーデータとして残っているだけです。ただし、ユーザーがデータ削除を要求される場合は、メール（jj@dosusu.com）で要求していただければ、該当データを削除いたします。",
       "intro3": "③ 関連法令:",
-      "law1": "表示/広告に関する記録: 6ヶ月",
-      "law2": "契約または申し込み撤回等に関する記録: 5年"
+      "laws": "<li>表示/広告に関する記録: 6ヶ月</li><li>契約または申し込み撤回等に関する記録: 5年</li>"
     },
     "section3": {
       "title": "第3条（処理する個人情報の項目）",
