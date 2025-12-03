@@ -124,6 +124,48 @@ class I18n {
 
     // 메타 태그 업데이트
     this.updateMetaTags();
+
+    // section12는 한국어에서만 표시, 다른 언어에서는 section13을 section12로 표시
+    this.handleSection12Visibility();
+  }
+
+  /**
+   * section12 표시/숨김 처리 및 section13 번호 조정
+   */
+  handleSection12Visibility() {
+    const section12Div = document.getElementById('section12-korea-only');
+    const section13Title = document.getElementById('section13-title');
+
+    if (section12Div && section13Title) {
+      if (this.currentLanguage === 'ko') {
+        // 한국어: section12 표시, section13은 그대로
+        section12Div.style.display = 'block';
+      } else {
+        // 다른 언어: section12 숨김, section13을 section12로 변경
+        section12Div.style.display = 'none';
+
+        // section13의 제목에서 "13"을 "12"로 변경
+        const titleText = section13Title.textContent || section13Title.innerText;
+        if (titleText) {
+          // "Article 13" 또는 "제13조" 등을 "Article 12" 또는 "제12조"로 변경
+          const newTitle = titleText
+            .replace(/Article 13/gi, 'Article 12')
+            .replace(/第13条/gi, '第12条')
+            .replace(/第13條/gi, '第12條')
+            .replace(/제13조/gi, '제12조')
+            .replace(/Artikel 13/gi, 'Artikel 12')
+            .replace(/Artículo 13/gi, 'Artículo 12')
+            .replace(/Article 13/gi, 'Article 12')
+            .replace(/Artículo 13/gi, 'Artículo 12')
+            .replace(/Artikel 13/gi, 'Artikel 12')
+            .replace(/13条/gi, '12条')
+            .replace(/13條/gi, '12條')
+            .replace(/13조/gi, '12조')
+            .replace(/13/gi, '12');
+          section13Title.textContent = newTitle;
+        }
+      }
+    }
   }
 
   /**

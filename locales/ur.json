@@ -6,7 +6,8 @@
   "nav": {
     "features": "خصوصیات",
     "download": "ڈاؤن لوڈ",
-    "contact": "رابطہ"
+    "contact": "رابطہ",
+    "home": "ہوم"
   },
   "hero": {
     "title": "متعدد آلات کے درمیان پش اطلاعات آسانی سے شیئر کریں",
@@ -154,7 +155,7 @@
       "item5_html": "<li>Central Administrative Appeals Commission: <a href=\"http://www.simpan.go.kr\" target=\"_blank\">www.simpan.go.kr</a></li>"
     },
     "section13": {
-      "title": "Article 13 (Changes to Privacy Policy)",
+      "title": "Article 12 (Changes to Privacy Policy)",
       "intro1": "This Privacy Policy is effective as of <strong>December 3, 2025</strong>.",
       "intro2": "If there are additions, deletions, or modifications to the content due to changes in laws, policies, or security technology, we will notify you through the website's notice at least 7 days before the implementation of the changes."
     }
