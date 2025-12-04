@@ -51,163 +51,163 @@
     "terms": "সেবার শর্তাবলী"
   },
   "privacy": {
-    "title": "Privacy Policy",
-    "lastUpdated": "Last Updated: December 3, 2025",
-    "effectiveDate": "This Privacy Policy is effective as of December 3, 2025.",
-    "intro": "<strong>PushShare</strong> ('https://pushshare.app', hereinafter referred to as <strong>'PushShare'</strong>) establishes and discloses this Privacy Policy in accordance with Article 30 of the Personal Information Protection Act to protect the personal information of data subjects and to handle related complaints promptly and smoothly.",
+    "title": "গোপনীয়তা নীতি",
+    "lastUpdated": "সর্বশেষ আপডেট: ৩ ডিসেম্বর ২০২৫",
+    "effectiveDate": "এই গোপনীয়তা নীতি ৩ ডিসেম্বর ২০২৫ থেকে কার্যকর।",
+    "intro": "<strong>PushShare</strong> ('https://pushshare.app', পরবর্তীতে <strong>'PushShare'</strong> হিসাবে উল্লেখিত) ব্যক্তিগত তথ্য সুরক্ষা আইনের ৩০ নং ধারা অনুসারে তথ্য বিষয়ের ব্যক্তিগত তথ্য রক্ষা করতে এবং সম্পর্কিত অভিযোগগুলি দ্রুত এবং সুচারুভাবে পরিচালনা করার জন্য এই গোপনীয়তা নীতি প্রতিষ্ঠা এবং প্রকাশ করে।",
     "section1": {
-      "title": "Article 1 (Purpose of Processing Personal Information)",
-      "intro": "<strong>PushShare</strong> processes personal information for the following purposes. The personal information being processed is not used for purposes other than those stated below, and if the purpose of use changes, we will take necessary measures such as obtaining separate consent in accordance with Article 18 of the Personal Information Protection Act.",
-      "items": "<li><strong>Member Registration and Management</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Purpose of identity verification and authentication for membership services</li><li>Identity verification for service use</li></ul></li><li><strong>Service Provision</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Push notification delivery service</li><li>Cross-device push notification sharing service</li><li>Subscription service provision and management</li></ul></li><li><strong>Marketing and Advertising</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Advertising service provision (Google AdMob)</li></ul></li><li><strong>Customer Inquiries and Complaint Handling</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Response to and handling of customer inquiries</li></ul></li>"
+      "title": "ধারা ১ (ব্যক্তিগত তথ্য প্রক্রিয়াকরণের উদ্দেশ্য)",
+      "intro": "<strong>PushShare</strong> নিম্নলিখিত উদ্দেশ্যে ব্যক্তিগত তথ্য প্রক্রিয়া করে। প্রক্রিয়াকরণ করা ব্যক্তিগত তথ্য নীচে উল্লিখিত উদ্দেশ্য ছাড়া অন্য উদ্দেশ্যে ব্যবহার করা হয় না, এবং যদি ব্যবহারের উদ্দেশ্য পরিবর্তিত হয়, আমরা ব্যক্তিগত তথ্য সুরক্ষা আইনের ১৮ নং ধারা অনুসারে পৃথক সম্মতি গ্রহণের মতো প্রয়োজনীয় ব্যবস্থা গ্রহণ করব।",
+      "items": "<li><strong>সদস্য নিবন্ধন এবং পরিচালনা</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>সদস্যপদ পরিষেবার জন্য পরিচয় যাচাইকরণ এবং প্রমাণীকরণের উদ্দেশ্য</li><li>পরিষেবা ব্যবহারের জন্য পরিচয় যাচাইকরণ</li></ul></li><li><strong>পরিষেবা প্রদান</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>পুশ নোটিফিকেশন ডেলিভারি পরিষেবা</li><li>ক্রস-ডিভাইস পুশ নোটিফিকেশন শেয়ারিং পরিষেবা</li><li>সাবস্ক্রিপশন পরিষেবা প্রদান এবং পরিচালনা</li></ul></li><li><strong>মার্কেটিং এবং বিজ্ঞাপন</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>বিজ্ঞাপন পরিষেবা প্রদান (Google AdMob)</li></ul></li><li><strong>গ্রাহক জিজ্ঞাসা এবং অভিযোগ পরিচালনা</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>গ্রাহক জিজ্ঞাসার প্রতিক্রিয়া এবং পরিচালনা</li></ul></li>"
     },
     "section2": {
-      "title": "Article 2 (Processing and Retention Period of Personal Information)",
-      "intro1": "① <strong>PushShare</strong> processes and retains personal information within the period of retention and use of personal information under applicable laws or the period agreed upon when collecting personal information from the data subject.",
-      "intro2": "② The processing and retention period for each type of personal information is as follows:",
-      "items": "<li><strong>Member Authentication Information</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Retention Period: During the service use period</li><li>Basis for Retention: Necessary for service provision and contract performance</li><li>※ Note: PushShare does not store users' email addresses in its own database. Email addresses are used only for Firebase Authentication and are managed by Firebase's authentication system.</li></ul></li><li><strong>Device Information</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Retention Period: Until app deletion or upon user request</li><li>Basis for Retention: Device identification information for push notification delivery, which becomes meaningless when the app is deleted as it is no longer connected</li></ul></li><li><strong>Service Usage Information</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Retention Period: During the service use period or upon user request</li><li>Basis for Retention: Necessary for service provision</li></ul></li><li><strong>Subscription Information</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Retention Period: 5 years after subscription cancellation (retention of records related to contracts or subscription cancellations)</li><li>Basis for Retention: Legal obligation under relevant laws</li></ul></li>",
-      "note": "<strong>※ Notice Regarding Account Deletion and Data Deletion</strong><br>PushShare does not provide a separate account deletion function because we do not store personally identifiable information. The stored information is anonymous data that cannot identify specific individuals on its own, and remains as dummy data without a service provision purpose. However, if users request data deletion, we will delete the relevant data upon request via email (jj@dosusu.com).",
-      "intro3": "③ Related Laws:",
-      "laws": "<li>Records on display/advertising: 6 months</li><li>Records on contracts or subscription cancellations: 5 years</li>"
+      "title": "ধারা ২ (ব্যক্তিগত তথ্যের প্রক্রিয়াকরণ এবং ধারণের সময়কাল)",
+      "intro1": "① <strong>PushShare</strong> প্রযোজ্য আইনের অধীনে ব্যক্তিগত তথ্যের ধারণ এবং ব্যবহারের সময়কালের মধ্যে বা তথ্য বিষয় থেকে ব্যক্তিগত তথ্য সংগ্রহ করার সময় সম্মত সময়কালের মধ্যে ব্যক্তিগত তথ্য প্রক্রিয়া করে এবং ধারণ করে।",
+      "intro2": "② প্রতিটি ধরনের ব্যক্তিগত তথ্যের প্রক্রিয়াকরণ এবং ধারণের সময়কাল নিম্নরূপ:",
+      "items": "<li><strong>সদস্য প্রমাণীকরণ তথ্য</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>ধারণের সময়কাল: পরিষেবা ব্যবহারের সময়কালে</li><li>ধারণের ভিত্তি: পরিষেবা প্রদান এবং চুক্তি সম্পাদনের জন্য প্রয়োজনীয়</li><li>※ নোট: PushShare নিজস্ব ডাটাবেসে ব্যবহারকারীদের ইমেইল ঠিকানা সংরক্ষণ করে না। ইমেইল ঠিকানা শুধুমাত্র Firebase Authentication এর জন্য ব্যবহৃত হয় এবং Firebase এর প্রমাণীকরণ সিস্টেম দ্বারা পরিচালিত হয়।</li></ul></li><li><strong>ডিভাইস তথ্য</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>ধারণের সময়কাল: অ্যাপ মুছে ফেলা পর্যন্ত বা ব্যবহারকারীর অনুরোধে</li><li>ধারণের ভিত্তি: পুশ নোটিফিকেশন ডেলিভারির জন্য ডিভাইস সনাক্তকরণ তথ্য, যা অ্যাপ মুছে ফেলা হলে অর্থহীন হয়ে যায় কারণ এটি আর সংযুক্ত থাকে না</li></ul></li><li><strong>পরিষেবা ব্যবহার তথ্য</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>ধারণের সময়কাল: পরিষেবা ব্যবহারের সময়কালে বা ব্যবহারকারীর অনুরোধে</li><li>ধারণের ভিত্তি: পরিষেবা প্রদানের জন্য প্রয়োজনীয়</li></ul></li><li><strong>সাবস্ক্রিপশন তথ্য</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>ধারণের সময়কাল: সাবস্ক্রিপশন বাতিলের পর ৫ বছর (চুক্তি বা সাবস্ক্রিপশন বাতিল সম্পর্কিত রেকর্ড ধারণ)</li><li>ধারণের ভিত্তি: প্রাসঙ্গিক আইনের অধীনে আইনি বাধ্যবাধকতা</li></ul></li>",
+      "note": "<strong>※ অ্যাকাউন্ট মুছে ফেলা এবং ডেটা মুছে ফেলা সম্পর্কে বিজ্ঞপ্তি</strong><br>PushShare একটি পৃথক অ্যাকাউন্ট মুছে ফেলার ফাংশন প্রদান করে না কারণ আমরা ব্যক্তিগতভাবে সনাক্তযোগ্য তথ্য সংরক্ষণ করি না। সংরক্ষিত তথ্য হল বেনামী ডেটা যা নিজেই নির্দিষ্ট ব্যক্তিদের সনাক্ত করতে পারে না, এবং পরিষেবা প্রদানের উদ্দেশ্য ছাড়াই ডামি ডেটা হিসাবে থাকে। তবে, যদি ব্যবহারকারীরা ডেটা মুছে ফেলার অনুরোধ করে, আমরা ইমেইলের মাধ্যমে অনুরোধে প্রাসঙ্গিক ডেটা মুছে ফেলব (jj@dosusu.com)।",
+      "intro3": "③ সম্পর্কিত আইন:",
+      "laws": "<li>প্রদর্শন/বিজ্ঞাপনের রেকর্ড: ৬ মাস</li><li>চুক্তি বা সাবস্ক্রিপশন বাতিলের রেকর্ড: ৫ বছর</li>"
     },
     "section3": {
-      "title": "Article 3 (Items of Personal Information Processed)",
-      "intro": "<strong>PushShare</strong> processes the following information:",
-      "item1": "<strong>Member Authentication Information</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Firebase Authentication unique ID (anonymous identifier, cannot directly identify individuals)</li><li>※ Email addresses are used only for Firebase Authentication and are not stored in PushShare's database.</li></ul>",
-      "item2": "<strong>Service Usage Information</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Device information: Device name, model name, manufacturer, device unique ID</li><li>FCM token: Token for push notification delivery</li><li>User profile: Free push usage count, subscription information, daily push delivery count</li><li>App information: Package name and app name of selected apps</li></ul>",
-      "item3": "<strong>Subscription Service Information</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Subscription type, subscription expiration date, RevenueCat customer ID</li></ul>",
-      "note": "※ The above information cannot identify specific individuals on its own. However, we collect only the minimum information necessary for service provision.",
-      "items": "<li><strong>Member Authentication Information</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Firebase Authentication unique ID (anonymous identifier, cannot directly identify individuals)</li><li>※ Email addresses are used only for Firebase Authentication and are not stored in PushShare's database.</li></ul></li><li><strong>Service Usage Information</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Device information: Device name, model name, manufacturer, device unique ID</li><li>FCM token: Token for push notification delivery</li><li>User profile: Free push usage count, subscription information, daily push delivery count</li><li>App information: Package name and app name of selected apps</li></ul></li><li><strong>Subscription Service Information</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Subscription type, subscription expiration date, RevenueCat customer ID</li></ul></li>"
+      "title": "ধারা ৩ (প্রক্রিয়াকৃত ব্যক্তিগত তথ্যের আইটেম)",
+      "intro": "<strong>PushShare</strong> নিম্নলিখিত তথ্য প্রক্রিয়া করে:",
+      "item1": "<strong>সদস্য প্রমাণীকরণ তথ্য</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Firebase Authentication অনন্য ID (বেনামী সনাক্তকারী, সরাসরি ব্যক্তিদের সনাক্ত করতে পারে না)</li><li>※ ইমেইল ঠিকানা শুধুমাত্র Firebase Authentication এর জন্য ব্যবহৃত হয় এবং PushShare এর ডাটাবেসে সংরক্ষণ করা হয় না।</li></ul>",
+      "item2": "<strong>পরিষেবা ব্যবহার তথ্য</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>ডিভাইস তথ্য: ডিভাইসের নাম, মডেলের নাম, প্রস্তুতকারক, ডিভাইস অনন্য ID</li><li>FCM টোকেন: পুশ নোটিফিকেশন ডেলিভারির জন্য টোকেন</li><li>ব্যবহারকারী প্রোফাইল: বিনামূল্যে পুশ ব্যবহারের সংখ্যা, সাবস্ক্রিপশন তথ্য, দৈনিক পুশ ডেলিভারি সংখ্যা</li><li>অ্যাপ তথ্য: নির্বাচিত অ্যাপগুলির প্যাকেজ নাম এবং অ্যাপের নাম</li></ul>",
+      "item3": "<strong>সাবস্ক্রিপশন পরিষেবা তথ্য</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>সাবস্ক্রিপশন ধরন, সাবস্ক্রিপশন মেয়াদ শেষ হওয়ার তারিখ, RevenueCat গ্রাহক ID</li></ul>",
+      "note": "※ উপরের তথ্য নিজেই নির্দিষ্ট ব্যক্তিদের সনাক্ত করতে পারে না। তবে, আমরা শুধুমাত্র পরিষেবা প্রদানের জন্য প্রয়োজনীয় ন্যূনতম তথ্য সংগ্রহ করি।",
+      "items": "<li><strong>সদস্য প্রমাণীকরণ তথ্য</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Firebase Authentication অনন্য ID (বেনামী সনাক্তকারী, সরাসরি ব্যক্তিদের সনাক্ত করতে পারে না)</li><li>※ ইমেইল ঠিকানা শুধুমাত্র Firebase Authentication এর জন্য ব্যবহৃত হয় এবং PushShare এর ডাটাবেসে সংরক্ষণ করা হয় না।</li></ul></li><li><strong>পরিষেবা ব্যবহার তথ্য</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>ডিভাইস তথ্য: ডিভাইসের নাম, মডেলের নাম, প্রস্তুতকারক, ডিভাইস অনন্য ID</li><li>FCM টোকেন: পুশ নোটিফিকেশন ডেলিভারির জন্য টোকেন</li><li>ব্যবহারকারী প্রোফাইল: বিনামূল্যে পুশ ব্যবহারের সংখ্যা, সাবস্ক্রিপশন তথ্য, দৈনিক পুশ ডেলিভারি সংখ্যা</li><li>অ্যাপ তথ্য: নির্বাচিত অ্যাপগুলির প্যাকেজ নাম এবং অ্যাপের নাম</li></ul></li><li><strong>সাবস্ক্রিপশন পরিষেবা তথ্য</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>সাবস্ক্রিপশন ধরন, সাবস্ক্রিপশন মেয়াদ শেষ হওয়ার তারিখ, RevenueCat গ্রাহক ID</li></ul></li>"
     },
     "section4": {
-      "title": "Article 4 (Provision of Personal Information to Third Parties)",
-      "intro1": "① <strong>PushShare</strong> does not provide personal information of data subjects to third parties in principle. However, exceptions are made in the following cases:",
-      "item1": "When the data subject has given prior consent",
-      "item2": "When required by law or when requested by investigative agencies in accordance with procedures and methods prescribed by law for investigative purposes",
-      "intro2": "② Information is processed through the following service providers for service provision:",
-      "item3": "<strong>Google Firebase</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Firebase Authentication: Used for user authentication (email addresses are managed by Firebase)</li><li>Firebase Firestore: Used for user data storage</li><li>Firebase Cloud Messaging: Used for push notification delivery</li></ul>",
-      "item4": "<strong>Google AdMob</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Used for advertising service provision (advertising identifiers, etc.)</li></ul>",
-      "items1": "<li>When the data subject has given prior consent</li><li>When required by law or when requested by investigative agencies in accordance with procedures and methods prescribed by law for investigative purposes</li>",
-      "items2": "<li><strong>Google Firebase</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Firebase Authentication: Used for user authentication (email addresses are managed by Firebase)</li><li>Firebase Firestore: Used for user data storage</li><li>Firebase Cloud Messaging: Used for push notification delivery</li></ul></li><li><strong>Google AdMob</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Used for advertising service provision (advertising identifiers, etc.)</li></ul></li>"
+      "title": "ধারা ৪ (তৃতীয় পক্ষকে ব্যক্তিগত তথ্য প্রদান)",
+      "intro1": "① <strong>PushShare</strong> নীতিগতভাবে তথ্য বিষয়ের ব্যক্তিগত তথ্য তৃতীয় পক্ষকে প্রদান করে না। তবে, নিম্নলিখিত ক্ষেত্রে ব্যতিক্রম করা হয়:",
+      "item1": "যখন তথ্য বিষয় পূর্বে সম্মতি দিয়েছে",
+      "item2": "যখন আইন দ্বারা প্রয়োজন হয় বা যখন তদন্ত সংস্থাগুলি তদন্তের উদ্দেশ্যে আইন দ্বারা নির্ধারিত পদ্ধতি এবং পদ্ধতি অনুসারে অনুরোধ করে",
+      "intro2": "② পরিষেবা প্রদানের জন্য নিম্নলিখিত পরিষেবা প্রদানকারীদের মাধ্যমে তথ্য প্রক্রিয়া করা হয়:",
+      "item3": "<strong>Google Firebase</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Firebase Authentication: ব্যবহারকারী প্রমাণীকরণের জন্য ব্যবহৃত (ইমেইল ঠিকানা Firebase দ্বারা পরিচালিত হয়)</li><li>Firebase Firestore: ব্যবহারকারী ডেটা স্টোরেজের জন্য ব্যবহৃত</li><li>Firebase Cloud Messaging: পুশ নোটিফিকেশন ডেলিভারির জন্য ব্যবহৃত</li></ul>",
+      "item4": "<strong>Google AdMob</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>বিজ্ঞাপন পরিষেবা প্রদানের জন্য ব্যবহৃত (বিজ্ঞাপন সনাক্তকারী, ইত্যাদি)</li></ul>",
+      "items1": "<li>যখন তথ্য বিষয় পূর্বে সম্মতি দিয়েছে</li><li>যখন আইন দ্বারা প্রয়োজন হয় বা যখন তদন্ত সংস্থাগুলি তদন্তের উদ্দেশ্যে আইন দ্বারা নির্ধারিত পদ্ধতি এবং পদ্ধতি অনুসারে অনুরোধ করে</li>",
+      "items2": "<li><strong>Google Firebase</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Firebase Authentication: ব্যবহারকারী প্রমাণীকরণের জন্য ব্যবহৃত (ইমেইল ঠিকানা Firebase দ্বারা পরিচালিত হয়)</li><li>Firebase Firestore: ব্যবহারকারী ডেটা স্টোরেজের জন্য ব্যবহৃত</li><li>Firebase Cloud Messaging: পুশ নোটিফিকেশন ডেলিভারির জন্য ব্যবহৃত</li></ul></li><li><strong>Google AdMob</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>বিজ্ঞাপন পরিষেবা প্রদানের জন্য ব্যবহৃত (বিজ্ঞাপন সনাক্তকারী, ইত্যাদি)</li></ul></li>"
     },
     "section5": {
-      "title": "Article 5 (Entrustment of Personal Information Processing)",
-      "intro1": "① <strong>PushShare</strong> entrusts personal information processing tasks as follows for service improvement:",
-      "item1": "<strong>Google Firebase</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Entrusted Tasks: Data storage and authentication services</li><li>Entrustment Period: During the service provision period</li></ul>",
-      "item2": "<strong>RevenueCat</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Entrusted Tasks: Subscription management services</li><li>Entrustment Period: During the subscription service provision period</li></ul>",
-      "intro2": "② When entering into entrustment contracts, <strong>PushShare</strong> specifies in documents such as contracts matters related to prohibition of personal information processing for purposes other than the entrusted tasks, technical and administrative protection measures, restrictions on re-entrustment, management and supervision of trustees, and liability for damages in accordance with Article 26 of the Personal Information Protection Act, and supervises whether trustees safely process personal information.",
-      "items": "<li><strong>Google Firebase</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Entrusted Tasks: Data storage and authentication services</li><li>Entrustment Period: During the service provision period</li></ul></li><li><strong>RevenueCat</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Entrusted Tasks: Subscription management services</li><li>Entrustment Period: During the subscription service provision period</li></ul></li>"
+      "title": "ধারা ৫ (ব্যক্তিগত তথ্য প্রক্রিয়াকরণের ন্যস্তকরণ)",
+      "intro1": "① <strong>PushShare</strong> পরিষেবা উন্নতির জন্য নিম্নরূপ ব্যক্তিগত তথ্য প্রক্রিয়াকরণের কাজগুলি ন্যস্ত করে:",
+      "item1": "<strong>Google Firebase</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>ন্যস্ত কাজ: ডেটা স্টোরেজ এবং প্রমাণীকরণ পরিষেবা</li><li>ন্যস্তকরণের সময়কাল: পরিষেবা প্রদানের সময়কালে</li></ul>",
+      "item2": "<strong>RevenueCat</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>ন্যস্ত কাজ: সাবস্ক্রিপশন পরিচালনা পরিষেবা</li><li>ন্যস্তকরণের সময়কাল: সাবস্ক্রিপশন পরিষেবা প্রদানের সময়কালে</li></ul>",
+      "intro2": "② ন্যস্তকরণ চুক্তিতে প্রবেশ করার সময়, <strong>PushShare</strong> চুক্তির মতো নথিতে ন্যস্ত কাজ ছাড়া অন্য উদ্দেশ্যে ব্যক্তিগত তথ্য প্রক্রিয়াকরণের নিষেধাজ্ঞা, প্রযুক্তিগত এবং প্রশাসনিক সুরক্ষা ব্যবস্থা, পুনরায় ন্যস্তকরণের সীমাবদ্ধতা, ট্রাস্টিদের পরিচালনা এবং তত্ত্বাবধান, এবং ব্যক্তিগত তথ্য সুরক্ষা আইনের ২৬ নং ধারা অনুসারে ক্ষতির জন্য দায়বদ্ধতা সম্পর্কিত বিষয়গুলি নির্দিষ্ট করে, এবং ট্রাস্টিরা নিরাপদে ব্যক্তিগত তথ্য প্রক্রিয়া করে কিনা তা তত্ত্বাবধান করে।",
+      "items": "<li><strong>Google Firebase</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>ন্যস্ত কাজ: ডেটা স্টোরেজ এবং প্রমাণীকরণ পরিষেবা</li><li>ন্যস্তকরণের সময়কাল: পরিষেবা প্রদানের সময়কালে</li></ul></li><li><strong>RevenueCat</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>ন্যস্ত কাজ: সাবস্ক্রিপশন পরিচালনা পরিষেবা</li><li>ন্যস্তকরণের সময়কাল: সাবস্ক্রিপশন পরিষেবা প্রদানের সময়কালে</li></ul></li>"
     },
     "section6": {
-      "title": "Article 6 (Procedures and Methods for Destruction of Personal Information)",
-      "intro1": "① <strong>PushShare</strong> destroys personal information without delay when it becomes unnecessary due to the expiration of the retention period or achievement of the processing purpose.",
-      "intro2": "② Procedures and methods for destruction:",
-      "item1": "<strong>Destruction Procedures</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Select personal information for which destruction reasons have occurred and destroy it after obtaining approval from the personal information protection officer</li></ul>",
-      "item2": "<strong>Destruction Methods</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Electronic files are permanently deleted in an irrecoverable manner</li><li>Paper documents are shredded or incinerated</li></ul>",
-      "items": "<li><strong>Destruction Procedures</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Select personal information for which destruction reasons have occurred and destroy it after obtaining approval from the personal information protection officer</li></ul></li><li><strong>Destruction Methods</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Electronic files are permanently deleted in an irrecoverable manner</li><li>Paper documents are shredded or incinerated</li></ul></li>"
+      "title": "ধারা ৬ (ব্যক্তিগত তথ্য ধ্বংসের পদ্ধতি এবং পদ্ধতি)",
+      "intro1": "① <strong>PushShare</strong> ধারণের সময়কাল শেষ হওয়া বা প্রক্রিয়াকরণের উদ্দেশ্য অর্জনের কারণে যখন এটি অপ্রয়োজনীয় হয়ে যায় তখন বিলম্ব ছাড়াই ব্যক্তিগত তথ্য ধ্বংস করে।",
+      "intro2": "② ধ্বংসের পদ্ধতি এবং পদ্ধতি:",
+      "item1": "<strong>ধ্বংসের পদ্ধতি</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>যার জন্য ধ্বংসের কারণ ঘটেছে এমন ব্যক্তিগত তথ্য নির্বাচন করুন এবং ব্যক্তিগত তথ্য সুরক্ষা কর্মকর্তার অনুমোদন পাওয়ার পর এটি ধ্বংস করুন</li></ul>",
+      "item2": "<strong>ধ্বংসের পদ্ধতি</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>ইলেকট্রনিক ফাইলগুলি একটি পুনরুদ্ধারযোগ্য উপায়ে স্থায়ীভাবে মুছে ফেলা হয়</li><li>কাগজের নথিগুলি ছিন্ন করা হয় বা পোড়ানো হয়</li></ul>",
+      "items": "<li><strong>ধ্বংসের পদ্ধতি</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>যার জন্য ধ্বংসের কারণ ঘটেছে এমন ব্যক্তিগত তথ্য নির্বাচন করুন এবং ব্যক্তিগত তথ্য সুরক্ষা কর্মকর্তার অনুমোদন পাওয়ার পর এটি ধ্বংস করুন</li></ul></li><li><strong>ধ্বংসের পদ্ধতি</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>ইলেকট্রনিক ফাইলগুলি একটি পুনরুদ্ধারযোগ্য উপায়ে স্থায়ীভাবে মুছে ফেলা হয়</li><li>কাগজের নথিগুলি ছিন্ন করা হয় বা পোড়ানো হয়</li></ul></li>"
     },
     "section7": {
-      "title": "Article 7 (Rights and Obligations of Data Subjects and Legal Representatives and Methods of Exercise)",
-      "intro1": "① Data subjects may request access, correction, deletion, or suspension of processing of their personal information from <strong>PushShare</strong> at any time.",
-      "intro2": "② The exercise of the above rights can be made via email (jj@dosusu.com), and <strong>PushShare</strong> will take action without delay.",
-      "intro3": "③ However, since PushShare does not store personally identifiable information, the stored data is anonymous dummy data. If users request deletion, we will verify identity through Firebase Authentication account information and delete all data associated with that user.",
-      "intro4": "④ When exercising rights through a representative, a power of attorney must be submitted.",
-      "intro5": "⑤ Requests for access and suspension of processing may be restricted under Article 35(4) and Article 37(2) of the law.",
-      "intro6": "⑥ Requests for correction and deletion may be restricted when explicitly stated as collection targets in other laws.",
-      "intro7": "⑦ Identity verification procedures are conducted when exercising rights to confirm whether the person is the data subject or a legitimate representative."
+      "title": "ধারা ৭ (তথ্য বিষয় এবং আইনি প্রতিনিধিদের অধিকার এবং বাধ্যবাধকতা এবং প্রয়োগের পদ্ধতি)",
+      "intro1": "① তথ্য বিষয়গুলি যেকোনো সময় <strong>PushShare</strong> থেকে তাদের ব্যক্তিগত তথ্যের অ্যাক্সেস, সংশোধন, মুছে ফেলা, বা প্রক্রিয়াকরণ স্থগিত করার অনুরোধ করতে পারে।",
+      "intro2": "② উপরের অধিকারগুলির প্রয়োগ ইমেইলের মাধ্যমে করা যেতে পারে (jj@dosusu.com), এবং <strong>PushShare</strong> বিলম্ব ছাড়াই ব্যবস্থা গ্রহণ করবে।",
+      "intro3": "③ তবে, যেহেতু PushShare ব্যক্তিগতভাবে সনাক্তযোগ্য তথ্য সংরক্ষণ করে না, সংরক্ষিত ডেটা হল বেনামী ডামি ডেটা। যদি ব্যবহারকারীরা মুছে ফেলার অনুরোধ করে, আমরা Firebase Authentication অ্যাকাউন্ট তথ্যের মাধ্যমে পরিচয় যাচাই করব এবং সেই ব্যবহারকারীর সাথে সম্পর্কিত সমস্ত ডেটা মুছে ফেলব।",
+      "intro4": "④ একজন প্রতিনিধির মাধ্যমে অধিকার প্রয়োগ করার সময়, একটি পাওয়ার অফ অ্যাটর্নি জমা দিতে হবে।",
+      "intro5": "⑤ অ্যাক্সেস এবং প্রক্রিয়াকরণ স্থগিত করার অনুরোধগুলি আইনের ৩৫(৪) এবং ৩৭(২) ধারার অধীনে সীমাবদ্ধ হতে পারে।",
+      "intro6": "⑥ সংশোধন এবং মুছে ফেলার অনুরোধগুলি যখন অন্যান্য আইনে সংগ্রহ লক্ষ্য হিসাবে স্পষ্টভাবে বলা হয় তখন সীমাবদ্ধ হতে পারে।",
+      "intro7": "⑦ অধিকার প্রয়োগ করার সময় পরিচয় যাচাইকরণ পদ্ধতি পরিচালিত হয় যাতে নিশ্চিত করা যায় যে ব্যক্তিটি তথ্য বিষয় নাকি একটি বৈধ প্রতিনিধি।"
     },
     "section8": {
-      "title": "Article 8 (Measures to Ensure Safety of Personal Information)",
-      "intro": "<strong>PushShare</strong> takes the following measures to ensure the safety of personal information:",
-      "item1": "Access Control: Restricting access to personal information to a minimum number of personnel",
-      "item2": "External access control through intrusion prevention systems",
-      "item3": "Encryption: Personal information is encrypted for storage and transmission",
-      "item4": "Regular security inspections and audits",
-      "items": "<li>Access Control: Restricting access to personal information to a minimum number of personnel</li><li>External access control through intrusion prevention systems</li><li>Encryption: Personal information is encrypted for storage and transmission</li><li>Regular security inspections and audits</li>"
+      "title": "ধারা ৮ (ব্যক্তিগত তথ্যের নিরাপত্তা নিশ্চিত করার ব্যবস্থা)",
+      "intro": "<strong>PushShare</strong> ব্যক্তিগত তথ্যের নিরাপত্তা নিশ্চিত করার জন্য নিম্নলিখিত ব্যবস্থা গ্রহণ করে:",
+      "item1": "অ্যাক্সেস নিয়ন্ত্রণ: ব্যক্তিগত তথ্যে অ্যাক্সেসকে ন্যূনতম সংখ্যক কর্মীদের মধ্যে সীমাবদ্ধ করা",
+      "item2": "অনধিকার প্রবেশ প্রতিরোধ সিস্টেমের মাধ্যমে বাহ্যিক অ্যাক্সেস নিয়ন্ত্রণ",
+      "item3": "এনক্রিপশন: ব্যক্তিগত তথ্য স্টোরেজ এবং ট্রান্সমিশনের জন্য এনক্রিপ্ট করা হয়",
+      "item4": "নিয়মিত নিরাপত্তা পরিদর্শন এবং অডিট",
+      "items": "<li>অ্যাক্সেস নিয়ন্ত্রণ: ব্যক্তিগত তথ্যে অ্যাক্সেসকে ন্যূনতম সংখ্যক কর্মীদের মধ্যে সীমাবদ্ধ করা</li><li>অনধিকার প্রবেশ প্রতিরোধ সিস্টেমের মাধ্যমে বাহ্যিক অ্যাক্সেস নিয়ন্ত্রণ</li><li>এনক্রিপশন: ব্যক্তিগত তথ্য স্টোরেজ এবং ট্রান্সমিশনের জন্য এনক্রিপ্ট করা হয়</li><li>নিয়মিত নিরাপত্তা পরিদর্শন এবং অডিট</li>"
     },
     "section9": {
-      "title": "Article 9 (Use of Cookies)",
-      "content": "<strong>PushShare</strong> does not use cookies."
+      "title": "ধারা ৯ (কুকিজ ব্যবহার)",
+      "content": "<strong>PushShare</strong> কুকিজ ব্যবহার করে না।"
     },
     "section10": {
-      "title": "Article 10 (Personal Information Protection Officer)",
-      "intro": "▶ Personal Information Protection Officer",
-      "item1": "Email: <a href=\"mailto:jj@dosusu.com\">jj@dosusu.com</a>",
-      "note": "※ Inquiries and complaints related to personal information protection can be made to the above email address.",
-      "items": "<li>Email: <a href=\"mailto:jj@dosusu.com\">jj@dosusu.com</a></li>"
+      "title": "ধারা ১০ (ব্যক্তিগত তথ্য সুরক্ষা কর্মকর্তা)",
+      "intro": "▶ ব্যক্তিগত তথ্য সুরক্ষা কর্মকর্তা",
+      "item1": "ইমেইল: <a href=\"mailto:jj@dosusu.com\">jj@dosusu.com</a>",
+      "note": "※ ব্যক্তিগত তথ্য সুরক্ষা সম্পর্কিত জিজ্ঞাসা এবং অভিযোগ উপরের ইমেইল ঠিকানায় করা যেতে পারে।",
+      "items": "<li>ইমেইল: <a href=\"mailto:jj@dosusu.com\">jj@dosusu.com</a></li>"
     },
     "section11": {
-      "title": "Article 11 (Department for Receiving and Processing Personal Information Access Requests)",
-      "intro1": "Personal information access requests are received and processed by the department below.",
-      "intro2": "<strong>PushShare</strong> will do its best to promptly process data subjects' access requests.",
-      "item1": "Email: <a href=\"mailto:jj@dosusu.com\">jj@dosusu.com</a>",
-      "items": "<li>Email: <a href=\"mailto:jj@dosusu.com\">jj@dosusu.com</a></li>"
+      "title": "ধারা ১১ (ব্যক্তিগত তথ্য অ্যাক্সেস অনুরোধ গ্রহণ এবং প্রক্রিয়াকরণের বিভাগ)",
+      "intro1": "ব্যক্তিগত তথ্য অ্যাক্সেস অনুরোধগুলি নীচের বিভাগ দ্বারা গ্রহণ এবং প্রক্রিয়া করা হয়।",
+      "intro2": "<strong>PushShare</strong> তথ্য বিষয়গুলির অ্যাক্সেস অনুরোধগুলি দ্রুত প্রক্রিয়া করার জন্য যথাসাধ্য চেষ্টা করবে।",
+      "item1": "ইমেইল: <a href=\"mailto:jj@dosusu.com\">jj@dosusu.com</a>",
+      "items": "<li>ইমেইল: <a href=\"mailto:jj@dosusu.com\">jj@dosusu.com</a></li>"
     },
     "section12": {
-      "title": "Article 12 (Remedies for Infringement of Rights and Interests)",
-      "intro": "Data subjects can apply for dispute resolution or counseling related to personal information infringement through the following institutions:",
-      "item1": "Personal Information Dispute Mediation Committee: 1833-6972 / <a href=\"http://www.kopico.go.kr\" target=\"_blank\">www.kopico.go.kr</a>",
-      "item2": "Personal Information Infringement Report Center: 118 / <a href=\"http://privacy.kisa.or.kr\" target=\"_blank\">privacy.kisa.or.kr</a>",
-      "item3": "Supreme Prosecutors' Office: 1301 / <a href=\"http://www.spo.go.kr\" target=\"_blank\">www.spo.go.kr</a>",
-      "item4": "National Police Agency: 182 / <a href=\"http://ecrm.cyber.go.kr\" target=\"_blank\">ecrm.cyber.go.kr</a>",
-      "intro2": "In addition, administrative appeals can be filed when rights and interests are infringed due to the disposition or inaction of public institutions.",
-      "item5": "Central Administrative Appeals Commission: <a href=\"http://www.simpan.go.kr\" target=\"_blank\">www.simpan.go.kr</a>",
-      "items": "<li>Personal Information Dispute Mediation Committee: 1833-6972 / <a href=\"http://www.kopico.go.kr\" target=\"_blank\">www.kopico.go.kr</a></li><li>Personal Information Infringement Report Center: 118 / <a href=\"http://privacy.kisa.or.kr\" target=\"_blank\">privacy.kisa.or.kr</a></li><li>Supreme Prosecutors' Office: 1301 / <a href=\"http://www.spo.go.kr\" target=\"_blank\">www.spo.go.kr</a></li><li>National Police Agency: 182 / <a href=\"http://ecrm.cyber.go.kr\" target=\"_blank\">ecrm.cyber.go.kr</a></li>",
-      "item5_html": "<li>Central Administrative Appeals Commission: <a href=\"http://www.simpan.go.kr\" target=\"_blank\">www.simpan.go.kr</a></li>"
+      "title": "ধারা ১২ (অধিকার এবং স্বার্থ লঙ্ঘনের প্রতিকার)",
+      "intro": "তথ্য বিষয়গুলি নিম্নলিখিত প্রতিষ্ঠানগুলির মাধ্যমে ব্যক্তিগত তথ্য লঙ্ঘন সম্পর্কিত বিরোধ নিষ্পত্তি বা পরামর্শের জন্য আবেদন করতে পারে:",
+      "item1": "ব্যক্তিগত তথ্য বিরোধ মধ্যস্থতা কমিটি: ১৮৩৩-৬৯৭২ / <a href=\"http://www.kopico.go.kr\" target=\"_blank\">www.kopico.go.kr</a>",
+      "item2": "ব্যক্তিগত তথ্য লঙ্ঘন রিপোর্ট সেন্টার: ১১৮ / <a href=\"http://privacy.kisa.or.kr\" target=\"_blank\">privacy.kisa.or.kr</a>",
+      "item3": "সুপ্রিম প্রসিকিউটর অফিস: ১৩০১ / <a href=\"http://www.spo.go.kr\" target=\"_blank\">www.spo.go.kr</a>",
+      "item4": "জাতীয় পুলিশ এজেন্সি: ১৮২ / <a href=\"http://ecrm.cyber.go.kr\" target=\"_blank\">ecrm.cyber.go.kr</a>",
+      "intro2": "এছাড়াও, সরকারী প্রতিষ্ঠানের নিষ্পত্তি বা নিষ্ক্রিয়তার কারণে যখন অধিকার এবং স্বার্থ লঙ্ঘন করা হয় তখন প্রশাসনিক আপিল দায়ের করা যেতে পারে।",
+      "item5": "কেন্দ্রীয় প্রশাসনিক আপিল কমিশন: <a href=\"http://www.simpan.go.kr\" target=\"_blank\">www.simpan.go.kr</a>",
+      "items": "<li>ব্যক্তিগত তথ্য বিরোধ মধ্যস্থতা কমিটি: ১৮৩৩-৬৯৭২ / <a href=\"http://www.kopico.go.kr\" target=\"_blank\">www.kopico.go.kr</a></li><li>ব্যক্তিগত তথ্য লঙ্ঘন রিপোর্ট সেন্টার: ১১৮ / <a href=\"http://privacy.kisa.or.kr\" target=\"_blank\">privacy.kisa.or.kr</a></li><li>সুপ্রিম প্রসিকিউটর অফিস: ১৩০১ / <a href=\"http://www.spo.go.kr\" target=\"_blank\">www.spo.go.kr</a></li><li>জাতীয় পুলিশ এজেন্সি: ১৮২ / <a href=\"http://ecrm.cyber.go.kr\" target=\"_blank\">ecrm.cyber.go.kr</a></li>",
+      "item5_html": "<li>কেন্দ্রীয় প্রশাসনিক আপিল কমিশন: <a href=\"http://www.simpan.go.kr\" target=\"_blank\">www.simpan.go.kr</a></li>"
     },
     "section13": {
-      "title": "Article 12 (Changes to Privacy Policy)",
-      "intro1": "This Privacy Policy is effective as of <strong>December 3, 2025</strong>.",
-      "intro2": "If there are additions, deletions, or modifications to the content due to changes in laws, policies, or security technology, we will notify you through the website's notice at least 7 days before the implementation of the changes."
+      "title": "ধারা ১৩ (গোপনীয়তা নীতির পরিবর্তন)",
+      "intro1": "এই গোপনীয়তা নীতি <strong>৩ ডিসেম্বর ২০২৫</strong> থেকে কার্যকর।",
+      "intro2": "যদি আইন, নীতি, বা নিরাপত্তা প্রযুক্তির পরিবর্তনের কারণে বিষয়বস্তুতে সংযোজন, মুছে ফেলা, বা পরিবর্তন থাকে, আমরা পরিবর্তনগুলি বাস্তবায়নের কমপক্ষে ৭ দিন আগে ওয়েবসাইটের বিজ্ঞপ্তির মাধ্যমে আপনাকে জানাব।"
     }
   },
   "terms": {
     "title": "সেবার শর্তাবলী",
-    "lastUpdated": "সর্বশেষ আপডেট: 1 জানুয়ারী 2025",
+    "lastUpdated": "সর্বশেষ আপডেট: ১ জানুয়ারী ২০২৫",
     "section1": {
-      "title": "Article 1 (Purpose)",
-      "content": "These Terms of Service (hereinafter referred to as \"Terms\") govern the rights, obligations, and responsibilities between PushShare (hereinafter referred to as \"Company\") and users regarding the use of the push notification sharing service (hereinafter referred to as \"Service\") provided by the Company."
+      "title": "ধারা ১ (উদ্দেশ্য)",
+      "content": "এই সেবার শর্তাবলী (পরবর্তীতে \"শর্তাবলী\" হিসাবে উল্লেখিত) কোম্পানি দ্বারা প্রদত্ত পুশ নোটিফিকেশন শেয়ারিং পরিষেবা (পরবর্তীতে \"পরিষেবা\" হিসাবে উল্লেখিত) ব্যবহার সম্পর্কে PushShare (পরবর্তীতে \"কোম্পানি\" হিসাবে উল্লেখিত) এবং ব্যবহারকারীদের মধ্যে অধিকার, বাধ্যবাধকতা এবং দায়িত্ব নিয়ন্ত্রণ করে।"
     },
     "section2": {
-      "title": "Article 2 (Definitions)",
-      "items": "<li>\"Service\" means the push notification sharing and related services provided by the Company.</li><li>\"User\" means members and non-members who use the Service in accordance with these Terms.</li><li>\"Member\" means a person who has registered as a member and uses the Service.</li>"
+      "title": "ধারা ২ (সংজ্ঞা)",
+      "items": "<li>\"পরিষেবা\" মানে কোম্পানি দ্বারা প্রদত্ত পুশ নোটিফিকেশন শেয়ারিং এবং সম্পর্কিত পরিষেবা।</li><li>\"ব্যবহারকারী\" মানে এই শর্তাবলী অনুসারে পরিষেবা ব্যবহারকারী সদস্য এবং অ-সদস্য।</li><li>\"সদস্য\" মানে একজন ব্যক্তি যিনি সদস্য হিসাবে নিবন্ধিত হয়েছেন এবং পরিষেবা ব্যবহার করেন।</li>"
     },
     "section3": {
-      "title": "Article 3 (Posting and Amendment of Terms)",
-      "content": "The Company posts the contents of these Terms on the initial screen of the Service so that users can easily know them. The Company may amend these Terms to the extent that they do not violate relevant laws and regulations when necessary."
+      "title": "ধারা ৩ (শর্তাবলীর পোস্টিং এবং সংশোধন)",
+      "content": "কোম্পানি এই শর্তাবলীর বিষয়বস্তু পরিষেবার প্রাথমিক স্ক্রিনে পোস্ট করে যাতে ব্যবহারকারীরা সহজেই সেগুলি জানতে পারে। কোম্পানি প্রয়োজন হলে প্রাসঙ্গিক আইন এবং প্রবিধান লঙ্ঘন না করে এই শর্তাবলী সংশোধন করতে পারে।"
     },
     "section4": {
-      "title": "Article 4 (Provision and Change of Service)",
-      "intro": "The Company provides the following services:",
-      "items": "<li>Push notification sharing service between multiple devices</li><li>Device management and settings service</li><li>App list management service</li><li>All other services that the Company may additionally develop or provide through partnership agreements</li>"
+      "title": "ধারা ৪ (পরিষেবার প্রদান এবং পরিবর্তন)",
+      "intro": "কোম্পানি নিম্নলিখিত পরিষেবা প্রদান করে:",
+      "items": "<li>একাধিক ডিভাইসের মধ্যে পুশ নোটিফিকেশন শেয়ারিং পরিষেবা</li><li>ডিভাইস পরিচালনা এবং সেটিংস পরিষেবা</li><li>অ্যাপ তালিকা পরিচালনা পরিষেবা</li><li>কোম্পানি যে সমস্ত অন্যান্য পরিষেবা অতিরিক্তভাবে বিকাশ করতে পারে বা অংশীদারিত্ব চুক্তির মাধ্যমে প্রদান করতে পারে</li>"
     },
     "section5": {
-      "title": "Article 5 (Suspension of Service)",
-      "content": "The Company may temporarily suspend the provision of the Service in cases where maintenance, replacement, or failure of information and communication equipment such as computers, or interruption of communication occurs."
+      "title": "ধারা ৫ (পরিষেবার স্থগিতকরণ)",
+      "content": "কোম্পানি এমন ক্ষেত্রে পরিষেবার প্রদান সাময়িকভাবে স্থগিত করতে পারে যেখানে কম্পিউটারের মতো তথ্য এবং যোগাযোগ সরঞ্জামের রক্ষণাবেক্ষণ, প্রতিস্থাপন, বা ব্যর্থতা, বা যোগাযোগের বিঘ্ন ঘটে।"
     },
     "section6": {
-      "title": "Article 6 (Membership Registration)",
-      "content": "A user applies for membership registration by filling out the membership information according to the registration form prescribed by the Company and expressing their intention to agree to these Terms."
+      "title": "ধারা ৬ (সদস্যপদ নিবন্ধন)",
+      "content": "একজন ব্যবহারকারী কোম্পানি দ্বারা নির্ধারিত নিবন্ধন ফর্ম অনুসারে সদস্যপদ তথ্য পূরণ করে এবং এই শর্তাবলীতে সম্মত হওয়ার তাদের অভিপ্রায় প্রকাশ করে সদস্যপদ নিবন্ধনের জন্য আবেদন করে।"
     },
     "section7": {
-      "title": "Article 7 (Change of Member Information)",
-      "content": "A member may view and modify their personal information at any time through the personal information management screen."
+      "title": "ধারা ৭ (সদস্য তথ্যের পরিবর্তন)",
+      "content": "একজন সদস্য ব্যক্তিগত তথ্য পরিচালনা স্ক্রিনের মাধ্যমে যেকোনো সময় তাদের ব্যক্তিগত তথ্য দেখতে এবং পরিবর্তন করতে পারে।"
     },
     "section8": {
-      "title": "Article 8 (Withdrawal and Loss of Qualification)",
-      "content": "A member may request withdrawal from the Company at any time, and the Company shall process the withdrawal immediately."
+      "title": "ধারা ৮ (প্রত্যাহার এবং যোগ্যতা হারানো)",
+      "content": "একজন সদস্য যেকোনো সময় কোম্পানির কাছ থেকে প্রত্যাহারের অনুরোধ করতে পারে, এবং কোম্পানি অবিলম্বে প্রত্যাহার প্রক্রিয়া করবে।"
     },
     "section9": {
-      "title": "Article 9 (Obligations of Users)",
-      "intro": "Users must not engage in the following acts:",
-      "items": "<li>Registration of false information when applying or making changes</li><li>Misappropriation of another person's information</li><li>Alteration of information posted by the Company</li><li>Transmission or posting of information other than that specified by the Company (such as computer programs)</li><li>Infringement of intellectual property rights such as copyrights of the Company and other third parties</li><li>Acts that damage the reputation of the Company and other third parties or interfere with business</li>"
+      "title": "ধারা ৯ (ব্যবহারকারীদের বাধ্যবাধকতা)",
+      "intro": "ব্যবহারকারীরা নিম্নলিখিত কাজে জড়িত হতে পারবে না:",
+      "items": "<li>আবেদন করার সময় বা পরিবর্তন করার সময় মিথ্যা তথ্য নিবন্ধন</li><li>অন্য ব্যক্তির তথ্যের অপব্যবহার</li><li>কোম্পানি দ্বারা পোস্ট করা তথ্যের পরিবর্তন</li><li>কোম্পানি দ্বারা নির্দিষ্ট করা তথ্য ছাড়া অন্য তথ্য প্রেরণ বা পোস্ট করা (যেমন কম্পিউটার প্রোগ্রাম)</li><li>কোম্পানি এবং অন্যান্য তৃতীয় পক্ষের কপিরাইটের মতো বৌদ্ধিক সম্পত্তি অধিকারের লঙ্ঘন</li><li>কোম্পানি এবং অন্যান্য তৃতীয় পক্ষের সুনাম ক্ষতি করে বা ব্যবসায় হস্তক্ষেপ করে এমন কাজ</li>"
     },
     "section10": {
-      "title": "Article 10 (Disclaimer)",
-      "content": "The Company shall be exempt from liability for the provision of the Service in cases where the Service cannot be provided due to natural disasters or equivalent force majeure."
+      "title": "ধারা ১০ (দায়িত্ব অস্বীকার)",
+      "content": "প্রাকৃতিক দুর্যোগ বা সমতুল্য ফোর্স ম্যাজুরের কারণে পরিষেবা প্রদান করা যায় না এমন ক্ষেত্রে কোম্পানি পরিষেবা প্রদানের জন্য দায়িত্ব থেকে মুক্ত হবে।"
     },
     "section11": {
-      "title": "Article 11 (Governing Law and Jurisdiction)",
-      "content": "The laws of the Republic of Korea shall apply to the interpretation of these Terms and disputes between the Company and users. In the event of a lawsuit arising from such disputes, the Seoul Central District Court shall be the competent court."
+      "title": "ধারা ১১ (প্রযোজ্য আইন এবং এখতিয়ার)",
+      "content": "কোরিয়া প্রজাতন্ত্রের আইন এই শর্তাবলীর ব্যাখ্যা এবং কোম্পানি এবং ব্যবহারকারীদের মধ্যে বিরোধের জন্য প্রযোজ্য হবে। এই ধরনের বিরোধ থেকে উদ্ভূত মামলার ক্ষেত্রে, সিউল সেন্ট্রাল ডিস্ট্রিক্ট কোর্ট হবে যোগ্য আদালত।"
     }
   }
 }

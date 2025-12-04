@@ -51,163 +51,163 @@
     "terms": "Điều khoản Dịch vụ"
   },
   "privacy": {
-    "title": "Privacy Policy",
-    "lastUpdated": "Last Updated: December 3, 2025",
-    "effectiveDate": "This Privacy Policy is effective as of December 3, 2025.",
-    "intro": "<strong>PushShare</strong> ('https://pushshare.app', hereinafter referred to as <strong>'PushShare'</strong>) establishes and discloses this Privacy Policy in accordance with Article 30 of the Personal Information Protection Act to protect the personal information of data subjects and to handle related complaints promptly and smoothly.",
+    "title": "Chính sách Bảo mật",
+    "lastUpdated": "Cập nhật lần cuối: 3 tháng 12 năm 2025",
+    "effectiveDate": "Chính sách Bảo mật này có hiệu lực từ ngày 3 tháng 12 năm 2025.",
+    "intro": "<strong>PushShare</strong> ('https://pushshare.app', sau đây được gọi là <strong>'PushShare'</strong>) thiết lập và công bố Chính sách Bảo mật này theo Điều 30 của Luật Bảo vệ Thông tin Cá nhân để bảo vệ thông tin cá nhân của các chủ thể dữ liệu và xử lý các khiếu nại liên quan một cách nhanh chóng và suôn sẻ.",
     "section1": {
-      "title": "Article 1 (Purpose of Processing Personal Information)",
-      "intro": "<strong>PushShare</strong> processes personal information for the following purposes. The personal information being processed is not used for purposes other than those stated below, and if the purpose of use changes, we will take necessary measures such as obtaining separate consent in accordance with Article 18 of the Personal Information Protection Act.",
-      "items": "<li><strong>Member Registration and Management</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Purpose of identity verification and authentication for membership services</li><li>Identity verification for service use</li></ul></li><li><strong>Service Provision</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Push notification delivery service</li><li>Cross-device push notification sharing service</li><li>Subscription service provision and management</li></ul></li><li><strong>Marketing and Advertising</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Advertising service provision (Google AdMob)</li></ul></li><li><strong>Customer Inquiries and Complaint Handling</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Response to and handling of customer inquiries</li></ul></li>"
+      "title": "Điều 1 (Mục đích xử lý thông tin cá nhân)",
+      "intro": "<strong>PushShare</strong> xử lý thông tin cá nhân cho các mục đích sau. Thông tin cá nhân đang được xử lý không được sử dụng cho các mục đích khác ngoài những mục đích được nêu dưới đây, và nếu mục đích sử dụng thay đổi, chúng tôi sẽ thực hiện các biện pháp cần thiết như thu thập sự đồng ý riêng biệt theo Điều 18 của Luật Bảo vệ Thông tin Cá nhân.",
+      "items": "<li><strong>Đăng ký và quản lý thành viên</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Mục đích xác minh danh tính và xác thực cho dịch vụ thành viên</li><li>Xác minh danh tính cho việc sử dụng dịch vụ</li></ul></li><li><strong>Cung cấp dịch vụ</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Dịch vụ gửi thông báo push</li><li>Dịch vụ chia sẻ thông báo push giữa các thiết bị</li><li>Cung cấp và quản lý dịch vụ đăng ký</li></ul></li><li><strong>Tiếp thị và quảng cáo</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Cung cấp dịch vụ quảng cáo (Google AdMob)</li></ul></li><li><strong>Xử lý yêu cầu và khiếu nại của khách hàng</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Phản hồi và xử lý yêu cầu của khách hàng</li></ul></li>"
     },
     "section2": {
-      "title": "Article 2 (Processing and Retention Period of Personal Information)",
-      "intro1": "① <strong>PushShare</strong> processes and retains personal information within the period of retention and use of personal information under applicable laws or the period agreed upon when collecting personal information from the data subject.",
-      "intro2": "② The processing and retention period for each type of personal information is as follows:",
-      "items": "<li><strong>Member Authentication Information</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Retention Period: During the service use period</li><li>Basis for Retention: Necessary for service provision and contract performance</li><li>※ Note: PushShare does not store users' email addresses in its own database. Email addresses are used only for Firebase Authentication and are managed by Firebase's authentication system.</li></ul></li><li><strong>Device Information</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Retention Period: Until app deletion or upon user request</li><li>Basis for Retention: Device identification information for push notification delivery, which becomes meaningless when the app is deleted as it is no longer connected</li></ul></li><li><strong>Service Usage Information</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Retention Period: During the service use period or upon user request</li><li>Basis for Retention: Necessary for service provision</li></ul></li><li><strong>Subscription Information</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Retention Period: 5 years after subscription cancellation (retention of records related to contracts or subscription cancellations)</li><li>Basis for Retention: Legal obligation under relevant laws</li></ul></li>",
-      "note": "<strong>※ Notice Regarding Account Deletion and Data Deletion</strong><br>PushShare does not provide a separate account deletion function because we do not store personally identifiable information. The stored information is anonymous data that cannot identify specific individuals on its own, and remains as dummy data without a service provision purpose. However, if users request data deletion, we will delete the relevant data upon request via email (jj@dosusu.com).",
-      "intro3": "③ Related Laws:",
-      "laws": "<li>Records on display/advertising: 6 months</li><li>Records on contracts or subscription cancellations: 5 years</li>"
+      "title": "Điều 2 (Thời hạn xử lý và lưu trữ thông tin cá nhân)",
+      "intro1": "① <strong>PushShare</strong> xử lý và lưu trữ thông tin cá nhân trong thời hạn lưu trữ và sử dụng thông tin cá nhân theo các luật áp dụng hoặc thời hạn đã thỏa thuận khi thu thập thông tin cá nhân từ chủ thể dữ liệu.",
+      "intro2": "② Thời hạn xử lý và lưu trữ cho từng loại thông tin cá nhân như sau:",
+      "items": "<li><strong>Thông tin xác thực thành viên</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Thời hạn lưu trữ: Trong thời gian sử dụng dịch vụ</li><li>Cơ sở lưu trữ: Cần thiết cho việc cung cấp dịch vụ và thực hiện hợp đồng</li><li>※ Lưu ý: PushShare không lưu trữ địa chỉ email của người dùng trong cơ sở dữ liệu riêng. Địa chỉ email chỉ được sử dụng cho Firebase Authentication và được quản lý bởi hệ thống xác thực của Firebase.</li></ul></li><li><strong>Thông tin thiết bị</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Thời hạn lưu trữ: Cho đến khi xóa ứng dụng hoặc theo yêu cầu của người dùng</li><li>Cơ sở lưu trữ: Thông tin nhận dạng thiết bị để gửi thông báo push, trở nên vô nghĩa khi ứng dụng bị xóa vì không còn kết nối</li></ul></li><li><strong>Thông tin sử dụng dịch vụ</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Thời hạn lưu trữ: Trong thời gian sử dụng dịch vụ hoặc theo yêu cầu của người dùng</li><li>Cơ sở lưu trữ: Cần thiết cho việc cung cấp dịch vụ</li></ul></li><li><strong>Thông tin đăng ký</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Thời hạn lưu trữ: 5 năm sau khi hủy đăng ký (lưu trữ hồ sơ liên quan đến hợp đồng hoặc hủy đăng ký)</li><li>Cơ sở lưu trữ: Nghĩa vụ pháp lý theo các luật liên quan</li></ul></li>",
+      "note": "<strong>※ Thông báo về Xóa Tài khoản và Xóa Dữ liệu</strong><br>PushShare không cung cấp chức năng xóa tài khoản riêng vì chúng tôi không lưu trữ thông tin có thể nhận dạng cá nhân. Thông tin được lưu trữ là dữ liệu ẩn danh không thể tự xác định các cá nhân cụ thể, và chỉ còn lại như dữ liệu giả không có mục đích cung cấp dịch vụ. Tuy nhiên, nếu người dùng yêu cầu xóa dữ liệu, chúng tôi sẽ xóa dữ liệu liên quan theo yêu cầu qua email (jj@dosusu.com).",
+      "intro3": "③ Các luật liên quan:",
+      "laws": "<li>Hồ sơ về hiển thị/quảng cáo: 6 tháng</li><li>Hồ sơ về hợp đồng hoặc hủy đăng ký: 5 năm</li>"
     },
     "section3": {
-      "title": "Article 3 (Items of Personal Information Processed)",
-      "intro": "<strong>PushShare</strong> processes the following information:",
-      "item1": "<strong>Member Authentication Information</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Firebase Authentication unique ID (anonymous identifier, cannot directly identify individuals)</li><li>※ Email addresses are used only for Firebase Authentication and are not stored in PushShare's database.</li></ul>",
-      "item2": "<strong>Service Usage Information</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Device information: Device name, model name, manufacturer, device unique ID</li><li>FCM token: Token for push notification delivery</li><li>User profile: Free push usage count, subscription information, daily push delivery count</li><li>App information: Package name and app name of selected apps</li></ul>",
-      "item3": "<strong>Subscription Service Information</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Subscription type, subscription expiration date, RevenueCat customer ID</li></ul>",
-      "note": "※ The above information cannot identify specific individuals on its own. However, we collect only the minimum information necessary for service provision.",
-      "items": "<li><strong>Member Authentication Information</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Firebase Authentication unique ID (anonymous identifier, cannot directly identify individuals)</li><li>※ Email addresses are used only for Firebase Authentication and are not stored in PushShare's database.</li></ul></li><li><strong>Service Usage Information</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Device information: Device name, model name, manufacturer, device unique ID</li><li>FCM token: Token for push notification delivery</li><li>User profile: Free push usage count, subscription information, daily push delivery count</li><li>App information: Package name and app name of selected apps</li></ul></li><li><strong>Subscription Service Information</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Subscription type, subscription expiration date, RevenueCat customer ID</li></ul></li>"
+      "title": "Điều 3 (Các mục thông tin cá nhân được xử lý)",
+      "intro": "<strong>PushShare</strong> xử lý các thông tin sau:",
+      "item1": "<strong>Thông tin xác thực thành viên</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>ID duy nhất Firebase Authentication (định danh ẩn danh, không thể trực tiếp xác định cá nhân)</li><li>※ Địa chỉ email chỉ được sử dụng cho Firebase Authentication và không được lưu trữ trong cơ sở dữ liệu của PushShare.</li></ul>",
+      "item2": "<strong>Thông tin sử dụng dịch vụ</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Thông tin thiết bị: Tên thiết bị, tên model, nhà sản xuất, ID duy nhất thiết bị</li><li>FCM token: Token để gửi thông báo push</li><li>Hồ sơ người dùng: Số lần sử dụng push miễn phí, thông tin đăng ký, số lượng gửi push hàng ngày</li><li>Thông tin ứng dụng: Tên gói và tên ứng dụng của các ứng dụng đã chọn</li></ul>",
+      "item3": "<strong>Thông tin dịch vụ đăng ký</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Loại đăng ký, ngày hết hạn đăng ký, ID khách hàng RevenueCat</li></ul>",
+      "note": "※ Các thông tin trên không thể tự xác định các cá nhân cụ thể. Tuy nhiên, chúng tôi chỉ thu thập thông tin tối thiểu cần thiết cho việc cung cấp dịch vụ.",
+      "items": "<li><strong>Thông tin xác thực thành viên</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>ID duy nhất Firebase Authentication (định danh ẩn danh, không thể trực tiếp xác định cá nhân)</li><li>※ Địa chỉ email chỉ được sử dụng cho Firebase Authentication và không được lưu trữ trong cơ sở dữ liệu của PushShare.</li></ul></li><li><strong>Thông tin sử dụng dịch vụ</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Thông tin thiết bị: Tên thiết bị, tên model, nhà sản xuất, ID duy nhất thiết bị</li><li>FCM token: Token để gửi thông báo push</li><li>Hồ sơ người dùng: Số lần sử dụng push miễn phí, thông tin đăng ký, số lượng gửi push hàng ngày</li><li>Thông tin ứng dụng: Tên gói và tên ứng dụng của các ứng dụng đã chọn</li></ul></li><li><strong>Thông tin dịch vụ đăng ký</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Loại đăng ký, ngày hết hạn đăng ký, ID khách hàng RevenueCat</li></ul></li>"
     },
     "section4": {
-      "title": "Article 4 (Provision of Personal Information to Third Parties)",
-      "intro1": "① <strong>PushShare</strong> does not provide personal information of data subjects to third parties in principle. However, exceptions are made in the following cases:",
-      "item1": "When the data subject has given prior consent",
-      "item2": "When required by law or when requested by investigative agencies in accordance with procedures and methods prescribed by law for investigative purposes",
-      "intro2": "② Information is processed through the following service providers for service provision:",
-      "item3": "<strong>Google Firebase</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Firebase Authentication: Used for user authentication (email addresses are managed by Firebase)</li><li>Firebase Firestore: Used for user data storage</li><li>Firebase Cloud Messaging: Used for push notification delivery</li></ul>",
-      "item4": "<strong>Google AdMob</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Used for advertising service provision (advertising identifiers, etc.)</li></ul>",
-      "items1": "<li>When the data subject has given prior consent</li><li>When required by law or when requested by investigative agencies in accordance with procedures and methods prescribed by law for investigative purposes</li>",
-      "items2": "<li><strong>Google Firebase</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Firebase Authentication: Used for user authentication (email addresses are managed by Firebase)</li><li>Firebase Firestore: Used for user data storage</li><li>Firebase Cloud Messaging: Used for push notification delivery</li></ul></li><li><strong>Google AdMob</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Used for advertising service provision (advertising identifiers, etc.)</li></ul></li>"
+      "title": "Điều 4 (Cung cấp thông tin cá nhân cho bên thứ ba)",
+      "intro1": "① <strong>PushShare</strong> về nguyên tắc không cung cấp thông tin cá nhân của chủ thể dữ liệu cho bên thứ ba. Tuy nhiên, có các trường hợp ngoại lệ sau:",
+      "item1": "Khi chủ thể dữ liệu đã đồng ý trước đó",
+      "item2": "Khi được yêu cầu bởi pháp luật hoặc khi được yêu cầu bởi các cơ quan điều tra theo các thủ tục và phương pháp được quy định bởi pháp luật cho mục đích điều tra",
+      "intro2": "② Thông tin được xử lý thông qua các nhà cung cấp dịch vụ sau để cung cấp dịch vụ:",
+      "item3": "<strong>Google Firebase</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Firebase Authentication: Được sử dụng để xác thực người dùng (địa chỉ email được quản lý bởi Firebase)</li><li>Firebase Firestore: Được sử dụng để lưu trữ dữ liệu người dùng</li><li>Firebase Cloud Messaging: Được sử dụng để gửi thông báo push</li></ul>",
+      "item4": "<strong>Google AdMob</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Được sử dụng để cung cấp dịch vụ quảng cáo (định danh quảng cáo, v.v.)</li></ul>",
+      "items1": "<li>Khi chủ thể dữ liệu đã đồng ý trước đó</li><li>Khi được yêu cầu bởi pháp luật hoặc khi được yêu cầu bởi các cơ quan điều tra theo các thủ tục và phương pháp được quy định bởi pháp luật cho mục đích điều tra</li>",
+      "items2": "<li><strong>Google Firebase</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Firebase Authentication: Được sử dụng để xác thực người dùng (địa chỉ email được quản lý bởi Firebase)</li><li>Firebase Firestore: Được sử dụng để lưu trữ dữ liệu người dùng</li><li>Firebase Cloud Messaging: Được sử dụng để gửi thông báo push</li></ul></li><li><strong>Google AdMob</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Được sử dụng để cung cấp dịch vụ quảng cáo (định danh quảng cáo, v.v.)</li></ul></li>"
     },
     "section5": {
-      "title": "Article 5 (Entrustment of Personal Information Processing)",
-      "intro1": "① <strong>PushShare</strong> entrusts personal information processing tasks as follows for service improvement:",
-      "item1": "<strong>Google Firebase</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Entrusted Tasks: Data storage and authentication services</li><li>Entrustment Period: During the service provision period</li></ul>",
-      "item2": "<strong>RevenueCat</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Entrusted Tasks: Subscription management services</li><li>Entrustment Period: During the subscription service provision period</li></ul>",
-      "intro2": "② When entering into entrustment contracts, <strong>PushShare</strong> specifies in documents such as contracts matters related to prohibition of personal information processing for purposes other than the entrusted tasks, technical and administrative protection measures, restrictions on re-entrustment, management and supervision of trustees, and liability for damages in accordance with Article 26 of the Personal Information Protection Act, and supervises whether trustees safely process personal information.",
-      "items": "<li><strong>Google Firebase</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Entrusted Tasks: Data storage and authentication services</li><li>Entrustment Period: During the service provision period</li></ul></li><li><strong>RevenueCat</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Entrusted Tasks: Subscription management services</li><li>Entrustment Period: During the subscription service provision period</li></ul></li>"
+      "title": "Điều 5 (Ủy thác xử lý thông tin cá nhân)",
+      "intro1": "① <strong>PushShare</strong> ủy thác các nhiệm vụ xử lý thông tin cá nhân như sau để cải thiện dịch vụ:",
+      "item1": "<strong>Google Firebase</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Nhiệm vụ được ủy thác: Dịch vụ lưu trữ dữ liệu và xác thực</li><li>Thời hạn ủy thác: Trong thời gian cung cấp dịch vụ</li></ul>",
+      "item2": "<strong>RevenueCat</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Nhiệm vụ được ủy thác: Dịch vụ quản lý đăng ký</li><li>Thời hạn ủy thác: Trong thời gian cung cấp dịch vụ đăng ký</li></ul>",
+      "intro2": "② Khi ký kết hợp đồng ủy thác, <strong>PushShare</strong> quy định trong các tài liệu như hợp đồng các vấn đề liên quan đến việc cấm xử lý thông tin cá nhân cho các mục đích khác ngoài các nhiệm vụ được ủy thác, các biện pháp bảo vệ kỹ thuật và hành chính, hạn chế về việc tái ủy thác, quản lý và giám sát người được ủy thác, và trách nhiệm bồi thường theo Điều 26 của Luật Bảo vệ Thông tin Cá nhân, và giám sát xem người được ủy thác có xử lý thông tin cá nhân một cách an toàn hay không.",
+      "items": "<li><strong>Google Firebase</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Nhiệm vụ được ủy thác: Dịch vụ lưu trữ dữ liệu và xác thực</li><li>Thời hạn ủy thác: Trong thời gian cung cấp dịch vụ</li></ul></li><li><strong>RevenueCat</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Nhiệm vụ được ủy thác: Dịch vụ quản lý đăng ký</li><li>Thời hạn ủy thác: Trong thời gian cung cấp dịch vụ đăng ký</li></ul></li>"
     },
     "section6": {
-      "title": "Article 6 (Procedures and Methods for Destruction of Personal Information)",
-      "intro1": "① <strong>PushShare</strong> destroys personal information without delay when it becomes unnecessary due to the expiration of the retention period or achievement of the processing purpose.",
-      "intro2": "② Procedures and methods for destruction:",
-      "item1": "<strong>Destruction Procedures</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Select personal information for which destruction reasons have occurred and destroy it after obtaining approval from the personal information protection officer</li></ul>",
-      "item2": "<strong>Destruction Methods</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Electronic files are permanently deleted in an irrecoverable manner</li><li>Paper documents are shredded or incinerated</li></ul>",
-      "items": "<li><strong>Destruction Procedures</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Select personal information for which destruction reasons have occurred and destroy it after obtaining approval from the personal information protection officer</li></ul></li><li><strong>Destruction Methods</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Electronic files are permanently deleted in an irrecoverable manner</li><li>Paper documents are shredded or incinerated</li></ul></li>"
+      "title": "Điều 6 (Thủ tục và phương pháp hủy thông tin cá nhân)",
+      "intro1": "① <strong>PushShare</strong> hủy thông tin cá nhân ngay lập tức khi nó trở nên không cần thiết do thời hạn lưu trữ hết hạn hoặc đạt được mục đích xử lý.",
+      "intro2": "② Thủ tục và phương pháp hủy:",
+      "item1": "<strong>Thủ tục hủy</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Chọn thông tin cá nhân mà lý do hủy đã xảy ra và hủy nó sau khi có được sự chấp thuận của cán bộ bảo vệ thông tin cá nhân</li></ul>",
+      "item2": "<strong>Phương pháp hủy</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Các tệp điện tử được xóa vĩnh viễn theo cách không thể khôi phục</li><li>Tài liệu giấy được cắt nhỏ hoặc đốt</li></ul>",
+      "items": "<li><strong>Thủ tục hủy</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Chọn thông tin cá nhân mà lý do hủy đã xảy ra và hủy nó sau khi có được sự chấp thuận của cán bộ bảo vệ thông tin cá nhân</li></ul></li><li><strong>Phương pháp hủy</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Các tệp điện tử được xóa vĩnh viễn theo cách không thể khôi phục</li><li>Tài liệu giấy được cắt nhỏ hoặc đốt</li></ul></li>"
     },
     "section7": {
-      "title": "Article 7 (Rights and Obligations of Data Subjects and Legal Representatives and Methods of Exercise)",
-      "intro1": "① Data subjects may request access, correction, deletion, or suspension of processing of their personal information from <strong>PushShare</strong> at any time.",
-      "intro2": "② The exercise of the above rights can be made via email (jj@dosusu.com), and <strong>PushShare</strong> will take action without delay.",
-      "intro3": "③ However, since PushShare does not store personally identifiable information, the stored data is anonymous dummy data. If users request deletion, we will verify identity through Firebase Authentication account information and delete all data associated with that user.",
-      "intro4": "④ When exercising rights through a representative, a power of attorney must be submitted.",
-      "intro5": "⑤ Requests for access and suspension of processing may be restricted under Article 35(4) and Article 37(2) of the law.",
-      "intro6": "⑥ Requests for correction and deletion may be restricted when explicitly stated as collection targets in other laws.",
-      "intro7": "⑦ Identity verification procedures are conducted when exercising rights to confirm whether the person is the data subject or a legitimate representative."
+      "title": "Điều 7 (Quyền và nghĩa vụ của chủ thể dữ liệu và đại diện pháp lý và phương pháp thực hiện)",
+      "intro1": "① Chủ thể dữ liệu có thể yêu cầu truy cập, sửa đổi, xóa hoặc tạm dừng xử lý thông tin cá nhân của họ từ <strong>PushShare</strong> bất cứ lúc nào.",
+      "intro2": "② Việc thực hiện các quyền trên có thể được thực hiện qua email (jj@dosusu.com), và <strong>PushShare</strong> sẽ thực hiện hành động ngay lập tức.",
+      "intro3": "③ Tuy nhiên, vì PushShare không lưu trữ thông tin có thể nhận dạng cá nhân, dữ liệu được lưu trữ là dữ liệu giả ẩn danh. Nếu người dùng yêu cầu xóa, chúng tôi sẽ xác minh danh tính thông qua thông tin tài khoản Firebase Authentication và xóa tất cả dữ liệu liên quan đến người dùng đó.",
+      "intro4": "④ Khi thực hiện quyền thông qua đại diện, phải nộp giấy ủy quyền.",
+      "intro5": "⑤ Yêu cầu truy cập và tạm dừng xử lý có thể bị hạn chế theo Điều 35(4) và Điều 37(2) của luật.",
+      "intro6": "⑥ Yêu cầu sửa đổi và xóa có thể bị hạn chế khi được nêu rõ là mục tiêu thu thập trong các luật khác.",
+      "intro7": "⑦ Thủ tục xác minh danh tính được tiến hành khi thực hiện quyền để xác nhận xem người đó có phải là chủ thể dữ liệu hay đại diện hợp pháp hay không."
     },
     "section8": {
-      "title": "Article 8 (Measures to Ensure Safety of Personal Information)",
-      "intro": "<strong>PushShare</strong> takes the following measures to ensure the safety of personal information:",
-      "item1": "Access Control: Restricting access to personal information to a minimum number of personnel",
-      "item2": "External access control through intrusion prevention systems",
-      "item3": "Encryption: Personal information is encrypted for storage and transmission",
-      "item4": "Regular security inspections and audits",
-      "items": "<li>Access Control: Restricting access to personal information to a minimum number of personnel</li><li>External access control through intrusion prevention systems</li><li>Encryption: Personal information is encrypted for storage and transmission</li><li>Regular security inspections and audits</li>"
+      "title": "Điều 8 (Biện pháp đảm bảo an toàn thông tin cá nhân)",
+      "intro": "<strong>PushShare</strong> thực hiện các biện pháp sau để đảm bảo an toàn thông tin cá nhân:",
+      "item1": "Kiểm soát truy cập: Hạn chế truy cập vào thông tin cá nhân đến số lượng nhân viên tối thiểu",
+      "item2": "Kiểm soát truy cập bên ngoài thông qua hệ thống ngăn chặn xâm nhập",
+      "item3": "Mã hóa: Thông tin cá nhân được mã hóa để lưu trữ và truyền tải",
+      "item4": "Kiểm tra và đánh giá bảo mật thường xuyên",
+      "items": "<li>Kiểm soát truy cập: Hạn chế truy cập vào thông tin cá nhân đến số lượng nhân viên tối thiểu</li><li>Kiểm soát truy cập bên ngoài thông qua hệ thống ngăn chặn xâm nhập</li><li>Mã hóa: Thông tin cá nhân được mã hóa để lưu trữ và truyền tải</li><li>Kiểm tra và đánh giá bảo mật thường xuyên</li>"
     },
     "section9": {
-      "title": "Article 9 (Use of Cookies)",
-      "content": "<strong>PushShare</strong> does not use cookies."
+      "title": "Điều 9 (Sử dụng Cookie)",
+      "content": "<strong>PushShare</strong> không sử dụng cookie."
     },
     "section10": {
-      "title": "Article 10 (Personal Information Protection Officer)",
-      "intro": "▶ Personal Information Protection Officer",
+      "title": "Điều 10 (Cán bộ bảo vệ thông tin cá nhân)",
+      "intro": "▶ Cán bộ bảo vệ thông tin cá nhân",
       "item1": "Email: <a href=\"mailto:jj@dosusu.com\">jj@dosusu.com</a>",
-      "note": "※ Inquiries and complaints related to personal information protection can be made to the above email address.",
+      "note": "※ Các yêu cầu và khiếu nại liên quan đến bảo vệ thông tin cá nhân có thể được gửi đến địa chỉ email trên.",
       "items": "<li>Email: <a href=\"mailto:jj@dosusu.com\">jj@dosusu.com</a></li>"
     },
     "section11": {
-      "title": "Article 11 (Department for Receiving and Processing Personal Information Access Requests)",
-      "intro1": "Personal information access requests are received and processed by the department below.",
-      "intro2": "<strong>PushShare</strong> will do its best to promptly process data subjects' access requests.",
+      "title": "Điều 11 (Bộ phận tiếp nhận và xử lý yêu cầu truy cập thông tin cá nhân)",
+      "intro1": "Các yêu cầu truy cập thông tin cá nhân được tiếp nhận và xử lý bởi bộ phận dưới đây.",
+      "intro2": "<strong>PushShare</strong> sẽ cố gắng hết sức để xử lý kịp thời các yêu cầu truy cập của chủ thể dữ liệu.",
       "item1": "Email: <a href=\"mailto:jj@dosusu.com\">jj@dosusu.com</a>",
       "items": "<li>Email: <a href=\"mailto:jj@dosusu.com\">jj@dosusu.com</a></li>"
     },
     "section12": {
-      "title": "Article 12 (Remedies for Infringement of Rights and Interests)",
-      "intro": "Data subjects can apply for dispute resolution or counseling related to personal information infringement through the following institutions:",
-      "item1": "Personal Information Dispute Mediation Committee: 1833-6972 / <a href=\"http://www.kopico.go.kr\" target=\"_blank\">www.kopico.go.kr</a>",
-      "item2": "Personal Information Infringement Report Center: 118 / <a href=\"http://privacy.kisa.or.kr\" target=\"_blank\">privacy.kisa.or.kr</a>",
-      "item3": "Supreme Prosecutors' Office: 1301 / <a href=\"http://www.spo.go.kr\" target=\"_blank\">www.spo.go.kr</a>",
-      "item4": "National Police Agency: 182 / <a href=\"http://ecrm.cyber.go.kr\" target=\"_blank\">ecrm.cyber.go.kr</a>",
-      "intro2": "In addition, administrative appeals can be filed when rights and interests are infringed due to the disposition or inaction of public institutions.",
-      "item5": "Central Administrative Appeals Commission: <a href=\"http://www.simpan.go.kr\" target=\"_blank\">www.simpan.go.kr</a>",
-      "items": "<li>Personal Information Dispute Mediation Committee: 1833-6972 / <a href=\"http://www.kopico.go.kr\" target=\"_blank\">www.kopico.go.kr</a></li><li>Personal Information Infringement Report Center: 118 / <a href=\"http://privacy.kisa.or.kr\" target=\"_blank\">privacy.kisa.or.kr</a></li><li>Supreme Prosecutors' Office: 1301 / <a href=\"http://www.spo.go.kr\" target=\"_blank\">www.spo.go.kr</a></li><li>National Police Agency: 182 / <a href=\"http://ecrm.cyber.go.kr\" target=\"_blank\">ecrm.cyber.go.kr</a></li>",
-      "item5_html": "<li>Central Administrative Appeals Commission: <a href=\"http://www.simpan.go.kr\" target=\"_blank\">www.simpan.go.kr</a></li>"
+      "title": "Điều 12 (Biện pháp khắc phục vi phạm quyền và lợi ích)",
+      "intro": "Chủ thể dữ liệu có thể đăng ký giải quyết tranh chấp hoặc tư vấn liên quan đến vi phạm thông tin cá nhân thông qua các cơ quan sau:",
+      "item1": "Ủy ban Hòa giải Tranh chấp Thông tin Cá nhân: 1833-6972 / <a href=\"http://www.kopico.go.kr\" target=\"_blank\">www.kopico.go.kr</a>",
+      "item2": "Trung tâm Báo cáo Vi phạm Thông tin Cá nhân: 118 / <a href=\"http://privacy.kisa.or.kr\" target=\"_blank\">privacy.kisa.or.kr</a>",
+      "item3": "Văn phòng Tổng Công tố: 1301 / <a href=\"http://www.spo.go.kr\" target=\"_blank\">www.spo.go.kr</a>",
+      "item4": "Cơ quan Cảnh sát Quốc gia: 182 / <a href=\"http://ecrm.cyber.go.kr\" target=\"_blank\">ecrm.cyber.go.kr</a>",
+      "intro2": "Ngoài ra, có thể nộp đơn kháng cáo hành chính khi quyền và lợi ích bị vi phạm do quyết định hoặc không hành động của các cơ quan công cộng.",
+      "item5": "Ủy ban Kháng cáo Hành chính Trung ương: <a href=\"http://www.simpan.go.kr\" target=\"_blank\">www.simpan.go.kr</a>",
+      "items": "<li>Ủy ban Hòa giải Tranh chấp Thông tin Cá nhân: 1833-6972 / <a href=\"http://www.kopico.go.kr\" target=\"_blank\">www.kopico.go.kr</a></li><li>Trung tâm Báo cáo Vi phạm Thông tin Cá nhân: 118 / <a href=\"http://privacy.kisa.or.kr\" target=\"_blank\">privacy.kisa.or.kr</a></li><li>Văn phòng Tổng Công tố: 1301 / <a href=\"http://www.spo.go.kr\" target=\"_blank\">www.spo.go.kr</a></li><li>Cơ quan Cảnh sát Quốc gia: 182 / <a href=\"http://ecrm.cyber.go.kr\" target=\"_blank\">ecrm.cyber.go.kr</a></li>",
+      "item5_html": "<li>Ủy ban Kháng cáo Hành chính Trung ương: <a href=\"http://www.simpan.go.kr\" target=\"_blank\">www.simpan.go.kr</a></li>"
     },
     "section13": {
-      "title": "Article 12 (Changes to Privacy Policy)",
-      "intro1": "This Privacy Policy is effective as of <strong>December 3, 2025</strong>.",
-      "intro2": "If there are additions, deletions, or modifications to the content due to changes in laws, policies, or security technology, we will notify you through the website's notice at least 7 days before the implementation of the changes."
+      "title": "Điều 13 (Thay đổi Chính sách Bảo mật)",
+      "intro1": "Chính sách Bảo mật này có hiệu lực từ ngày <strong>3 tháng 12 năm 2025</strong>.",
+      "intro2": "Nếu có thêm, xóa hoặc sửa đổi nội dung do thay đổi luật, chính sách hoặc công nghệ bảo mật, chúng tôi sẽ thông báo cho bạn thông qua thông báo trên trang web ít nhất 7 ngày trước khi thực hiện các thay đổi."
     }
   },
   "terms": {
     "title": "Điều khoản Dịch vụ",
     "lastUpdated": "Cập nhật lần cuối: 1 tháng 1 năm 2025",
     "section1": {
-      "title": "Article 1 (Purpose)",
-      "content": "These Terms of Service (hereinafter referred to as \"Terms\") govern the rights, obligations, and responsibilities between PushShare (hereinafter referred to as \"Company\") and users regarding the use of the push notification sharing service (hereinafter referred to as \"Service\") provided by the Company."
+      "title": "Điều 1 (Mục đích)",
+      "content": "Các Điều khoản Dịch vụ này (sau đây được gọi là \"Điều khoản\") điều chỉnh quyền, nghĩa vụ và trách nhiệm giữa PushShare (sau đây được gọi là \"Công ty\") và người dùng liên quan đến việc sử dụng dịch vụ chia sẻ thông báo push (sau đây được gọi là \"Dịch vụ\") do Công ty cung cấp."
     },
     "section2": {
-      "title": "Article 2 (Definitions)",
-      "items": "<li>\"Service\" means the push notification sharing and related services provided by the Company.</li><li>\"User\" means members and non-members who use the Service in accordance with these Terms.</li><li>\"Member\" means a person who has registered as a member and uses the Service.</li>"
+      "title": "Điều 2 (Định nghĩa)",
+      "items": "<li>\"Dịch vụ\" có nghĩa là dịch vụ chia sẻ thông báo push và các dịch vụ liên quan do Công ty cung cấp.</li><li>\"Người dùng\" có nghĩa là thành viên và không phải thành viên sử dụng Dịch vụ theo các Điều khoản này.</li><li>\"Thành viên\" có nghĩa là một người đã đăng ký làm thành viên và sử dụng Dịch vụ.</li>"
     },
     "section3": {
-      "title": "Article 3 (Posting and Amendment of Terms)",
-      "content": "The Company posts the contents of these Terms on the initial screen of the Service so that users can easily know them. The Company may amend these Terms to the extent that they do not violate relevant laws and regulations when necessary."
+      "title": "Điều 3 (Đăng và sửa đổi Điều khoản)",
+      "content": "Công ty đăng nội dung của các Điều khoản này trên màn hình ban đầu của Dịch vụ để người dùng có thể dễ dàng biết chúng. Công ty có thể sửa đổi các Điều khoản này trong phạm vi không vi phạm các luật và quy định liên quan khi cần thiết."
     },
     "section4": {
-      "title": "Article 4 (Provision and Change of Service)",
-      "intro": "The Company provides the following services:",
-      "items": "<li>Push notification sharing service between multiple devices</li><li>Device management and settings service</li><li>App list management service</li><li>All other services that the Company may additionally develop or provide through partnership agreements</li>"
+      "title": "Điều 4 (Cung cấp và Thay đổi Dịch vụ)",
+      "intro": "Công ty cung cấp các dịch vụ sau:",
+      "items": "<li>Dịch vụ chia sẻ thông báo push giữa nhiều thiết bị</li><li>Dịch vụ quản lý và cài đặt thiết bị</li><li>Dịch vụ quản lý danh sách ứng dụng</li><li>Tất cả các dịch vụ khác mà Công ty có thể phát triển thêm hoặc cung cấp thông qua các thỏa thuận đối tác</li>"
     },
     "section5": {
-      "title": "Article 5 (Suspension of Service)",
-      "content": "The Company may temporarily suspend the provision of the Service in cases where maintenance, replacement, or failure of information and communication equipment such as computers, or interruption of communication occurs."
+      "title": "Điều 5 (Tạm dừng Dịch vụ)",
+      "content": "Công ty có thể tạm thời tạm dừng việc cung cấp Dịch vụ trong các trường hợp bảo trì, thay thế hoặc lỗi của thiết bị thông tin và truyền thông như máy tính, hoặc gián đoạn truyền thông xảy ra."
     },
     "section6": {
-      "title": "Article 6 (Membership Registration)",
-      "content": "A user applies for membership registration by filling out the membership information according to the registration form prescribed by the Company and expressing their intention to agree to these Terms."
+      "title": "Điều 6 (Đăng ký Thành viên)",
+      "content": "Người dùng đăng ký thành viên bằng cách điền thông tin thành viên theo biểu mẫu đăng ký do Công ty quy định và thể hiện ý định đồng ý với các Điều khoản này."
     },
     "section7": {
-      "title": "Article 7 (Change of Member Information)",
-      "content": "A member may view and modify their personal information at any time through the personal information management screen."
+      "title": "Điều 7 (Thay đổi Thông tin Thành viên)",
+      "content": "Thành viên có thể xem và sửa đổi thông tin cá nhân của mình bất cứ lúc nào thông qua màn hình quản lý thông tin cá nhân."
     },
     "section8": {
-      "title": "Article 8 (Withdrawal and Loss of Qualification)",
-      "content": "A member may request withdrawal from the Company at any time, and the Company shall process the withdrawal immediately."
+      "title": "Điều 8 (Rút lui và Mất Tư cách)",
+      "content": "Thành viên có thể yêu cầu rút lui khỏi Công ty bất cứ lúc nào, và Công ty sẽ xử lý việc rút lui ngay lập tức."
     },
     "section9": {
-      "title": "Article 9 (Obligations of Users)",
-      "intro": "Users must not engage in the following acts:",
-      "items": "<li>Registration of false information when applying or making changes</li><li>Misappropriation of another person's information</li><li>Alteration of information posted by the Company</li><li>Transmission or posting of information other than that specified by the Company (such as computer programs)</li><li>Infringement of intellectual property rights such as copyrights of the Company and other third parties</li><li>Acts that damage the reputation of the Company and other third parties or interfere with business</li>"
+      "title": "Điều 9 (Nghĩa vụ của Người dùng)",
+      "intro": "Người dùng không được thực hiện các hành vi sau:",
+      "items": "<li>Đăng ký thông tin sai khi đăng ký hoặc thay đổi</li><li>Chiếm đoạt thông tin của người khác</li><li>Thay đổi thông tin do Công ty đăng</li><li>Truyền hoặc đăng thông tin khác ngoài những gì Công ty quy định (chẳng hạn như chương trình máy tính)</li><li>Vi phạm quyền sở hữu trí tuệ như bản quyền của Công ty và các bên thứ ba khác</li><li>Hành vi làm tổn hại danh tiếng của Công ty và các bên thứ ba khác hoặc can thiệp vào kinh doanh</li>"
     },
     "section10": {
-      "title": "Article 10 (Disclaimer)",
-      "content": "The Company shall be exempt from liability for the provision of the Service in cases where the Service cannot be provided due to natural disasters or equivalent force majeure."
+      "title": "Điều 10 (Từ chối Trách nhiệm)",
+      "content": "Công ty sẽ được miễn trách nhiệm về việc cung cấp Dịch vụ trong các trường hợp Dịch vụ không thể được cung cấp do thiên tai hoặc sự kiện bất khả kháng tương đương."
     },
     "section11": {
-      "title": "Article 11 (Governing Law and Jurisdiction)",
-      "content": "The laws of the Republic of Korea shall apply to the interpretation of these Terms and disputes between the Company and users. In the event of a lawsuit arising from such disputes, the Seoul Central District Court shall be the competent court."
+      "title": "Điều 11 (Luật Áp dụng và Thẩm quyền)",
+      "content": "Luật của Cộng hòa Hàn Quốc sẽ áp dụng cho việc giải thích các Điều khoản này và các tranh chấp giữa Công ty và người dùng. Trong trường hợp có vụ kiện phát sinh từ các tranh chấp như vậy, Tòa án Quận Trung tâm Seoul sẽ là tòa án có thẩm quyền."
     }
   }
 }

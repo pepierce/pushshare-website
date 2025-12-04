@@ -51,163 +51,163 @@
     "terms": "Hizmet Şartları"
   },
   "privacy": {
-    "title": "Privacy Policy",
-    "lastUpdated": "Last Updated: December 3, 2025",
-    "effectiveDate": "This Privacy Policy is effective as of December 3, 2025.",
-    "intro": "<strong>PushShare</strong> ('https://pushshare.app', hereinafter referred to as <strong>'PushShare'</strong>) establishes and discloses this Privacy Policy in accordance with Article 30 of the Personal Information Protection Act to protect the personal information of data subjects and to handle related complaints promptly and smoothly.",
+    "title": "Gizlilik Politikası",
+    "lastUpdated": "Son güncelleme: 3 Aralık 2025",
+    "effectiveDate": "Bu Gizlilik Politikası 3 Aralık 2025 tarihinden itibaren yürürlüktedir.",
+    "intro": "<strong>PushShare</strong> ('https://pushshare.app', bundan sonra <strong>'PushShare'</strong> olarak anılacaktır), veri sahiplerinin kişisel bilgilerini korumak ve ilgili şikayetleri hızlı ve sorunsuz bir şekilde ele almak için Kişisel Bilgilerin Korunması Kanunu'nun 30. Maddesine uygun olarak bu Gizlilik Politikasını oluşturur ve açıklar.",
     "section1": {
-      "title": "Article 1 (Purpose of Processing Personal Information)",
-      "intro": "<strong>PushShare</strong> processes personal information for the following purposes. The personal information being processed is not used for purposes other than those stated below, and if the purpose of use changes, we will take necessary measures such as obtaining separate consent in accordance with Article 18 of the Personal Information Protection Act.",
-      "items": "<li><strong>Member Registration and Management</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Purpose of identity verification and authentication for membership services</li><li>Identity verification for service use</li></ul></li><li><strong>Service Provision</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Push notification delivery service</li><li>Cross-device push notification sharing service</li><li>Subscription service provision and management</li></ul></li><li><strong>Marketing and Advertising</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Advertising service provision (Google AdMob)</li></ul></li><li><strong>Customer Inquiries and Complaint Handling</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Response to and handling of customer inquiries</li></ul></li>"
+      "title": "Madde 1 (Kişisel Bilgilerin İşlenme Amacı)",
+      "intro": "<strong>PushShare</strong> kişisel bilgileri aşağıdaki amaçlar için işler. İşlenmekte olan kişisel bilgiler aşağıda belirtilenler dışındaki amaçlar için kullanılmaz ve kullanım amacı değişirse, Kişisel Bilgilerin Korunması Kanunu'nun 18. Maddesine uygun olarak ayrı onay almak gibi gerekli önlemleri alacağız.",
+      "items": "<li><strong>Üye Kaydı ve Yönetimi</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Üyelik hizmetleri için kimlik doğrulama ve kimlik tespiti amacı</li><li>Hizmet kullanımı için kimlik doğrulama</li></ul></li><li><strong>Hizmet Sağlama</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Push bildirim teslimat hizmeti</li><li>Cihazlar arası push bildirim paylaşım hizmeti</li><li>Abonelik hizmeti sağlama ve yönetimi</li></ul></li><li><strong>Pazarlama ve Reklam</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Reklam hizmeti sağlama (Google AdMob)</li></ul></li><li><strong>Müşteri Soruları ve Şikayet Yönetimi</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Müşteri sorularına yanıt ve işleme</li></ul></li>"
     },
     "section2": {
-      "title": "Article 2 (Processing and Retention Period of Personal Information)",
-      "intro1": "① <strong>PushShare</strong> processes and retains personal information within the period of retention and use of personal information under applicable laws or the period agreed upon when collecting personal information from the data subject.",
-      "intro2": "② The processing and retention period for each type of personal information is as follows:",
-      "items": "<li><strong>Member Authentication Information</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Retention Period: During the service use period</li><li>Basis for Retention: Necessary for service provision and contract performance</li><li>※ Note: PushShare does not store users' email addresses in its own database. Email addresses are used only for Firebase Authentication and are managed by Firebase's authentication system.</li></ul></li><li><strong>Device Information</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Retention Period: Until app deletion or upon user request</li><li>Basis for Retention: Device identification information for push notification delivery, which becomes meaningless when the app is deleted as it is no longer connected</li></ul></li><li><strong>Service Usage Information</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Retention Period: During the service use period or upon user request</li><li>Basis for Retention: Necessary for service provision</li></ul></li><li><strong>Subscription Information</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Retention Period: 5 years after subscription cancellation (retention of records related to contracts or subscription cancellations)</li><li>Basis for Retention: Legal obligation under relevant laws</li></ul></li>",
-      "note": "<strong>※ Notice Regarding Account Deletion and Data Deletion</strong><br>PushShare does not provide a separate account deletion function because we do not store personally identifiable information. The stored information is anonymous data that cannot identify specific individuals on its own, and remains as dummy data without a service provision purpose. However, if users request data deletion, we will delete the relevant data upon request via email (jj@dosusu.com).",
-      "intro3": "③ Related Laws:",
-      "laws": "<li>Records on display/advertising: 6 months</li><li>Records on contracts or subscription cancellations: 5 years</li>"
+      "title": "Madde 2 (Kişisel Bilgilerin İşlenme ve Saklama Süresi)",
+      "intro1": "① <strong>PushShare</strong> kişisel bilgileri, geçerli yasalar altında kişisel bilgilerin saklama ve kullanım süresi içinde veya veri sahibinden kişisel bilgi toplanırken üzerinde anlaşılan süre içinde işler ve saklar.",
+      "intro2": "② Her tür kişisel bilgi için işleme ve saklama süresi aşağıdaki gibidir:",
+      "items": "<li><strong>Üye Kimlik Doğrulama Bilgileri</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Saklama Süresi: Hizmet kullanım süresi boyunca</li><li>Saklama Temeli: Hizmet sağlama ve sözleşme performansı için gerekli</li><li>※ Not: PushShare kullanıcıların e-posta adreslerini kendi veritabanında saklamaz. E-posta adresleri yalnızca Firebase Authentication için kullanılır ve Firebase'in kimlik doğrulama sistemi tarafından yönetilir.</li></ul></li><li><strong>Cihaz Bilgileri</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Saklama Süresi: Uygulama silinene kadar veya kullanıcı talebi üzerine</li><li>Saklama Temeli: Push bildirim teslimatı için cihaz tanımlama bilgileri, uygulama silindiğinde artık bağlı olmadığı için anlamsız hale gelir</li></ul></li><li><strong>Hizmet Kullanım Bilgileri</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Saklama Süresi: Hizmet kullanım süresi boyunca veya kullanıcı talebi üzerine</li><li>Saklama Temeli: Hizmet sağlama için gerekli</li></ul></li><li><strong>Abonelik Bilgileri</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Saklama Süresi: Abonelik iptalinden sonra 5 yıl (sözleşmeler veya abonelik iptalleriyle ilgili kayıtların saklanması)</li><li>Saklama Temeli: İlgili yasalar altında yasal yükümlülük</li></ul></li>",
+      "note": "<strong>※ Hesap Silme ve Veri Silme Hakkında Bildirim</strong><br>PushShare, kişisel olarak tanımlanabilir bilgileri saklamadığımız için ayrı bir hesap silme işlevi sağlamaz. Saklanan bilgiler, kendi başına belirli bireyleri tanımlayamayan anonim verilerdir ve hizmet sağlama amacı olmadan dummy veri olarak kalır. Ancak, kullanıcılar veri silme talep ederse, e-posta (jj@dosusu.com) yoluyla talep üzerine ilgili verileri sileceğiz.",
+      "intro3": "③ İlgili Yasalar:",
+      "laws": "<li>Görüntüleme/reklam kayıtları: 6 ay</li><li>Sözleşme veya abonelik iptalleri kayıtları: 5 yıl</li>"
     },
     "section3": {
-      "title": "Article 3 (Items of Personal Information Processed)",
-      "intro": "<strong>PushShare</strong> processes the following information:",
-      "item1": "<strong>Member Authentication Information</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Firebase Authentication unique ID (anonymous identifier, cannot directly identify individuals)</li><li>※ Email addresses are used only for Firebase Authentication and are not stored in PushShare's database.</li></ul>",
-      "item2": "<strong>Service Usage Information</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Device information: Device name, model name, manufacturer, device unique ID</li><li>FCM token: Token for push notification delivery</li><li>User profile: Free push usage count, subscription information, daily push delivery count</li><li>App information: Package name and app name of selected apps</li></ul>",
-      "item3": "<strong>Subscription Service Information</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Subscription type, subscription expiration date, RevenueCat customer ID</li></ul>",
-      "note": "※ The above information cannot identify specific individuals on its own. However, we collect only the minimum information necessary for service provision.",
-      "items": "<li><strong>Member Authentication Information</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Firebase Authentication unique ID (anonymous identifier, cannot directly identify individuals)</li><li>※ Email addresses are used only for Firebase Authentication and are not stored in PushShare's database.</li></ul></li><li><strong>Service Usage Information</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Device information: Device name, model name, manufacturer, device unique ID</li><li>FCM token: Token for push notification delivery</li><li>User profile: Free push usage count, subscription information, daily push delivery count</li><li>App information: Package name and app name of selected apps</li></ul></li><li><strong>Subscription Service Information</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Subscription type, subscription expiration date, RevenueCat customer ID</li></ul></li>"
+      "title": "Madde 3 (İşlenen Kişisel Bilgi Öğeleri)",
+      "intro": "<strong>PushShare</strong> aşağıdaki bilgileri işler:",
+      "item1": "<strong>Üye Kimlik Doğrulama Bilgileri</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Firebase Authentication benzersiz ID (anonim tanımlayıcı, bireyleri doğrudan tanımlayamaz)</li><li>※ E-posta adresleri yalnızca Firebase Authentication için kullanılır ve PushShare'in veritabanında saklanmaz.</li></ul>",
+      "item2": "<strong>Hizmet Kullanım Bilgileri</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Cihaz bilgileri: Cihaz adı, model adı, üretici, cihaz benzersiz ID</li><li>FCM token: Push bildirim teslimatı için token</li><li>Kullanıcı profili: Ücretsiz push kullanım sayısı, abonelik bilgileri, günlük push teslimat sayısı</li><li>Uygulama bilgileri: Seçilen uygulamaların paket adı ve uygulama adı</li></ul>",
+      "item3": "<strong>Abonelik Hizmeti Bilgileri</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Abonelik türü, abonelik sona erme tarihi, RevenueCat müşteri ID</li></ul>",
+      "note": "※ Yukarıdaki bilgiler kendi başına belirli bireyleri tanımlayamaz. Ancak, yalnızca hizmet sağlama için gerekli minimum bilgileri topluyoruz.",
+      "items": "<li><strong>Üye Kimlik Doğrulama Bilgileri</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Firebase Authentication benzersiz ID (anonim tanımlayıcı, bireyleri doğrudan tanımlayamaz)</li><li>※ E-posta adresleri yalnızca Firebase Authentication için kullanılır ve PushShare'in veritabanında saklanmaz.</li></ul></li><li><strong>Hizmet Kullanım Bilgileri</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Cihaz bilgileri: Cihaz adı, model adı, üretici, cihaz benzersiz ID</li><li>FCM token: Push bildirim teslimatı için token</li><li>Kullanıcı profili: Ücretsiz push kullanım sayısı, abonelik bilgileri, günlük push teslimat sayısı</li><li>Uygulama bilgileri: Seçilen uygulamaların paket adı ve uygulama adı</li></ul></li><li><strong>Abonelik Hizmeti Bilgileri</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Abonelik türü, abonelik sona erme tarihi, RevenueCat müşteri ID</li></ul></li>"
     },
     "section4": {
-      "title": "Article 4 (Provision of Personal Information to Third Parties)",
-      "intro1": "① <strong>PushShare</strong> does not provide personal information of data subjects to third parties in principle. However, exceptions are made in the following cases:",
-      "item1": "When the data subject has given prior consent",
-      "item2": "When required by law or when requested by investigative agencies in accordance with procedures and methods prescribed by law for investigative purposes",
-      "intro2": "② Information is processed through the following service providers for service provision:",
-      "item3": "<strong>Google Firebase</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Firebase Authentication: Used for user authentication (email addresses are managed by Firebase)</li><li>Firebase Firestore: Used for user data storage</li><li>Firebase Cloud Messaging: Used for push notification delivery</li></ul>",
-      "item4": "<strong>Google AdMob</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Used for advertising service provision (advertising identifiers, etc.)</li></ul>",
-      "items1": "<li>When the data subject has given prior consent</li><li>When required by law or when requested by investigative agencies in accordance with procedures and methods prescribed by law for investigative purposes</li>",
-      "items2": "<li><strong>Google Firebase</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Firebase Authentication: Used for user authentication (email addresses are managed by Firebase)</li><li>Firebase Firestore: Used for user data storage</li><li>Firebase Cloud Messaging: Used for push notification delivery</li></ul></li><li><strong>Google AdMob</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Used for advertising service provision (advertising identifiers, etc.)</li></ul></li>"
+      "title": "Madde 4 (Kişisel Bilgilerin Üçüncü Taraflara Sağlanması)",
+      "intro1": "① <strong>PushShare</strong> prensip olarak veri sahiplerinin kişisel bilgilerini üçüncü taraflara sağlamaz. Ancak, aşağıdaki durumlarda istisnalar yapılır:",
+      "item1": "Veri sahibi önceden onay verdiğinde",
+      "item2": "Yasa gereği gerekli olduğunda veya soruşturma amaçları için yasada belirlenen prosedür ve yöntemlere uygun olarak soruşturma kurumları tarafından talep edildiğinde",
+      "intro2": "② Bilgiler, hizmet sağlama için aşağıdaki hizmet sağlayıcılar aracılığıyla işlenir:",
+      "item3": "<strong>Google Firebase</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Firebase Authentication: Kullanıcı kimlik doğrulaması için kullanılır (e-posta adresleri Firebase tarafından yönetilir)</li><li>Firebase Firestore: Kullanıcı veri depolama için kullanılır</li><li>Firebase Cloud Messaging: Push bildirim teslimatı için kullanılır</li></ul>",
+      "item4": "<strong>Google AdMob</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Reklam hizmeti sağlama için kullanılır (reklam tanımlayıcıları vb.)</li></ul>",
+      "items1": "<li>Veri sahibi önceden onay verdiğinde</li><li>Yasa gereği gerekli olduğunda veya soruşturma amaçları için yasada belirlenen prosedür ve yöntemlere uygun olarak soruşturma kurumları tarafından talep edildiğinde</li>",
+      "items2": "<li><strong>Google Firebase</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Firebase Authentication: Kullanıcı kimlik doğrulaması için kullanılır (e-posta adresleri Firebase tarafından yönetilir)</li><li>Firebase Firestore: Kullanıcı veri depolama için kullanılır</li><li>Firebase Cloud Messaging: Push bildirim teslimatı için kullanılır</li></ul></li><li><strong>Google AdMob</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Reklam hizmeti sağlama için kullanılır (reklam tanımlayıcıları vb.)</li></ul></li>"
     },
     "section5": {
-      "title": "Article 5 (Entrustment of Personal Information Processing)",
-      "intro1": "① <strong>PushShare</strong> entrusts personal information processing tasks as follows for service improvement:",
-      "item1": "<strong>Google Firebase</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Entrusted Tasks: Data storage and authentication services</li><li>Entrustment Period: During the service provision period</li></ul>",
-      "item2": "<strong>RevenueCat</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Entrusted Tasks: Subscription management services</li><li>Entrustment Period: During the subscription service provision period</li></ul>",
-      "intro2": "② When entering into entrustment contracts, <strong>PushShare</strong> specifies in documents such as contracts matters related to prohibition of personal information processing for purposes other than the entrusted tasks, technical and administrative protection measures, restrictions on re-entrustment, management and supervision of trustees, and liability for damages in accordance with Article 26 of the Personal Information Protection Act, and supervises whether trustees safely process personal information.",
-      "items": "<li><strong>Google Firebase</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Entrusted Tasks: Data storage and authentication services</li><li>Entrustment Period: During the service provision period</li></ul></li><li><strong>RevenueCat</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Entrusted Tasks: Subscription management services</li><li>Entrustment Period: During the subscription service provision period</li></ul></li>"
+      "title": "Madde 5 (Kişisel Bilgi İşlemenin Emanet Edilmesi)",
+      "intro1": "① <strong>PushShare</strong> hizmet iyileştirmesi için kişisel bilgi işleme görevlerini aşağıdaki gibi emanet eder:",
+      "item1": "<strong>Google Firebase</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Emanet Edilen Görevler: Veri depolama ve kimlik doğrulama hizmetleri</li><li>Emanet Süresi: Hizmet sağlama süresi boyunca</li></ul>",
+      "item2": "<strong>RevenueCat</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Emanet Edilen Görevler: Abonelik yönetimi hizmetleri</li><li>Emanet Süresi: Abonelik hizmeti sağlama süresi boyunca</li></ul>",
+      "intro2": "② Emanet sözleşmelerine girerken, <strong>PushShare</strong> sözleşmeler gibi belgelerde, emanet edilen görevler dışındaki amaçlar için kişisel bilgi işlemenin yasaklanması, teknik ve idari koruma önlemleri, yeniden emanet kısıtlamaları, emanetçilerin yönetimi ve denetimi ve Kişisel Bilgilerin Korunması Kanunu'nun 26. Maddesine uygun olarak zarar sorumluluğu ile ilgili konuları belirtir ve emanetçilerin kişisel bilgileri güvenli bir şekilde işleyip işlemediğini denetler.",
+      "items": "<li><strong>Google Firebase</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Emanet Edilen Görevler: Veri depolama ve kimlik doğrulama hizmetleri</li><li>Emanet Süresi: Hizmet sağlama süresi boyunca</li></ul></li><li><strong>RevenueCat</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Emanet Edilen Görevler: Abonelik yönetimi hizmetleri</li><li>Emanet Süresi: Abonelik hizmeti sağlama süresi boyunca</li></ul></li>"
     },
     "section6": {
-      "title": "Article 6 (Procedures and Methods for Destruction of Personal Information)",
-      "intro1": "① <strong>PushShare</strong> destroys personal information without delay when it becomes unnecessary due to the expiration of the retention period or achievement of the processing purpose.",
-      "intro2": "② Procedures and methods for destruction:",
-      "item1": "<strong>Destruction Procedures</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Select personal information for which destruction reasons have occurred and destroy it after obtaining approval from the personal information protection officer</li></ul>",
-      "item2": "<strong>Destruction Methods</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Electronic files are permanently deleted in an irrecoverable manner</li><li>Paper documents are shredded or incinerated</li></ul>",
-      "items": "<li><strong>Destruction Procedures</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Select personal information for which destruction reasons have occurred and destroy it after obtaining approval from the personal information protection officer</li></ul></li><li><strong>Destruction Methods</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Electronic files are permanently deleted in an irrecoverable manner</li><li>Paper documents are shredded or incinerated</li></ul></li>"
+      "title": "Madde 6 (Kişisel Bilgilerin İmhası için Prosedürler ve Yöntemler)",
+      "intro1": "① <strong>PushShare</strong> saklama süresinin dolması veya işleme amacının gerçekleşmesi nedeniyle gereksiz hale geldiğinde kişisel bilgileri gecikmeden imha eder.",
+      "intro2": "② İmha için prosedürler ve yöntemler:",
+      "item1": "<strong>İmha Prosedürleri</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>İmha nedenleri oluşan kişisel bilgileri seçin ve kişisel bilgi koruma görevlisinden onay aldıktan sonra imha edin</li></ul>",
+      "item2": "<strong>İmha Yöntemleri</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Elektronik dosyalar geri alınamaz bir şekilde kalıcı olarak silinir</li><li>Kağıt belgeler parçalanır veya yakılır</li></ul>",
+      "items": "<li><strong>İmha Prosedürleri</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>İmha nedenleri oluşan kişisel bilgileri seçin ve kişisel bilgi koruma görevlisinden onay aldıktan sonra imha edin</li></ul></li><li><strong>İmha Yöntemleri</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Elektronik dosyalar geri alınamaz bir şekilde kalıcı olarak silinir</li><li>Kağıt belgeler parçalanır veya yakılır</li></ul></li>"
     },
     "section7": {
-      "title": "Article 7 (Rights and Obligations of Data Subjects and Legal Representatives and Methods of Exercise)",
-      "intro1": "① Data subjects may request access, correction, deletion, or suspension of processing of their personal information from <strong>PushShare</strong> at any time.",
-      "intro2": "② The exercise of the above rights can be made via email (jj@dosusu.com), and <strong>PushShare</strong> will take action without delay.",
-      "intro3": "③ However, since PushShare does not store personally identifiable information, the stored data is anonymous dummy data. If users request deletion, we will verify identity through Firebase Authentication account information and delete all data associated with that user.",
-      "intro4": "④ When exercising rights through a representative, a power of attorney must be submitted.",
-      "intro5": "⑤ Requests for access and suspension of processing may be restricted under Article 35(4) and Article 37(2) of the law.",
-      "intro6": "⑥ Requests for correction and deletion may be restricted when explicitly stated as collection targets in other laws.",
-      "intro7": "⑦ Identity verification procedures are conducted when exercising rights to confirm whether the person is the data subject or a legitimate representative."
+      "title": "Madde 7 (Veri Sahiplerinin ve Yasal Temsilcilerin Hakları ve Yükümlülükleri ve Kullanım Yöntemleri)",
+      "intro1": "① Veri sahipleri kişisel bilgilerinin <strong>PushShare</strong>'den erişim, düzeltme, silme veya işlemenin askıya alınmasını isteme hakkına sahiptir.",
+      "intro2": "② Yukarıdaki hakların kullanımı e-posta (jj@dosusu.com) yoluyla yapılabilir ve <strong>PushShare</strong> gecikmeden harekete geçecektir.",
+      "intro3": "③ Ancak, PushShare kişisel olarak tanımlanabilir bilgileri saklamadığı için, saklanan veriler anonim dummy verilerdir. Kullanıcılar silme talep ederse, Firebase Authentication hesap bilgileri aracılığıyla kimliği doğrulayacağız ve o kullanıcıyla ilişkili tüm verileri sileceğiz.",
+      "intro4": "④ Bir temsilci aracılığıyla haklar kullanılırken, vekaletname sunulmalıdır.",
+      "intro5": "⑤ Erişim ve işlemenin askıya alınması talepleri yasanın 35(4) ve 37(2) maddeleri altında kısıtlanabilir.",
+      "intro6": "⑥ Düzeltme ve silme talepleri, diğer yasalarda açıkça toplama hedefleri olarak belirtildiğinde kısıtlanabilir.",
+      "intro7": "⑦ Haklar kullanılırken, kişinin veri sahibi mi yoksa meşru bir temsilci mi olduğunu doğrulamak için kimlik doğrulama prosedürleri yürütülür."
     },
     "section8": {
-      "title": "Article 8 (Measures to Ensure Safety of Personal Information)",
-      "intro": "<strong>PushShare</strong> takes the following measures to ensure the safety of personal information:",
-      "item1": "Access Control: Restricting access to personal information to a minimum number of personnel",
-      "item2": "External access control through intrusion prevention systems",
-      "item3": "Encryption: Personal information is encrypted for storage and transmission",
-      "item4": "Regular security inspections and audits",
-      "items": "<li>Access Control: Restricting access to personal information to a minimum number of personnel</li><li>External access control through intrusion prevention systems</li><li>Encryption: Personal information is encrypted for storage and transmission</li><li>Regular security inspections and audits</li>"
+      "title": "Madde 8 (Kişisel Bilgilerin Güvenliğini Sağlamak için Önlemler)",
+      "intro": "<strong>PushShare</strong> kişisel bilgilerin güvenliğini sağlamak için aşağıdaki önlemleri alır:",
+      "item1": "Erişim Kontrolü: Kişisel bilgilere erişimi minimum sayıda personele kısıtlama",
+      "item2": "Saldırı önleme sistemleri aracılığıyla dış erişim kontrolü",
+      "item3": "Şifreleme: Kişisel bilgiler depolama ve iletim için şifrelenir",
+      "item4": "Düzenli güvenlik denetimleri ve denetimler",
+      "items": "<li>Erişim Kontrolü: Kişisel bilgilere erişimi minimum sayıda personele kısıtlama</li><li>Saldırı önleme sistemleri aracılığıyla dış erişim kontrolü</li><li>Şifreleme: Kişisel bilgiler depolama ve iletim için şifrelenir</li><li>Düzenli güvenlik denetimleri ve denetimler</li>"
     },
     "section9": {
-      "title": "Article 9 (Use of Cookies)",
-      "content": "<strong>PushShare</strong> does not use cookies."
+      "title": "Madde 9 (Çerezlerin Kullanımı)",
+      "content": "<strong>PushShare</strong> çerez kullanmaz."
     },
     "section10": {
-      "title": "Article 10 (Personal Information Protection Officer)",
-      "intro": "▶ Personal Information Protection Officer",
-      "item1": "Email: <a href=\"mailto:jj@dosusu.com\">jj@dosusu.com</a>",
-      "note": "※ Inquiries and complaints related to personal information protection can be made to the above email address.",
-      "items": "<li>Email: <a href=\"mailto:jj@dosusu.com\">jj@dosusu.com</a></li>"
+      "title": "Madde 10 (Kişisel Bilgi Koruma Görevlisi)",
+      "intro": "▶ Kişisel Bilgi Koruma Görevlisi",
+      "item1": "E-posta: <a href=\"mailto:jj@dosusu.com\">jj@dosusu.com</a>",
+      "note": "※ Kişisel bilgi korumasıyla ilgili sorular ve şikayetler yukarıdaki e-posta adresine yapılabilir.",
+      "items": "<li>E-posta: <a href=\"mailto:jj@dosusu.com\">jj@dosusu.com</a></li>"
     },
     "section11": {
-      "title": "Article 11 (Department for Receiving and Processing Personal Information Access Requests)",
-      "intro1": "Personal information access requests are received and processed by the department below.",
-      "intro2": "<strong>PushShare</strong> will do its best to promptly process data subjects' access requests.",
-      "item1": "Email: <a href=\"mailto:jj@dosusu.com\">jj@dosusu.com</a>",
-      "items": "<li>Email: <a href=\"mailto:jj@dosusu.com\">jj@dosusu.com</a></li>"
+      "title": "Madde 11 (Kişisel Bilgi Erişim Taleplerini Alma ve İşleme Departmanı)",
+      "intro1": "Kişisel bilgi erişim talepleri aşağıdaki departman tarafından alınır ve işlenir.",
+      "intro2": "<strong>PushShare</strong> veri sahiplerinin erişim taleplerini hızlı bir şekilde işlemek için elinden geleni yapacaktır.",
+      "item1": "E-posta: <a href=\"mailto:jj@dosusu.com\">jj@dosusu.com</a>",
+      "items": "<li>E-posta: <a href=\"mailto:jj@dosusu.com\">jj@dosusu.com</a></li>"
     },
     "section12": {
-      "title": "Article 12 (Remedies for Infringement of Rights and Interests)",
-      "intro": "Data subjects can apply for dispute resolution or counseling related to personal information infringement through the following institutions:",
-      "item1": "Personal Information Dispute Mediation Committee: 1833-6972 / <a href=\"http://www.kopico.go.kr\" target=\"_blank\">www.kopico.go.kr</a>",
-      "item2": "Personal Information Infringement Report Center: 118 / <a href=\"http://privacy.kisa.or.kr\" target=\"_blank\">privacy.kisa.or.kr</a>",
-      "item3": "Supreme Prosecutors' Office: 1301 / <a href=\"http://www.spo.go.kr\" target=\"_blank\">www.spo.go.kr</a>",
-      "item4": "National Police Agency: 182 / <a href=\"http://ecrm.cyber.go.kr\" target=\"_blank\">ecrm.cyber.go.kr</a>",
-      "intro2": "In addition, administrative appeals can be filed when rights and interests are infringed due to the disposition or inaction of public institutions.",
-      "item5": "Central Administrative Appeals Commission: <a href=\"http://www.simpan.go.kr\" target=\"_blank\">www.simpan.go.kr</a>",
-      "items": "<li>Personal Information Dispute Mediation Committee: 1833-6972 / <a href=\"http://www.kopico.go.kr\" target=\"_blank\">www.kopico.go.kr</a></li><li>Personal Information Infringement Report Center: 118 / <a href=\"http://privacy.kisa.or.kr\" target=\"_blank\">privacy.kisa.or.kr</a></li><li>Supreme Prosecutors' Office: 1301 / <a href=\"http://www.spo.go.kr\" target=\"_blank\">www.spo.go.kr</a></li><li>National Police Agency: 182 / <a href=\"http://ecrm.cyber.go.kr\" target=\"_blank\">ecrm.cyber.go.kr</a></li>",
-      "item5_html": "<li>Central Administrative Appeals Commission: <a href=\"http://www.simpan.go.kr\" target=\"_blank\">www.simpan.go.kr</a></li>"
+      "title": "Madde 12 (Hak ve Çıkarların İhlali için Çareler)",
+      "intro": "Veri sahipleri aşağıdaki kurumlar aracılığıyla kişisel bilgi ihlaliyle ilgili anlaşmazlık çözümü veya danışmanlık için başvurabilir:",
+      "item1": "Kişisel Bilgi Anlaşmazlığı Arabuluculuk Komitesi: 1833-6972 / <a href=\"http://www.kopico.go.kr\" target=\"_blank\">www.kopico.go.kr</a>",
+      "item2": "Kişisel Bilgi İhlali Rapor Merkezi: 118 / <a href=\"http://privacy.kisa.or.kr\" target=\"_blank\">privacy.kisa.or.kr</a>",
+      "item3": "Yüksek Savcılık: 1301 / <a href=\"http://www.spo.go.kr\" target=\"_blank\">www.spo.go.kr</a>",
+      "item4": "Ulusal Polis Ajansı: 182 / <a href=\"http://ecrm.cyber.go.kr\" target=\"_blank\">ecrm.cyber.go.kr</a>",
+      "intro2": "Ayrıca, kamu kurumlarının tasarrufu veya hareketsizliği nedeniyle hak ve çıkarlar ihlal edildiğinde idari itirazlar yapılabilir.",
+      "item5": "Merkezi İdari İtiraz Komisyonu: <a href=\"http://www.simpan.go.kr\" target=\"_blank\">www.simpan.go.kr</a>",
+      "items": "<li>Kişisel Bilgi Anlaşmazlığı Arabuluculuk Komitesi: 1833-6972 / <a href=\"http://www.kopico.go.kr\" target=\"_blank\">www.kopico.go.kr</a></li><li>Kişisel Bilgi İhlali Rapor Merkezi: 118 / <a href=\"http://privacy.kisa.or.kr\" target=\"_blank\">privacy.kisa.or.kr</a></li><li>Yüksek Savcılık: 1301 / <a href=\"http://www.spo.go.kr\" target=\"_blank\">www.spo.go.kr</a></li><li>Ulusal Polis Ajansı: 182 / <a href=\"http://ecrm.cyber.go.kr\" target=\"_blank\">ecrm.cyber.go.kr</a></li>",
+      "item5_html": "<li>Merkezi İdari İtiraz Komisyonu: <a href=\"http://www.simpan.go.kr\" target=\"_blank\">www.simpan.go.kr</a></li>"
     },
     "section13": {
-      "title": "Article 12 (Changes to Privacy Policy)",
-      "intro1": "This Privacy Policy is effective as of <strong>December 3, 2025</strong>.",
-      "intro2": "If there are additions, deletions, or modifications to the content due to changes in laws, policies, or security technology, we will notify you through the website's notice at least 7 days before the implementation of the changes."
+      "title": "Madde 13 (Gizlilik Politikası Değişiklikleri)",
+      "intro1": "Bu Gizlilik Politikası <strong>3 Aralık 2025</strong> tarihinden itibaren yürürlüktedir.",
+      "intro2": "Yasalar, politikalar veya güvenlik teknolojisindeki değişiklikler nedeniyle içeriğe eklemeler, silmeler veya değişiklikler varsa, değişikliklerin uygulanmasından en az 7 gün önce web sitesi bildirimi aracılığıyla sizi bilgilendireceğiz."
     }
   },
   "terms": {
     "title": "Hizmet Şartları",
     "lastUpdated": "Son güncelleme: 1 Ocak 2025",
     "section1": {
-      "title": "Article 1 (Purpose)",
-      "content": "These Terms of Service (hereinafter referred to as \"Terms\") govern the rights, obligations, and responsibilities between PushShare (hereinafter referred to as \"Company\") and users regarding the use of the push notification sharing service (hereinafter referred to as \"Service\") provided by the Company."
+      "title": "Madde 1 (Amaç)",
+      "content": "Bu Hizmet Şartları (bundan sonra \"Şartlar\" olarak anılacaktır), Şirket tarafından sağlanan push bildirim paylaşım hizmetinin (bundan sonra \"Hizmet\" olarak anılacaktır) kullanımına ilişkin PushShare (bundan sonra \"Şirket\" olarak anılacaktır) ve kullanıcılar arasındaki hakları, yükümlülükleri ve sorumlulukları düzenler."
     },
     "section2": {
-      "title": "Article 2 (Definitions)",
-      "items": "<li>\"Service\" means the push notification sharing and related services provided by the Company.</li><li>\"User\" means members and non-members who use the Service in accordance with these Terms.</li><li>\"Member\" means a person who has registered as a member and uses the Service.</li>"
+      "title": "Madde 2 (Tanımlar)",
+      "items": "<li>\"Hizmet\" Şirket tarafından sağlanan push bildirim paylaşımı ve ilgili hizmetleri ifade eder.</li><li>\"Kullanıcı\" bu Şartlara uygun olarak Hizmeti kullanan üyeler ve üye olmayanları ifade eder.</li><li>\"Üye\" üye olarak kayıt olmuş ve Hizmeti kullanan bir kişiyi ifade eder.</li>"
     },
     "section3": {
-      "title": "Article 3 (Posting and Amendment of Terms)",
-      "content": "The Company posts the contents of these Terms on the initial screen of the Service so that users can easily know them. The Company may amend these Terms to the extent that they do not violate relevant laws and regulations when necessary."
+      "title": "Madde 3 (Şartların Yayınlanması ve Değiştirilmesi)",
+      "content": "Şirket, kullanıcıların bunları kolayca öğrenebilmesi için bu Şartların içeriğini Hizmetin ilk ekranına yayınlar. Şirket, gerektiğinde ilgili yasa ve düzenlemeleri ihlal etmeyecek ölçüde bu Şartları değiştirebilir."
     },
     "section4": {
-      "title": "Article 4 (Provision and Change of Service)",
-      "intro": "The Company provides the following services:",
-      "items": "<li>Push notification sharing service between multiple devices</li><li>Device management and settings service</li><li>App list management service</li><li>All other services that the Company may additionally develop or provide through partnership agreements</li>"
+      "title": "Madde 4 (Hizmetin Sağlanması ve Değiştirilmesi)",
+      "intro": "Şirket aşağıdaki hizmetleri sağlar:",
+      "items": "<li>Birden fazla cihaz arasında push bildirim paylaşım hizmeti</li><li>Cihaz yönetimi ve ayarlar hizmeti</li><li>Uygulama listesi yönetimi hizmeti</li><li>Şirketin ek olarak geliştirebileceği veya ortaklık anlaşmaları aracılığıyla sağlayabileceği diğer tüm hizmetler</li>"
     },
     "section5": {
-      "title": "Article 5 (Suspension of Service)",
-      "content": "The Company may temporarily suspend the provision of the Service in cases where maintenance, replacement, or failure of information and communication equipment such as computers, or interruption of communication occurs."
+      "title": "Madde 5 (Hizmetin Askıya Alınması)",
+      "content": "Şirket, bilgisayarlar gibi bilgi ve iletişim ekipmanlarının bakımı, değiştirilmesi veya arızası veya iletişimin kesilmesi durumlarında Hizmetin sağlanmasını geçici olarak askıya alabilir."
     },
     "section6": {
-      "title": "Article 6 (Membership Registration)",
-      "content": "A user applies for membership registration by filling out the membership information according to the registration form prescribed by the Company and expressing their intention to agree to these Terms."
+      "title": "Madde 6 (Üyelik Kaydı)",
+      "content": "Bir kullanıcı, Şirket tarafından belirlenen kayıt formuna göre üyelik bilgilerini doldurarak ve bu Şartlara katılma niyetini ifade ederek üyelik kaydı için başvurur."
     },
     "section7": {
-      "title": "Article 7 (Change of Member Information)",
-      "content": "A member may view and modify their personal information at any time through the personal information management screen."
+      "title": "Madde 7 (Üye Bilgilerinin Değiştirilmesi)",
+      "content": "Bir üye, kişisel bilgi yönetim ekranı aracılığıyla kişisel bilgilerini istediği zaman görüntüleyebilir ve değiştirebilir."
     },
     "section8": {
-      "title": "Article 8 (Withdrawal and Loss of Qualification)",
-      "content": "A member may request withdrawal from the Company at any time, and the Company shall process the withdrawal immediately."
+      "title": "Madde 8 (Çekilme ve Nitelik Kaybı)",
+      "content": "Bir üye istediği zaman Şirketten çekilme talebinde bulunabilir ve Şirket çekilmeyi derhal işleyecektir."
     },
     "section9": {
-      "title": "Article 9 (Obligations of Users)",
-      "intro": "Users must not engage in the following acts:",
-      "items": "<li>Registration of false information when applying or making changes</li><li>Misappropriation of another person's information</li><li>Alteration of information posted by the Company</li><li>Transmission or posting of information other than that specified by the Company (such as computer programs)</li><li>Infringement of intellectual property rights such as copyrights of the Company and other third parties</li><li>Acts that damage the reputation of the Company and other third parties or interfere with business</li>"
+      "title": "Madde 9 (Kullanıcıların Yükümlülükleri)",
+      "intro": "Kullanıcılar aşağıdaki eylemlerde bulunmamalıdır:",
+      "items": "<li>Başvururken veya değişiklik yaparken yanlış bilgi kaydı</li><li>Başka bir kişinin bilgilerinin kötüye kullanılması</li><li>Şirket tarafından yayınlanan bilgilerin değiştirilmesi</li><li>Şirket tarafından belirtilenler dışında bilgilerin (bilgisayar programları gibi) iletilmesi veya yayınlanması</li><li>Şirket ve diğer üçüncü tarafların telif hakları gibi fikri mülkiyet haklarının ihlali</li><li>Şirket ve diğer üçüncü tarafların itibarına zarar veren veya işe müdahale eden eylemler</li>"
     },
     "section10": {
-      "title": "Article 10 (Disclaimer)",
-      "content": "The Company shall be exempt from liability for the provision of the Service in cases where the Service cannot be provided due to natural disasters or equivalent force majeure."
+      "title": "Madde 10 (Sorumluluk Reddi)",
+      "content": "Şirket, doğal afetler veya eşdeğer mücbir sebep nedeniyle Hizmet sağlanamadığı durumlarda Hizmetin sağlanmasından sorumluluktan muaf tutulacaktır."
     },
     "section11": {
-      "title": "Article 11 (Governing Law and Jurisdiction)",
-      "content": "The laws of the Republic of Korea shall apply to the interpretation of these Terms and disputes between the Company and users. In the event of a lawsuit arising from such disputes, the Seoul Central District Court shall be the competent court."
+      "title": "Madde 11 (Uygulanacak Hukuk ve Yetki)",
+      "content": "Güney Kore Cumhuriyeti yasaları bu Şartların yorumlanmasına ve Şirket ile kullanıcılar arasındaki anlaşmazlıklara uygulanacaktır. Bu tür anlaşmazlıklardan kaynaklanan bir dava durumunda, Seul Merkez Bölge Mahkemesi yetkili mahkeme olacaktır."
     }
   }
 }
