@@ -1,4 +1,8 @@
 {
+  "meta": {
+    "title": "PushShare - Push Notification Sharing Service",
+    "description": "PushShare - Easily share push notifications across multiple devices"
+  },
   "nav": {
     "home": "Home"
   },

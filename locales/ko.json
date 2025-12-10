@@ -1,4 +1,8 @@
 {
+  "meta": {
+    "title": "PushShare - 푸시 알림 공유 서비스",
+    "description": "PushShare - 여러 기기 간 푸시 알림을 쉽게 공유하세요"
+  },
   "nav": {
     "home": "홈"
   },
