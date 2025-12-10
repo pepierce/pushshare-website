@@ -108,14 +108,23 @@ class I18n {
         const translation = this.t(key);
         // translation이 키와 다르면 (즉, 실제 번역이 있으면) 적용
         // undefined나 null이 아닌 경우에만 적용 (빈 문자열 포함)
-        if (translation !== key && translation !== undefined && translation !== null) {
-          if (element.getAttribute('data-i18n-html') === 'true') {
-            element.innerHTML = translation;
+        if (translation !== key) {
+          // 빈 문자열인 경우에도 요소를 비우기 위해 처리
+          if (translation === '' || translation === null || translation === undefined) {
+            if (element.getAttribute('data-i18n-html') === 'true') {
+              element.innerHTML = '';
+            } else {
+              element.textContent = '';
+            }
           } else {
-            element.textContent = translation;
+            if (element.getAttribute('data-i18n-html') === 'true') {
+              element.innerHTML = translation;
+            } else {
+              element.textContent = translation;
+            }
           }
         }
-        // translation이 키와 같거나 undefined/null이면 번역을 찾지 못한 것이므로 기본 텍스트 유지
+        // translation이 키와 같으면 번역을 찾지 못한 것이므로 기본 텍스트 유지
       }
     });
 

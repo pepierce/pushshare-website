@@ -55,7 +55,8 @@
     "lastUpdated": "Last updated: December 10, 2025",
     "section1": {
       "title": "Article 1 (Purpose of Processing Personal Information)",
-      "intro": "<strong>PushShare</strong> processes personal information for the following purposes. The personal information being processed is not used for purposes other than those stated below, and if the purpose of use changes, we will take necessary measures such as obtaining separate consent in accordance with Article 18 of the Personal Information Protection Act."
+      "intro": "<strong>PushShare</strong> processes personal information for the following purposes. The personal information being processed is not used for purposes other than those stated below, and if the purpose of use changes, we will take necessary measures such as obtaining separate consent in accordance with Article 18 of the Personal Information Protection Act.",
+      "items": "<li><strong>Member Registration and Management</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Purpose of identity verification and authentication for membership services</li><li>Identity verification for service use</li></ul></li><li><strong>Service Provision</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Push notification delivery service</li><li>Cross-device push notification sharing service</li><li>Subscription service provision and management</li></ul></li><li><strong>Marketing and Advertising</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Advertising service provision (Google AdMob)</li></ul></li><li><strong>Customer Inquiries and Complaint Handling</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Response to and handling of customer inquiries</li></ul></li>"
     },
     "section2": {
       "title": "Article 2 (Processing and Retention Period of Personal Information)",
@@ -101,8 +102,7 @@
     "section8": {
       "title": "Article 8 (Measures to Ensure Safety of Personal Information)",
       "intro": "<strong>PushShare</strong> takes the following measures to ensure the safety of personal information:",
-      "items": "<li>Access Control: Restricting access to personal information to a minimum number of personnel</li><li>External access control through intrusion prevention systems</li><li>Encryption: Personal information is encrypted for storage and transmission</li><li>Regular security inspections and audits</li>",
-      "note": ""
+      "items": "<li>Access Control: Restricting access to personal information to a minimum number of personnel</li><li>External access control through intrusion prevention systems</li><li>Encryption: Personal information is encrypted for storage and transmission</li><li>Regular security inspections and audits</li>"
     },
     "section9": {
       "title": "Article 9 (Use of Cookies)",
