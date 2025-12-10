@@ -1,49 +1,6 @@
 {
-  "meta": {
-    "title": "PushShare - Push Notification Sharing Service",
-    "description": "PushShare - Easily share push notifications across multiple devices"
-  },
   "nav": {
-    "features": "Features",
-    "download": "Download",
-    "contact": "Contact",
     "home": "Home"
-  },
-  "hero": {
-    "title": "Easily share push notifications across multiple devices",
-    "subtitle": "PushShare is a convenient service that allows you to send notifications received on multiple devices to other devices.",
-    "downloadAndroid": "Download on Google Play",
-    "downloadIOS": "Download on App Store"
-  },
-  "features": {
-    "title": "Key Features",
-    "multiDevice": {
-      "title": "Multi-Device Support",
-      "description": "Register and manage multiple devices to share notifications from anywhere."
-    },
-    "realtime": {
-      "title": "Real-time Notification Delivery",
-      "description": "Instantly send received notifications to other devices so you never miss important messages."
-    },
-    "secure": {
-      "title": "Secure Authentication",
-      "description": "Safely manage your account and protect your data through Firebase authentication."
-    },
-    "multilang": {
-      "title": "Multi-language Support",
-      "description": "Supporting over 20 languages to serve users worldwide."
-    }
-  },
-  "download": {
-    "title": "Download Now",
-    "subtitle": "Download PushShare and start sharing notifications across multiple devices.",
-    "android": "Download for Android",
-    "ios": "Download for iOS"
-  },
-  "contact": {
-    "title": "Contact Us",
-    "subtitle": "If you have any questions or suggestions, please feel free to contact us.",
-    "email": "Email"
   },
   "footer": {
     "copyright": "© {{year}} {{companyName}}. All rights reserved.",
@@ -54,76 +11,87 @@
     "title": "Privacy Policy for PushShare",
     "lastUpdated": "Last updated: December 10, 2025",
     "section1": {
-      "title": "Article 1 (Purpose of Processing Personal Information)",
-      "intro": "<strong>PushShare</strong> processes personal information for the following purposes. The personal information being processed is not used for purposes other than those stated below, and if the purpose of use changes, we will take necessary measures such as obtaining separate consent in accordance with Article 18 of the Personal Information Protection Act.",
-      "items": "<li><strong>Member Registration and Management</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Purpose of identity verification and authentication for membership services</li><li>Identity verification for service use</li></ul></li><li><strong>Service Provision</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Push notification delivery service</li><li>Cross-device push notification sharing service</li><li>Subscription service provision and management</li></ul></li><li><strong>Marketing and Advertising</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Advertising service provision (Google AdMob)</li></ul></li><li><strong>Customer Inquiries and Complaint Handling</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Response to and handling of customer inquiries</li></ul></li>"
+      "title": "1. Introduction",
+      "intro": "PushShare (\"PushShare\", \"we\", \"us\", or \"our\") provides a service that forwards device notifications to your registered devices.<br><br>We respect your privacy and collect only the minimum information necessary to operate our service.<br><br>By using PushShare, you agree to this Privacy Policy."
     },
     "section2": {
-      "title": "Article 2 (Processing and Retention Period of Personal Information)",
-      "intro": "① <strong>PushShare</strong> processes and retains personal information within the period of retention and use of personal information under applicable laws or the period agreed upon when collecting personal information from the data subject.<br><br>② The processing and retention period for each type of personal information is as follows.",
-      "items": "<li><strong>Member Authentication Information</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Retention Period: During the service use period</li><li>Basis for Retention: Necessary for service provision and contract performance</li><li>※ Note: PushShare does not store users' email addresses in its own database. Email addresses are used only for Firebase Authentication and are managed by Firebase's authentication system.</li></ul></li><li><strong>Device Information</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Retention Period: Until app deletion or upon user request</li><li>Basis for Retention: Device identification information for push notification delivery, which becomes meaningless when the app is deleted as it is no longer connected</li></ul></li><li><strong>Service Usage Information</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Retention Period: During the service use period or upon user request</li><li>Basis for Retention: Necessary for service provision</li></ul></li><li><strong>Subscription Information</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Retention Period: 5 years after subscription cancellation (retention of records related to contracts or subscription cancellations)</li><li>Basis for Retention: Legal obligation under relevant laws</li></ul></li>",
-      "note": "<strong>※ Notice Regarding Account Deletion and Data Deletion</strong><br>PushShare does not provide a separate account deletion function because we do not store personally identifiable information. The stored information is anonymous data that cannot identify specific individuals on its own, and remains as dummy data without a service provision purpose. However, if users request data deletion, we will delete the relevant data upon request via email (jj@dosusu.com)."
+      "title": "2. Information We Collect",
+      "intro": "PushShare collects only metadata required for device registration and notification forwarding.<br><br>We do not collect the contents of notifications or any sensitive personal data.",
+      "subsection1": {
+        "title": "2.1 Device Information",
+        "intro": "When you register a device, we collect:",
+        "items": "<li>Device ID (auto-generated identifier)</li><li>Device name</li><li>Device brand (e.g., Apple, Samsung)</li><li>Device model (e.g., iPhone 15 Pro, SM-A146P)</li>",
+        "note": "This information allows you to manage and distinguish your registered devices."
+      },
+      "subsection2": {
+        "title": "2.2 Notification Routing Information",
+        "intro": "To deliver notifications between devices, we collect:",
+        "items": "<li>FCM Token</li><li>FCM Instance ID</li>",
+        "note": "These identifiers are used solely to route notifications and are not used for any other purpose."
+      },
+      "subsection3": {
+        "title": "2.3 Subscription Information",
+        "intro": "To manage your subscription status, we store only:",
+        "items": "<li>Subscription type (monthly, annual, lifetime)</li><li>Subscription expiration date</li>",
+        "note": "We do not store payment information, transaction IDs, receipts, or billing details.<br>Subscription validation is handled securely through RevenueCat, and PushShare stores only the resulting subscription status."
+      },
+      "subsection4": {
+        "title": "2.4 Account Information",
+        "intro": "When you sign in, you provide an email address to Firebase Authentication.<br><br>PushShare does not store your email address in our database.<br><br>We store only your Firebase Authentication user ID, which is also used as your RevenueCat customer identifier."
+      },
+      "subsection5": {
+        "title": "2.5 No Notification Content Storage",
+        "intro": "PushShare does not store any content of your notifications (such as messages, senders, or app data).<br><br>Notifications are forwarded in real time without being saved."
+      }
     },
     "section3": {
-      "title": "Article 3 (Items of Personal Information Processed)",
-      "intro": "<strong>PushShare</strong> processes the following information:",
-      "items": "<li><strong>Member Authentication Information</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Firebase Authentication unique ID (anonymous identifier, cannot directly identify individuals)</li><li>※ Email addresses are used only for Firebase Authentication and are not stored in PushShare's database.</li></ul></li><li><strong>Service Usage Information</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Device information: Device name, model name, manufacturer, device unique ID</li><li>FCM token: Token for push notification delivery</li><li>User profile: Free push usage count, subscription information, daily push delivery count</li><li>App information: Package name and app name of selected apps</li></ul></li><li><strong>Subscription Service Information</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Subscription type, subscription expiration date, RevenueCat customer ID</li></ul></li>",
-      "note": "※ The above information cannot identify specific individuals on its own. However, we collect only the minimum information necessary for service provision."
+      "title": "3. How We Use Your Information",
+      "intro": "We use the collected information only to:",
+      "items": "<li>Register and identify your devices</li><li>Forward notifications between devices</li><li>Verify and maintain subscription status</li><li>Improve service stability and performance</li><li>Diagnose and resolve technical issues</li>",
+      "note": "We do not use your data for marketing, profiling, or advertising."
     },
     "section4": {
-      "title": "Article 4 (Provision of Personal Information to Third Parties)",
-      "intro": "① <strong>PushShare</strong> does not provide personal information of data subjects to third parties in principle. However, exceptions are made in the following cases.",
-      "items": "<li>When the data subject has given prior consent</li><li>When required by law or when requested by investigative agencies in accordance with procedures and methods prescribed by law for investigative purposes</li>",
-      "intro2": "② Information is processed through the following service providers for service provision:",
-      "items2": "<li><strong>Google Firebase</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Firebase Authentication: Used for user authentication (email addresses are managed by Firebase)</li><li>Firebase Firestore: Used for user data storage</li><li>Firebase Cloud Messaging: Used for push notification delivery</li></ul></li><li><strong>Google AdMob</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Used for advertising service provision (advertising identifiers, etc.)</li></ul></li>"
+      "title": "4. Data Retention",
+      "intro": "We retain your data only for as long as needed to provide our service.<br><br>When you delete your account, all associated device information and stored identifiers are permanently removed, except for information required for marketplace billing records."
     },
     "section5": {
-      "title": "Article 5 (Entrustment of Personal Information Processing)",
-      "intro": "① <strong>PushShare</strong> entrusts personal information processing tasks as follows for service improvement:",
-      "items": "<li><strong>Google Firebase</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Entrusted Tasks: Data storage and authentication services</li><li>Entrustment Period: During the service provision period</li></ul></li><li><strong>RevenueCat</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Entrusted Tasks: Subscription management services</li><li>Entrustment Period: During the subscription service provision period</li></ul></li>",
-      "intro2": "② When entering into entrustment contracts, <strong>PushShare</strong> specifies in documents such as contracts matters related to prohibition of personal information processing for purposes other than the entrusted tasks, technical and administrative protection measures, restrictions on re-entrustment, management and supervision of trustees, and liability for damages in accordance with Article 26 of the Personal Information Protection Act, and supervises whether trustees safely process personal information."
+      "title": "5. Third-Party Services",
+      "intro": "PushShare uses the following service providers:",
+      "items": "<li>Firebase Authentication — user sign-in</li><li>Firebase Cloud Messaging (FCM) — notification delivery</li><li>Firebase Firestore — device metadata storage</li><li>RevenueCat — subscription validation</li>",
+      "note": "We do not sell or share your data with third parties for advertising."
     },
     "section6": {
-      "title": "Article 6 (Procedures and Methods for Destruction of Personal Information)",
-      "intro": "① <strong>PushShare</strong> destroys personal information without delay when it becomes unnecessary due to the expiration of the retention period or achievement of the processing purpose.",
-      "intro2": "② Procedures and methods for destruction:",
-      "items": "<li><strong>Destruction Procedures</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Select personal information for which destruction reasons have occurred and destroy it after obtaining approval from the personal information protection officer</li></ul></li><li><strong>Destruction Methods</strong><ul style=\"margin-left: 1.5rem; margin-top: 0.5rem;\"><li>Electronic files are permanently deleted in an irrecoverable manner</li><li>Paper documents are shredded or incinerated</li></ul></li>"
+      "title": "6. International Data Transfers",
+      "intro": "Your data may be processed on servers located outside your country.<br><br>By using PushShare, you consent to such transfers."
     },
     "section7": {
-      "title": "Article 7 (Rights and Obligations of Data Subjects and Legal Representatives and Methods of Exercise)",
-      "intro": "① Data subjects may request access, correction, deletion, or suspension of processing of their personal information from <strong>PushShare</strong> at any time.",
-      "intro2": "② The exercise of the above rights can be made via email (jj@dosusu.com), and <strong>PushShare</strong> will take action without delay.",
-      "intro3": "③ However, since PushShare does not store personally identifiable information, the stored data is anonymous dummy data. If users request deletion, we will verify identity through Firebase Authentication account information and delete all data associated with that user.",
-      "intro4": "④ When exercising rights through a representative, a power of attorney must be submitted.",
-      "intro5": "⑤ Requests for access and suspension of processing may be restricted under Article 35(4) and Article 37(2) of the law.",
-      "intro6": "⑥ Requests for correction and deletion may be restricted when explicitly stated as collection targets in other laws.",
-      "intro7": "⑦ Identity verification procedures are conducted when exercising rights to confirm whether the person is the data subject or a legitimate representative."
+      "title": "7. Security",
+      "intro": "We implement industry-standard security measures to protect your information.<br><br>However, no method of transmission or storage is completely secure."
     },
     "section8": {
-      "title": "Article 8 (Measures to Ensure Safety of Personal Information)",
-      "intro": "<strong>PushShare</strong> takes the following measures to ensure the safety of personal information:",
-      "items": "<li>Access Control: Restricting access to personal information to a minimum number of personnel</li><li>External access control through intrusion prevention systems</li><li>Encryption: Personal information is encrypted for storage and transmission</li><li>Regular security inspections and audits</li>"
+      "title": "8. Your Rights",
+      "intro": "You may request:",
+      "items": "<li>Access to your data</li><li>Correction or deletion</li><li>Withdrawal of consent</li><li>A copy of your data (where legally applicable)</li>",
+      "note": "Contact us using the details below to exercise your rights."
     },
     "section9": {
-      "title": "Article 9 (Use of Cookies)",
-      "intro": "<strong>PushShare</strong> does not use cookies."
+      "title": "9. Children's Privacy",
+      "intro": "PushShare is not designed for children.<br><br>We do not knowingly collect personal information from children."
     },
     "section10": {
-      "title": "Article 10 (Personal Information Protection Officer)",
-      "intro": "▶ Personal Information Protection Officer",
-      "items": "<li>Email: <a href=\"mailto:jj@dosusu.com\">jj@dosusu.com</a></li>",
-      "note": "※ Inquiries and complaints related to personal information protection can be made to the above email address."
+      "title": "10. Changes to This Policy",
+      "intro": "We may update this Privacy Policy periodically.<br><br>Significant changes will be announced within the app or on our website."
     },
     "section11": {
-      "title": "Article 11 (Department for Receiving and Processing Personal Information Access Requests)",
-      "intro": "Personal information access requests are received and processed by the department below.<br><br><strong>PushShare</strong> will do its best to promptly process data subjects' access requests.",
-      "items": "<li>Email: <a href=\"mailto:jj@dosusu.com\">jj@dosusu.com</a></li>"
+      "title": "11. Contact Information",
+      "intro": "If you have any questions about this Privacy Policy, please contact:",
+      "content": "<strong>Dosusu (PushShare Operator)</strong><br>📧 Email: <a href=\"mailto:jj@dosusu.com\">jj@dosusu.com</a><br>🏢 Address:<br>7, Sanseong-daero 437beon-gil 101-501<br>Sujeong-gu, Seongnam-si<br>Gyeonggi-do, 13144<br>South Korea"
     }
   },
   "terms": {
     "title": "Terms of Use",
     "lastUpdated": "Last Updated: December 10, 2025",
-    "intro": "PushShare (&quot;the App&quot;) is provided subject to the Apple Standard End User License Agreement (EULA), which governs your use of the App when downloaded from the Apple App Store.<br><br>By using PushShare, you also agree to the following additional terms:",
+    "intro": "PushShare (\"the App\") is provided subject to the Apple Standard End User License Agreement (EULA), which governs your use of the App when downloaded from the Apple App Store.<br><br>By using PushShare, you also agree to the following additional terms:",
     "section1": {
       "title": "1. Service Description",
       "content": "PushShare enables forwarding of device notifications across devices registered by the user."
@@ -143,7 +111,7 @@
     },
     "section5": {
       "title": "5. Limitation of Liability",
-      "intro": "The App is provided &quot;as is&quot; and the developer is not responsible for:",
+      "intro": "The App is provided \"as is\" and the developer is not responsible for:",
       "items": "<li>Network failures</li><li>Device incompatibility</li><li>Errors caused by third-party systems</li>"
     },
     "section6": {
