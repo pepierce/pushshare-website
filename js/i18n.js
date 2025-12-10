@@ -106,11 +106,20 @@ class I18n {
         }
       } else {
         const translation = this.t(key);
-        if (translation) {
+        // translation이 키와 다르면 (즉, 실제 번역이 있으면) 적용
+        // 빈 문자열도 유효한 값으로 처리
+        if (translation !== key) {
           if (element.getAttribute('data-i18n-html') === 'true') {
             element.innerHTML = translation;
           } else {
             element.textContent = translation;
+          }
+        } else if (translation === '' || translation === null || translation === undefined) {
+          // 빈 문자열이거나 null/undefined인 경우 요소를 숨기거나 빈 상태로 유지
+          if (element.getAttribute('data-i18n-html') === 'true') {
+            element.innerHTML = '';
+          } else {
+            element.textContent = '';
           }
         }
       }
@@ -183,6 +192,11 @@ class I18n {
       }
     }
 
+    // value가 undefined이거나 null이면 키 반환
+    if (value === undefined || value === null) {
+      return key;
+    }
+
     // 파라미터 치환
     if (typeof value === 'string' && params) {
       return value.replace(/\{\{(\w+)\}\}/g, (match, paramKey) => {
@@ -190,7 +204,8 @@ class I18n {
       });
     }
 
-    return value || key;
+    // 빈 문자열도 유효한 값으로 처리
+    return value;
   }
 
   /**
