@@ -1,7 +1,1 @@
-# app-ads.txt file for PushShare
-# This file is required by Google AdMob for app monetization
-# For more information: https://support.google.com/admob/answer/9363764
-
-# Google AdMob Publisher ID
 google.com, pub-1992208511493602, DIRECT, f08c47fec0942fa0
-
