@@ -54,11 +54,17 @@ class I18n {
    */
   async loadTranslations() {
     try {
-      const response = await fetch(`locales/${this.currentLanguage}.json`);
+      // 절대 경로 사용 (웹사이트 루트 기준)
+      const basePath = window.location.pathname.includes('/privacy-policy.html') || 
+                       window.location.pathname.includes('/terms-of-service.html')
+                       ? '../' : './';
+      const response = await fetch(`${basePath}locales/${this.currentLanguage}.json`);
+      
       if (response.ok) {
         this.translations = await response.json();
         this.applyTranslations();
       } else {
+        console.warn(`Failed to load translation file for ${this.currentLanguage}:`, response.status);
         // 번역 파일이 없으면 영어로 폴백 (법적 요구사항 대응)
         if (this.currentLanguage !== 'en') {
           this.currentLanguage = 'en';
@@ -101,22 +107,23 @@ class I18n {
           year: CONFIG.company.year,
           companyName: CONFIG.company.name,
         });
-        if (translation) {
+        if (translation && translation !== key) {
           element.textContent = translation;
         }
       } else {
         const translation = this.t(key);
-        // translation이 키와 다르면 (즉, 실제 번역이 있으면) 적용
-        // undefined나 null이 아닌 경우에만 적용 (빈 문자열 포함)
-        if (translation !== key) {
+        // 번역이 키와 다르거나, 번역이 존재하는 경우 항상 적용
+        // (번역이 키와 같아도 번역 파일에 명시적으로 정의된 경우일 수 있음)
+        if (translation !== undefined && translation !== null) {
           // 빈 문자열인 경우에도 요소를 비우기 위해 처리
-          if (translation === '' || translation === null || translation === undefined) {
+          if (translation === '') {
             if (element.getAttribute('data-i18n-html') === 'true') {
               element.innerHTML = '';
             } else {
               element.textContent = '';
             }
           } else {
+            // 번역이 키와 같아도 적용 (번역 파일에 명시적으로 정의된 경우)
             if (element.getAttribute('data-i18n-html') === 'true') {
               element.innerHTML = translation;
             } else {
@@ -124,7 +131,7 @@ class I18n {
             }
           }
         }
-        // translation이 키와 같으면 번역을 찾지 못한 것이므로 기본 텍스트 유지
+        // translation이 undefined나 null이면 번역을 찾지 못한 것이므로 기본 텍스트 유지
       }
     });
 
@@ -217,6 +224,11 @@ class I18n {
   async changeLanguage(lang) {
     if (!CONFIG.supportedLanguages.includes(lang)) {
       console.warn(`Unsupported language: ${lang}`);
+      return;
+    }
+
+    // 이전 언어와 같으면 변경하지 않음
+    if (this.currentLanguage === lang) {
       return;
     }
 
