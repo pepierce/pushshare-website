@@ -9,6 +9,42 @@
     "contact": "문의",
     "home": "홈"
   },
+  "hero": {
+    "title": "여러 기기 간 푸시 알림을 쉽게 공유하세요",
+    "subtitle": "PushShare는 여러 기기에서 받은 알림을 다른 기기로 전송할 수 있는 편리한 서비스입니다.",
+    "downloadAndroid": "Google Play에서 다운로드",
+    "downloadIOS": "App Store에서 다운로드"
+  },
+  "features": {
+    "title": "주요 기능",
+    "multiDevice": {
+      "title": "다중 기기 지원",
+      "description": "여러 기기를 등록하고 관리하여 어디서든 알림을 공유할 수 있습니다."
+    },
+    "realtime": {
+      "title": "실시간 알림 전송",
+      "description": "받은 알림을 즉시 다른 기기로 전송하여 중요한 메시지를 놓치지 마세요."
+    },
+    "secure": {
+      "title": "안전한 인증",
+      "description": "Firebase 인증을 통해 안전하게 계정을 관리하고 데이터를 보호합니다."
+    },
+    "multilang": {
+      "title": "다국어 지원",
+      "description": "20개 이상의 언어를 지원하여 전 세계 사용자에게 서비스를 제공합니다."
+    }
+  },
+  "download": {
+    "title": "지금 다운로드하세요",
+    "subtitle": "PushShare를 다운로드하고 여러 기기에서 알림을 공유해보세요.",
+    "android": "Android 다운로드",
+    "ios": "iOS 다운로드"
+  },
+  "contact": {
+    "title": "문의하기",
+    "subtitle": "질문이나 제안사항이 있으시면 언제든지 연락주세요.",
+    "email": "이메일"
+  },
   "footer": {
     "copyright": "© {{year}} {{companyName}}. All rights reserved.",
     "privacy": "개인정보처리방침",

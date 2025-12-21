@@ -9,6 +9,42 @@
     "contact": "Contact",
     "home": "Home"
   },
+  "hero": {
+    "title": "Easily share push notifications across multiple devices",
+    "subtitle": "PushShare is a convenient service that allows you to send notifications received on multiple devices to other devices.",
+    "downloadAndroid": "Download on Google Play",
+    "downloadIOS": "Download on App Store"
+  },
+  "features": {
+    "title": "Key Features",
+    "multiDevice": {
+      "title": "Multi-Device Support",
+      "description": "Register and manage multiple devices to share notifications from anywhere."
+    },
+    "realtime": {
+      "title": "Real-Time Notification Delivery",
+      "description": "Instantly forward received notifications to other devices so you don't miss important messages."
+    },
+    "secure": {
+      "title": "Secure Authentication",
+      "description": "Safely manage your account and protect your data through Firebase authentication."
+    },
+    "multilang": {
+      "title": "Multi-Language Support",
+      "description": "Supports over 20 languages to serve users worldwide."
+    }
+  },
+  "download": {
+    "title": "Download Now",
+    "subtitle": "Download PushShare and start sharing notifications across multiple devices.",
+    "android": "Download for Android",
+    "ios": "Download for iOS"
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "If you have any questions or suggestions, please feel free to contact us.",
+    "email": "Email"
+  },
   "footer": {
     "copyright": "© {{year}} {{companyName}}. All rights reserved.",
     "privacy": "Privacy Policy",
