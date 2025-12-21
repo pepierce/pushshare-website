@@ -112,9 +112,9 @@ class I18n {
         }
       } else {
         const translation = this.t(key);
-        // 번역이 키와 다르거나, 번역이 존재하는 경우 항상 적용
-        // (번역이 키와 같아도 번역 파일에 명시적으로 정의된 경우일 수 있음)
-        if (translation !== undefined && translation !== null) {
+        // translation이 키와 다르면 (즉, 실제 번역이 있으면) 적용
+        // undefined나 null이 아닌 경우에만 적용 (빈 문자열 포함)
+        if (translation !== key && translation !== undefined && translation !== null) {
           // 빈 문자열인 경우에도 요소를 비우기 위해 처리
           if (translation === '') {
             if (element.getAttribute('data-i18n-html') === 'true') {
@@ -123,7 +123,6 @@ class I18n {
               element.textContent = '';
             }
           } else {
-            // 번역이 키와 같아도 적용 (번역 파일에 명시적으로 정의된 경우)
             if (element.getAttribute('data-i18n-html') === 'true') {
               element.innerHTML = translation;
             } else {
@@ -131,7 +130,7 @@ class I18n {
             }
           }
         }
-        // translation이 undefined나 null이면 번역을 찾지 못한 것이므로 기본 텍스트 유지
+        // translation이 키와 같으면 번역을 찾지 못한 것이므로 기본 텍스트 유지
       }
     });
 

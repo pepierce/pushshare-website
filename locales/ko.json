@@ -4,6 +4,9 @@
     "description": "PushShare - 여러 기기 간 푸시 알림을 쉽게 공유하세요"
   },
   "nav": {
+    "features": "기능",
+    "download": "다운로드",
+    "contact": "문의",
     "home": "홈"
   },
   "footer": {

@@ -4,6 +4,9 @@
     "description": "PushShare - Easily share push notifications across multiple devices"
   },
   "nav": {
+    "features": "Features",
+    "download": "Download",
+    "contact": "Contact",
     "home": "Home"
   },
   "footer": {
