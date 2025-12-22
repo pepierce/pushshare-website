@@ -13,7 +13,7 @@ const CONFIG = {
   // 스토어 URL (나중에 변경 가능)
   storeUrls: {
     android: 'https://play.google.com/store/apps/details?id=com.dosusu.pushshare',
-    ios: 'https://apps.apple.com/us/app/pushshare/id6748575432',
+    ios: 'https://apps.apple.com/app/id6748575432',
   },
 
   // 연락처 정보 (나중에 변경 가능)
