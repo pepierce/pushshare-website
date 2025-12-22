@@ -58,10 +58,12 @@ class I18n {
       const basePath = window.location.pathname.includes('/privacy-policy.html') || 
                        window.location.pathname.includes('/terms-of-service.html')
                        ? '../' : './';
-      const response = await fetch(`${basePath}locales/${this.currentLanguage}.json`);
+      const url = `${basePath}locales/${this.currentLanguage}.json`;
+      const response = await fetch(url);
       
       if (response.ok) {
         this.translations = await response.json();
+        console.log(`[i18n] Loaded translations for ${this.currentLanguage}:`, Object.keys(this.translations).length, 'keys');
         this.applyTranslations();
       } else {
         console.warn(`Failed to load translation file for ${this.currentLanguage}:`, response.status);
@@ -98,6 +100,7 @@ class I18n {
 
     // data-i18n 속성이 있는 모든 요소에 번역 적용
     const elements = document.querySelectorAll('[data-i18n]');
+    let appliedCount = 0;
     elements.forEach(element => {
       const key = element.getAttribute('data-i18n');
 
@@ -128,11 +131,14 @@ class I18n {
             } else {
               element.textContent = translation;
             }
+            appliedCount++;
           }
         }
         // translation이 키와 같으면 번역을 찾지 못한 것이므로 기본 텍스트 유지
       }
     });
+    
+    console.log(`[i18n] Applied translations for ${this.currentLanguage}: ${appliedCount}/${elements.length} elements`);
 
     // 언어 선택 드롭다운 업데이트
     const languageSelector = document.getElementById('language-selector');
@@ -226,13 +232,15 @@ class I18n {
       return;
     }
 
-    // 이전 언어와 같으면 변경하지 않음
-    if (this.currentLanguage === lang) {
+    // 이전 언어와 같으면 변경하지 않음 (단, 번역이 로드되지 않은 경우는 제외)
+    if (this.currentLanguage === lang && Object.keys(this.translations).length > 0) {
       return;
     }
 
     this.currentLanguage = lang;
     this.saveLanguage(lang);
+    // 번역 객체 초기화 후 다시 로드
+    this.translations = {};
     await this.loadTranslations();
   }
 
