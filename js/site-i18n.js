@@ -179,9 +179,9 @@
           pricing: '대량 문서는 생성 비용과 파일 크기가 커질 수 있어, 생성 전 예상 금액과 분권 계획을 먼저 보여줍니다.',
         },
         cta: {
-          title: 'VoiceLeaf 앱으로 이동',
-          body: '실제 변환 도구는 별도 Cloud Run 서비스에서 실행됩니다.',
-          action: 'voiceleaf.dosusu.com 열기',
+          title: 'VoiceLeaf 서비스로 이동',
+          body: '문장을 붙여넣고 번역과 음성 옵션을 확인한 뒤 EPUB 생성을 시작하세요.',
+          action: 'VoiceLeaf 열기',
         },
         footer: {
           copyright: '© {year} Dosusu. All rights reserved.',
@@ -233,9 +233,9 @@
           pricing: 'Large documents can increase generation cost and file size, so estimated price and volume planning are shown before generation.',
         },
         cta: {
-          title: 'Go to the VoiceLeaf app',
-          body: 'The actual conversion tool runs on a separate Cloud Run service.',
-          action: 'Open voiceleaf.dosusu.com',
+          title: 'Go to VoiceLeaf',
+          body: 'Paste your text, review translation and audio options, then start generating your EPUB.',
+          action: 'Open VoiceLeaf',
         },
         footer: {
           copyright: '© {year} Dosusu. All rights reserved.',
