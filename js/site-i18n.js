@@ -16,6 +16,11 @@
       storageKey: 'dosusu-language',
       supportedLanguages: ['ko', 'en'],
     },
+    voiceleaf: {
+      defaultLanguage: 'ko',
+      storageKey: 'voiceleaf-language',
+      supportedLanguages: ['ko', 'en'],
+    },
     century: {
       defaultLanguage: 'ko',
       storageKey: 'centurydiary-language',
@@ -66,6 +71,11 @@
             description: '한 기기에서 받은 푸시 알림을 다른 기기로 이어 보내, 중요한 소식을 놓치지 않도록 도와줍니다.',
             link: 'PushShare 보기',
           },
+          voiceleaf: {
+            tag: 'Web service',
+            description: '문장 목록을 번역과 음성이 포함된 Apple Books용 EPUB 학습책으로 변환하는 웹 서비스입니다.',
+            link: 'VoiceLeaf 보기',
+          },
         },
         footer: {
           copyright: '© {year} Dosusu. All rights reserved.',
@@ -112,9 +122,124 @@
             description: 'Forward push notifications from one device to another so important messages are easier to catch.',
             link: 'View PushShare',
           },
+          voiceleaf: {
+            tag: 'Web service',
+            description: 'Turn sentence lists into Apple Books study EPUBs with translation and embedded audio.',
+            link: 'View VoiceLeaf',
+          },
         },
         footer: {
           copyright: '© {year} Dosusu. All rights reserved.',
+        },
+      },
+    },
+    voiceleaf: {
+      ko: {
+        meta: {
+          title: 'VoiceLeaf - 문장을 듣기 학습 eBook으로',
+          description: 'VoiceLeaf - 문장 목록을 번역과 음성이 포함된 Apple Books용 EPUB 학습책으로 변환하는 웹 서비스',
+          ogDescription: '붙여넣은 텍스트를 번역, TTS 음성, Apple Books용 EPUB으로 변환합니다.',
+        },
+        nav: { home: 'Home', service: '서비스', scope: '지원 범위', contact: '문의' },
+        hero: {
+          eyebrow: 'Text to audio EPUB',
+          title: '문장 목록을 듣기 학습 eBook으로',
+          lead: 'VoiceLeaf는 직접 준비한 텍스트나 TXT 파일을 번역문과 음성이 포함된 Apple Books용 EPUB으로 변환하는 웹 서비스입니다. 아이패드나 아이폰에서 문장을 듣고 따라 읽는 학습 흐름을 빠르게 만들 수 있습니다.',
+          primaryAction: 'VoiceLeaf 열기',
+          secondaryAction: '지원 범위 보기',
+        },
+        preview: {
+          label: 'Apple Books oriented',
+          sentence: 'Jack thought that Miles was brave and adventurous.',
+          translation: '잭은 마일즈가 용감하고 모험심이 강하다고 생각했다.',
+          normal: '일반 속도',
+          slow: '천천히',
+        },
+        flow: {
+          eyebrow: 'Workflow',
+          title: '붙여넣고, 확인하고, 다운로드합니다',
+          input: {
+            title: '텍스트 입력',
+            body: '문장 목록을 붙여넣거나 TXT 파일을 올리고 원본 언어를 직접 선택합니다.',
+          },
+          options: {
+            title: '번역과 음성 선택',
+            body: '번역 언어, 일반/느린 음성, 전체 재생 MP3 옵션과 예상 용량을 확인합니다.',
+          },
+          download: {
+            title: 'EPUB 생성',
+            body: '결제 확인 후 Apple Books에서 열 수 있는 EPUB 또는 분권 ZIP을 생성합니다.',
+          },
+        },
+        scope: {
+          eyebrow: 'Support scope',
+          title: 'iPhone/iPad Apple Books를 기준으로 만듭니다',
+          body: '현재 서비스는 Apple Books에서 MP3가 포함된 EPUB을 재생하는 흐름을 우선 지원합니다. Android와 Google Play Books의 EPUB 오디오 재생은 보장하지 않습니다.',
+          rights: '본인이 권리를 보유했거나 변환 허가를 받은 자료만 사용해야 합니다.',
+          pricing: '대량 문서는 생성 비용과 파일 크기가 커질 수 있어, 생성 전 예상 금액과 분권 계획을 먼저 보여줍니다.',
+        },
+        cta: {
+          title: 'VoiceLeaf 앱으로 이동',
+          body: '실제 변환 도구는 별도 Cloud Run 서비스에서 실행됩니다.',
+          action: 'voiceleaf.dosusu.com 열기',
+        },
+        footer: {
+          copyright: '© {year} Dosusu. All rights reserved.',
+          home: 'Dosusu Home',
+        },
+      },
+      en: {
+        meta: {
+          title: 'VoiceLeaf - Turn sentences into audio study eBooks',
+          description: 'VoiceLeaf - a web service that turns sentence lists into Apple Books EPUB study books with translation and audio',
+          ogDescription: 'Convert pasted text into translation, TTS audio, and Apple Books-oriented EPUB files.',
+        },
+        nav: { home: 'Home', service: 'Service', scope: 'Support', contact: 'Contact' },
+        hero: {
+          eyebrow: 'Text to audio EPUB',
+          title: 'Turn sentence lists into audio study eBooks',
+          lead: 'VoiceLeaf converts your own text or TXT files into Apple Books-oriented EPUB study books with translation and embedded audio. It is designed for listening and repeat-reading on iPhone and iPad.',
+          primaryAction: 'Open VoiceLeaf',
+          secondaryAction: 'View support scope',
+        },
+        preview: {
+          label: 'Apple Books oriented',
+          sentence: 'Jack thought that Miles was brave and adventurous.',
+          translation: 'Jack thought Miles was brave and adventurous.',
+          normal: 'Normal pace',
+          slow: 'Slow pace',
+        },
+        flow: {
+          eyebrow: 'Workflow',
+          title: 'Paste, confirm, and download',
+          input: {
+            title: 'Enter text',
+            body: 'Paste a sentence list or upload a TXT file, then manually choose the source language.',
+          },
+          options: {
+            title: 'Choose translation and audio',
+            body: 'Review translation language, normal/slow audio, optional full playback MP3, estimated size, and volume splitting.',
+          },
+          download: {
+            title: 'Generate EPUB',
+            body: 'After payment confirmation, VoiceLeaf creates an EPUB or multi-volume ZIP for Apple Books.',
+          },
+        },
+        scope: {
+          eyebrow: 'Support scope',
+          title: 'Built around iPhone and iPad Apple Books',
+          body: 'VoiceLeaf currently prioritizes EPUB audio playback in Apple Books. Android and Google Play Books audio playback is not guaranteed.',
+          rights: 'Use only content you own or have permission to convert.',
+          pricing: 'Large documents can increase generation cost and file size, so estimated price and volume planning are shown before generation.',
+        },
+        cta: {
+          title: 'Go to the VoiceLeaf app',
+          body: 'The actual conversion tool runs on a separate Cloud Run service.',
+          action: 'Open voiceleaf.dosusu.com',
+        },
+        footer: {
+          copyright: '© {year} Dosusu. All rights reserved.',
+          home: 'Dosusu Home',
         },
       },
     },
