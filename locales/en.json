@@ -52,14 +52,14 @@
   },
   "privacy": {
     "title": "Privacy Policy for PushShare",
-    "lastUpdated": "Last updated: December 10, 2025",
+    "lastUpdated": "Last updated: June 27, 2026",
     "section1": {
       "title": "1. Introduction",
       "intro": "PushShare (\"PushShare\", \"we\", \"us\", or \"our\") provides a service that forwards device notifications to your registered devices.<br><br>We respect your privacy and collect only the minimum information necessary to operate our service.<br><br>By using PushShare, you agree to this Privacy Policy."
     },
     "section2": {
       "title": "2. Information We Collect",
-      "intro": "PushShare collects only metadata required for device registration and notification forwarding.<br><br>We do not collect the contents of notifications or any sensitive personal data.",
+      "intro": "PushShare collects and stores only the minimum information needed to register devices, forward notifications, and provide the in-app message list.<br><br>Notification titles and bodies may be stored so notifications from apps selected by the user can be forwarded to another device and reviewed later in the app. We do not use this information for advertising, marketing, or profiling.",
       "subsection1": {
         "title": "2.1 Device Information",
         "intro": "When you register a device, we collect:",
@@ -83,24 +83,24 @@
         "intro": "When you sign in, you provide an email address to Firebase Authentication.<br><br>PushShare does not store your email address in our database.<br><br>We store only your Firebase Authentication user ID, which is also used as your RevenueCat customer identifier."
       },
       "subsection5": {
-        "title": "2.5 No Notification Content Storage",
-        "intro": "PushShare does not store any content of your notifications (such as messages, senders, or app data).<br><br>Notifications are forwarded in real time without being saved."
+        "title": "2.5 Forwarded Notification Message Storage",
+        "intro": "When a notification from an app selected by the user is forwarded to another registered device, PushShare may store the forwarded notification message for the destination device's message list.<br><br>The stored items may include the source app name, package name, notification title, notification body, app icon URL, generated message ID, and creation time.<br><br>Messages are stored under the user's account and registered device, and the app keeps up to the most recent 100 messages per device by removing older messages."
       }
     },
     "section3": {
       "title": "3. How We Use Your Information",
       "intro": "We use the collected information only to:",
-      "items": "<li>Register and identify your devices</li><li>Forward notifications between devices</li><li>Verify and maintain subscription status</li><li>Improve service stability and performance</li><li>Diagnose and resolve technical issues</li>",
+      "items": "<li>Register and identify your devices</li><li>Forward notifications between devices</li><li>Provide the in-app message list</li><li>Verify and maintain subscription status</li><li>Improve service stability and performance</li><li>Diagnose and resolve technical issues</li>",
       "note": "We do not use your data for marketing, profiling, or advertising."
     },
     "section4": {
       "title": "4. Data Retention",
-      "intro": "We retain your data only for as long as needed to provide our service.<br><br>When you delete your account, all associated device information and stored identifiers are permanently removed, except for information required for marketplace billing records."
+      "intro": "We retain your data only for as long as needed to provide our service.<br><br>Forwarded notification messages are kept up to the most recent 100 messages per device, and you can delete messages in the app.<br><br>When you log out, the device information and server-stored messages for the current device are deleted. When you delete a registered device, server-stored messages sent to that device are also deleted. When you delete your account, associated device information, stored messages, and identifiers are deleted.<br><br>Information required for marketplace billing records may be retained separately where legally required."
     },
     "section5": {
       "title": "5. Third-Party Services",
       "intro": "PushShare uses the following service providers:",
-      "items": "<li>Firebase Authentication — user sign-in</li><li>Firebase Cloud Messaging (FCM) — notification delivery</li><li>Firebase Firestore — device metadata storage</li><li>RevenueCat — subscription validation</li>",
+      "items": "<li>Firebase Authentication — user sign-in</li><li>Firebase Cloud Messaging (FCM) — notification delivery</li><li>Firebase Firestore — device metadata and forwarded message storage</li><li>RevenueCat — subscription validation</li>",
       "note": "We do not sell or share your data with third parties for advertising."
     },
     "section6": {
