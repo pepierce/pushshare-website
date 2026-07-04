@@ -256,9 +256,9 @@
       "question": "Can I review missed notifications in the app?",
       "answer": "Yes. Recent forwarded push messages can be checked in the in-app message list."
     },
-    "free": {
-      "question": "Can I try it for free?",
-      "answer": "Yes. Free usage and a trial period let you test whether PushShare fits your setup."
+    "pricing": {
+      "question": "Where can I check the current terms of use?",
+      "answer": "Subscription and usage terms are based on the latest information shown in the App Store or Google Play."
     }
   }
 }

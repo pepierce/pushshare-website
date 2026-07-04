@@ -304,9 +304,9 @@
       "question": "Kaçırdığım bildirimleri uygulamada görebilir miyim?",
       "answer": "Evet. Son iletilen push mesajları uygulama içindeki mesaj listesinde görülebilir."
     },
-    "free": {
-      "question": "Ücretsiz deneyebilir miyim?",
-      "answer": "Evet. Ücretsiz kullanım hakkı ve deneme süresi, PushShare’in düzeninize uyup uymadığını görmenizi sağlar."
+    "pricing": {
+      "question": "Güncel kullanım koşullarını nerede görebilirim?",
+      "answer": "Abonelik ve kullanım koşulları App Store veya Google Play’de gösterilen güncel bilgilere göre geçerlidir."
     }
   }
 }

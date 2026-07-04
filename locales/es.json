@@ -304,9 +304,9 @@
       "question": "¿Puedo revisar notificaciones perdidas en la app?",
       "answer": "Sí. Los mensajes push reenviados recientemente se pueden consultar en la bandeja de la app."
     },
-    "free": {
-      "question": "¿Puedo probarlo gratis?",
-      "answer": "Sí. El uso gratuito y el periodo de prueba te permiten comprobar si PushShare encaja con tu configuración."
+    "pricing": {
+      "question": "¿Dónde puedo consultar las condiciones actuales?",
+      "answer": "Las condiciones de suscripción y uso se basan en la información más reciente que aparece en App Store o Google Play."
     }
   }
 }

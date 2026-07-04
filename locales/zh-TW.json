@@ -304,9 +304,9 @@
       "question": "錯過通知後可以在 App 裡再看嗎？",
       "answer": "可以。最近轉發的推播訊息可在 App 內訊息匣查看。"
     },
-    "free": {
-      "question": "可以免費試用嗎？",
-      "answer": "可以。免費額度與試用期可幫助你確認是否適合自己的使用環境。"
+    "pricing": {
+      "question": "在哪裡查看目前的使用條件？",
+      "answer": "訂閱與使用條件以 App Store 或 Google Play 上顯示的最新資訊為準。"
     }
   }
 }
