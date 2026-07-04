@@ -14,7 +14,7 @@
   },
   "hero": {
     "eyebrow": "Notification forwarding app",
-    "title": "İş telefonu bildirimleri ana cihazınızda",
+    "title": "İş telefonu bildirimleri ana cihazınızda | PushShare",
     "subtitle": "PushShare, bir cihazdaki önemli bildirimleri başka bir Android cihaza veya iPhone’a iletir; böylece her telefonu sürekli kontrol etmeniz gerekmez.",
     "badgeAndroid": "Android’den Android’e",
     "badgeIphone": "Android’den iPhone’a",
@@ -305,8 +305,8 @@
       "answer": "Evet. Son iletilen push mesajları uygulama içindeki mesaj listesinde görülebilir."
     },
     "pricing": {
-      "question": "Güncel kullanım koşullarını nerede görebilirim?",
-      "answer": "Abonelik ve kullanım koşulları App Store veya Google Play’de gösterilen güncel bilgilere göre geçerlidir."
+      "question": "Ücretsiz ne kadar deneyebilirim?",
+      "answer": "Kayıttan sonra PushShare'i 3 gün ücretsiz kullanabilirsiniz. Ücretsiz dönemden sonra da toplam 50 bildirim yönlendirmesi ücretsizdir; reklam izleyerek ek ücretsiz gönderim hakkı da alabilirsiniz."
     }
   }
 }

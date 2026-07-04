@@ -14,7 +14,7 @@
   },
   "hero": {
     "eyebrow": "Notification forwarding app",
-    "title": "Avisos del móvil de trabajo en tu dispositivo principal",
+    "title": "Avisos del móvil de trabajo en tu dispositivo principal | PushShare",
     "subtitle": "PushShare reenvía notificaciones importantes de un dispositivo a otro Android o iPhone, para que no tengas que revisar todos tus teléfonos.",
     "badgeAndroid": "Android a Android",
     "badgeIphone": "Android a iPhone",
@@ -305,8 +305,8 @@
       "answer": "Sí. Los mensajes push reenviados recientemente se pueden consultar en la bandeja de la app."
     },
     "pricing": {
-      "question": "¿Dónde puedo consultar las condiciones actuales?",
-      "answer": "Las condiciones de suscripción y uso se basan en la información más reciente que aparece en App Store o Google Play."
+      "question": "¿Cuánto puedo probar gratis?",
+      "answer": "Después de registrarte, puedes usar PushShare gratis durante 3 días. Luego tendrás 50 reenvíos de notificaciones gratuitos y podrás obtener reenvíos adicionales viendo anuncios."
     }
   }
 }

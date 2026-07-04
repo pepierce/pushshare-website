@@ -14,7 +14,7 @@
   },
   "hero": {
     "eyebrow": "Notification forwarding app",
-    "title": "仕事用・サブ端末の通知をメイン端末で",
+    "title": "仕事用・サブ端末の通知をメイン端末で | PushShare",
     "subtitle": "PushShareは、1台の端末で受け取った大切な通知を別のAndroid端末やiPhoneへ転送し、何台ものスマホを確認しなくても必要な情報を見逃しにくくします。",
     "badgeAndroid": "AndroidからAndroidへ",
     "badgeIphone": "AndroidからiPhoneへ",
@@ -305,8 +305,8 @@
       "answer": "はい。転送された最近のプッシュメッセージはアプリ内のメッセージ一覧で確認できます。"
     },
     "pricing": {
-      "question": "利用条件はどこで確認できますか？",
-      "answer": "サブスクリプションと利用条件は、App StoreまたはGoogle Playに表示される最新情報を基準に確認できます。"
+      "question": "無料でどのくらい試せますか？",
+      "answer": "登録後3日間は無料で利用できます。無料期間後も合計50件の通知転送を無料で利用でき、広告視聴で追加の無料送信回数を受け取ることもできます。"
     }
   }
 }

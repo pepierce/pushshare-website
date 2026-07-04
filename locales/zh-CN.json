@@ -14,7 +14,7 @@
   },
   "hero": {
     "eyebrow": "Notification forwarding app",
-    "title": "在主力设备查看工作机和备用机通知",
+    "title": "在主力设备查看工作机和备用机通知 | PushShare",
     "subtitle": "PushShare 可将一台设备上的重要通知转发到另一台 Android 设备或 iPhone，减少反复查看多部手机的麻烦。",
     "badgeAndroid": "Android 转 Android",
     "badgeIphone": "Android 转 iPhone",
@@ -305,8 +305,8 @@
       "answer": "可以。最近转发的推送消息可在应用内消息箱查看。"
     },
     "pricing": {
-      "question": "在哪里查看当前使用条件？",
-      "answer": "订阅和使用条件以 App Store 或 Google Play 上显示的最新信息为准。"
+      "question": "可以免费试用多少？",
+      "answer": "注册后可免费使用3天。免费期结束后，仍可免费转发共50条通知，也可以通过观看广告获得额外免费转发次数。"
     }
   }
 }

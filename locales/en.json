@@ -14,7 +14,7 @@
   },
   "hero": {
     "eyebrow": "Notification forwarding app",
-    "title": "Work phone alerts on your main device",
+    "title": "Work phone alerts on your main device | PushShare",
     "subtitle": "PushShare forwards important notifications from one device to another Android device or iPhone, so you can catch what matters without checking every phone.",
     "badgeAndroid": "Android to Android",
     "badgeIphone": "Android to iPhone",
@@ -257,8 +257,8 @@
       "answer": "Yes. Recent forwarded push messages can be checked in the in-app message list."
     },
     "pricing": {
-      "question": "Where can I check the current terms of use?",
-      "answer": "Subscription and usage terms are based on the latest information shown in the App Store or Google Play."
+      "question": "How much can I try for free?",
+      "answer": "After signing up, you can use PushShare free for 3 days. After that free period, you still get 50 forwarded notifications for free, and you can earn extra free sends by watching ads."
     }
   }
 }
