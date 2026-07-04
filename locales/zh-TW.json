@@ -1,19 +1,26 @@
 {
   "meta": {
-    "title": "PushShare - 推播通知共享服務",
-    "description": "PushShare - 輕鬆在多個裝置間共享推播通知"
+    "title": "PushShare - 在主要裝置查看工作機與備用機通知",
+    "description": "PushShare 可將工作 Android 手機、備用機或家人裝置的重要通知轉發到另一台 Android 裝置或 iPhone。"
   },
   "nav": {
     "features": "功能",
     "download": "下載",
     "contact": "聯絡",
-    "home": "首頁"
+    "home": "Dosusu",
+    "useCases": "使用情境",
+    "howItWorks": "運作方式",
+    "guides": "指南"
   },
   "hero": {
-    "title": "輕鬆在多個裝置間共享推播通知",
-    "subtitle": "PushShare是一項便捷的服務，允許您將多個裝置上收到的通知傳送到其他裝置。",
-    "downloadAndroid": "在Google Play下載",
-    "downloadIOS": "在App Store下載"
+    "eyebrow": "Notification forwarding app",
+    "title": "在主要裝置查看工作機與備用機通知",
+    "subtitle": "PushShare 可將一台裝置上的重要通知轉發到另一台 Android 裝置或 iPhone，讓你不用一直查看多支手機。",
+    "badgeAndroid": "Android 到 Android",
+    "badgeIphone": "Android 到 iPhone",
+    "badgeWatch": "可在 Apple Watch 查看",
+    "downloadAndroid": "在 Google Play 下載",
+    "downloadIOS": "在 App Store 下載"
   },
   "features": {
     "title": "主要功能",
@@ -35,20 +42,20 @@
     }
   },
   "download": {
-    "title": "立即下載",
-    "subtitle": "下載PushShare，開始在多個裝置間共享通知。",
-    "android": "下載Android版",
-    "ios": "下載iOS版"
+    "title": "立即開始使用 PushShare",
+    "subtitle": "在主要裝置查看工作機、備用機與家人裝置的重要通知。",
+    "android": "下載 Android 版",
+    "ios": "下載 iOS 版"
   },
   "contact": {
     "title": "聯絡我們",
-    "subtitle": "如果您有任何問題或建議，請隨時與我們聯絡。",
+    "subtitle": "歡迎提出問題或建議。",
     "email": "電子郵件"
   },
   "footer": {
     "copyright": "© {{year}} {{companyName}}。保留所有權利。",
-    "privacy": "隱私政策",
-    "terms": "服務條款"
+    "privacy": "隱私權政策",
+    "terms": "使用條款"
   },
   "privacy": {
     "title": "隱私政策",
@@ -208,6 +215,98 @@
     "section11": {
       "title": "第11條（準據法和管轄法院）",
       "content": "本條款的解釋以及公司與用戶之間的爭議適用大韓民國法律。因本爭議提起訴訟時，首爾中央地方法院為管轄法院。"
+    }
+  },
+  "flow": {
+    "sourceLabel": "工作機 / 備用機",
+    "sourceTitle": "Android 通知",
+    "sourceBody": "郵件、聊天、行事曆、配送通知",
+    "appTitle": "只轉發選定 App",
+    "appBody": "只傳送你需要的通知",
+    "targetLabel": "主要裝置",
+    "targetTitle": "iPhone / Android",
+    "targetBody": "依設定也可在 Apple Watch 查看"
+  },
+  "useCases": {
+    "eyebrow": "Use cases",
+    "title": "這些情境特別適合",
+    "workPhone": {
+      "title": "不方便一直帶著工作手機時",
+      "body": "可在個人 iPhone 或主要 Android 裝置查看放在桌上的工作 Android 手機重要通知。"
+    },
+    "secondaryPhone": {
+      "title": "經常錯過備用機通知時",
+      "body": "遊戲、金融、配送、行程等只在備用機出現的通知可以集中查看。"
+    },
+    "watch": {
+      "title": "想在 Apple Watch 查看 Android 通知時",
+      "body": "將 Android 通知轉發到 iPhone 後，可依 iPhone 通知設定與 Apple Watch 狀態在手錶上查看。"
+    },
+    "family": {
+      "title": "需要關注家人裝置的重要通知時",
+      "body": "在取得適當同意並完成設定後，可一起查看家人裝置上的重要通知。"
+    }
+  },
+  "how": {
+    "eyebrow": "How it works",
+    "title": "設定簡單，只轉發需要的通知",
+    "step1": {
+      "title": "安裝在傳送通知的 Android 裝置",
+      "body": "允許通知存取權限並登入 PushShare。"
+    },
+    "step2": {
+      "title": "用同一帳號連接接收裝置",
+      "body": "註冊要接收通知的 Android 裝置或 iPhone。"
+    },
+    "step3": {
+      "title": "選擇 App 和關鍵字",
+      "body": "不必轉發所有通知，可以選擇需要的 App 與條件。"
+    },
+    "step4": {
+      "title": "也可在 App 內訊息匣查看",
+      "body": "最近轉發的訊息可在 App 內再次查看。"
+    }
+  },
+  "trust": {
+    "eyebrow": "Privacy and control",
+    "title": "只轉發並管理你需要的通知",
+    "item1": "可自行選擇允許轉發通知的 App。",
+    "item2": "每台裝置僅保留最近 100 則轉發訊息。",
+    "item3": "登出、刪除裝置或刪除帳號時，相關伺服器訊息也會一併刪除。",
+    "item4": "通知內容不會用於廣告、行銷或個人化分析。"
+  },
+  "guides": {
+    "eyebrow": "Guides",
+    "title": "依你的使用情境先看指南",
+    "appleWatch": {
+      "kicker": "Apple Watch",
+      "title": "如何在 Apple Watch 接收 Android 通知",
+      "body": "直接連接較困難，但可以先轉發到 iPhone，再於手錶上查看。"
+    },
+    "iphone": {
+      "kicker": "iPhone",
+      "title": "如何在 iPhone 接收 Android 通知",
+      "body": "了解如何將工作機或備用機的 Android 通知轉發到 iPhone。"
+    }
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "title": "常見問題",
+    "watch": {
+      "question": "這是把 Apple Watch 直接連到 Android 手機的 App 嗎？",
+      "answer": "不是。PushShare 會將 Android 通知轉發到 iPhone，並依 iPhone 通知設定與 Apple Watch 狀態讓你在手錶上查看。"
+    },
+    "select": {
+      "question": "一定要轉發所有通知嗎？",
+      "answer": "不用。你可以選擇指定 App，也可以使用關鍵字條件。"
+    },
+    "inbox": {
+      "question": "錯過通知後可以在 App 裡再看嗎？",
+      "answer": "可以。最近轉發的推播訊息可在 App 內訊息匣查看。"
+    },
+    "free": {
+      "question": "可以免費試用嗎？",
+      "answer": "可以。免費額度與試用期可幫助你確認是否適合自己的使用環境。"
     }
   }
 }

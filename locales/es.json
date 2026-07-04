@@ -1,17 +1,24 @@
 {
   "meta": {
-    "title": "PushShare - Servicio de Compartir Notificaciones Push",
-    "description": "PushShare - Comparte fácilmente notificaciones push entre múltiples dispositivos"
+    "title": "PushShare - avisos del móvil de trabajo y secundario en tu dispositivo principal",
+    "description": "PushShare reenvía notificaciones importantes de un Android de trabajo, un móvil secundario o un dispositivo familiar a otro Android o iPhone."
   },
   "nav": {
-    "features": "Características",
+    "features": "Funciones",
     "download": "Descargar",
     "contact": "Contacto",
-    "home": "Inicio"
+    "home": "Dosusu",
+    "useCases": "Usos",
+    "howItWorks": "Cómo funciona",
+    "guides": "Guías"
   },
   "hero": {
-    "title": "Comparte fácilmente notificaciones push entre múltiples dispositivos",
-    "subtitle": "PushShare es un servicio conveniente que te permite enviar notificaciones recibidas en múltiples dispositivos a otros dispositivos.",
+    "eyebrow": "Notification forwarding app",
+    "title": "Avisos del móvil de trabajo en tu dispositivo principal",
+    "subtitle": "PushShare reenvía notificaciones importantes de un dispositivo a otro Android o iPhone, para que no tengas que revisar todos tus teléfonos.",
+    "badgeAndroid": "Android a Android",
+    "badgeIphone": "Android a iPhone",
+    "badgeWatch": "Compatible con Apple Watch",
     "downloadAndroid": "Descargar en Google Play",
     "downloadIOS": "Descargar en App Store"
   },
@@ -35,20 +42,20 @@
     }
   },
   "download": {
-    "title": "Descarga Ahora",
-    "subtitle": "Descarga PushShare y comienza a compartir notificaciones entre múltiples dispositivos.",
+    "title": "Empieza a usar PushShare hoy",
+    "subtitle": "Consulta en tu dispositivo principal los avisos importantes de móviles de trabajo, secundarios y familiares.",
     "android": "Descargar para Android",
     "ios": "Descargar para iOS"
   },
   "contact": {
-    "title": "Contáctanos",
-    "subtitle": "Si tienes alguna pregunta o sugerencia, no dudes en contactarnos.",
-    "email": "Correo electrónico"
+    "title": "Contacto",
+    "subtitle": "Preguntas y sugerencias son bienvenidas.",
+    "email": "Correo"
   },
   "footer": {
     "copyright": "© {{year}} {{companyName}}. Todos los derechos reservados.",
-    "privacy": "Política de Privacidad",
-    "terms": "Términos de Servicio"
+    "privacy": "Política de privacidad",
+    "terms": "Términos de servicio"
   },
   "privacy": {
     "title": "Política de Privacidad",
@@ -208,6 +215,98 @@
     "section11": {
       "title": "Artículo 11 (Ley Aplicable y Jurisdicción)",
       "content": "Las leyes de la República de Corea se aplicarán a la interpretación de estos Términos y las disputas entre la Compañía y los usuarios. En caso de una demanda que surja de tales disputas, el Tribunal del Distrito Central de Seúl será el tribunal competente."
+    }
+  },
+  "flow": {
+    "sourceLabel": "Móvil de trabajo / secundario",
+    "sourceTitle": "Notificaciones Android",
+    "sourceBody": "Correo, chat, calendario y entregas",
+    "appTitle": "Solo apps seleccionadas",
+    "appBody": "Envía solo las notificaciones necesarias",
+    "targetLabel": "Dispositivo principal",
+    "targetTitle": "iPhone / Android",
+    "targetBody": "También puede aparecer en Apple Watch según la configuración"
+  },
+  "useCases": {
+    "eyebrow": "Use cases",
+    "title": "Útil cuando las notificaciones llegan al móvil equivocado",
+    "workPhone": {
+      "title": "Cuando no quieres llevar siempre el móvil de trabajo",
+      "body": "Consulta alertas importantes de un Android de trabajo en tu iPhone personal o Android principal."
+    },
+    "secondaryPhone": {
+      "title": "Cuando sueles perder avisos del móvil secundario",
+      "body": "Reúne en un solo lugar avisos de juegos, finanzas, entregas y calendario."
+    },
+    "watch": {
+      "title": "Cuando quieres avisos de Android en Apple Watch",
+      "body": "Reenvía notificaciones de Android al iPhone y, según la configuración, podrás verlas también en el Apple Watch."
+    },
+    "family": {
+      "title": "Cuando importan los avisos de un dispositivo familiar",
+      "body": "Con consentimiento y configuración adecuados, puedes revisar avisos importantes de un dispositivo familiar."
+    }
+  },
+  "how": {
+    "eyebrow": "How it works",
+    "title": "Configuración simple, reenvío selectivo",
+    "step1": {
+      "title": "Instala en el Android que envía",
+      "body": "Permite el acceso a notificaciones e inicia sesión en PushShare."
+    },
+    "step2": {
+      "title": "Conecta los dispositivos receptores",
+      "body": "Registra el Android o iPhone que recibirá las notificaciones."
+    },
+    "step3": {
+      "title": "Elige apps y palabras clave",
+      "body": "No reenvíes todo. Selecciona las apps y condiciones importantes."
+    },
+    "step4": {
+      "title": "Revisa mensajes dentro de la app",
+      "body": "Puedes volver a ver los mensajes recientes reenviados en la bandeja de la app."
+    }
+  },
+  "trust": {
+    "eyebrow": "Privacy and control",
+    "title": "Reenvía y administra solo lo necesario",
+    "item1": "Tú eliges qué apps pueden reenviar notificaciones.",
+    "item2": "Los mensajes reenviados se limitan a los 100 más recientes por dispositivo.",
+    "item3": "Cerrar sesión, borrar un dispositivo o eliminar la cuenta también borra los mensajes relacionados del servidor.",
+    "item4": "El contenido de las notificaciones no se usa para publicidad, marketing ni perfiles."
+  },
+  "guides": {
+    "eyebrow": "Guides",
+    "title": "Empieza por la situación que quieres resolver",
+    "appleWatch": {
+      "kicker": "Apple Watch",
+      "title": "Cómo recibir notificaciones Android en Apple Watch",
+      "body": "La conexión directa es difícil, pero puedes reenviar avisos al iPhone y verlos en la muñeca."
+    },
+    "iphone": {
+      "kicker": "iPhone",
+      "title": "Cómo recibir notificaciones Android en iPhone",
+      "body": "Guía práctica para reenviar avisos de un Android de trabajo o secundario al iPhone."
+    }
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "title": "Preguntas frecuentes",
+    "watch": {
+      "question": "¿PushShare conecta Apple Watch directamente con Android?",
+      "answer": "No. PushShare reenvía notificaciones Android al iPhone. Luego pueden aparecer en Apple Watch según la configuración del iPhone y el estado del reloj."
+    },
+    "select": {
+      "question": "¿Tengo que reenviar todas las notificaciones?",
+      "answer": "No. Puedes elegir apps concretas y usar condiciones por palabra clave."
+    },
+    "inbox": {
+      "question": "¿Puedo revisar notificaciones perdidas en la app?",
+      "answer": "Sí. Los mensajes push reenviados recientemente se pueden consultar en la bandeja de la app."
+    },
+    "free": {
+      "question": "¿Puedo probarlo gratis?",
+      "answer": "Sí. El uso gratuito y el periodo de prueba te permiten comprobar si PushShare encaja con tu configuración."
     }
   }
 }

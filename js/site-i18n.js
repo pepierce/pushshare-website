@@ -68,7 +68,7 @@
           },
           pushshare: {
             tag: 'Notifications',
-            description: '한 기기에서 받은 푸시 알림을 다른 기기로 이어 보내, 중요한 소식을 놓치지 않도록 도와줍니다.',
+            description: '업무폰이나 보조폰에서 받은 중요한 알림을 다른 Android 기기나 iPhone으로 이어 보내 놓치지 않게 도와줍니다.',
             link: 'PushShare 보기',
           },
           voiceleaf: {
@@ -119,7 +119,7 @@
           },
           pushshare: {
             tag: 'Notifications',
-            description: 'Forward push notifications from one device to another so important messages are easier to catch.',
+            description: 'Forward important alerts from a work phone or secondary Android phone to another Android device or iPhone.',
             link: 'View PushShare',
           },
           voiceleaf: {

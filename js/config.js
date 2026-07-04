@@ -32,9 +32,7 @@ const CONFIG = {
 
   // 지원 언어 목록
   supportedLanguages: [
-    'ko', 'en', 'es', 'zh-CN', 'zh-TW', 'ja', 'de', 'fr', 'pt', 'ru',
-    'ar', 'it', 'hi', 'vi', 'th', 'ms', 'fa', 'tr', 'pl', 'nl',
-    'id', 'bn', 'ur',
+    'ko', 'en', 'ja', 'zh-CN', 'zh-TW', 'ru', 'tr', 'es',
   ],
 };
 

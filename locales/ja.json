@@ -1,17 +1,24 @@
 {
   "meta": {
-    "title": "PushShare - プッシュ通知共有サービス",
-    "description": "PushShare - 複数のデバイス間でプッシュ通知を簡単に共有"
+    "title": "PushShare - 仕事用・サブ端末の通知をメイン端末で確認",
+    "description": "PushShareは、仕事用Androidやサブ端末、家族の端末の大切な通知を別のAndroid端末やiPhoneへ転送する通知共有アプリです。"
   },
   "nav": {
     "features": "機能",
     "download": "ダウンロード",
     "contact": "お問い合わせ",
-    "home": "ホーム"
+    "home": "Dosusu",
+    "useCases": "活用例",
+    "howItWorks": "仕組み",
+    "guides": "ガイド"
   },
   "hero": {
-    "title": "複数のデバイス間でプッシュ通知を簡単に共有",
-    "subtitle": "PushShareは、複数のデバイスで受信した通知を他のデバイスに送信できる便利なサービスです。",
+    "eyebrow": "Notification forwarding app",
+    "title": "仕事用・サブ端末の通知をメイン端末で",
+    "subtitle": "PushShareは、1台の端末で受け取った大切な通知を別のAndroid端末やiPhoneへ転送し、何台ものスマホを確認しなくても必要な情報を見逃しにくくします。",
+    "badgeAndroid": "AndroidからAndroidへ",
+    "badgeIphone": "AndroidからiPhoneへ",
+    "badgeWatch": "Apple Watchでも確認可能",
     "downloadAndroid": "Google Playでダウンロード",
     "downloadIOS": "App Storeでダウンロード"
   },
@@ -35,14 +42,14 @@
     }
   },
   "download": {
-    "title": "今すぐダウンロード",
-    "subtitle": "PushShareをダウンロードして、複数のデバイス間で通知を共有しましょう。",
+    "title": "PushShareを始めましょう",
+    "subtitle": "仕事用端末、サブ端末、家族端末の大切な通知をメイン端末で確認できます。",
     "android": "Android版をダウンロード",
     "ios": "iOS版をダウンロード"
   },
   "contact": {
     "title": "お問い合わせ",
-    "subtitle": "ご質問やご提案がございましたら、お気軽にお問い合わせください。",
+    "subtitle": "質問やご意見があればお気軽にご連絡ください。",
     "email": "メール"
   },
   "footer": {
@@ -208,6 +215,98 @@
     "section11": {
       "title": "第11条（準拠法および管轄裁判所）",
       "content": "本規約の解釈および会社と利用者間の紛争については、大韓民国法を適用し、本紛争により訴訟が提起される場合、ソウル中央地方法院を管轄裁判所とします。"
+    }
+  },
+  "flow": {
+    "sourceLabel": "仕事用 / サブ端末",
+    "sourceTitle": "Android通知",
+    "sourceBody": "メール、チャット、カレンダー、配送通知",
+    "appTitle": "選んだアプリだけ転送",
+    "appBody": "必要な通知だけ送信します",
+    "targetLabel": "メイン端末",
+    "targetTitle": "iPhone / Android",
+    "targetBody": "設定によりApple Watchでも確認"
+  },
+  "useCases": {
+    "eyebrow": "Use cases",
+    "title": "こんなときに便利です",
+    "workPhone": {
+      "title": "仕事用スマホを常に持ち歩けないとき",
+      "body": "机に置いた仕事用Androidの重要な通知を、個人のiPhoneやメインAndroid端末で確認できます。"
+    },
+    "secondaryPhone": {
+      "title": "サブ端末の通知を見逃しがちなとき",
+      "body": "ゲーム、金融、配送、予定など、サブ端末だけに届く通知を1か所で確認できます。"
+    },
+    "watch": {
+      "title": "Apple WatchでAndroid通知を見たいとき",
+      "body": "Android通知をiPhoneへ転送すると、iPhoneの通知設定とApple Watchの状態に応じて手元でも確認できます。"
+    },
+    "family": {
+      "title": "家族端末の重要な通知を確認したいとき",
+      "body": "適切な同意と設定を前提に、家族の端末で見逃したくない通知を一緒に確認できます。"
+    }
+  },
+  "how": {
+    "eyebrow": "How it works",
+    "title": "設定はかんたん、転送は必要なものだけ",
+    "step1": {
+      "title": "送信側のAndroid端末にインストール",
+      "body": "通知へのアクセスを許可し、PushShareにログインします。"
+    },
+    "step2": {
+      "title": "受信端末を同じアカウントで接続",
+      "body": "通知を受け取るAndroid端末またはiPhoneを登録します。"
+    },
+    "step3": {
+      "title": "転送するアプリとキーワードを選択",
+      "body": "すべての通知ではなく、必要なアプリや条件だけを選べます。"
+    },
+    "step4": {
+      "title": "アプリ内のメッセージ一覧でも確認",
+      "body": "転送された最近のメッセージをアプリ内で確認し直せます。"
+    }
+  },
+  "trust": {
+    "eyebrow": "Privacy and control",
+    "title": "必要な通知だけを転送し、管理できます",
+    "item1": "転送するアプリを自分で選べます。",
+    "item2": "転送メッセージは端末ごとに最新100件まで保持されます。",
+    "item3": "ログアウト、端末削除、アカウント削除時には関連するサーバー保存メッセージも削除されます。",
+    "item4": "通知内容を広告、マーケティング、プロファイリング目的で使用しません。"
+  },
+  "guides": {
+    "eyebrow": "Guides",
+    "title": "目的に合うガイドから確認できます",
+    "appleWatch": {
+      "kicker": "Apple Watch",
+      "title": "Apple WatchでAndroid通知を受け取る方法",
+      "body": "直接接続は難しいため、iPhoneへ転送して手元で確認する流れを説明します。"
+    },
+    "iphone": {
+      "kicker": "iPhone",
+      "title": "Android通知をiPhoneで受け取る方法",
+      "body": "仕事用端末やサブ端末のAndroid通知をiPhoneへ転送する基本をまとめました。"
+    }
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "title": "よくある質問",
+    "watch": {
+      "question": "Apple WatchをAndroidスマホに直接接続するアプリですか？",
+      "answer": "いいえ。PushShareはAndroid通知をiPhoneへ転送し、iPhoneの通知設定とApple Watchの状態に応じてApple Watchでも確認できるようにする仕組みです。"
+    },
+    "select": {
+      "question": "すべての通知を転送する必要がありますか？",
+      "answer": "いいえ。アプリを選択でき、キーワード条件も利用できます。"
+    },
+    "inbox": {
+      "question": "見逃した通知をアプリで確認できますか？",
+      "answer": "はい。転送された最近のプッシュメッセージはアプリ内のメッセージ一覧で確認できます。"
+    },
+    "free": {
+      "question": "無料で試せますか？",
+      "answer": "はい。無料利用分と試用期間で、自分の環境に合うか確認できます。"
     }
   }
 }

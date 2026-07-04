@@ -3,111 +3,247 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="PushShare - 여러 기기 간 푸시 알림을 쉽게 공유하세요">
-    <title>PushShare - 푸시 알림 공유 서비스</title>
+    <meta name="description" content="PushShare는 업무폰, 보조폰, 가족 기기의 중요한 알림을 다른 Android 기기나 iPhone으로 전달해 놓치지 않게 도와주는 알림 공유 앱입니다.">
+    <meta property="og:title" content="PushShare - 업무폰과 보조폰 알림을 메인 기기에서">
+    <meta property="og:description" content="Android 알림을 다른 Android 기기 또는 iPhone으로 전달하고, iPhone 알림 설정에 따라 Apple Watch에서도 확인해보세요.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.dosusu.com/pushshare.html">
+    <meta property="og:image" content="https://www.dosusu.com/pushshare-icon.png">
+    <link rel="canonical" href="https://www.dosusu.com/pushshare.html">
+    <title>PushShare - 업무폰과 보조폰 알림을 메인 기기에서</title>
     <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
     <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
     <link rel="icon" type="image/png" href="favicon.png">
     <link rel="stylesheet" href="styles.css">
-    <!-- 설정 파일 먼저 로드 -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "PushShare",
+      "applicationCategory": "ProductivityApplication",
+      "operatingSystem": "Android, iOS",
+      "description": "PushShare forwards important notifications from one device to another, including Android to Android and Android to iPhone flows.",
+      "url": "https://www.dosusu.com/pushshare.html",
+      "image": "https://www.dosusu.com/pushshare-icon.png"
+    }
+    </script>
     <script src="js/config.js"></script>
-    <!-- 다국어 지원 스크립트 -->
     <script src="js/i18n.js" defer></script>
 </head>
-<body>
-    <header>
+<body class="pushshare-page">
+    <header class="pushshare-header">
         <div class="container">
             <h1><a href="/" class="logo-link">PushShare</a></h1>
             <nav>
-                <a href="/">Dosusu</a>
-                <a href="#features" data-i18n="nav.features">기능</a>
+                <a href="/" data-i18n="nav.home">Dosusu</a>
+                <a href="#use-cases" data-i18n="nav.useCases">활용</a>
+                <a href="#how-it-works" data-i18n="nav.howItWorks">작동 방식</a>
+                <a href="#guides" data-i18n="nav.guides">가이드</a>
                 <a href="#download" data-i18n="nav.download">다운로드</a>
-                <a href="#contact" data-i18n="nav.contact">문의</a>
                 <select id="language-selector" class="language-selector" aria-label="Language">
                     <option value="ko">한국어</option>
                     <option value="en">English</option>
-                    <option value="es">Español</option>
+                    <option value="ja">日本語</option>
                     <option value="zh-CN">简体中文</option>
                     <option value="zh-TW">繁體中文</option>
-                    <option value="ja">日本語</option>
-                    <option value="de">Deutsch</option>
-                    <option value="fr">Français</option>
-                    <option value="pt">Português</option>
                     <option value="ru">Русский</option>
-                    <option value="ar">العربية</option>
-                    <option value="it">Italiano</option>
-                    <option value="hi">हिन्दी</option>
-                    <option value="vi">Tiếng Việt</option>
-                    <option value="th">ไทย</option>
-                    <option value="ms">Bahasa Melayu</option>
-                    <option value="fa">فارسی</option>
                     <option value="tr">Türkçe</option>
-                    <option value="pl">Polski</option>
-                    <option value="nl">Nederlands</option>
-                    <option value="id">Bahasa Indonesia</option>
-                    <option value="bn">বাংলা</option>
-                    <option value="ur">اردو</option>
+                    <option value="es">Español</option>
                 </select>
             </nav>
         </div>
     </header>
 
     <main>
-        <section class="hero">
+        <section class="pushshare-hero">
+            <div class="container pushshare-hero-grid">
+                <div class="pushshare-copy">
+                    <div class="app-title-row pushshare-title-row">
+                        <img src="pushshare-icon.png" alt="PushShare app icon">
+                        <div>
+                            <p class="eyebrow" data-i18n="hero.eyebrow">Notification forwarding app</p>
+                            <h1>PushShare</h1>
+                        </div>
+                    </div>
+                    <h2 data-i18n="hero.title">업무폰·보조폰 알림을 메인 기기에서</h2>
+                    <p class="pushshare-lead" data-i18n="hero.subtitle">
+                        PushShare는 한 기기에서 받은 중요한 알림을 다른 Android 기기나 iPhone으로 전달해,
+                        폰을 계속 확인하지 않아도 필요한 소식을 놓치지 않게 도와줍니다.
+                    </p>
+                    <div class="pushshare-highlights" aria-label="PushShare highlights">
+                        <span data-i18n="hero.badgeAndroid">Android to Android</span>
+                        <span data-i18n="hero.badgeIphone">Android to iPhone</span>
+                        <span data-i18n="hero.badgeWatch">Apple Watch compatible</span>
+                    </div>
+                    <div class="cta-buttons">
+                        <a id="android-download-link" href="https://play.google.com/store/apps/details?id=com.dosusu.pushshare" class="btn btn-primary" target="_blank" rel="noopener noreferrer">
+                            <span data-i18n="hero.downloadAndroid">Google Play에서 다운로드</span>
+                        </a>
+                        <a id="ios-download-link" href="https://apps.apple.com/app/id6748575432" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">
+                            <span data-i18n="hero.downloadIOS">App Store에서 다운로드</span>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="notification-flow-panel" aria-label="Notification forwarding flow">
+                    <div class="flow-device source-device">
+                        <span data-i18n="flow.sourceLabel">업무폰 / 보조폰</span>
+                        <strong data-i18n="flow.sourceTitle">Android 알림</strong>
+                        <p data-i18n="flow.sourceBody">메일, 메신저, 캘린더, 택배 알림</p>
+                    </div>
+                    <div class="flow-arrow" aria-hidden="true">→</div>
+                    <div class="flow-device app-device">
+                        <span>PushShare</span>
+                        <strong data-i18n="flow.appTitle">선택한 앱만 전달</strong>
+                        <p data-i18n="flow.appBody">필요한 알림만 골라 보냅니다</p>
+                    </div>
+                    <div class="flow-arrow" aria-hidden="true">→</div>
+                    <div class="flow-device target-device">
+                        <span data-i18n="flow.targetLabel">메인 기기</span>
+                        <strong data-i18n="flow.targetTitle">iPhone / Android</strong>
+                        <p data-i18n="flow.targetBody">상황에 따라 Apple Watch에서도 확인</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="use-cases" class="pushshare-section">
             <div class="container">
-                <h2 data-i18n="hero.title">여러 기기 간 푸시 알림을 쉽게 공유하세요</h2>
-                <p class="subtitle" data-i18n="hero.subtitle">PushShare는 여러 기기에서 받은 알림을 다른 기기로 전송할 수 있는 편리한 서비스입니다.</p>
-                <div class="cta-buttons">
-                    <a id="android-download-link" href="" class="btn btn-primary" target="_blank" rel="noopener noreferrer">
-                        <span data-i18n="hero.downloadAndroid">Google Play에서 다운로드</span>
+                <div class="section-heading">
+                    <p class="eyebrow" data-i18n="useCases.eyebrow">Use cases</p>
+                    <h2 data-i18n="useCases.title">이럴 때 특히 유용합니다</h2>
+                </div>
+                <div class="pushshare-card-grid">
+                    <article class="pushshare-info-card">
+                        <span class="detail-number">01</span>
+                        <h3 data-i18n="useCases.workPhone.title">업무폰을 계속 들고 다니기 어려울 때</h3>
+                        <p data-i18n="useCases.workPhone.body">책상 위에 둔 업무용 Android 폰의 중요한 알림을 개인 iPhone이나 메인 Android 기기에서 확인할 수 있습니다.</p>
+                    </article>
+                    <article class="pushshare-info-card">
+                        <span class="detail-number">02</span>
+                        <h3 data-i18n="useCases.secondaryPhone.title">보조폰 알림을 자주 놓칠 때</h3>
+                        <p data-i18n="useCases.secondaryPhone.body">게임, 금융, 택배, 일정 알림처럼 보조폰에만 오는 알림을 한곳에서 모아볼 수 있습니다.</p>
+                    </article>
+                    <article class="pushshare-info-card">
+                        <span class="detail-number">03</span>
+                        <h3 data-i18n="useCases.watch.title">Apple Watch에서 Android 알림을 보고 싶을 때</h3>
+                        <p data-i18n="useCases.watch.body">Android 알림을 iPhone으로 전달하면, iPhone 알림 설정과 Apple Watch 상태에 따라 손목에서도 확인할 수 있습니다.</p>
+                    </article>
+                    <article class="pushshare-info-card">
+                        <span class="detail-number">04</span>
+                        <h3 data-i18n="useCases.family.title">가족 기기의 중요한 알림을 확인해야 할 때</h3>
+                        <p data-i18n="useCases.family.body">보호자 동의와 적절한 설정을 전제로, 가족 기기에서 놓치면 곤란한 알림을 함께 확인할 수 있습니다.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="how-it-works" class="pushshare-section pushshare-section-muted">
+            <div class="container">
+                <div class="section-heading">
+                    <p class="eyebrow" data-i18n="how.eyebrow">How it works</p>
+                    <h2 data-i18n="how.title">설정은 단순하게, 전달은 필요한 것만</h2>
+                </div>
+                <div class="step-list">
+                    <article>
+                        <span>1</span>
+                        <h3 data-i18n="how.step1.title">알림을 보내는 Android 기기에 설치</h3>
+                        <p data-i18n="how.step1.body">알림 접근 권한을 허용하고 PushShare에 로그인합니다.</p>
+                    </article>
+                    <article>
+                        <span>2</span>
+                        <h3 data-i18n="how.step2.title">받을 기기를 같은 계정으로 연결</h3>
+                        <p data-i18n="how.step2.body">받는 Android 기기나 iPhone을 등록해 알림을 받을 준비를 합니다.</p>
+                    </article>
+                    <article>
+                        <span>3</span>
+                        <h3 data-i18n="how.step3.title">전달할 앱과 키워드를 선택</h3>
+                        <p data-i18n="how.step3.body">모든 알림을 보내지 않고, 필요한 앱과 조건을 골라 전달할 수 있습니다.</p>
+                    </article>
+                    <article>
+                        <span>4</span>
+                        <h3 data-i18n="how.step4.title">앱 안의 메시지함에서도 확인</h3>
+                        <p data-i18n="how.step4.body">전달된 최근 메시지를 앱에서 다시 보고, 필요 없는 기록은 삭제할 수 있습니다.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="pushshare-section">
+            <div class="container pushshare-trust-grid">
+                <div>
+                    <p class="eyebrow" data-i18n="trust.eyebrow">Privacy and control</p>
+                    <h2 data-i18n="trust.title">알림은 필요한 만큼만 전달하고 관리합니다</h2>
+                </div>
+                <div class="trust-list">
+                    <p data-i18n="trust.item1">전달할 앱을 직접 선택할 수 있어 불필요한 알림을 줄일 수 있습니다.</p>
+                    <p data-i18n="trust.item2">전달된 메시지는 기기별 최근 100개까지만 유지되도록 정리됩니다.</p>
+                    <p data-i18n="trust.item3">로그아웃, 기기 삭제, 계정 삭제 시 서버에 저장된 관련 메시지도 함께 삭제됩니다.</p>
+                    <p data-i18n="trust.item4">알림 내용은 광고, 마케팅, 프로파일링 목적으로 사용하지 않습니다.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="guides" class="pushshare-section pushshare-guides">
+            <div class="container">
+                <div class="section-heading">
+                    <p class="eyebrow" data-i18n="guides.eyebrow">Guides</p>
+                    <h2 data-i18n="guides.title">궁금한 상황별로 먼저 살펴보세요</h2>
+                </div>
+                <div class="guide-link-grid">
+                    <a class="guide-link-card" data-seo-guide="appleWatch" href="/ko/pushshare/android-notifications-on-apple-watch.html">
+                        <span data-i18n="guides.appleWatch.kicker">Apple Watch</span>
+                        <strong data-i18n="guides.appleWatch.title">애플워치에서 안드로이드 알림 받는 방법</strong>
+                        <p data-i18n="guides.appleWatch.body">직접 연결은 어렵지만, iPhone으로 전달한 알림을 손목에서 확인하는 흐름을 설명합니다.</p>
                     </a>
-                    <a id="ios-download-link" href="" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">
-                        <span data-i18n="hero.downloadIOS">App Store에서 다운로드</span>
+                    <a class="guide-link-card" data-seo-guide="iphone" href="/ko/pushshare/android-notifications-on-iphone.html">
+                        <span data-i18n="guides.iphone.kicker">iPhone</span>
+                        <strong data-i18n="guides.iphone.title">안드로이드 알림을 아이폰에서 받는 방법</strong>
+                        <p data-i18n="guides.iphone.body">업무폰이나 보조폰의 Android 알림을 iPhone으로 전달하는 기본 흐름을 정리했습니다.</p>
                     </a>
                 </div>
             </div>
         </section>
 
-        <section id="features" class="features">
+        <section class="pushshare-section pushshare-section-muted">
             <div class="container">
-                <h2 data-i18n="features.title">주요 기능</h2>
-                <div class="feature-grid">
-                    <div class="feature-card">
-                        <div class="feature-icon">📱</div>
-                        <h3 data-i18n="features.multiDevice.title">다중 기기 지원</h3>
-                        <p data-i18n="features.multiDevice.description">여러 기기를 등록하고 관리하여 어디서든 알림을 공유할 수 있습니다.</p>
-                    </div>
-                    <div class="feature-card">
-                        <div class="feature-icon">🔔</div>
-                        <h3 data-i18n="features.realtime.title">실시간 알림 전송</h3>
-                        <p data-i18n="features.realtime.description">받은 알림을 즉시 다른 기기로 전송하여 중요한 메시지를 놓치지 마세요.</p>
-                    </div>
-                    <div class="feature-card">
-                        <div class="feature-icon">🔒</div>
-                        <h3 data-i18n="features.secure.title">안전한 인증</h3>
-                        <p data-i18n="features.secure.description">Firebase 인증을 통해 안전하게 계정을 관리하고 데이터를 보호합니다.</p>
-                    </div>
-                    <div class="feature-card">
-                        <div class="feature-icon">🌍</div>
-                        <h3 data-i18n="features.multilang.title">다국어 지원</h3>
-                        <p data-i18n="features.multilang.description">20개 이상의 언어를 지원하여 전 세계 사용자에게 서비스를 제공합니다.</p>
-                    </div>
+                <div class="section-heading">
+                    <p class="eyebrow" data-i18n="faq.eyebrow">FAQ</p>
+                    <h2 data-i18n="faq.title">자주 묻는 질문</h2>
+                </div>
+                <div class="faq-grid">
+                    <article>
+                        <h3 data-i18n="faq.watch.question">Apple Watch를 Android 폰에 직접 연결하는 앱인가요?</h3>
+                        <p data-i18n="faq.watch.answer">아닙니다. PushShare는 Android 알림을 iPhone으로 전달하고, iPhone 알림 설정과 Apple Watch 상태에 따라 Apple Watch에서도 확인할 수 있게 돕는 방식입니다.</p>
+                    </article>
+                    <article>
+                        <h3 data-i18n="faq.select.question">모든 알림을 전달해야 하나요?</h3>
+                        <p data-i18n="faq.select.answer">아닙니다. 설치된 앱 목록에서 원하는 앱만 선택할 수 있고, 키워드 조건도 사용할 수 있습니다.</p>
+                    </article>
+                    <article>
+                        <h3 data-i18n="faq.inbox.question">알림을 놓치면 앱에서 다시 볼 수 있나요?</h3>
+                        <p data-i18n="faq.inbox.answer">네. 전달된 최근 푸시 메시지는 앱 안의 메시지함에서 확인할 수 있습니다.</p>
+                    </article>
+                    <article>
+                        <h3 data-i18n="faq.free.question">무료로 써볼 수 있나요?</h3>
+                        <p data-i18n="faq.free.answer">네. 무료 제공량과 체험 기간을 통해 실제 사용 환경에 맞는지 먼저 확인할 수 있습니다.</p>
+                    </article>
                 </div>
             </div>
         </section>
 
-        <section id="download" class="download">
+        <section id="download" class="download pushshare-download">
             <div class="container">
-                <h2 data-i18n="download.title">지금 다운로드하세요</h2>
-                <p data-i18n="download.subtitle">PushShare를 다운로드하고 여러 기기에서 알림을 공유해보세요.</p>
+                <h2 data-i18n="download.title">지금 PushShare를 시작해보세요</h2>
+                <p data-i18n="download.subtitle">업무폰, 보조폰, 가족 기기의 중요한 알림을 메인 기기에서 확인해보세요.</p>
                 <div class="download-buttons">
-                    <a id="android-download-link-2" href="" class="btn btn-primary" target="_blank" rel="noopener noreferrer">
-                        <span class="btn-icon">📱</span>
+                    <a id="android-download-link-2" href="https://play.google.com/store/apps/details?id=com.dosusu.pushshare" class="btn btn-primary" target="_blank" rel="noopener noreferrer">
+                        <span class="btn-icon">▶</span>
                         <span data-i18n="download.android">Android 다운로드</span>
                     </a>
-                    <a id="ios-download-link-2" href="" class="btn btn-primary" target="_blank" rel="noopener noreferrer">
-                        <span class="btn-icon">🍎</span>
+                    <a id="ios-download-link-2" href="https://apps.apple.com/app/id6748575432" class="btn btn-primary" target="_blank" rel="noopener noreferrer">
+                        <span class="btn-icon"></span>
                         <span data-i18n="download.ios">iOS 다운로드</span>
                     </a>
                 </div>
@@ -119,8 +255,8 @@
                 <h2 data-i18n="contact.title">문의하기</h2>
                 <p data-i18n="contact.subtitle">질문이나 제안사항이 있으시면 언제든지 연락주세요.</p>
                 <p class="email">
-                    <span data-i18n="contact.email">이메일</span>: 
-                    <a id="contact-email-link" href=""></a>
+                    <span data-i18n="contact.email">이메일</span>:
+                    <a id="contact-email-link" href="mailto:jj@dosusu.com">jj@dosusu.com</a>
                 </p>
             </div>
         </section>
@@ -128,8 +264,9 @@
 
     <footer>
         <div class="container">
-            <p id="footer-copyright" data-i18n="footer.copyright" data-i18n-html="true">&copy; 2025 PushShare. All rights reserved.</p>
+            <p id="footer-copyright" data-i18n="footer.copyright" data-i18n-html="true">&copy; 2026 Dosusu. All rights reserved.</p>
             <p>
+                <a href="/" data-i18n="nav.home">Dosusu</a> |
                 <a href="/privacy-policy.html" data-i18n="footer.privacy">개인정보처리방침</a> |
                 <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/" target="_blank" rel="noopener noreferrer" data-i18n="footer.terms">이용약관</a>
             </p>
@@ -137,61 +274,87 @@
     </footer>
 
     <script>
-        // 설정값 적용 (페이지 로드 후)
         document.addEventListener('DOMContentLoaded', () => {
-            // i18n이 로드될 때까지 대기
+            const seoPaths = {
+                ko: 'ko',
+                en: 'en',
+                ja: 'ja',
+                'zh-CN': 'zh-cn',
+                'zh-TW': 'zh-tw',
+                ru: 'ru',
+                tr: 'tr',
+                es: 'es',
+            };
+
             const applyConfig = () => {
                 if (typeof CONFIG === 'undefined') {
                     setTimeout(applyConfig, 100);
                     return;
                 }
 
-                // 스토어 URL 설정
                 const androidLinks = document.querySelectorAll('#android-download-link, #android-download-link-2');
                 const iosLinks = document.querySelectorAll('#ios-download-link, #ios-download-link-2');
-                
+
                 androidLinks.forEach(link => {
                     link.href = CONFIG.storeUrls.android;
                 });
-                
+
                 iosLinks.forEach(link => {
                     link.href = CONFIG.storeUrls.ios;
                 });
 
-                // 이메일 링크 설정
                 const emailLink = document.getElementById('contact-email-link');
                 if (emailLink) {
                     emailLink.href = `mailto:${CONFIG.contact.email}`;
                     emailLink.textContent = CONFIG.contact.email;
                 }
 
-                // Footer 저작권 정보 업데이트 (i18n이 준비되면)
-                const updateCopyright = () => {
-                    const footerCopyright = document.getElementById('footer-copyright');
-                    if (footerCopyright && window.i18n) {
-                        const text = window.i18n.t('footer.copyright', {
-                            year: CONFIG.company.year,
-                            companyName: CONFIG.company.name
-                        });
-                        footerCopyright.textContent = text;
-                    }
-                };
+                updateSeoGuideLinks();
+                updateCopyright();
+            };
 
-                // i18n이 준비되면 업데이트
-                if (window.i18n) {
-                    updateCopyright();
-                } else {
-                    // i18n이 아직 로드되지 않았으면 대기
-                    const checkI18n = setInterval(() => {
-                        if (window.i18n) {
-                            updateCopyright();
-                            clearInterval(checkI18n);
-                        }
-                    }, 100);
+            const updateCopyright = () => {
+                const footerCopyright = document.getElementById('footer-copyright');
+                if (footerCopyright && window.i18n && typeof CONFIG !== 'undefined') {
+                    footerCopyright.textContent = window.i18n.t('footer.copyright', {
+                        year: CONFIG.company.year,
+                        companyName: CONFIG.company.name,
+                    });
                 }
             };
 
+            const updateSeoGuideLinks = () => {
+                const lang = window.i18n && window.i18n.currentLanguage ? window.i18n.currentLanguage : 'ko';
+                const pathLang = seoPaths[lang] || 'en';
+                const appleWatchLink = document.querySelector('[data-seo-guide="appleWatch"]');
+                const iphoneLink = document.querySelector('[data-seo-guide="iphone"]');
+
+                if (appleWatchLink) {
+                    appleWatchLink.href = `/${pathLang}/pushshare/android-notifications-on-apple-watch.html`;
+                }
+                if (iphoneLink) {
+                    iphoneLink.href = `/${pathLang}/pushshare/android-notifications-on-iphone.html`;
+                }
+            };
+
+            const languageSelector = document.getElementById('language-selector');
+            if (languageSelector) {
+                languageSelector.addEventListener('change', () => {
+                    setTimeout(() => {
+                        updateSeoGuideLinks();
+                        updateCopyright();
+                    }, 250);
+                });
+            }
+
             applyConfig();
+            const waitForI18n = setInterval(() => {
+                if (window.i18n) {
+                    updateSeoGuideLinks();
+                    updateCopyright();
+                    clearInterval(waitForI18n);
+                }
+            }, 100);
         });
     </script>
 </body>

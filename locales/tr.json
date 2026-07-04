@@ -1,19 +1,26 @@
 {
   "meta": {
-    "title": "PushShare - Push Bildirim Paylaşım Servisi",
-    "description": "PushShare - Birden fazla cihaz arasında push bildirimlerini kolayca paylaşın"
+    "title": "PushShare - iş telefonu ve yedek telefon bildirimleri ana cihazınızda",
+    "description": "PushShare, iş Android telefonu, yedek telefon veya aile cihazındaki önemli bildirimleri başka bir Android cihaza ya da iPhone’a iletir."
   },
   "nav": {
     "features": "Özellikler",
     "download": "İndir",
     "contact": "İletişim",
-    "home": "Ana Sayfa"
+    "home": "Dosusu",
+    "useCases": "Kullanım",
+    "howItWorks": "Nasıl çalışır",
+    "guides": "Rehberler"
   },
   "hero": {
-    "title": "Birden fazla cihaz arasında push bildirimlerini kolayca paylaşın",
-    "subtitle": "PushShare, birden fazla cihazda alınan bildirimleri diğer cihazlara göndermenize olanak tanıyan kullanışlı bir hizmettir.",
-    "downloadAndroid": "Google Play'den İndir",
-    "downloadIOS": "App Store'dan İndir"
+    "eyebrow": "Notification forwarding app",
+    "title": "İş telefonu bildirimleri ana cihazınızda",
+    "subtitle": "PushShare, bir cihazdaki önemli bildirimleri başka bir Android cihaza veya iPhone’a iletir; böylece her telefonu sürekli kontrol etmeniz gerekmez.",
+    "badgeAndroid": "Android’den Android’e",
+    "badgeIphone": "Android’den iPhone’a",
+    "badgeWatch": "Apple Watch uyumlu",
+    "downloadAndroid": "Google Play’den indir",
+    "downloadIOS": "App Store’dan indir"
   },
   "features": {
     "title": "Ana Özellikler",
@@ -35,20 +42,20 @@
     }
   },
   "download": {
-    "title": "Şimdi İndir",
-    "subtitle": "PushShare'i indirin ve birden fazla cihaz arasında bildirim paylaşmaya başlayın.",
-    "android": "Android için İndir",
-    "ios": "iOS için İndir"
+    "title": "PushShare’i bugün kullanmaya başlayın",
+    "subtitle": "İş, yedek ve aile cihazlarındaki önemli bildirimleri ana cihazınızda görün.",
+    "android": "Android için indir",
+    "ios": "iOS için indir"
   },
   "contact": {
-    "title": "Bize Ulaşın",
-    "subtitle": "Herhangi bir sorunuz veya öneriniz varsa, lütfen bizimle iletişime geçin.",
+    "title": "İletişim",
+    "subtitle": "Soru ve önerilerinizi bekleriz.",
     "email": "E-posta"
   },
   "footer": {
     "copyright": "© {{year}} {{companyName}}. Tüm hakları saklıdır.",
     "privacy": "Gizlilik Politikası",
-    "terms": "Hizmet Şartları"
+    "terms": "Kullanım Şartları"
   },
   "privacy": {
     "title": "Gizlilik Politikası",
@@ -208,6 +215,98 @@
     "section11": {
       "title": "Madde 11 (Uygulanacak Hukuk ve Yetki)",
       "content": "Güney Kore Cumhuriyeti yasaları bu Şartların yorumlanmasına ve Şirket ile kullanıcılar arasındaki anlaşmazlıklara uygulanacaktır. Bu tür anlaşmazlıklardan kaynaklanan bir dava durumunda, Seul Merkez Bölge Mahkemesi yetkili mahkeme olacaktır."
+    }
+  },
+  "flow": {
+    "sourceLabel": "İş / yedek telefon",
+    "sourceTitle": "Android bildirimleri",
+    "sourceBody": "E-posta, sohbet, takvim, kargo bildirimleri",
+    "appTitle": "Yalnızca seçili uygulamalar",
+    "appBody": "Sadece gereken bildirimleri gönderin",
+    "targetLabel": "Ana cihaz",
+    "targetTitle": "iPhone / Android",
+    "targetBody": "Ayarlarınıza göre Apple Watch’ta da görünebilir"
+  },
+  "useCases": {
+    "eyebrow": "Use cases",
+    "title": "Şu durumlarda özellikle işe yarar",
+    "workPhone": {
+      "title": "İş telefonunu sürekli taşımak zor olduğunda",
+      "body": "Masadaki iş Android telefonunun önemli bildirimlerini kişisel iPhone veya ana Android cihazınızda görebilirsiniz."
+    },
+    "secondaryPhone": {
+      "title": "Yedek telefon bildirimlerini kaçırdığınızda",
+      "body": "Oyun, finans, kargo ve takvim bildirimlerini tek yerde toplayabilirsiniz."
+    },
+    "watch": {
+      "title": "Apple Watch’ta Android bildirimleri görmek istediğinizde",
+      "body": "Android bildirimlerini iPhone’a iletin; iPhone bildirim ayarları ve Apple Watch durumuna göre bileğinizde de görünebilir."
+    },
+    "family": {
+      "title": "Aile cihazındaki önemli bildirimler gerektiğinde",
+      "body": "Uygun izin ve ayarlarla aile cihazındaki önemli bildirimleri birlikte takip edebilirsiniz."
+    }
+  },
+  "how": {
+    "eyebrow": "How it works",
+    "title": "Basit kurulum, seçici iletim",
+    "step1": {
+      "title": "Gönderen Android cihaza kurun",
+      "body": "Bildirim erişimine izin verin ve PushShare’e giriş yapın."
+    },
+    "step2": {
+      "title": "Alıcı cihazları aynı hesapla bağlayın",
+      "body": "Bildirimleri alacak Android cihazı veya iPhone’u kaydedin."
+    },
+    "step3": {
+      "title": "Uygulamaları ve anahtar kelimeleri seçin",
+      "body": "Her şeyi iletmek yerine önemli uygulama ve koşulları seçin."
+    },
+    "step4": {
+      "title": "Mesajları uygulamada da görüntüleyin",
+      "body": "Son iletilen mesajları uygulama içindeki mesaj listesinde yeniden kontrol edebilirsiniz."
+    }
+  },
+  "trust": {
+    "eyebrow": "Privacy and control",
+    "title": "Sadece ihtiyacınız olan bildirimleri iletin ve yönetin",
+    "item1": "Hangi uygulamaların bildirim ileteceğini siz seçersiniz.",
+    "item2": "İletilen mesajlar cihaz başına son 100 kayıtla sınırlı tutulur.",
+    "item3": "Çıkış, cihaz silme ve hesap silme işlemleri ilgili sunucu mesajlarını da kaldırır.",
+    "item4": "Bildirim içeriği reklam, pazarlama veya profilleme için kullanılmaz."
+  },
+  "guides": {
+    "eyebrow": "Guides",
+    "title": "Çözmek istediğiniz duruma göre başlayın",
+    "appleWatch": {
+      "kicker": "Apple Watch",
+      "title": "Apple Watch’ta Android bildirimleri nasıl alınır",
+      "body": "Doğrudan bağlantı zordur; Android bildirimlerini iPhone’a iletip bileğinizde görebilirsiniz."
+    },
+    "iphone": {
+      "kicker": "iPhone",
+      "title": "Android bildirimleri iPhone’da nasıl alınır",
+      "body": "İş telefonu veya yedek Android bildirimlerini iPhone’a iletmenin pratik yolu."
+    }
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "title": "Sık sorulan sorular",
+    "watch": {
+      "question": "PushShare Apple Watch’u doğrudan Android’e bağlar mı?",
+      "answer": "Hayır. PushShare Android bildirimlerini iPhone’a iletir. Ardından bildirimler, iPhone ayarları ve Apple Watch durumuna göre saatte görünebilir."
+    },
+    "select": {
+      "question": "Tüm bildirimleri iletmek zorunda mıyım?",
+      "answer": "Hayır. Belirli uygulamaları seçebilir ve anahtar kelime koşulları kullanabilirsiniz."
+    },
+    "inbox": {
+      "question": "Kaçırdığım bildirimleri uygulamada görebilir miyim?",
+      "answer": "Evet. Son iletilen push mesajları uygulama içindeki mesaj listesinde görülebilir."
+    },
+    "free": {
+      "question": "Ücretsiz deneyebilir miyim?",
+      "answer": "Evet. Ücretsiz kullanım hakkı ve deneme süresi, PushShare’in düzeninize uyup uymadığını görmenizi sağlar."
     }
   }
 }

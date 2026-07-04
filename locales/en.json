@@ -1,19 +1,26 @@
 {
   "meta": {
-    "title": "PushShare - Push Notification Sharing Service",
-    "description": "PushShare - Easily share push notifications across multiple devices"
+    "title": "PushShare - Work phone and secondary phone alerts on your main device",
+    "description": "PushShare forwards important notifications from a work phone, secondary Android phone, or family device to another Android device or iPhone."
   },
   "nav": {
     "features": "Features",
     "download": "Download",
     "contact": "Contact",
-    "home": "Home"
+    "home": "Dosusu",
+    "useCases": "Use cases",
+    "howItWorks": "How it works",
+    "guides": "Guides"
   },
   "hero": {
-    "title": "Easily share push notifications across multiple devices",
-    "subtitle": "PushShare is a convenient service that allows you to send notifications received on multiple devices to other devices.",
+    "eyebrow": "Notification forwarding app",
+    "title": "Work phone alerts on your main device",
+    "subtitle": "PushShare forwards important notifications from one device to another Android device or iPhone, so you can catch what matters without checking every phone.",
+    "badgeAndroid": "Android to Android",
+    "badgeIphone": "Android to iPhone",
+    "badgeWatch": "Apple Watch compatible",
     "downloadAndroid": "Download on Google Play",
-    "downloadIOS": "Download on App Store"
+    "downloadIOS": "Download on the App Store"
   },
   "features": {
     "title": "Key Features",
@@ -35,14 +42,14 @@
     }
   },
   "download": {
-    "title": "Download Now",
-    "subtitle": "Download PushShare and start sharing notifications across multiple devices.",
+    "title": "Start using PushShare today",
+    "subtitle": "Keep important alerts from work phones, secondary phones, and family devices on your main device.",
     "android": "Download for Android",
     "ios": "Download for iOS"
   },
   "contact": {
-    "title": "Contact Us",
-    "subtitle": "If you have any questions or suggestions, please feel free to contact us.",
+    "title": "Contact",
+    "subtitle": "Questions and suggestions are always welcome.",
     "email": "Email"
   },
   "footer": {
@@ -160,6 +167,98 @@
     "section6": {
       "title": "6. Governing Terms",
       "content": "For all App Store users, the Apple Standard EULA governs all licensing terms:<br><br><a href=\"https://www.apple.com/legal/internet-services/itunes/dev/stdeula/\" target=\"_blank\">https://www.apple.com/legal/internet-services/itunes/dev/stdeula/</a>"
+    }
+  },
+  "flow": {
+    "sourceLabel": "Work / secondary phone",
+    "sourceTitle": "Android notifications",
+    "sourceBody": "Mail, chat, calendar, delivery alerts",
+    "appTitle": "Forward selected apps only",
+    "appBody": "Send only the notifications you need",
+    "targetLabel": "Main device",
+    "targetTitle": "iPhone / Android",
+    "targetBody": "Can appear on Apple Watch depending on settings"
+  },
+  "useCases": {
+    "eyebrow": "Use cases",
+    "title": "Useful when notifications live on the wrong phone",
+    "workPhone": {
+      "title": "When carrying a work phone is inconvenient",
+      "body": "Check important alerts from an Android work phone on your personal iPhone or main Android device."
+    },
+    "secondaryPhone": {
+      "title": "When you often miss a secondary phone",
+      "body": "Collect game, finance, delivery, and calendar alerts from a secondary phone in one place."
+    },
+    "watch": {
+      "title": "When you want Android alerts on Apple Watch",
+      "body": "Forward Android notifications to iPhone, then view them on Apple Watch when iPhone and watch notification behavior allows it."
+    },
+    "family": {
+      "title": "When family device alerts matter",
+      "body": "With proper consent and setup, important alerts from a family device can be checked together."
+    }
+  },
+  "how": {
+    "eyebrow": "How it works",
+    "title": "Simple setup, selective forwarding",
+    "step1": {
+      "title": "Install on the Android sender",
+      "body": "Allow notification access and sign in to PushShare."
+    },
+    "step2": {
+      "title": "Connect receiving devices",
+      "body": "Register the Android device or iPhone that will receive forwarded alerts."
+    },
+    "step3": {
+      "title": "Choose apps and keywords",
+      "body": "Avoid forwarding everything. Select the apps and conditions that matter."
+    },
+    "step4": {
+      "title": "Review messages in the app",
+      "body": "Recent forwarded messages can be checked again in the in-app message list."
+    }
+  },
+  "trust": {
+    "eyebrow": "Privacy and control",
+    "title": "Forward and manage only what you need",
+    "item1": "Choose which apps can forward notifications.",
+    "item2": "Forwarded messages are kept to the latest 100 per device.",
+    "item3": "Log out, device deletion, and account deletion also remove related server-stored messages.",
+    "item4": "Notification content is not used for advertising, marketing, or profiling."
+  },
+  "guides": {
+    "eyebrow": "Guides",
+    "title": "Start with the situation you are trying to solve",
+    "appleWatch": {
+      "kicker": "Apple Watch",
+      "title": "How to get Android notifications on Apple Watch",
+      "body": "A direct connection is difficult, but you can forward Android alerts to iPhone and then see them on your wrist."
+    },
+    "iphone": {
+      "kicker": "iPhone",
+      "title": "How to get Android notifications on iPhone",
+      "body": "A practical guide for forwarding Android work phone or secondary phone alerts to iPhone."
+    }
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "title": "Frequently asked questions",
+    "watch": {
+      "question": "Does PushShare connect Apple Watch directly to Android?",
+      "answer": "No. PushShare forwards Android notifications to iPhone. They may then appear on Apple Watch depending on iPhone notification settings and watch state."
+    },
+    "select": {
+      "question": "Do I have to forward every notification?",
+      "answer": "No. You can choose specific apps and use keyword conditions."
+    },
+    "inbox": {
+      "question": "Can I review missed notifications in the app?",
+      "answer": "Yes. Recent forwarded push messages can be checked in the in-app message list."
+    },
+    "free": {
+      "question": "Can I try it for free?",
+      "answer": "Yes. Free usage and a trial period let you test whether PushShare fits your setup."
     }
   }
 }

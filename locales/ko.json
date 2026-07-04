@@ -1,17 +1,24 @@
 {
   "meta": {
-    "title": "PushShare - 푸시 알림 공유 서비스",
-    "description": "PushShare - 여러 기기 간 푸시 알림을 쉽게 공유하세요"
+    "title": "PushShare - 업무폰과 보조폰 알림을 메인 기기에서",
+    "description": "PushShare는 업무폰, 보조폰, 가족 기기의 중요한 알림을 다른 Android 기기나 iPhone으로 전달해 놓치지 않게 도와주는 알림 공유 앱입니다."
   },
   "nav": {
     "features": "기능",
     "download": "다운로드",
     "contact": "문의",
-    "home": "홈"
+    "home": "Dosusu",
+    "useCases": "활용",
+    "howItWorks": "작동 방식",
+    "guides": "가이드"
   },
   "hero": {
-    "title": "여러 기기 간 푸시 알림을 쉽게 공유하세요",
-    "subtitle": "PushShare는 여러 기기에서 받은 알림을 다른 기기로 전송할 수 있는 편리한 서비스입니다.",
+    "eyebrow": "Notification forwarding app",
+    "title": "업무폰·보조폰 알림을 메인 기기에서",
+    "subtitle": "PushShare는 한 기기에서 받은 중요한 알림을 다른 Android 기기나 iPhone으로 전달해, 폰을 계속 확인하지 않아도 필요한 소식을 놓치지 않게 도와줍니다.",
+    "badgeAndroid": "Android에서 Android로",
+    "badgeIphone": "Android에서 iPhone으로",
+    "badgeWatch": "Apple Watch에서도 확인 가능",
     "downloadAndroid": "Google Play에서 다운로드",
     "downloadIOS": "App Store에서 다운로드"
   },
@@ -35,8 +42,8 @@
     }
   },
   "download": {
-    "title": "지금 다운로드하세요",
-    "subtitle": "PushShare를 다운로드하고 여러 기기에서 알림을 공유해보세요.",
+    "title": "지금 PushShare를 시작해보세요",
+    "subtitle": "업무폰, 보조폰, 가족 기기의 중요한 알림을 메인 기기에서 확인해보세요.",
     "android": "Android 다운로드",
     "ios": "iOS 다운로드"
   },
@@ -160,6 +167,98 @@
     "section6": {
       "title": "6. 준거 약관",
       "content": "모든 App Store 이용자는 아래 Apple 표준 EULA의 적용을 받습니다:<br><br><a href=\"https://www.apple.com/legal/internet-services/itunes/dev/stdeula/\" target=\"_blank\">https://www.apple.com/legal/internet-services/itunes/dev/stdeula/</a>"
+    }
+  },
+  "flow": {
+    "sourceLabel": "업무폰 / 보조폰",
+    "sourceTitle": "Android 알림",
+    "sourceBody": "메일, 메신저, 캘린더, 택배 알림",
+    "appTitle": "선택한 앱만 전달",
+    "appBody": "필요한 알림만 골라 보냅니다",
+    "targetLabel": "메인 기기",
+    "targetTitle": "iPhone / Android",
+    "targetBody": "상황에 따라 Apple Watch에서도 확인"
+  },
+  "useCases": {
+    "eyebrow": "Use cases",
+    "title": "이럴 때 특히 유용합니다",
+    "workPhone": {
+      "title": "업무폰을 계속 들고 다니기 어려울 때",
+      "body": "책상 위에 둔 업무용 Android 폰의 중요한 알림을 개인 iPhone이나 메인 Android 기기에서 확인할 수 있습니다."
+    },
+    "secondaryPhone": {
+      "title": "보조폰 알림을 자주 놓칠 때",
+      "body": "게임, 금융, 택배, 일정 알림처럼 보조폰에만 오는 알림을 한곳에서 모아볼 수 있습니다."
+    },
+    "watch": {
+      "title": "Apple Watch에서 Android 알림을 보고 싶을 때",
+      "body": "Android 알림을 iPhone으로 전달하면, iPhone 알림 설정과 Apple Watch 상태에 따라 손목에서도 확인할 수 있습니다."
+    },
+    "family": {
+      "title": "가족 기기의 중요한 알림을 확인해야 할 때",
+      "body": "보호자 동의와 적절한 설정을 전제로, 가족 기기에서 놓치면 곤란한 알림을 함께 확인할 수 있습니다."
+    }
+  },
+  "how": {
+    "eyebrow": "How it works",
+    "title": "설정은 단순하게, 전달은 필요한 것만",
+    "step1": {
+      "title": "알림을 보내는 Android 기기에 설치",
+      "body": "알림 접근 권한을 허용하고 PushShare에 로그인합니다."
+    },
+    "step2": {
+      "title": "받을 기기를 같은 계정으로 연결",
+      "body": "받는 Android 기기나 iPhone을 등록해 알림을 받을 준비를 합니다."
+    },
+    "step3": {
+      "title": "전달할 앱과 키워드를 선택",
+      "body": "모든 알림을 보내지 않고, 필요한 앱과 조건을 골라 전달할 수 있습니다."
+    },
+    "step4": {
+      "title": "앱 안의 메시지함에서도 확인",
+      "body": "전달된 최근 메시지를 앱에서 다시 보고, 필요 없는 기록은 삭제할 수 있습니다."
+    }
+  },
+  "trust": {
+    "eyebrow": "Privacy and control",
+    "title": "알림은 필요한 만큼만 전달하고 관리합니다",
+    "item1": "전달할 앱을 직접 선택할 수 있어 불필요한 알림을 줄일 수 있습니다.",
+    "item2": "전달된 메시지는 기기별 최근 100개까지만 유지되도록 정리됩니다.",
+    "item3": "로그아웃, 기기 삭제, 계정 삭제 시 서버에 저장된 관련 메시지도 함께 삭제됩니다.",
+    "item4": "알림 내용은 광고, 마케팅, 프로파일링 목적으로 사용하지 않습니다."
+  },
+  "guides": {
+    "eyebrow": "Guides",
+    "title": "궁금한 상황별로 먼저 살펴보세요",
+    "appleWatch": {
+      "kicker": "Apple Watch",
+      "title": "애플워치에서 안드로이드 알림 받는 방법",
+      "body": "직접 연결은 어렵지만, iPhone으로 전달한 알림을 손목에서 확인하는 흐름을 설명합니다."
+    },
+    "iphone": {
+      "kicker": "iPhone",
+      "title": "안드로이드 알림을 아이폰에서 받는 방법",
+      "body": "업무폰이나 보조폰의 Android 알림을 iPhone으로 전달하는 기본 흐름을 정리했습니다."
+    }
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "title": "자주 묻는 질문",
+    "watch": {
+      "question": "Apple Watch를 Android 폰에 직접 연결하는 앱인가요?",
+      "answer": "아닙니다. PushShare는 Android 알림을 iPhone으로 전달하고, iPhone 알림 설정과 Apple Watch 상태에 따라 Apple Watch에서도 확인할 수 있게 돕는 방식입니다."
+    },
+    "select": {
+      "question": "모든 알림을 전달해야 하나요?",
+      "answer": "아닙니다. 설치된 앱 목록에서 원하는 앱만 선택할 수 있고, 키워드 조건도 사용할 수 있습니다."
+    },
+    "inbox": {
+      "question": "알림을 놓치면 앱에서 다시 볼 수 있나요?",
+      "answer": "네. 전달된 최근 푸시 메시지는 앱 안의 메시지함에서 확인할 수 있습니다."
+    },
+    "free": {
+      "question": "무료로 써볼 수 있나요?",
+      "answer": "네. 무료 제공량과 체험 기간을 통해 실제 사용 환경에 맞는지 먼저 확인할 수 있습니다."
     }
   }
 }
