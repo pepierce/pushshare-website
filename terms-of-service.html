@@ -3,102 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="canonical" href="https://www.dosusu.com/terms-of-service.html">
-    <title data-i18n="terms.title">Terms of Use - PushShare</title>
-    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
-    <link rel="icon" type="image/png" href="favicon.png">
+    <meta http-equiv="refresh" content="0; url=/terms.html">
+    <link rel="canonical" href="https://www.dosusu.com/terms.html">
+    <title>PushShare 이용약관</title>
     <link rel="stylesheet" href="styles.css">
-    <script src="js/config.js"></script>
-    <script src="js/i18n.js" defer></script>
-    <script>
-        // terms-of-service.html에서만 언어 선택을 영어/한국어로 제한
-        document.addEventListener('DOMContentLoaded', () => {
-            const languageSelector = document.getElementById('language-selector');
-            if (languageSelector) {
-                // 기존 옵션 제거
-                languageSelector.innerHTML = '';
-                
-                // 영어와 한국어만 추가
-                const koOption = document.createElement('option');
-                koOption.value = 'ko';
-                koOption.textContent = '한국어';
-                languageSelector.appendChild(koOption);
-                
-                const enOption = document.createElement('option');
-                enOption.value = 'en';
-                enOption.textContent = 'English';
-                languageSelector.appendChild(enOption);
-                
-                // 현재 언어가 영어나 한국어가 아니면 영어로 설정
-                const currentLang = localStorage.getItem('website-language') || 
-                                   (navigator.language && navigator.language.split('-')[0]);
-                if (currentLang !== 'ko' && currentLang !== 'en') {
-                    localStorage.setItem('website-language', 'en');
-                    if (window.i18n) {
-                        window.i18n.changeLanguage('en');
-                    }
-                }
-            }
-        });
-    </script>
 </head>
 <body>
-    <header>
-        <div class="container">
-            <h1><a href="/" class="logo-link">PushShare</a></h1>
-            <nav>
-                <a href="/" data-i18n="nav.home">홈</a>
-                <a href="/privacy-policy.html" data-i18n="footer.privacy">개인정보처리방침</a>
-                <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/" target="_blank" rel="noopener noreferrer" data-i18n="footer.appleEula">Apple 표준 EULA</a>
-                <select id="language-selector" class="language-selector" aria-label="Language">
-                    <option value="ko">한국어</option>
-                    <option value="en">English</option>
-                </select>
-            </nav>
-        </div>
-    </header>
-
     <main>
         <section class="container" style="padding: 4rem 0; max-width: 900px;">
-            <h1 data-i18n="terms.title">Terms of Use</h1>
-            <p style="color: #6c757d; margin-top: 1rem;" data-i18n="terms.lastUpdated">Last Updated: December 10, 2025</p>
-
-            <div style="margin-top: 3rem; line-height: 1.8;">
-                <p data-i18n="terms.intro" data-i18n-html="true"></p>
-
-                <h2 style="margin-top: 3rem;" data-i18n="terms.section1.title"></h2>
-                <p data-i18n="terms.section1.content" data-i18n-html="true"></p>
-
-                <h2 style="margin-top: 3rem;" data-i18n="terms.section2.title"></h2>
-                <p data-i18n="terms.section2.intro" data-i18n-html="true"></p>
-                <ul style="margin-left: 2rem; margin-top: 1rem;" data-i18n="terms.section2.items" data-i18n-html="true"></ul>
-
-                <h2 style="margin-top: 3rem;" data-i18n="terms.section3.title"></h2>
-                <p data-i18n="terms.section3.content" data-i18n-html="true"></p>
-
-                <h2 style="margin-top: 3rem;" data-i18n="terms.section4.title"></h2>
-                <p data-i18n="terms.section4.content" data-i18n-html="true"></p>
-
-                <h2 style="margin-top: 3rem;" data-i18n="terms.section5.title"></h2>
-                <p data-i18n="terms.section5.intro" data-i18n-html="true"></p>
-                <ul style="margin-left: 2rem; margin-top: 1rem;" data-i18n="terms.section5.items" data-i18n-html="true"></ul>
-
-                <h2 style="margin-top: 3rem;" data-i18n="terms.section6.title"></h2>
-                <p data-i18n="terms.section6.content" data-i18n-html="true"></p>
-            </div>
+            <h1>PushShare 이용약관</h1>
+            <p>이 페이지는 새 이용약관 페이지로 이동되었습니다.</p>
+            <p><a href="/terms.html">PushShare 이용약관 보기</a></p>
         </section>
     </main>
-
-    <footer>
-        <div class="container">
-            <p data-i18n="footer.copyright" data-i18n-params='{"year": 2025, "companyName": "PushShare"}'></p>
-            <p>
-                <a href="/privacy-policy.html" data-i18n="footer.privacy">개인정보처리방침</a> |
-                <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/" target="_blank" rel="noopener noreferrer" data-i18n="footer.appleEula">Apple 표준 EULA</a>
-            </p>
-        </div>
-    </footer>
 </body>
 </html>
