@@ -55,7 +55,8 @@
   "footer": {
     "copyright": "© {{year}} {{companyName}}。保留所有權利。",
     "privacy": "隱私權政策",
-    "terms": "使用條款"
+    "terms": "使用條款",
+    "appleEula": "Apple 標準 EULA"
   },
   "privacy": {
     "title": "隱私政策",

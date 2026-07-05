@@ -55,7 +55,8 @@
   "footer": {
     "copyright": "© {{year}} {{companyName}}. Tüm hakları saklıdır.",
     "privacy": "Gizlilik Politikası",
-    "terms": "Kullanım Şartları"
+    "terms": "Kullanım Şartları",
+    "appleEula": "Apple Standart EULA"
   },
   "privacy": {
     "title": "Gizlilik Politikası",

@@ -55,7 +55,8 @@
   "footer": {
     "copyright": "© {{year}} {{companyName}}. Todos los derechos reservados.",
     "privacy": "Política de privacidad",
-    "terms": "Términos de servicio"
+    "terms": "Términos de servicio",
+    "appleEula": "EULA estándar de Apple"
   },
   "privacy": {
     "title": "Política de Privacidad",

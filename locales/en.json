@@ -55,7 +55,8 @@
   "footer": {
     "copyright": "© {{year}} {{companyName}}. All rights reserved.",
     "privacy": "Privacy Policy",
-    "terms": "Terms of Service"
+    "terms": "Terms of Service",
+    "appleEula": "Apple Standard EULA"
   },
   "privacy": {
     "title": "Privacy Policy for PushShare",

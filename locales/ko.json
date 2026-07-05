@@ -55,7 +55,8 @@
   "footer": {
     "copyright": "© {{year}} {{companyName}}. All rights reserved.",
     "privacy": "개인정보처리방침",
-    "terms": "이용약관"
+    "terms": "이용약관",
+    "appleEula": "Apple 표준 EULA"
   },
   "privacy": {
     "title": "PushShare 개인정보 처리방침",
