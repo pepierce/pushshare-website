@@ -1338,6 +1338,47 @@ footer a:hover {
     padding: 0.55rem 0.8rem;
 }
 
+.pushshare-page .cta-buttons .btn,
+.pushshare-download .download-buttons .btn {
+    border: 1px solid transparent;
+    box-shadow: 0 14px 32px rgba(23, 33, 38, 0.18);
+    color: #ffffff;
+    font-weight: 800;
+}
+
+.pushshare-page .cta-buttons .btn-primary,
+.pushshare-download .download-buttons .btn-primary:first-child {
+    background: #1f766f;
+    border-color: #1a655f;
+}
+
+.pushshare-page .cta-buttons .btn-primary:hover,
+.pushshare-download .download-buttons .btn-primary:first-child:hover {
+    background: #185f59;
+    box-shadow: 0 18px 38px rgba(31, 118, 111, 0.28);
+    color: #ffffff;
+}
+
+.pushshare-page .cta-buttons .btn-secondary,
+.pushshare-download .download-buttons .btn-primary:nth-child(2) {
+    background: #172126;
+    border-color: #172126;
+}
+
+.pushshare-page .cta-buttons .btn-secondary:hover,
+.pushshare-download .download-buttons .btn-primary:nth-child(2):hover {
+    background: #2f6d8f;
+    border-color: #2f6d8f;
+    box-shadow: 0 18px 38px rgba(47, 109, 143, 0.28);
+    color: #ffffff;
+}
+
+.pushshare-page .cta-buttons .btn:focus-visible,
+.pushshare-download .download-buttons .btn:focus-visible {
+    outline: 3px solid rgba(31, 118, 111, 0.32);
+    outline-offset: 3px;
+}
+
 .notification-flow-panel {
     background: #ffffff;
     border: 1px solid rgba(47, 109, 143, 0.14);
@@ -1516,11 +1557,6 @@ footer a:hover {
     font-size: 1.25rem;
     line-height: 1.35;
     margin-bottom: 0.65rem;
-}
-
-.pushshare-download .btn-primary {
-    background: var(--studio-ink);
-    color: #ffffff;
 }
 
 .seo-page {
