@@ -1,19 +1,53 @@
 <!DOCTYPE html>
-<html lang="ko">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="canonical" href="https://www.dosusu.com/voiceleaf/">
-    <meta name="description" content="VoiceLeaf - 문장 목록을 번역과 음성이 포함된 Apple Books용 EPUB 학습책으로 변환하는 웹 서비스">
-    <meta property="og:title" content="VoiceLeaf">
-    <meta property="og:description" content="붙여넣은 텍스트를 번역, TTS 음성, Apple Books용 EPUB으로 변환합니다.">
+    <meta name="robots" content="index,follow,max-image-preview:large">
+    <meta name="description" content="VoiceLeaf EPUB Maker turns text and TXT files into bilingual Apple Books study eBooks with AI translation, normal or slow TTS audio, and secure downloads.">
+    <meta property="og:title" content="VoiceLeaf EPUB Maker - Bilingual eBooks with Translation and Audio">
+    <meta property="og:description" content="Turn your own text into an Apple Books EPUB study book with translation and natural normal or slow audio.">
     <meta property="og:type" content="website">
-    <title>VoiceLeaf - 문장을 듣기 학습 eBook으로</title>
+    <meta property="og:url" content="https://www.dosusu.com/voiceleaf/">
+    <meta property="og:site_name" content="Dosusu">
+    <meta property="og:locale" content="en_US">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="VoiceLeaf EPUB Maker">
+    <meta name="twitter:description" content="Create bilingual Apple Books EPUB study books with translation and TTS audio.">
+    <meta name="theme-color" content="#1f766f">
+    <title>VoiceLeaf EPUB Maker - Bilingual eBooks with Translation and Audio</title>
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <link rel="icon" type="image/png" href="/favicon.png">
     <link rel="stylesheet" href="/styles.css">
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebApplication",
+        "name": "VoiceLeaf EPUB Maker",
+        "alternateName": "VoiceLeaf",
+        "url": "https://voiceleaf.dosusu.com/",
+        "mainEntityOfPage": "https://www.dosusu.com/voiceleaf/",
+        "description": "A web application that turns text and TXT files into bilingual Apple Books EPUB study books with AI translation and normal or slow TTS audio.",
+        "applicationCategory": "EducationalApplication",
+        "operatingSystem": "Web",
+        "inLanguage": ["en", "ko", "ja", "de", "fr", "es", "zh-Hans", "zh-Hant", "pt", "it", "id"],
+        "featureList": [
+            "Text and TXT file input",
+            "AI translation",
+            "Normal and slow TTS audio",
+            "Apple Books EPUB generation",
+            "Secure time-limited downloads"
+        ],
+        "provider": {
+            "@type": "Organization",
+            "name": "Dosusu",
+            "url": "https://www.dosusu.com/"
+        }
+    }
+    </script>
 </head>
 <body class="voiceleaf-page" data-i18n-page="voiceleaf">
     <header class="studio-header translucent-header">
@@ -21,9 +55,10 @@
             <a href="/" class="studio-logo">Dosusu</a>
             <nav class="studio-links" aria-label="VoiceLeaf navigation">
                 <a href="/" data-i18n="nav.home">Home</a>
-                <a href="#service" data-i18n="nav.service">서비스</a>
-                <a href="#scope" data-i18n="nav.scope">지원 범위</a>
-                <a href="mailto:jj@dosusu.com" data-i18n="nav.contact">문의</a>
+                <a href="#features" data-i18n="nav.features">Features</a>
+                <a href="#service" data-i18n="nav.service">How it works</a>
+                <a href="#faq" data-i18n="nav.faq">FAQ</a>
+                <a href="mailto:jj@dosusu.com" data-i18n="nav.contact">Contact</a>
                 <select id="site-language-selector" class="site-language-selector" aria-label="Language"></select>
             </nav>
         </div>
@@ -40,14 +75,19 @@
                             <h1>VoiceLeaf</h1>
                         </div>
                     </div>
-                    <h2 data-i18n="hero.title">문장 목록을 듣기 학습 eBook으로</h2>
+                    <h2 data-i18n="hero.title">Turn text into a bilingual audio study eBook</h2>
                     <p class="voiceleaf-lead" data-i18n="hero.lead">
-                        VoiceLeaf는 직접 준비한 텍스트나 TXT 파일을 번역문과 음성이 포함된 Apple Books용 EPUB으로 변환하는 웹 서비스입니다.
-                        아이패드나 아이폰에서 문장을 듣고 따라 읽는 학습 흐름을 빠르게 만들 수 있습니다.
+                        VoiceLeaf turns your own text or TXT files into Apple Books EPUB study books with translation and embedded audio.
+                        Build a focused listen-and-repeat workflow for language practice on iPhone and iPad.
                     </p>
                     <div class="studio-actions">
-                        <a href="https://voiceleaf.dosusu.com" class="studio-button primary-button" target="_blank" rel="noopener noreferrer" data-i18n="hero.primaryAction">VoiceLeaf 열기</a>
-                        <a href="#scope" class="studio-button secondary-button" data-i18n="hero.secondaryAction">지원 범위 보기</a>
+                        <a href="https://voiceleaf.dosusu.com" class="studio-button primary-button" target="_blank" rel="noopener noreferrer" data-voiceleaf-launch data-i18n="hero.primaryAction">Open VoiceLeaf</a>
+                        <a href="#features" class="studio-button secondary-button" data-i18n="hero.secondaryAction">Explore features</a>
+                    </div>
+                    <div class="voiceleaf-facts" aria-label="VoiceLeaf service facts">
+                        <span data-i18n="hero.factAccount">No account required</span>
+                        <span data-i18n="hero.factLanguages">11 interface languages</span>
+                        <span data-i18n="hero.factDelivery">24-hour secure download link</span>
                     </div>
                 </div>
 
@@ -58,12 +98,39 @@
                     </div>
                     <div class="voiceleaf-preview-body">
                         <strong data-i18n="preview.sentence">Jack thought that Miles was brave and adventurous.</strong>
-                        <p data-i18n="preview.translation">잭은 마일즈가 용감하고 모험심이 강하다고 생각했다.</p>
+                        <p data-i18n="preview.translation">Jack pensó que Miles era valiente y aventurero.</p>
                         <div class="voiceleaf-audio-lines">
-                            <span data-i18n="preview.normal">일반 속도</span>
-                            <span data-i18n="preview.slow">천천히</span>
+                            <span data-i18n="preview.normal">Normal audio</span>
+                            <span data-i18n="preview.slow">Slow audio</span>
                         </div>
                     </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="features" class="voiceleaf-section voiceleaf-benefits">
+            <div class="container">
+                <div class="section-heading voiceleaf-section-heading">
+                    <p class="eyebrow" data-i18n="benefits.eyebrow">Made for focused language practice</p>
+                    <h2 data-i18n="benefits.title">A portable study book built from your own material</h2>
+                    <p data-i18n="benefits.lead">Keep the original sentence, its translation, and repeatable audio together in one EPUB file instead of switching between separate apps.</p>
+                </div>
+                <div class="voiceleaf-benefit-grid">
+                    <article class="voiceleaf-benefit-item">
+                        <span class="detail-number">01</span>
+                        <h3 data-i18n="benefits.bilingual.title">Bilingual sentence pairs</h3>
+                        <p data-i18n="benefits.bilingual.body">Place the source sentence and AI-generated translation together for quick comparison while reading.</p>
+                    </article>
+                    <article class="voiceleaf-benefit-item">
+                        <span class="detail-number">02</span>
+                        <h3 data-i18n="benefits.audio.title">Normal and slow listening</h3>
+                        <p data-i18n="benefits.audio.body">Add natural-speed and slow TTS tracks for listening, shadowing, and pronunciation practice.</p>
+                    </article>
+                    <article class="voiceleaf-benefit-item">
+                        <span class="detail-number">03</span>
+                        <h3 data-i18n="benefits.portable.title">One downloadable EPUB</h3>
+                        <p data-i18n="benefits.portable.body">Download the finished file and keep it in Apple Books without creating a VoiceLeaf account.</p>
+                    </article>
                 </div>
             </div>
         </section>
@@ -72,24 +139,37 @@
             <div class="container">
                 <div class="section-heading">
                     <p class="eyebrow" data-i18n="flow.eyebrow">Workflow</p>
-                    <h2 data-i18n="flow.title">붙여넣고, 확인하고, 다운로드합니다</h2>
+                    <h2 data-i18n="flow.title">Paste, review, and download</h2>
                 </div>
                 <div class="voiceleaf-flow-grid">
                     <article class="voiceleaf-flow-card">
                         <span class="detail-number">01</span>
-                        <h3 data-i18n="flow.input.title">텍스트 입력</h3>
-                        <p data-i18n="flow.input.body">문장 목록을 붙여넣거나 TXT 파일을 올리고 원본 언어를 직접 선택합니다.</p>
+                        <h3 data-i18n="flow.input.title">Enter your text</h3>
+                        <p data-i18n="flow.input.body">Paste a sentence list or upload a TXT file, then choose the source language.</p>
                     </article>
                     <article class="voiceleaf-flow-card">
                         <span class="detail-number">02</span>
-                        <h3 data-i18n="flow.options.title">번역과 음성 선택</h3>
-                        <p data-i18n="flow.options.body">번역 언어, 일반/느린 음성, 전체 재생 MP3 옵션과 예상 용량을 확인합니다.</p>
+                        <h3 data-i18n="flow.options.title">Choose translation and audio</h3>
+                        <p data-i18n="flow.options.body">Review translation, normal or slow audio, optional full playback, estimated price, and file size.</p>
                     </article>
                     <article class="voiceleaf-flow-card">
                         <span class="detail-number">03</span>
-                        <h3 data-i18n="flow.download.title">EPUB 생성</h3>
-                        <p data-i18n="flow.download.body">결제 확인 후 Apple Books에서 열 수 있는 EPUB 또는 분권 ZIP을 생성합니다.</p>
+                        <h3 data-i18n="flow.download.title">Generate and download</h3>
+                        <p data-i18n="flow.download.body">After PayPal confirms payment, download an EPUB or multi-volume ZIP for Apple Books.</p>
                     </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="voiceleaf-language-band">
+            <div class="container voiceleaf-language-layout">
+                <div>
+                    <p class="eyebrow" data-i18n="languages.eyebrow">Global interface</p>
+                    <h2 data-i18n="languages.title">Use VoiceLeaf in a familiar language</h2>
+                </div>
+                <div>
+                    <p data-i18n="languages.body">The interface follows your browser language on the first visit, falls back to English, and always lets you choose another language.</p>
+                    <p class="voiceleaf-language-list" data-i18n="languages.list">English · 한국어 · 日本語 · Deutsch · Français · Español · 简体中文 · 繁體中文 · Português · Italiano · Bahasa Indonesia</p>
                 </div>
             </div>
         </section>
@@ -98,15 +178,41 @@
             <div class="container voiceleaf-scope-grid">
                 <div>
                     <p class="eyebrow" data-i18n="scope.eyebrow">Support scope</p>
-                    <h2 data-i18n="scope.title">iPhone/iPad Apple Books를 기준으로 만듭니다</h2>
+                    <h2 data-i18n="scope.title">Designed and tested for Apple Books on iPhone and iPad</h2>
                     <p data-i18n="scope.body">
-                        현재 서비스는 Apple Books에서 MP3가 포함된 EPUB을 재생하는 흐름을 우선 지원합니다.
-                        Android와 Google Play Books의 EPUB 오디오 재생은 보장하지 않습니다.
+                        VoiceLeaf prioritizes EPUB audio playback in Apple Books. Audio playback on Android, Google Play Books, and other EPUB readers is not guaranteed.
                     </p>
                 </div>
                 <div class="voiceleaf-scope-notes">
-                    <p data-i18n="scope.rights">본인이 권리를 보유했거나 변환 허가를 받은 자료만 사용해야 합니다.</p>
-                    <p data-i18n="scope.pricing">대량 문서는 생성 비용과 파일 크기가 커질 수 있어, 생성 전 예상 금액과 분권 계획을 먼저 보여줍니다.</p>
+                    <p data-i18n="scope.rights">Use only material you own or have permission to translate, convert, and listen to.</p>
+                    <p data-i18n="scope.pricing">You see the estimated price, output size, and volume plan before payment. PayPal charges the displayed USD amount.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="faq" class="voiceleaf-section voiceleaf-faq">
+            <div class="container voiceleaf-faq-layout">
+                <div class="section-heading">
+                    <p class="eyebrow" data-i18n="faq.eyebrow">FAQ</p>
+                    <h2 data-i18n="faq.title">Before you create an EPUB</h2>
+                </div>
+                <div class="voiceleaf-faq-list">
+                    <details>
+                        <summary data-i18n="faq.input.question">What can I upload?</summary>
+                        <p data-i18n="faq.input.answer">Paste text directly or upload a plain TXT file containing material you own or have permission to convert.</p>
+                    </details>
+                    <details>
+                        <summary data-i18n="faq.audio.question">Does the EPUB include audio?</summary>
+                        <p data-i18n="faq.audio.answer">You can add normal-speed audio, slow audio, or both. An optional combined MP3 can also be placed at the top of the EPUB.</p>
+                    </details>
+                    <details>
+                        <summary data-i18n="faq.delivery.question">How long is the download available?</summary>
+                        <p data-i18n="faq.delivery.answer">The secure download link is valid for 24 hours. Generated files under the download area are automatically deleted after two days.</p>
+                    </details>
+                    <details>
+                        <summary data-i18n="faq.reader.question">Can I use the EPUB on Android or Kindle?</summary>
+                        <p data-i18n="faq.reader.answer">The primary supported reader is Apple Books on iPhone and iPad. Text may open elsewhere, but embedded-audio playback is not guaranteed.</p>
+                    </details>
                 </div>
             </div>
         </section>
@@ -114,10 +220,10 @@
         <section class="voiceleaf-cta">
             <div class="container voiceleaf-cta-box">
                 <div>
-                    <h2 data-i18n="cta.title">VoiceLeaf 서비스로 이동</h2>
-                    <p data-i18n="cta.body">문장을 붙여넣고 번역과 음성 옵션을 확인한 뒤 EPUB 생성을 시작하세요.</p>
+                    <h2 data-i18n="cta.title">Create your Apple Books study EPUB</h2>
+                    <p data-i18n="cta.body">Paste your text, review translation and audio options, and see the exact estimate before payment.</p>
                 </div>
-                <a href="https://voiceleaf.dosusu.com" class="studio-button primary-button" target="_blank" rel="noopener noreferrer" data-i18n="cta.action">VoiceLeaf 열기</a>
+                <a href="https://voiceleaf.dosusu.com" class="studio-button primary-button" target="_blank" rel="noopener noreferrer" data-voiceleaf-launch data-i18n="cta.action">Open VoiceLeaf</a>
             </div>
         </section>
     </main>
@@ -127,6 +233,8 @@
             <p id="footer-copyright" data-i18n="footer.copyright">&copy; 2026 Dosusu. All rights reserved.</p>
             <p>
                 <a href="/" data-i18n="footer.home">Dosusu Home</a> ·
+                <a href="https://voiceleaf.dosusu.com/terms.html" data-i18n="footer.terms">Terms</a> ·
+                <a href="https://voiceleaf.dosusu.com/privacy.html" data-i18n="footer.privacy">Privacy</a> ·
                 <a href="mailto:jj@dosusu.com">jj@dosusu.com</a>
             </p>
         </div>

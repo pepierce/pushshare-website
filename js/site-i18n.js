@@ -17,7 +17,7 @@
       supportedLanguages: ['ko', 'en'],
     },
     voiceleaf: {
-      defaultLanguage: 'ko',
+      defaultLanguage: 'en',
       storageKey: 'voiceleaf-language',
       supportedLanguages: ['ko', 'en'],
     },
@@ -73,7 +73,7 @@
           },
           voiceleaf: {
             tag: 'Web service',
-            description: '문장 목록을 번역과 음성이 포함된 Apple Books용 EPUB 학습책으로 변환하는 웹 서비스입니다.',
+            description: '텍스트를 AI 번역과 일반·느린 음성이 포함된 Apple Books용 EPUB 학습책으로 만드는 웹 서비스입니다.',
             link: 'VoiceLeaf 보기',
           },
         },
@@ -124,7 +124,7 @@
           },
           voiceleaf: {
             tag: 'Web service',
-            description: 'Turn sentence lists into Apple Books study EPUBs with translation and embedded audio.',
+            description: 'Create bilingual Apple Books EPUB study books from text with AI translation and normal or slow TTS audio.',
             link: 'View VoiceLeaf',
           },
         },
@@ -136,17 +136,28 @@
     voiceleaf: {
       ko: {
         meta: {
-          title: 'VoiceLeaf - 문장을 듣기 학습 eBook으로',
-          description: 'VoiceLeaf - 문장 목록을 번역과 음성이 포함된 Apple Books용 EPUB 학습책으로 변환하는 웹 서비스',
-          ogDescription: '붙여넣은 텍스트를 번역, TTS 음성, Apple Books용 EPUB으로 변환합니다.',
+          title: 'VoiceLeaf EPUB 제작기 - 번역과 음성이 포함된 학습 eBook',
+          description: '텍스트나 TXT 파일을 AI 번역과 일반·느린 TTS 음성이 포함된 Apple Books용 EPUB 학습책으로 만드세요.',
+          ogDescription: '텍스트를 번역, 일반·느린 TTS 음성과 함께 Apple Books용 EPUB 학습책으로 변환합니다.',
         },
-        nav: { home: 'Home', service: '서비스', scope: '지원 범위', contact: '문의' },
+        nav: { home: 'Home', features: '특징', service: '이용 방법', faq: 'FAQ', contact: '문의' },
         hero: {
           eyebrow: 'Text to audio EPUB',
           title: '문장 목록을 듣기 학습 eBook으로',
           lead: 'VoiceLeaf는 직접 준비한 텍스트나 TXT 파일을 번역문과 음성이 포함된 Apple Books용 EPUB으로 변환하는 웹 서비스입니다. 아이패드나 아이폰에서 문장을 듣고 따라 읽는 학습 흐름을 빠르게 만들 수 있습니다.',
           primaryAction: 'VoiceLeaf 열기',
-          secondaryAction: '지원 범위 보기',
+          secondaryAction: '특징 살펴보기',
+          factAccount: '계정 가입 불필요',
+          factLanguages: '11개 UI 언어',
+          factDelivery: '24시간 보안 다운로드 링크',
+        },
+        benefits: {
+          eyebrow: '언어 학습을 위한 구성',
+          title: '내 자료로 만드는 휴대 가능한 학습책',
+          lead: '원문, 번역문, 반복 재생 음성을 하나의 EPUB에 담아 여러 앱을 오가지 않고 학습할 수 있습니다.',
+          bilingual: { title: '원문과 번역문', body: '원문 문장과 AI 번역을 함께 배치해 읽으면서 빠르게 비교할 수 있습니다.' },
+          audio: { title: '일반·느린 듣기', body: '자연스러운 일반 속도와 느린 TTS 음성을 추가해 듣기, 따라 말하기, 발음 연습에 활용합니다.' },
+          portable: { title: '하나의 EPUB 다운로드', body: 'VoiceLeaf 계정을 만들지 않고 완성된 파일을 내려받아 Apple Books에 보관합니다.' },
         },
         preview: {
           label: 'Apple Books oriented',
@@ -176,70 +187,113 @@
           title: 'iPhone/iPad Apple Books를 기준으로 만듭니다',
           body: '현재 서비스는 Apple Books에서 MP3가 포함된 EPUB을 재생하는 흐름을 우선 지원합니다. Android와 Google Play Books의 EPUB 오디오 재생은 보장하지 않습니다.',
           rights: '본인이 권리를 보유했거나 변환 허가를 받은 자료만 사용해야 합니다.',
-          pricing: '대량 문서는 생성 비용과 파일 크기가 커질 수 있어, 생성 전 예상 금액과 분권 계획을 먼저 보여줍니다.',
+          pricing: '결제 전에 예상 금액, 출력 용량, 분권 계획을 확인할 수 있으며 PayPal에서는 표시된 USD 금액을 결제합니다.',
+        },
+        languages: {
+          eyebrow: '글로벌 인터페이스',
+          title: '익숙한 언어로 VoiceLeaf를 사용하세요',
+          body: '첫 방문에는 브라우저 언어를 따르고, 지원하지 않는 언어는 영어로 표시하며, 언제든 다른 언어를 직접 선택할 수 있습니다.',
+          list: 'English · 한국어 · 日本語 · Deutsch · Français · Español · 简体中文 · 繁體中文 · Português · Italiano · Bahasa Indonesia',
+        },
+        faq: {
+          eyebrow: 'FAQ',
+          title: 'EPUB을 만들기 전에',
+          input: { question: '어떤 자료를 올릴 수 있나요?', answer: '직접 텍스트를 붙여넣거나, 본인이 권리를 보유했거나 변환 허가를 받은 내용이 담긴 일반 TXT 파일을 업로드할 수 있습니다.' },
+          audio: { question: 'EPUB에 음성이 포함되나요?', answer: '일반 속도, 느린 속도 또는 두 음성을 모두 추가할 수 있습니다. 선택한 음성을 합친 전체 재생 MP3도 EPUB 상단에 넣을 수 있습니다.' },
+          delivery: { question: '다운로드는 얼마나 유지되나요?', answer: '보안 다운로드 링크는 24시간 유효하고, 다운로드 영역의 생성 파일은 2일 후 자동 삭제됩니다.' },
+          reader: { question: 'Android나 Kindle에서도 사용할 수 있나요?', answer: '주 지원 환경은 iPhone과 iPad의 Apple Books입니다. 다른 리더에서 텍스트가 열릴 수는 있지만 내장 음성 재생은 보장하지 않습니다.' },
         },
         cta: {
-          title: 'VoiceLeaf 서비스로 이동',
-          body: '문장을 붙여넣고 번역과 음성 옵션을 확인한 뒤 EPUB 생성을 시작하세요.',
+          title: 'Apple Books 학습 EPUB을 만들어 보세요',
+          body: '텍스트를 붙여넣고 번역과 음성 옵션을 확인한 뒤, 결제 전에 정확한 견적을 확인하세요.',
           action: 'VoiceLeaf 열기',
         },
         footer: {
           copyright: '© {year} Dosusu. All rights reserved.',
           home: 'Dosusu Home',
+          terms: '이용약관',
+          privacy: '개인정보처리방침',
         },
       },
       en: {
         meta: {
-          title: 'VoiceLeaf - Turn sentences into audio study eBooks',
-          description: 'VoiceLeaf - a web service that turns sentence lists into Apple Books EPUB study books with translation and audio',
-          ogDescription: 'Convert pasted text into translation, TTS audio, and Apple Books-oriented EPUB files.',
+          title: 'VoiceLeaf EPUB Maker - Bilingual eBooks with Translation and Audio',
+          description: 'VoiceLeaf EPUB Maker turns text and TXT files into bilingual Apple Books study eBooks with AI translation, normal or slow TTS audio, and secure downloads.',
+          ogDescription: 'Turn your own text into an Apple Books EPUB study book with translation and natural normal or slow audio.',
         },
-        nav: { home: 'Home', service: 'Service', scope: 'Support', contact: 'Contact' },
+        nav: { home: 'Home', features: 'Features', service: 'How it works', faq: 'FAQ', contact: 'Contact' },
         hero: {
           eyebrow: 'Text to audio EPUB',
-          title: 'Turn sentence lists into audio study eBooks',
-          lead: 'VoiceLeaf converts your own text or TXT files into Apple Books-oriented EPUB study books with translation and embedded audio. It is designed for listening and repeat-reading on iPhone and iPad.',
+          title: 'Turn text into a bilingual audio study eBook',
+          lead: 'VoiceLeaf turns your own text or TXT files into Apple Books EPUB study books with translation and embedded audio. Build a focused listen-and-repeat workflow for language practice on iPhone and iPad.',
           primaryAction: 'Open VoiceLeaf',
-          secondaryAction: 'View support scope',
+          secondaryAction: 'Explore features',
+          factAccount: 'No account required',
+          factLanguages: '11 interface languages',
+          factDelivery: '24-hour secure download link',
         },
         preview: {
           label: 'Apple Books oriented',
           sentence: 'Jack thought that Miles was brave and adventurous.',
-          translation: 'Jack thought Miles was brave and adventurous.',
-          normal: 'Normal pace',
-          slow: 'Slow pace',
+          translation: 'Jack pensó que Miles era valiente y aventurero.',
+          normal: 'Normal audio',
+          slow: 'Slow audio',
+        },
+        benefits: {
+          eyebrow: 'Made for focused language practice',
+          title: 'A portable study book built from your own material',
+          lead: 'Keep the original sentence, its translation, and repeatable audio together in one EPUB file instead of switching between separate apps.',
+          bilingual: { title: 'Bilingual sentence pairs', body: 'Place the source sentence and AI-generated translation together for quick comparison while reading.' },
+          audio: { title: 'Normal and slow listening', body: 'Add natural-speed and slow TTS tracks for listening, shadowing, and pronunciation practice.' },
+          portable: { title: 'One downloadable EPUB', body: 'Download the finished file and keep it in Apple Books without creating a VoiceLeaf account.' },
         },
         flow: {
           eyebrow: 'Workflow',
-          title: 'Paste, confirm, and download',
+          title: 'Paste, review, and download',
           input: {
             title: 'Enter text',
-            body: 'Paste a sentence list or upload a TXT file, then manually choose the source language.',
+            body: 'Paste a sentence list or upload a TXT file, then choose the source language.',
           },
           options: {
             title: 'Choose translation and audio',
-            body: 'Review translation language, normal/slow audio, optional full playback MP3, estimated size, and volume splitting.',
+            body: 'Review translation, normal or slow audio, optional full playback, estimated price, and file size.',
           },
           download: {
             title: 'Generate EPUB',
-            body: 'After payment confirmation, VoiceLeaf creates an EPUB or multi-volume ZIP for Apple Books.',
+            body: 'After PayPal confirms payment, download an EPUB or multi-volume ZIP for Apple Books.',
           },
         },
         scope: {
           eyebrow: 'Support scope',
-          title: 'Built around iPhone and iPad Apple Books',
-          body: 'VoiceLeaf currently prioritizes EPUB audio playback in Apple Books. Android and Google Play Books audio playback is not guaranteed.',
-          rights: 'Use only content you own or have permission to convert.',
-          pricing: 'Large documents can increase generation cost and file size, so estimated price and volume planning are shown before generation.',
+          title: 'Designed and tested for Apple Books on iPhone and iPad',
+          body: 'VoiceLeaf prioritizes EPUB audio playback in Apple Books. Audio playback on Android, Google Play Books, and other EPUB readers is not guaranteed.',
+          rights: 'Use only material you own or have permission to translate, convert, and listen to.',
+          pricing: 'You see the estimated price, output size, and volume plan before payment. PayPal charges the displayed USD amount.',
+        },
+        languages: {
+          eyebrow: 'Global interface',
+          title: 'Use VoiceLeaf in a familiar language',
+          body: 'The interface follows your browser language on the first visit, falls back to English, and always lets you choose another language.',
+          list: 'English · 한국어 · 日本語 · Deutsch · Français · Español · 简体中文 · 繁體中文 · Português · Italiano · Bahasa Indonesia',
+        },
+        faq: {
+          eyebrow: 'FAQ',
+          title: 'Before you create an EPUB',
+          input: { question: 'What can I upload?', answer: 'Paste text directly or upload a plain TXT file containing material you own or have permission to convert.' },
+          audio: { question: 'Does the EPUB include audio?', answer: 'You can add normal-speed audio, slow audio, or both. An optional combined MP3 can also be placed at the top of the EPUB.' },
+          delivery: { question: 'How long is the download available?', answer: 'The secure download link is valid for 24 hours. Generated files under the download area are automatically deleted after two days.' },
+          reader: { question: 'Can I use the EPUB on Android or Kindle?', answer: 'The primary supported reader is Apple Books on iPhone and iPad. Text may open elsewhere, but embedded-audio playback is not guaranteed.' },
         },
         cta: {
-          title: 'Go to VoiceLeaf',
-          body: 'Paste your text, review translation and audio options, then start generating your EPUB.',
+          title: 'Create your Apple Books study EPUB',
+          body: 'Paste your text, review translation and audio options, and see the exact estimate before payment.',
           action: 'Open VoiceLeaf',
         },
         footer: {
           copyright: '© {year} Dosusu. All rights reserved.',
           home: 'Dosusu Home',
+          terms: 'Terms',
+          privacy: 'Privacy',
         },
       },
     },
@@ -553,9 +607,24 @@
     if (ogDescription && meta.ogDescription) {
       ogDescription.setAttribute('content', meta.ogDescription);
     }
+
+    const ogTitle = document.querySelector('meta[property="og:title"]');
+    if (ogTitle && meta.title) {
+      ogTitle.setAttribute('content', meta.title);
+    }
+
+    const twitterTitle = document.querySelector('meta[name="twitter:title"]');
+    if (twitterTitle && meta.title) {
+      twitterTitle.setAttribute('content', meta.title);
+    }
+
+    const twitterDescription = document.querySelector('meta[name="twitter:description"]');
+    if (twitterDescription && meta.description) {
+      twitterDescription.setAttribute('content', meta.description);
+    }
   }
 
-  function applyLanguage(page, lang) {
+  function applyLanguage(page, lang, launchLanguage = '') {
     const config = PAGE_CONFIG[page];
     const dictionary = TRANSLATIONS[page][lang] || TRANSLATIONS[page][config.defaultLanguage];
     const year = String(new Date().getFullYear());
@@ -574,6 +643,12 @@
     if (selector) {
       selector.value = lang;
     }
+
+    document.querySelectorAll('[data-voiceleaf-launch]').forEach((link) => {
+      link.setAttribute('href', launchLanguage
+        ? `https://voiceleaf.dosusu.com/?lang=${encodeURIComponent(launchLanguage)}`
+        : 'https://voiceleaf.dosusu.com/');
+    });
   }
 
   function init() {
@@ -591,18 +666,25 @@
         .join('');
     }
 
+    const requestedLanguage = new URLSearchParams(window.location.search).get('lang');
     const savedLanguage = localStorage.getItem(config.storageKey);
-    const initialLanguage = config.supportedLanguages.includes(savedLanguage)
-      ? savedLanguage
-      : detectLanguage(config.supportedLanguages, config.defaultLanguage);
+    const explicitLanguage = config.supportedLanguages.includes(requestedLanguage)
+      ? requestedLanguage
+      : (config.supportedLanguages.includes(savedLanguage) ? savedLanguage : '');
+    const initialLanguage = explicitLanguage || detectLanguage(config.supportedLanguages, config.defaultLanguage);
 
-    applyLanguage(page, initialLanguage);
+    applyLanguage(page, initialLanguage, page === 'voiceleaf' ? explicitLanguage : '');
 
     if (selector) {
       selector.addEventListener('change', (event) => {
         const nextLanguage = event.target.value;
         localStorage.setItem(config.storageKey, nextLanguage);
-        applyLanguage(page, nextLanguage);
+        if (page === 'voiceleaf') {
+          const url = new URL(window.location.href);
+          url.searchParams.set('lang', nextLanguage);
+          window.history.replaceState(window.history.state, '', `${url.pathname}${url.search}${url.hash}`);
+        }
+        applyLanguage(page, nextLanguage, page === 'voiceleaf' ? nextLanguage : '');
       });
     }
   }
