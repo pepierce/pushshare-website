@@ -206,12 +206,14 @@
         cta: {
           title: 'Apple Books 학습 EPUB을 만들어 보세요',
           body: '텍스트를 붙여넣고 번역과 음성 옵션을 확인한 뒤, 결제 전에 정확한 견적을 확인하세요.',
+          guide: '이중 언어 오디오 EPUB 가이드 읽기',
           action: 'VoiceLeaf 열기',
         },
         footer: {
           copyright: '© {year} Dosusu. All rights reserved.',
           home: 'Dosusu Home',
           terms: '이용약관',
+          guide: '가이드',
           privacy: '개인정보처리방침',
         },
       },
@@ -287,12 +289,14 @@
         cta: {
           title: 'Create your Apple Books study EPUB',
           body: 'Paste your text, review translation and audio options, and see the exact estimate before payment.',
+          guide: 'Read the bilingual audio EPUB guide',
           action: 'Open VoiceLeaf',
         },
         footer: {
           copyright: '© {year} Dosusu. All rights reserved.',
           home: 'Dosusu Home',
           terms: 'Terms',
+          guide: 'Guide',
           privacy: 'Privacy',
         },
       },
