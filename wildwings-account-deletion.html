@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ko"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="canonical" href="https://www.dosusu.com/wildwings-account-deletion.html"><meta name="description" content="Wild Wings 계정 및 데이터 삭제 안내">
+<title>Wild Wings Account Deletion</title><link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png"><link rel="stylesheet" href="styles.css"></head>
+<body class="wildwings-page legal-page"><header class="studio-header translucent-header"><div class="container studio-nav"><a href="/" class="studio-logo">Dosusu</a><nav class="studio-links" aria-label="Wild Wings legal navigation"><a href="/wildwings.html">Wild Wings</a><a href="/wildwings-privacy-policy.html">Privacy Policy</a><a href="/wildwings-terms-of-service.html">Terms</a><a href="/wildwings-account-deletion.html">Account deletion</a></nav></div></header>
+<main class="legal-main"><section class="container legal-container"><div class="legal-toolbar" aria-label="Language selector"><button class="language-tab active" type="button" data-lang-button="ko">한국어</button><button class="language-tab" type="button" data-lang-button="en">English</button></div>
+<article class="legal-copy" data-lang-panel="ko">
+<p class="eyebrow">Wild Wings</p><h1>계정 및 데이터 삭제</h1><p class="legal-updated">최종 수정일: 2026년 9월 27일</p>
+<h2>앱에서 삭제하기</h2><p>Wild Wings의 <strong>설정 → 정보 → 계정 삭제</strong>에서 삭제를 확인하면 현재 로그인한 계정과 서버에 저장된 프로필, 진행도, 랭킹, 보유 재화 및 추천 기록을 삭제합니다. 앱에 저장된 로컬 데이터도 초기화됩니다.</p>
+<h2>앱에 접근할 수 없는 경우</h2><p><a href="mailto:support@dosusu.com?subject=Wild%20Wings%20Account%20Deletion">support@dosusu.com</a>으로 계정 삭제를 요청해 주세요. 본인 확인에 필요한 닉네임과 연결한 로그인 방법을 알려주시면 확인 후 30일 이내 처리합니다. 비밀번호와 결제 정보를 이메일에 적지 마세요.</p>
+<h2>보관되는 정보</h2><p>스토어 구매, 환불, 세무 및 부정 이용 방지에 필요한 최소 기록은 법률 또는 스토어 의무가 요구하는 기간 동안 보관될 수 있습니다. 영구 구매 상품은 같은 스토어 계정에서 다시 복원할 수 있습니다.</p>
+</article><article class="legal-copy hidden" data-lang-panel="en">
+<p class="eyebrow">Wild Wings</p><h1>Account & Data Deletion</h1><p class="legal-updated">Last updated: September 27, 2026</p>
+<h2>Delete in the App</h2><p>In Wild Wings, select <strong>Settings → Info → Delete Account</strong> and confirm. This deletes the signed-in account and its server profile, progress, rankings, wallet, and referral records. Local app data is also reset.</p>
+<h2>If You Cannot Access the App</h2><p>Email <a href="mailto:support@dosusu.com?subject=Wild%20Wings%20Account%20Deletion">support@dosusu.com</a> with your nickname and linked sign-in method. After verification, requests are processed within 30 days. Do not send passwords or payment details by email.</p>
+<h2>Records We May Retain</h2><p>Minimal store transaction, refund, tax, and anti-fraud records may be retained for the period required by law or store policy. Permanent purchases may be restored with the same store account.</p>
+</article></section></main>
+<footer class="studio-footer"><div class="container footer-grid"><p>© 2026 Dosusu. All rights reserved.</p><p><a href="/wildwings.html">Wild Wings</a> · <a href="mailto:support@dosusu.com">support@dosusu.com</a></p></div></footer><script>
+const buttons = document.querySelectorAll('[data-lang-button]');
+const panels = document.querySelectorAll('[data-lang-panel]');
+const setLanguage = (lang) => {
+    document.documentElement.lang = lang;
+    buttons.forEach(button => button.classList.toggle('active', button.dataset.langButton === lang));
+    panels.forEach(panel => panel.classList.toggle('hidden', panel.dataset.langPanel !== lang));
+    localStorage.setItem('wildwings-legal-language', lang);
+};
+buttons.forEach(button => button.addEventListener('click', () => setLanguage(button.dataset.langButton)));
+setLanguage(localStorage.getItem('wildwings-legal-language') || 'ko');
+</script></body></html>

@@ -1909,3 +1909,34 @@ footer a:hover {
         width: 170px;
     }
 }
+
+/* Wild Wings product page */
+.wildwings-page { background: #f8fbff; color: var(--studio-ink); }
+.wildwings-card .app-choice-media { background: linear-gradient(135deg, #07152f, #1464a7); }
+.wildwings-hero { background: linear-gradient(90deg, rgba(4, 19, 43, .88), rgba(5, 32, 67, .56)), url("wildwings-world.png") center 54% / cover; color: #fff; padding: clamp(5rem, 10vw, 9rem) 0; }
+.wildwings-hero-content { max-width: 690px; }
+.wildwings-title-row { align-items: center; display: flex; gap: 1.1rem; margin-bottom: 1.5rem; }
+.wildwings-title-row img { border-radius: 24px; box-shadow: 0 18px 42px rgba(0,0,0,.25); height: 88px; width: 88px; }
+.wildwings-hero .eyebrow, .wildwings-hero h1, .wildwings-hero .studio-lead { color: #fff; }
+.wildwings-hero h1 { font-size: clamp(2.8rem, 6vw, 5rem); margin: 0; }
+.wildwings-hero .studio-lead { max-width: 620px; }
+.wildwings-hero .primary-button { background: #ffd273; color: #102b4b; }
+.wildwings-hero .secondary-button { border-color: rgba(255,255,255,.65); color: #fff; }
+.wildwings-feature-section, .wildwings-legal-section { padding: 4.5rem 0; }
+.wildwings-feature-grid { display: grid; gap: 1rem; grid-template-columns: repeat(3, minmax(0, 1fr)); }
+.wildwings-feature-grid article { background: #fff; border: 1px solid #d9e6f3; border-radius: 12px; padding: 1.5rem; }
+.wildwings-feature-grid h3 { color: #123d6d; margin-bottom: .7rem; }
+.wildwings-feature-grid p { color: var(--studio-muted); line-height: 1.7; }
+.wildwings-legal-section { background: #eaf4fc; }
+.wildwings-legal-links { display: flex; flex-wrap: wrap; gap: .75rem; }
+.wildwings-legal-links a { background: #fff; border: 1px solid #c8ddec; border-radius: 8px; color: #123d6d; font-weight: 800; padding: .8rem 1rem; text-decoration: none; }
+.wildwings-legal-links a:hover { border-color: #2471ad; }
+@media (max-width: 768px) { .wildwings-feature-grid { grid-template-columns: 1fr; } .wildwings-hero { background-position: 58% center; } }
+@media (max-width: 520px) {
+    .wildwings-title-row { gap: .7rem; }
+    .wildwings-title-row img { height: 68px; width: 68px; }
+    .wildwings-hero h1 { font-size: 2.5rem; white-space: nowrap; }
+}
+.wildwings-page.legal-page .language-tab.active { background: #1768a6; border-color: #1768a6; }
+.wildwings-page.legal-page .legal-copy { border-color: #d9e6f3; box-shadow: 0 18px 42px rgba(18, 61, 109, .06); }
+.wildwings-page.legal-page .legal-copy h3, .wildwings-page.legal-page .legal-copy a { color: #1768a6; }

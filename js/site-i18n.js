@@ -16,6 +16,11 @@
       storageKey: 'dosusu-language',
       supportedLanguages: ['ko', 'en'],
     },
+    wildwings: {
+      defaultLanguage: 'ko',
+      storageKey: 'wildwings-language',
+      supportedLanguages: ['ko', 'en'],
+    },
     voiceleaf: {
       defaultLanguage: 'en',
       storageKey: 'voiceleaf-language',
@@ -61,6 +66,11 @@
         apps: {
           eyebrow: 'Apps',
           title: '지금 만나볼 수 있는 앱',
+          wildwings: {
+            tag: 'Game',
+            description: '하늘을 가로지르며 적과 보스를 상대하는 모바일 슈팅 게임입니다. 캐릭터를 성장시키고 여러 항로에 도전하세요.',
+            link: 'Wild Wings 보기',
+          },
           century: {
             tag: 'Diary',
             description: '오늘의 짧은 일기를 남기고, 해마다 같은 날짜의 기록을 다시 꺼내보는 감성 다이어리입니다.',
@@ -112,6 +122,11 @@
         apps: {
           eyebrow: 'Apps',
           title: 'Apps you can use now',
+          wildwings: {
+            tag: 'Game',
+            description: 'A mobile shoot-em-up across the skies. Grow your pilot, face bosses, and explore new routes.',
+            link: 'View Wild Wings',
+          },
           century: {
             tag: 'Diary',
             description: 'A gentle diary app for writing short daily entries and revisiting records from the same date across the years.',
@@ -131,6 +146,24 @@
         footer: {
           copyright: '© {year} Dosusu. All rights reserved.',
         },
+      },
+    },
+    wildwings: {
+      ko: {
+        meta: { title: 'Wild Wings - 하늘을 가로지르는 슈팅 게임', description: 'Wild Wings는 캐릭터와 함께 다섯 항로의 적과 보스에 도전하는 모바일 슈팅 게임입니다.' },
+        nav: { home: '홈', features: '게임 소개', privacy: '개인정보 처리방침', contact: '문의' },
+        hero: { eyebrow: 'Mobile shooting game', lead: '나만의 파일럿과 하늘을 가로지르세요. 적의 공격을 피하고, 날개 축복을 고르고, 각 항로의 보스에게 도전합니다.', primaryAction: '게임 소개 보기', secondaryAction: '개인정보 처리방침' },
+        features: { eyebrow: 'Wild Wings', title: '한 번 더 날고 싶은 하늘', routes: { title: '다섯 개의 항로', body: '하늘 정원부터 별빛 개척지까지, 서로 다른 풍경과 적을 만나세요.' }, pilots: { title: '파일럿과 성장', body: '캐릭터를 모으고 격납고에서 성장시켜 원하는 방식으로 비행하세요.' }, challenge: { title: '기록에 도전', body: '스테이지를 돌파하고 주간·월간 랭킹에서 기록을 겨뤄 보세요.' } },
+        legal: { title: '정책과 계정', privacy: '개인정보 처리방침', terms: '이용약관', deletion: '계정 삭제 안내' },
+        footer: { copyright: '© {year} Dosusu. All rights reserved.' },
+      },
+      en: {
+        meta: { title: 'Wild Wings - Mobile Sky Shooter', description: 'Wild Wings is a mobile shoot-em-up with pilots, bosses, and five sky routes.' },
+        nav: { home: 'Home', features: 'About the game', privacy: 'Privacy policy', contact: 'Contact' },
+        hero: { eyebrow: 'Mobile shooting game', lead: 'Take to the skies with your pilot. Dodge enemy fire, choose wing blessings, and face the boss of each route.', primaryAction: 'Explore the game', secondaryAction: 'Privacy policy' },
+        features: { eyebrow: 'Wild Wings', title: 'Skies worth returning to', routes: { title: 'Five sky routes', body: 'From Sky Gardens to Starfall Frontier, meet new scenery and enemies.' }, pilots: { title: 'Pilots and upgrades', body: 'Collect characters and grow stronger in the hangar.' }, challenge: { title: 'Chase your best score', body: 'Clear stages and compete on weekly and monthly leaderboards.' } },
+        legal: { title: 'Policies and account', privacy: 'Privacy policy', terms: 'Terms of service', deletion: 'Account deletion' },
+        footer: { copyright: '© {year} Dosusu. All rights reserved.' },
       },
     },
     voiceleaf: {

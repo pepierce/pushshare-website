@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ko"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="canonical" href="https://www.dosusu.com/wildwings-terms-of-service.html"><meta name="description" content="Wild Wings 이용약관">
+<title>Wild Wings Terms of Service</title><link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png"><link rel="stylesheet" href="styles.css"></head>
+<body class="wildwings-page legal-page"><header class="studio-header translucent-header"><div class="container studio-nav"><a href="/" class="studio-logo">Dosusu</a><nav class="studio-links" aria-label="Wild Wings legal navigation"><a href="/wildwings.html">Wild Wings</a><a href="/wildwings-privacy-policy.html">Privacy Policy</a><a href="/wildwings-terms-of-service.html">Terms</a><a href="/wildwings-account-deletion.html">Account deletion</a></nav></div></header>
+<main class="legal-main"><section class="container legal-container"><div class="legal-toolbar" aria-label="Language selector"><button class="language-tab active" type="button" data-lang-button="ko">한국어</button><button class="language-tab" type="button" data-lang-button="en">English</button></div>
+<article class="legal-copy" data-lang-panel="ko">
+<p class="eyebrow">Wild Wings</p><h1>이용약관</h1><p class="legal-updated">최종 수정일: 2026년 9월 27일</p>
+<h2>서비스 이용</h2><p>Wild Wings는 개인적·비상업적 오락 목적으로 제공됩니다. 치팅, 자동화, 결제 우회, 랭킹 조작 및 타인의 권리 침해 행위를 금지합니다.</p>
+<h2>구매와 보상형 광고</h2><p>가격, 결제 및 환불은 이용하는 앱 스토어의 정책을 따릅니다. 사용한 소모품은 구매 복원으로 되돌릴 수 없습니다. 영구 상품은 동일한 스토어 계정에서 복원할 수 있습니다. 보상형 광고는 선택 사항이며 검증이 완료된 경우 보상을 지급합니다.</p>
+<h2>서비스 변경</h2><p>밸런스, 콘텐츠 및 온라인 기능은 공정성과 안정성을 위해 변경될 수 있습니다. 중요한 변경은 앱 또는 웹사이트에서 안내합니다.</p>
+<h2>문의</h2><p>법률이 허용하는 범위에서 서비스는 현 상태로 제공됩니다. 문의: <a href="mailto:support@dosusu.com">support@dosusu.com</a>.</p>
+</article><article class="legal-copy hidden" data-lang-panel="en">
+<p class="eyebrow">Wild Wings</p><h1>Terms of Service</h1><p class="legal-updated">Last updated: September 27, 2026</p>
+<h2>Use of Service</h2><p>Wild Wings is provided for personal, non-commercial entertainment. Cheating, automation, payment circumvention, leaderboard manipulation, and infringement of others' rights are prohibited.</p>
+<h2>Purchases and Rewarded Ads</h2><p>Prices, payments, and refunds follow the policy of the app store you use. Consumed items cannot be restored after use. Permanent products may be restored with the same store account. Rewarded ads are optional, and rewards are granted after validation.</p>
+<h2>Changes</h2><p>Balance, content, and online features may change to maintain fairness and reliability. Material changes will be announced in the App or on this site.</p>
+<h2>Contact</h2><p>The service is provided as is to the extent permitted by law. Contact <a href="mailto:support@dosusu.com">support@dosusu.com</a>.</p>
+</article></section></main>
+<footer class="studio-footer"><div class="container footer-grid"><p>© 2026 Dosusu. All rights reserved.</p><p><a href="/wildwings.html">Wild Wings</a> · <a href="mailto:support@dosusu.com">support@dosusu.com</a></p></div></footer><script>
+const buttons = document.querySelectorAll('[data-lang-button]');
+const panels = document.querySelectorAll('[data-lang-panel]');
+const setLanguage = (lang) => {
+    document.documentElement.lang = lang;
+    buttons.forEach(button => button.classList.toggle('active', button.dataset.langButton === lang));
+    panels.forEach(panel => panel.classList.toggle('hidden', panel.dataset.langPanel !== lang));
+    localStorage.setItem('wildwings-legal-language', lang);
+};
+buttons.forEach(button => button.addEventListener('click', () => setLanguage(button.dataset.langButton)));
+setLanguage(localStorage.getItem('wildwings-legal-language') || 'ko');
+</script></body></html>
