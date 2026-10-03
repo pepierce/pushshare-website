@@ -32,7 +32,7 @@
             <article class="legal-copy" data-lang-panel="ko">
                 <p class="eyebrow">Wild Wings</p>
                 <h1>개인정보 처리방침</h1>
-                <p class="legal-updated">최종 수정일: 2026년 9월 27일</p>
+                <p class="legal-updated">최종 수정일: 2026년 10월 4일</p>
 
                 <h2>1. 개요</h2>
                 <p>Dosusu가 제공하는 Wild Wings(이하 “앱”)는 게임 진행, 계정 연결, 랭킹, 인앱 구매 및 선택형 보상 광고 기능을 제공합니다. 당사는 이러한 기능에 필요한 최소한의 정보만 처리합니다.</p>
@@ -41,13 +41,18 @@
                 <h3>2.1 게임 및 기기 내 정보</h3>
                 <p>게임 진행도, 획득 캐릭터, 업그레이드, 점수, 코인과 티켓 잔액, 선택한 테마·앱 아이콘, 언어 및 사운드 설정이 기기에 저장될 수 있습니다.</p>
                 <h3>2.2 계정 및 랭킹 정보</h3>
-                <p>게스트 또는 플랫폼 계정으로 플레이할 때 자동 생성된 사용자 식별자, 공개 닉네임, 선택한 국가/지역, 점수, 랭킹 구분, 사용 캐릭터, 진행도 및 보상 상태가 Supabase에서 처리될 수 있습니다. Google 또는 Apple 계정 연결을 선택하면 인증 제공자의 계정 식별자와 인증 결과가 계정 연결을 위해 처리될 수 있습니다. 프로필 사진을 올리면 해당 이미지도 서버에 저장됩니다.</p>
+                <p>게스트 또는 플랫폼 계정으로 플레이할 때 자동 생성된 사용자 식별자, 공개 닉네임, 선택한 국가/지역, 점수, 랭킹 구분, 사용 캐릭터, 진행도 및 보상 상태가 Supabase에서 처리될 수 있습니다. Google 또는 Apple 계정 연결을 선택하면 인증 제공자의 계정 식별자와 인증 결과가 계정 연결을 위해 처리될 수 있습니다. 프로필 사진을 올리거나 소개글을 작성하면 해당 내용도 서버에 저장됩니다.</p>
                 <h3>2.3 구매 정보</h3>
                 <p>RevenueCat은 구매 상품, 거래 식별자, 구매 시각 및 이용 권한 상태를 처리합니다. 결제 수단 정보는 앱이 직접 수집하지 않으며 Google Play 또는 Apple App Store가 처리합니다.</p>
                 <h3>2.4 광고 및 동의 정보</h3>
                 <p>Google AdMob은 보상형 광고 제공, 부정 이용 방지, 빈도 관리, 성과 측정 및 진단을 위해 광고 식별자, IP 주소, 기기·앱 정보, 대략적 위치, 광고 요청 및 상호작용 정보 등을 처리할 수 있습니다. 적용되는 지역에서는 Google의 동의 관리 화면을 통해 맞춤형 광고와 관련된 선택권을 제공합니다. 설정의 “광고 개인정보 설정”에서 선택을 다시 관리할 수 있습니다.</p>
                 <h3>2.5 추천 및 운영 기록</h3>
                 <p>친구 추천 기능을 사용할 경우 추천 코드, 추천 관계, 조건 달성 여부가 보상 중복 지급 및 부정 이용 방지를 위해 처리될 수 있습니다. 서버 검증된 구매·광고 보상 식별자는 같은 보상의 중복 지급을 막기 위해 저장될 수 있습니다.</p>
+
+                <h3>2.6 프로필 신고와 차단</h3>
+                <p>신고를 접수하면 신고자와 대상의 게임 계정 식별자, 신고 내용, 접수 당시 대상의 공개 프로필, 처리 상태와 운영 처리 사유를 저장합니다. 차단을 사용하면 본인과 대상의 게임 계정 식별자 및 차단 시각을 저장합니다. 이 기록은 신고 검토와 개인별 프로필 표시 제한에 사용되며 다른 플레이어에게 공개하지 않습니다.</p>
+                <h3>2.7 플레이 통계</h3>
+                <p>게임 계정 식별자와 함께 첫 홈 방문, 비행 시작과 종료, 특수 능력 사용, 장비 변경, 축복 선택, 발생 시각, 게임 모드, 캐릭터와 앱 빌드 정보를 처리합니다. 운영자는 참여 수와 재방문 통계 등으로 게임의 재미와 안정성을 개선합니다. 화면 녹화나 손가락 이동 경로는 이 통계에 수집하지 않습니다.</p>
 
                 <h2>3. 이용 목적</h2>
                 <ul>
@@ -68,10 +73,12 @@
                 </ul>
 
                 <h2>5. 공개 정보</h2>
-                <p>랭킹에 참가하면 순위, 선택한 국가의 국기, 공개 닉네임, 점수 및 사용 캐릭터가 다른 사용자에게 표시될 수 있습니다. 실명이나 민감한 정보를 닉네임에 사용하지 마세요.</p>
+                <p>랭킹과 공개 프로필에는 순위, 국가의 국기, 닉네임, 프로필 사진, 소개글, 사용 캐릭터, 최고 점수, 랭킹 등록 비행 횟수와 시즌 메달 등이 다른 사용자에게 표시될 수 있습니다. 올린 프로필 사진은 공개 저장소의 URL로 접근할 수 있습니다. 실명이나 민감한 정보를 닉네임, 사진, 소개글 또는 신고 내용에 넣지 마세요. 차단은 본인 앱에서 상대의 이름, 사진과 소개글을 가리는 기능이며, 원래 사진 URL의 접근 권한을 폐기하지는 않습니다.</p>
 
                 <h2>6. 보유 및 삭제</h2>
                 <p>정보는 게임 기능 제공, 보상 중복 방지 및 법적 의무 이행에 필요한 기간 동안 보유됩니다. 기기 내 데이터는 앱 데이터 삭제 또는 앱 제거로 삭제할 수 있습니다. 서버 계정과 연결된 정보는 앱의 설정 → 정보 → 계정 삭제에서 삭제할 수 있습니다. 앱에 접근할 수 없다면 <a href="/wildwings-account-deletion.html">계정 삭제 안내</a>에 따라 요청할 수 있습니다. 법률상 보관 의무가 있는 결제 기록과 부정 이용 방지에 필요한 최소 기록은 예외가 될 수 있습니다.</p>
+
+                <p>플레이 통계의 원시 이벤트 보관 기준은 90일입니다. 첫 홈 방문 시각은 재설치한 사용자를 새 사용자로 중복 집계하지 않도록 계정 메타데이터로 유지하며 계정 삭제 시 함께 삭제합니다. 신고와 차단 기록 역시 해당 게임 계정 삭제 시 서버에서 삭제됩니다.</p>
 
                 <h2>7. 국제 이전 및 보안</h2>
                 <p>외부 서비스 제공자의 서버가 사용자의 국가 밖에 있을 수 있습니다. 당사는 HTTPS, 접근 제어 및 서비스 제공자의 보안 기능을 사용하지만 모든 전송·저장 방식의 절대적 안전을 보장할 수는 없습니다.</p>
@@ -89,7 +96,7 @@
             <article class="legal-copy hidden" data-lang-panel="en">
                 <p class="eyebrow">Wild Wings</p>
                 <h1>Privacy Policy</h1>
-                <p class="legal-updated">Last updated: September 27, 2026</p>
+                <p class="legal-updated">Last updated: October 4, 2026</p>
 
                 <h2>1. Overview</h2>
                 <p>Wild Wings, provided by Dosusu (the “App”), offers gameplay, optional account linking, leaderboards, in-app purchases, and opt-in rewarded advertising. We process only the information needed to provide these features.</p>
@@ -98,13 +105,18 @@
                 <h3>2.1 Gameplay and On-Device Information</h3>
                 <p>Game progress, unlocked pilots, upgrades, scores, coin and ticket balances, selected theme and app icon, language, and sound preferences may be stored on your device.</p>
                 <h3>2.2 Account and Leaderboard Information</h3>
-                <p>When you play as a guest or with a platform account, an automatically generated user identifier, public nickname, selected country or region, scores, leaderboard category, selected pilot, progress, and reward state may be processed by Supabase. If you choose Google or Apple sign-in, an identity-provider identifier and authentication result may be processed to link your game account. An uploaded profile photo is stored on the server.</p>
+                <p>When you play as a guest or with a platform account, an automatically generated user identifier, public nickname, selected country or region, scores, leaderboard category, selected pilot, progress, and reward state may be processed by Supabase. If you choose Google or Apple sign-in, an identity-provider identifier and authentication result may be processed to link your game account. An uploaded profile photo and any profile message you write are also stored on the server.</p>
                 <h3>2.3 Purchase Information</h3>
                 <p>RevenueCat processes purchased product identifiers, transaction identifiers, purchase times, and entitlement status. The App does not collect payment card details; Google Play or the Apple App Store processes payments.</p>
                 <h3>2.4 Advertising and Consent Information</h3>
                 <p>Google AdMob may process advertising identifiers, IP address, device and app information, approximate location, ad requests, ad interactions, and diagnostic data to provide rewarded ads, prevent fraud, manage frequency, and measure performance. Where required, Google's consent interface provides choices about personalized advertising. You can revisit applicable choices through “Ad Privacy” in Settings.</p>
                 <h3>2.5 Referral and Operational Records</h3>
                 <p>If you use referrals, the referral code, referral relationship, and qualifying completion state may be processed to provide rewards and prevent abuse. Server-verified purchase and advertising reward identifiers may be retained to prevent duplicate grants.</p>
+
+                <h3>2.6 Profile Reports and Blocks</h3>
+                <p>When you submit a report, we store the reporter and target game-account identifiers, your report, the target's public profile at that time, and the moderation status and resolution. A block stores your and the target's game-account identifiers and the block time. These records support moderation and your personal profile-display preferences and are not published to other players.</p>
+                <h3>2.7 Gameplay Statistics</h3>
+                <p>We process first home visits, flight starts and ends, special-ability uses, equipment changes, blessing choices, timestamps, game mode, pilot, and app build information, associated with your game-account identifier. Operators use participation and return-visit statistics to improve gameplay and reliability. These statistics do not collect screen recordings or finger-movement traces.</p>
 
                 <h2>3. How We Use Information</h2>
                 <ul>
@@ -125,10 +137,12 @@
                 </ul>
 
                 <h2>5. Public Information</h2>
-                <p>If you participate in leaderboards, your rank, selected country flag, public nickname, score, and pilot may be visible to other users. Do not use your legal name or sensitive information as a nickname.</p>
+                <p>Rankings and public profiles may display your rank, country flag, nickname, profile photo, profile message, pilot, best scores, number of ranked flights, and season medals to other players. Uploaded profile photos are accessible through public storage URLs. Do not include your legal name or sensitive information in nicknames, photos, profile messages, or reports. Blocking masks the target's name, photo, and message in your App; it does not revoke access to the original photo URL.</p>
 
                 <h2>6. Retention and Deletion</h2>
                 <p>Information is retained as needed to provide the game, prevent duplicate rewards and abuse, and meet legal obligations. You may remove on-device data by clearing the App's data or uninstalling it. You can delete your account and associated server information in Settings → Info → Delete Account. If you cannot access the App, follow the <a href="/wildwings-account-deletion.html">account deletion instructions</a>. Payment records required by law and minimal anti-fraud records may be retained where permitted.</p>
+
+                <p>The retention period for raw gameplay-statistics events is 90 days. The first home-visit timestamp remains as account metadata so reinstalling does not count an existing player as new; it is removed with the account. Reports and blocks associated with a game account are also removed when that account is deleted.</p>
 
                 <h2>7. International Transfers and Security</h2>
                 <p>Service providers may process information on servers outside your country. We use HTTPS, access controls, and provider security features, but no transmission or storage method can be guaranteed completely secure.</p>
@@ -155,7 +169,8 @@
     <script>
         const buttons = document.querySelectorAll('[data-lang-button]');
         const panels = document.querySelectorAll('[data-lang-panel]');
-        const setLanguage = (lang) => {
+        const setLanguage = (requestedLanguage) => {
+            const lang = ['ko', 'en'].includes(requestedLanguage) ? requestedLanguage : 'ko';
             document.documentElement.lang = lang;
             buttons.forEach((button) => button.classList.toggle('active', button.dataset.langButton === lang));
             panels.forEach((panel) => panel.classList.toggle('hidden', panel.dataset.langPanel !== lang));
