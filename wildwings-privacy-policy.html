@@ -54,6 +54,9 @@
                 <h3>2.7 플레이 통계</h3>
                 <p>Firebase Analytics(Google Analytics)와 Supabase를 이용하여 앱 실행과 메뉴 방문, 스테이지 시작·결과·이탈, 플레이 시간, 피격·아이템 획득 수, 특수 능력 사용, 장비·축복 선택, 상점 미리보기, 구매·복원·강화·광고·임무 처리 결과, 스킨 다운로드 결과와 기기 플랫폼, 앱 버전, 언어, 스킨 정보를 분석합니다. Firebase에는 앱 설치 식별자와 해시로 변환한 게임 계정 식별자를 사용하며, 프로필 사진, 소개글, 닉네임, 이메일과 화면 녹화·손가락 이동 경로는 분석 이벤트에 전송하지 않습니다. Firebase의 광고 식별자 수집과 광고 개인화 기능은 이 분석 연동에서 사용하지 않습니다. 처음 홈 화면에서 분석 허용 여부를 선택하며, 허용 전에는 이 분석을 수집하지 않습니다. 설정의 “플레이 분석”에서 선택을 변경할 수 있으며, 이 경우 기기에 대기 중인 분석 기록도 전송하지 않습니다. 점수 정산, 구매 지급, 보안 기록은 서비스 제공을 위해 계속 처리됩니다.</p>
 
+                <h3>2.8 공개 프로필의 자동 안전 검사</h3>
+                <p>프로필을 공개하기 전에 이용자의 동의를 받고 닉네임, 소개글과 업로드한 프로필 사진을 OpenAI의 Moderation API에 전송하여 유해 콘텐츠를 자동 검사합니다. 이 검사에 이메일, 게임 계정 식별자, 구매 정보 또는 점수를 전송하지 않습니다. API 데이터는 기본적으로 모델 학습에 사용되지 않습니다. 검사에 동의하지 않아도 게임을 계속 이용할 수 있으며, 미검사 수정본은 다른 이용자에게 공개하지 않습니다. 자동 검사 결과와 처리 시각은 운영 및 신고 대응을 위해 서버에 보관합니다.</p>
+
                 <h2>3. 이용 목적</h2>
                 <ul>
                     <li>게임 저장, 계정 연결 및 기기 간 진행 상태 유지</li>
@@ -66,6 +69,7 @@
                 <h2>4. 외부 서비스</h2>
                 <ul>
                     <li>Supabase: 인증, 프로필, 진행 상태, 랭킹, 가상 재화, 운영 통계 및 검증 기록</li><li>Firebase Analytics / Google Analytics: 앱 이용과 플레이 흐름 분석</li><li>Cloudflare R2: 선택한 스킨 이미지 다운로드 제공</li>
+                    <li>OpenAI: 동의한 공개 프로필의 텍스트와 사진 안전 검사</li>
                     <li>Google / Apple: 선택형 계정 연결</li>
                     <li>RevenueCat: 구매 상태와 이용 권한 관리</li>
                     <li>Google AdMob 및 동의 관리 플랫폼: 보상형 광고, 광고 동의와 측정</li>
@@ -73,7 +77,7 @@
                 </ul>
 
                 <h2>5. 공개 정보</h2>
-                <p>랭킹과 공개 프로필에는 순위, 국가의 국기, 닉네임, 프로필 사진, 소개글, 사용 캐릭터, 최고 점수, 랭킹 등록 비행 횟수와 시즌 메달 등이 다른 사용자에게 표시될 수 있습니다. 올린 프로필 사진은 공개 저장소의 URL로 접근할 수 있습니다. 실명이나 민감한 정보를 닉네임, 사진, 소개글 또는 신고 내용에 넣지 마세요. 차단은 본인 앱에서 상대의 이름, 사진과 소개글을 가리는 기능이며, 원래 사진 URL의 접근 권한을 폐기하지는 않습니다.</p>
+                <p>랭킹과 공개 프로필에는 순위, 국가의 국기, 닉네임, 프로필 사진, 소개글, 사용 캐릭터, 최고 점수, 랭킹 등록 비행 횟수와 시즌 메달 등이 다른 사용자에게 표시될 수 있습니다. 프로필은 자동 안전 검사를 통과한 뒤 공개됩니다. 사진은 비공개 저장소에 보관하며, 다른 이용자는 공개된 사진에 한해 인증된 요청으로 접근할 수 있습니다. 개인 차단이나 운영 숨김 처리된 사진은 해당 요청에서도 접근을 제한합니다. 검사 중에는 이전 공개 프로필을 유지합니다. 실명이나 민감한 정보를 닉네임, 사진, 소개글 또는 신고 내용에 넣지 마세요.</p>
 
                 <h2>6. 보유 및 삭제</h2>
                 <p>정보는 게임 기능 제공, 보상 중복 방지 및 법적 의무 이행에 필요한 기간 동안 보유됩니다. 기기 내 데이터는 앱 데이터 삭제 또는 앱 제거로 삭제할 수 있습니다. 서버 계정과 연결된 정보는 앱의 설정 → 정보 → 계정 삭제에서 삭제할 수 있습니다. 앱에 접근할 수 없다면 <a href="/wildwings-account-deletion.html">계정 삭제 안내</a>에 따라 요청할 수 있습니다. 법률상 보관 의무가 있는 결제 기록과 부정 이용 방지에 필요한 최소 기록은 예외가 될 수 있습니다.</p>
@@ -118,6 +122,9 @@
                 <h3>2.7 Gameplay Statistics</h3>
                 <p>We use Firebase Analytics (Google Analytics) and Supabase to analyze app launches, menu visits, stage starts, outcomes and exits, play duration, hit and item counts, special abilities, equipment and blessing choices, shop previews, purchase, restoration, upgrade, ad and mission outcomes, and skin-download results, with platform, app version, language and skin information. Firebase uses an app-installation identifier and a hashed game-account identifier. Profile photos, profile messages, nicknames, email addresses, screen recordings and finger-movement traces are not sent in analytics events. Advertising identifier collection and ad personalization are disabled for this Firebase analytics integration. You choose whether to allow analytics on first reaching the home screen; analytics is not collected before permission. You can change your choice through “Gameplay analytics” in Settings, which also prevents pending local analytics records from being sent. Score settlement, purchase delivery and security records continue to be processed to provide the service.</p>
 
+                <h3>2.8 Automatic safety checks for public profiles</h3>
+                <p>With your permission, we send your nickname, profile message and uploaded profile photo to OpenAI's Moderation API to check for harmful content before publication. We do not send your email, game-account identifier, purchase information or scores for this check. API data is not used for model training by default. You can continue playing without agreeing to publish a profile. Unchecked edits are not shown to other players. Check outcomes and timestamps are kept on our server for operations and report handling.</p>
+
                 <h2>3. How We Use Information</h2>
                 <ul>
                     <li>Provide game saves, account linking, and progress continuity</li>
@@ -130,6 +137,7 @@
                 <h2>4. Service Providers</h2>
                 <ul>
                     <li>Supabase: authentication, profiles, progression, rankings, virtual balances, operational statistics, and verification records</li><li>Firebase Analytics / Google Analytics: app usage and gameplay analysis</li><li>Cloudflare R2: selected skin image downloads</li>
+                    <li>OpenAI: safety checks of public profile text and photos with permission</li>
                     <li>Google / Apple: optional account linking</li>
                     <li>RevenueCat: purchase status and entitlement management</li>
                     <li>Google AdMob and its consent platform: rewarded ads, consent, and measurement</li>
@@ -137,7 +145,7 @@
                 </ul>
 
                 <h2>5. Public Information</h2>
-                <p>Rankings and public profiles may display your rank, country flag, nickname, profile photo, profile message, pilot, best scores, number of ranked flights, and season medals to other players. Uploaded profile photos are accessible through public storage URLs. Do not include your legal name or sensitive information in nicknames, photos, profile messages, or reports. Blocking masks the target's name, photo, and message in your App; it does not revoke access to the original photo URL.</p>
+                <p>Rankings and public profiles may show rank, country flag, nickname, photo, profile message, pilot, best scores, ranked-flight counts and season medals to other players. Profiles are published after passing an automatic safety check. Photos are kept in private storage and other players can request only the published photo through authenticated access. Personal blocks and operator hiding restrict these requests. Pending edits keep the previous published profile. Do not include real names or sensitive information in your nickname, photo, profile message or reports.</p>
 
                 <h2>6. Retention and Deletion</h2>
                 <p>Information is retained as needed to provide the game, prevent duplicate rewards and abuse, and meet legal obligations. You may remove on-device data by clearing the App's data or uninstalling it. You can delete your account and associated server information in Settings → Info → Delete Account. If you cannot access the App, follow the <a href="/wildwings-account-deletion.html">account deletion instructions</a>. Payment records required by law and minimal anti-fraud records may be retained where permitted.</p>
