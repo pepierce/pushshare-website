@@ -53,6 +53,7 @@
     "email": "이메일"
   },
   "footer": {
+    "passwordReset": "비밀번호 재설정",
     "copyright": "© {{year}} {{companyName}}. All rights reserved.",
     "privacy": "개인정보처리방침",
     "terms": "이용약관",

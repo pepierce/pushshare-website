@@ -53,6 +53,7 @@
     "email": "Email"
   },
   "footer": {
+    "passwordReset": "Password reset",
     "copyright": "© {{year}} {{companyName}}. All rights reserved.",
     "privacy": "Privacy Policy",
     "terms": "Terms of Service",
