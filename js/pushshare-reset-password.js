@@ -20,8 +20,6 @@
       stepThree: 'Return to PushShare and sign in with your new password.',
       expiredTitle: 'An old email link expired?',
       expiredBody: 'You can keep using this webpage to request a new email. The reset link inside each email expires; this webpage is the reusable starting point. If no email arrives after a few minutes, check the address and spam folder, then try again when the button is available.',
-      providerTitle: 'Signed in with Google or Apple?',
-      providerBody: 'Use the same Google or Apple sign-in button in PushShare. Accounts that only use those methods do not need a PushShare password reset.',
       support: 'Still need help?', back: 'About PushShare', privacyLink: 'Privacy policy',
     },
     ko: {
@@ -44,8 +42,6 @@
       stepThree: 'PushShare 앱으로 돌아가 새 비밀번호로 로그인해 주세요.',
       expiredTitle: '예전 메일의 링크가 만료되었나요?',
       expiredBody: '이 웹페이지는 계속 사용해 새 메일을 요청할 수 있습니다. 메일 안의 실제 재설정 링크는 만료되므로, 필요할 때 이 페이지에서 다시 시작해 주세요. 몇 분이 지나도 메일이 없다면 이메일 주소와 스팸함을 확인하고 버튼이 활성화되면 다시 요청해 주세요.',
-      providerTitle: 'Google 또는 Apple로 가입했나요?',
-      providerBody: 'PushShare 앱에서 기존과 같은 Google 또는 Apple 로그인 버튼을 이용해 주세요. 해당 방법으로만 로그인하는 계정은 PushShare 비밀번호를 재설정할 필요가 없습니다.',
       support: '도움이 더 필요한가요?', back: 'PushShare 소개', privacyLink: '개인정보처리방침',
     },
   };
