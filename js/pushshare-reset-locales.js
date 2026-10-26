@@ -721,6 +721,8 @@
     const exact = Object.keys(copy).find((key) => key.toLowerCase() === tag);
     if (exact) return exact;
     if (tag === 'zh' || tag.startsWith('zh-')) {
+      if (/^zh-hans(?:-|$)/.test(tag)) return 'zh-CN';
+      if (/^zh-hant(?:-|$)/.test(tag)) return 'zh-TW';
       return /(?:^|-)(?:hant|tw|hk|mo)(?:-|$)/.test(tag) ? 'zh-TW' : 'zh-CN';
     }
     return Object.keys(copy).find((key) => key.toLowerCase() === tag.split('-')[0]);

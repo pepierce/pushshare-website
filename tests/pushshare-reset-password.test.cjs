@@ -223,7 +223,7 @@ for (const lang of supported) test(`complete translations and safe lifecycle: ${
   page.el('language').handlers.change();
   assert.equal(page.saved.get('website-language'), lang);
 });
-for (const [language, expected] of [['zh-Hant-HK','zh-TW'],['zh-Hans-SG','zh-CN'],['zh-HK','zh-TW'],['pt-BR','pt'],['fr-CA','fr']]) {
+for (const [language, expected] of [['zh-Hans-HK','zh-CN'],['zh-Hant-CN','zh-TW'],['zh-Hant-HK','zh-TW'],['zh-Hans-SG','zh-CN'],['zh-HK','zh-TW'],['pt-BR','pt'],['fr-CA','fr']]) {
   test(`browser normalization ${language}`, async () => {
     assert.equal((await mount({language})).document.documentElement.lang, expected);
   });
