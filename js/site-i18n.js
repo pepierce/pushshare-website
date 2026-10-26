@@ -662,6 +662,11 @@
   }
 
   function applyLanguage(page, lang, launchLanguage = '') {
+    if (page === 'studio') {
+      document.querySelectorAll('a[href="pushshare.html"], a[href^="pushshare.html?lang="]').forEach((link) => {
+        link.setAttribute('href', `pushshare.html?lang=${lang}`);
+      });
+    }
     const config = PAGE_CONFIG[page];
     const dictionary = TRANSLATIONS[page][lang] || TRANSLATIONS[page][config.defaultLanguage];
     const year = String(new Date().getFullYear());

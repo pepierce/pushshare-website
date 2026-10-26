@@ -31,11 +31,17 @@ native URL submission. Do not add email prefill parameters or analytics.
 
 ## Language and retries
 
-The page follows the site's `data-i18n` convention and `website-language`
-preference. `?lang=en` / `?lang=ko` takes precedence; Korean browser locales use
-Korean, and other unsupported locales fall back to English. Only the language is
-passed to Firebase to localize this request's email; no project template changes
-are made.
+The reset page supports all 23 active app locales, including Arabic, Persian,
+and Urdu with RTL layout. The PushShare product page retains its existing eight
+languages; the studio homepage retains Korean/English. Unsupported product-page
+languages safely resolve to a supported browser language or English.
+
+On the reset page, precedence is a supported explicit `?lang`, saved
+`website-language`, the browser language list, then English. Region/script tags
+are normalized, including zh-Hans/zh-Hant and zh-HK/zh-MO. Selecting a language
+updates the URL, visible status and page language/direction. Only the selected
+language is passed to Firebase for this request's email. No project email template
+or hosted password-change handler is changed.
 
 Success and account-specific errors show the same conditional completion copy.
 Network and service errors show retry guidance without exposing raw errors.

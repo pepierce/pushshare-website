@@ -13,29 +13,21 @@ class I18n {
    * 저장된 언어 설정 가져오기
    */
   getSavedLanguage() {
-    try {
-      return localStorage.getItem('website-language') ||
-             this.detectBrowserLanguage();
-    } catch (e) {
-      return CONFIG.defaultLanguage;
-    }
-  }
-
-  /**
-   * 브라우저 언어 자동 감지
-   */
-  detectBrowserLanguage() {
-    const browserLang = navigator.language || navigator.userLanguage;
-    const langCode = browserLang.split('-')[0];
-
-    // 지원하는 언어인지 확인
-    if (CONFIG.supportedLanguages.includes(browserLang)) {
-      return browserLang;
-    } else if (CONFIG.supportedLanguages.includes(langCode)) {
-      return langCode;
-    }
-
-    return CONFIG.defaultLanguage;
+    const match = (value) => {
+      if (typeof value !== 'string') return undefined;
+      const tag = value.replace(/_/g, '-').toLowerCase();
+      if (tag === 'zh' || tag.startsWith('zh-')) {
+        return /(?:^|-)(?:hant|tw|hk|mo)(?:-|$)/.test(tag) ? 'zh-TW' : 'zh-CN';
+      }
+      return CONFIG.supportedLanguages.find((lang) => lang.toLowerCase() === tag)
+        || CONFIG.supportedLanguages.find((lang) => lang === tag.split('-')[0]);
+    };
+    let saved;
+    try { saved = localStorage.getItem('website-language'); } catch { /* Optional. */ }
+    return match(new URLSearchParams(window.location.search).get('lang'))
+      || match(saved)
+      || (navigator.languages || [navigator.language]).map(match).find(Boolean)
+      || 'en';
   }
 
   /**
@@ -97,6 +89,9 @@ class I18n {
   applyTranslations() {
     // HTML lang 속성 업데이트
     document.documentElement.lang = this.currentLanguage;
+    document.querySelectorAll('a[href*="pushshare-reset-password.html"]').forEach((link) => {
+      link.setAttribute('href', `/pushshare-reset-password.html?lang=${this.currentLanguage}`);
+    });
 
     // data-i18n 속성이 있는 모든 요소에 번역 적용
     const elements = document.querySelectorAll('[data-i18n]');
