@@ -27,5 +27,5 @@ const setLanguage = (lang) => {
     localStorage.setItem('wildwings-legal-language', lang);
 };
 buttons.forEach(button => button.addEventListener('click', () => setLanguage(button.dataset.langButton)));
-setLanguage(localStorage.getItem('wildwings-legal-language') || 'ko');
+setLanguage(localStorage.getItem('wildwings-legal-language') || ((navigator.language || '').toLowerCase().startsWith('ko') ? 'ko' : 'en'));
 </script></body></html>

@@ -155,6 +155,7 @@
         hero: { eyebrow: 'Mobile shooting game', lead: '나만의 파일럿과 하늘을 가로지르세요. 적의 공격을 피하고, 날개 축복을 고르고, 각 항로의 보스에게 도전합니다.', primaryAction: '게임 소개 보기', secondaryAction: '개인정보 처리방침' },
         features: { eyebrow: 'Wild Wings', title: '한 번 더 날고 싶은 하늘', routes: { title: '다섯 개의 항로', body: '하늘 정원부터 별빛 개척지까지, 서로 다른 풍경과 적을 만나세요.' }, pilots: { title: '파일럿과 성장', body: '캐릭터를 모으고 격납고에서 성장시켜 원하는 방식으로 비행하세요.' }, challenge: { title: '기록에 도전', body: '스테이지를 돌파하고 주간·월간 랭킹에서 기록을 겨뤄 보세요.' } },
         legal: { title: '정책과 계정', privacy: '개인정보 처리방침', terms: '이용약관', deletion: '계정 삭제 안내' },
+        support: { title: '도움말과 문의', account: { title: '계정과 기기 변경', body: '게스트로 시작한 뒤 설정에서 Google(Android) 또는 Apple(iOS) 계정을 연결하면, 같은 계정으로 로그인한 다른 기기에서도 기록과 구매가 유지됩니다. Android와 iOS 사이에는 옮겨지지 않습니다.' }, restore: { title: '구매 복원', body: "영구 구매 항목은 상점 아래쪽의 '구매 복원'으로 다시 받을 수 있습니다. 구매한 게임 계정으로 로그인한 상태에서 눌러 주세요. 게임을 하려면 인터넷 연결이 필요합니다." }, contact: { title: '문의하기', body: '문제가 있거나 궁금한 점은 이메일로 알려 주세요. 사용 중인 기기와 게임 안의 닉네임을 함께 적어 주시면 더 빨리 확인할 수 있습니다.' } },
         footer: { copyright: '© {year} Dosusu. All rights reserved.' },
       },
       en: {
@@ -163,6 +164,7 @@
         hero: { eyebrow: 'Mobile shooting game', lead: 'Take to the skies with your pilot. Dodge enemy fire, choose wing blessings, and face the boss of each route.', primaryAction: 'Explore the game', secondaryAction: 'Privacy policy' },
         features: { eyebrow: 'Wild Wings', title: 'Skies worth returning to', routes: { title: 'Five sky routes', body: 'From Sky Gardens to Starfall Frontier, meet new scenery and enemies.' }, pilots: { title: 'Pilots and upgrades', body: 'Collect characters and grow stronger in the hangar.' }, challenge: { title: 'Chase your best score', body: 'Clear stages and compete on weekly and monthly leaderboards.' } },
         legal: { title: 'Policies and account', privacy: 'Privacy policy', terms: 'Terms of service', deletion: 'Account deletion' },
+        support: { title: 'Help and contact', account: { title: 'Accounts and new devices', body: 'Start as a guest, then link a Google (Android) or Apple (iOS) account in Settings. Your progress and purchases stay with that account on other devices where you sign in. Progress does not move between Android and iOS.' }, restore: { title: 'Restore purchases', body: "Permanent items can be restored with 'Restore purchases' at the bottom of the shop. Sign in to the game account that bought them first. An internet connection is required to play." }, contact: { title: 'Contact us', body: 'Questions or problems? Email us. Including your device model and in-game nickname helps us check faster.' } },
         footer: { copyright: '© {year} Dosusu. All rights reserved.' },
       },
     },
