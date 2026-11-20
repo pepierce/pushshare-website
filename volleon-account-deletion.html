@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="canonical" href="https://www.dosusu.com/volleon-account-deletion.html">
+    <meta name="description" content="Volleon 계정 및 데이터 삭제 안내">
+    <title>Volleon Account Deletion</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+.volleon-page { background: #f4f1ea; color: #1e1c1a; }
+.volleon-page.legal-page .language-tab.active { background: #1e1c1a; border-color: #1e1c1a; }
+.volleon-page.legal-page .legal-copy { border-color: #e2dccf; box-shadow: 0 18px 42px rgba(30, 28, 26, .06); }
+.volleon-page.legal-page .legal-copy h3, .volleon-page.legal-page .legal-copy a { color: #b0601a; }
+.volleon-page .legal-copy ul { padding-left: 1.2em; }
+</style>
+</head>
+<body class="volleon-page legal-page">
+    <header class="studio-header translucent-header">
+        <div class="container studio-nav">
+            <a href="/" class="studio-logo">Dosusu</a>
+            <nav class="studio-links" aria-label="Volleon navigation">
+                <a href="/volleon.html">Volleon</a>
+                <a href="/volleon-privacy-policy.html">Privacy</a>
+                <a href="/volleon-account-deletion.html">Account deletion</a>
+            </nav>
+        </div>
+    </header>
+    <main class="legal-main">
+        <section class="container legal-container">
+            <div class="legal-toolbar" aria-label="Language selector">
+                <button class="language-tab active" type="button" data-lang-button="ko">한국어</button>
+                <button class="language-tab" type="button" data-lang-button="en">English</button>
+            </div>
+            <article class="legal-copy" data-lang-panel="ko">
+                <p class="eyebrow">Volleon</p>
+                <h1>계정과 데이터 삭제</h1>
+                <p class="legal-updated">최종 수정일: 2026년 11월 20일</p>
+                <h2>삭제 요청하기</h2>
+                <p><a href="mailto:jj@dosusu.com?subject=Volleon%20Account%20Deletion">jj@dosusu.com</a>으로 온라인 닉네임과 함께 삭제를 요청해 주세요. 확인 후 익명 계정, 닉네임·랭크·전적, 만든 방, 대전 결과의 내 기록을 지우고 처리 결과를 알려 드립니다.</p>
+                <h2>헤드셋 안의 데이터</h2>
+                <p>스토리 진행과 설정은 헤드셋 안에만 있습니다. 앱 설정의 '데이터 초기화'로 지우거나, 앱을 지우면 함께 지워집니다.</p>
+                <h2>남는 기록</h2>
+                <p>Meta Horizon Store의 구매 기록은 Meta가 관리합니다. 한 번 산 상품은 계정을 지운 뒤에도 상점의 '구매 복원'으로 다시 받을 수 있습니다.</p>
+            </article>
+            <article class="legal-copy hidden" data-lang-panel="en">
+                <p class="eyebrow">Volleon</p>
+                <h1>Account &amp; Data Deletion</h1>
+                <p class="legal-updated">Last updated: November 20, 2026</p>
+                <h2>Request deletion</h2>
+                <p>Email <a href="mailto:jj@dosusu.com?subject=Volleon%20Account%20Deletion">jj@dosusu.com</a> with your online nickname. After checking, we delete your anonymous account, nickname, rank and records, the rooms you opened and your entries in match results, and let you know when it is done.</p>
+                <h2>Data on your headset</h2>
+                <p>Story progress and settings live only on your headset. Remove them with "Reset all data" in the App's settings, or by uninstalling the App.</p>
+                <h2>Records we do not hold</h2>
+                <p>Purchase records are kept by the Meta Horizon Store. Permanent items can be restored with "Restore purchases" after your account is deleted.</p>
+            </article>
+        </section>
+    </main>
+    <footer class="studio-footer"><div class="container footer-grid"><p>&copy; 2026 Dosusu. All rights reserved.</p><p><a href="/volleon.html">Volleon</a> · <a href="mailto:jj@dosusu.com">jj@dosusu.com</a></p></div></footer>
+<script>
+const buttons = document.querySelectorAll('[data-lang-button]');
+const panels = document.querySelectorAll('[data-lang-panel]');
+const setLanguage = (lang) => {
+    document.documentElement.lang = lang;
+    buttons.forEach(button => button.classList.toggle('active', button.dataset.langButton === lang));
+    panels.forEach(panel => panel.classList.toggle('hidden', panel.dataset.langPanel !== lang));
+    try { localStorage.setItem('volleon-legal-language', lang); } catch (e) {}
+};
+buttons.forEach(button => button.addEventListener('click', () => setLanguage(button.dataset.langButton)));
+let saved = null; try { saved = localStorage.getItem('volleon-legal-language'); } catch (e) {}
+setLanguage(saved || ((navigator.language || '').toLowerCase().startsWith('ko') ? 'ko' : 'en'));
+</script>
+</body>
+</html>
