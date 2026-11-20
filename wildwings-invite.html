@@ -60,7 +60,7 @@
   const historyUrl = "https://ruujldwnwceolrnfiwfe.supabase.co/functions/v1/wildwings-invite";
   // Public listings were unavailable at verification. Turn these on only after
   // verifying the real destinations; previews must never promise an installation.
-  const storeAvailability = { android: true, ios: false };
+  const storeAvailability = { android: true, ios: true };
   const query = new URL(location.href).searchParams;
   const tokens = query.getAll("invite");
   const token = tokens.length === 1 && /^[0-9a-f]{8}-[0-9a-f]{4}-4[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/i.test(tokens[0]) ? tokens[0] : "";
