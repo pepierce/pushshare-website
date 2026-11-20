@@ -60,7 +60,7 @@
   const historyUrl = "https://ruujldwnwceolrnfiwfe.supabase.co/functions/v1/wildwings-invite";
   // Public listings were unavailable at verification. Turn these on only after
   // verifying the real destinations; previews must never promise an installation.
-  const storeAvailability = { android: false, ios: false };
+  const storeAvailability = { android: true, ios: false };
   const query = new URL(location.href).searchParams;
   const tokens = query.getAll("invite");
   const token = tokens.length === 1 && /^[0-9a-f]{8}-[0-9a-f]{4}-4[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/i.test(tokens[0]) ? tokens[0] : "";
@@ -106,6 +106,8 @@
     byId("open").textContent = m[3];
     byId("copy").textContent = m[4];
     byId("availability").textContent = m[7];
+    // The "downloads are being prepared" note is only true before a public listing exists.
+    byId("availability").hidden = Object.values(storeAvailability).some(Boolean);
     byId("android-store").textContent = m[10];
     byId("ios-store").textContent = m[11];
     byId("home").textContent = m[8];
